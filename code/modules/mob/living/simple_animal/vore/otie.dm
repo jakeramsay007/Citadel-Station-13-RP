@@ -52,6 +52,8 @@
 	var/mob/living/carbon/human/friend
 	var/tamed = 0
 	var/tame_chance = 50 //It's a fiddy-fiddy default you may get a buddy pal or you may get mauled and ate. Win-win!
+	var/check_records
+	var/check_arrest
 
 // Activate Noms!
 
@@ -131,10 +133,12 @@
 	glowyeyes = TRUE
 	eyetype = "sotie"
 	loot_list = list(/obj/item/clothing/glasses/sunglasses/sechud,/obj/item/clothing/suit/armor/vest/alt)
-	vore_pounce_chance = 60 // Good boys don't do too much police brutality.
+	vore_pounce_chance = 99 // Good boys don't do too much police brutality.
+	melee_damage_lower = 5
+	melee_damage_upper = 5
 
-	var/check_records = 0 // If true, arrests people without a record.
-	var/check_arrest = 1 // If true, arrests people who are set to arrest.
+	check_records = 0 // If true, arrests people without a record.
+	check_arrest = 1 // If true, arrests people who are set to arrest.
 
 /mob/living/simple_animal/otie/security/phoron
 	name = "mutated guard otie"
@@ -156,6 +160,12 @@
 	glowyeyes = TRUE
 	eyetype = "sotie"
 
+/mob/living/simple_animal/otie/security/DoPunch(var/atom/A)
+	.=..()
+	if(ishuman(A))
+		var/mob/living/carbon/human/H = A
+		H.adjustHalLoss(25)
+
 /mob/living/simple_animal/otie/PunchTarget()
 	if(istype(target_mob,/mob/living/simple_animal/mouse))
 		return EatTarget()
@@ -168,13 +178,13 @@
 		return found_atom
 	else if(ismob(found_atom))
 		var/mob/found_mob = found_atom
-		if(found_mob.faction == faction)
-			return null
-		else if(friend == found_atom)
+		if(friend == found_atom)
 			return null
 		else if(tamed == 1 && ishuman(found_atom))
 			return null
 		else if(tamed == 1 && isrobot(found_atom))
+			return null
+		else if(found_mob.faction == faction)
 			return null
 		else
 			if(resting)
@@ -182,13 +192,6 @@
 			return found_atom
 	else
 		return null
-
-/mob/living/simple_animal/otie/security/Found(var/atom/found_atom)
-	if(check_threat(found_atom) >= 4)
-		if(resting)
-			lay_down()
-		return found_atom
-	..()
 
 /mob/living/simple_animal/otie/attackby(var/obj/item/O, var/mob/user) // Trade donuts for bellybrig victims.
 	if(istype(O, /obj/item/weapon/reagent_containers/food))
@@ -214,7 +217,7 @@
 		vore_selected.digest_mode = DM_DIGEST
 	. = ..()
 
-/mob/living/simple_animal/otie/security/proc/check_threat(var/mob/living/M)
+/mob/living/simple_animal/otie/proc/check_threat(var/mob/living/M)
 	if(!M || !ishuman(M) || M.stat == DEAD || src == M)
 		return 0
 	return M.assess_perp(0, 0, 0, check_records, check_arrest)
@@ -307,6 +310,8 @@
 				handle_stance(STANCE_IDLE)
 				if(prob(tame_chance))
 					friend = M
+					if(istype(src, /mob/living/simple_animal/otie/security))
+						tame_chance = 0
 					if(tamed != 1)
 						tamed = 1
 						faction = M.faction
@@ -317,7 +322,7 @@
 				if(ai_inactive)
 					return
 				audible_emote("growls disapprovingly at [M].")
-				if(M == friend)
+				if(M == friend && !(istype(src, /mob/living/simple_animal/otie/security)))
 					friend = null
 				return
 			else
