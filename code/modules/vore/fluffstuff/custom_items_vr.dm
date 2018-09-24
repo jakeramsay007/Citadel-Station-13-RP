@@ -1413,35 +1413,37 @@
 			to_chat(target,"<span class='warning'>\The [src] teleports you right into \a [lowertext(real_dest.name)]!</span>")
 
 	//Phase-out effect
-	phase_out(target,get_turf(target))
+	phase_out(target,get_turf(target))	//START OF CITADEL CHANGES - Adds a timer to translocating
+	var/move_check = get_turf(target)
+	if(do_after(user, 3, src))
+		if(get_turf(target) == move_check)
+			//Move them
+			target.forceMove(real_dest)
 
-	//Move them
-	target.forceMove(real_dest)
+			//And any friends!
+			for(var/obj/item/weapon/grab/G in target.contents)
+				if(G.affecting && (G.state >= GRAB_AGGRESSIVE))
 
-	//Phase-in effect
+					//Phase-out effect for grabbed person
+					phase_out(G.affecting,get_turf(G.affecting))
+
+					//Move them, and televore if necessary
+					G.affecting.forceMove(real_dest)
+					if(televored)
+						to_chat(target,"<span class='warning'>\The [src] teleports you right into \a [lowertext(real_dest.name)]!</span>")
+
+					//Phase-in effect for grabbed person
+					phase_in(G.affecting,get_turf(G.affecting))
+
+			update_icon()
+
+			logged_events["[world.time]"] = "[user] teleported [target] to [real_dest] [televored ? "(Belly: [lowertext(real_dest.name)])" : null]"
+
 	phase_in(target,get_turf(target))
 
-	//And any friends!
-	for(var/obj/item/weapon/grab/G in target.contents)
-		if(G.affecting && (G.state >= GRAB_AGGRESSIVE))
-
-			//Phase-out effect for grabbed person
-			phase_out(G.affecting,get_turf(G.affecting))
-
-			//Move them, and televore if necessary
-			G.affecting.forceMove(real_dest)
-			if(televored)
-				to_chat(target,"<span class='warning'>\The [src] teleports you right into \a [lowertext(real_dest.name)]!</span>")
-
-			//Phase-in effect for grabbed person
-			phase_in(G.affecting,get_turf(G.affecting))
-
-	update_icon()
 	spawn(30 SECONDS)
 		ready = 1
-		update_icon()
-
-	logged_events["[world.time]"] = "[user] teleported [target] to [real_dest] [televored ? "(Belly: [lowertext(real_dest.name)])" : null]"
+		update_icon()	//END OF CITADEL CHANGES
 
 /obj/item/device/perfect_tele/proc/phase_out(var/mob/M,var/turf/T)
 
@@ -1942,7 +1944,7 @@
 
 	icon = 'icons/vore/custom_items_vr.dmi'
 	icon_state = "penlightlynn"
-	
+
 //Knightfall5:Ashley Kifer
 /obj/item/clothing/accessory/medal/nobel_science/fluff/ashley
 	name = "nobel sciences award"
