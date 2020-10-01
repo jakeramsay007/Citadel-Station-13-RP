@@ -433,3 +433,8 @@ GLOBAL_LIST_EMPTY(##LIST_NAME);\
 
 //Holy Weapon defines from Main. Lists null rod weapons and classifies them as HOLY.
 #define HOLY_WEAPONS /obj/item/nullrod
+
+// secure gun authorization settings
+#define UNAUTHORIZED      0
+#define AUTHORIZED        1
+#define ALWAYS_AUTHORIZED 2
