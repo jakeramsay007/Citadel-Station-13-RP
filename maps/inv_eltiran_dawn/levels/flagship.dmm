@@ -40,10 +40,6 @@
 	},
 /turf/unsimulated/floor/steel,
 /area/centcom/security)
-"al" = (
-/obj/machinery/vending/cola,
-/turf/simulated/shuttle/floor/darkred,
-/area/shuttle/escape)
 "am" = (
 /obj/machinery/computer/teleporter,
 /turf/unsimulated/floor{
@@ -583,13 +579,12 @@
 /turf/unsimulated/floor/steel,
 /area/centcom/security)
 "bV" = (
-/obj/machinery/vending/cigarette,
 /obj/machinery/light{
 	dir = 8;
 	use_power = 0;
 	old_wall = 1
 	},
-/turf/simulated/shuttle/floor/darkred,
+/turf/simulated/shuttle/floor/black,
 /area/shuttle/escape)
 "bX" = (
 /obj/item/storage/box/flashbangs,
@@ -3408,6 +3403,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"ld" = (
+/obj/structure/handrail{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/black,
+/area/shuttle/escape)
 "le" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -8269,6 +8270,17 @@
 	icon_state = "white"
 	},
 /area/centcom/medical)
+"Ah" = (
+/obj/structure/fans/tiny,
+/obj/spawner/window/low_wall/reinforced/full,
+/obj/effect/shuttle_landmark{
+	base_area = /area/centcom/terminal;
+	base_turf = /turf/unsimulated/floor/techfloor_grid;
+	landmark_tag = "escape_cc";
+	name = "Escape Shuttle Centcom"
+	},
+/turf/simulated/floor,
+/area/shuttle/escape)
 "Ai" = (
 /obj/item/stool/padded,
 /turf/unsimulated/floor/wood,
@@ -9014,19 +9026,6 @@
 /obj/map_helper/access_helper/airlock/station/centcom/ert,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/specops/cockpit)
-"CD" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/glass_external{
-	req_one_access = null
-	},
-/obj/effect/shuttle_landmark{
-	base_area = /area/centcom/terminal;
-	base_turf = /turf/unsimulated/floor/techfloor_grid;
-	landmark_tag = "escape_cc";
-	name = "Escape Shuttle Centcom"
-	},
-/turf/simulated/shuttle/floor/black,
-/area/shuttle/escape)
 "CE" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
@@ -29834,9 +29833,9 @@ AF
 AF
 AF
 AF
-jQ
+jT
 bV
-al
+Jg
 wG
 jQ
 Kg
@@ -30028,8 +30027,8 @@ AF
 AF
 AF
 AF
-jQ
-Gg
+jT
+CG
 yz
 Ui
 pa
@@ -30223,7 +30222,7 @@ AF
 AF
 AF
 jQ
-NW
+RA
 yz
 Ew
 NW
@@ -30417,7 +30416,7 @@ AF
 AF
 AF
 oL
-RA
+NW
 yz
 Ew
 NW
@@ -30610,7 +30609,7 @@ AF
 AF
 AF
 AF
-oL
+Ah
 NW
 yz
 Ew
@@ -30804,7 +30803,7 @@ AF
 AF
 AF
 AF
-oL
+jQ
 RA
 yz
 Ew
@@ -30998,8 +30997,8 @@ AF
 AF
 AF
 AF
-jQ
-NW
+jT
+CG
 yz
 Ew
 NW
@@ -31192,8 +31191,8 @@ AF
 AF
 AF
 AF
-jQ
-Gg
+jT
+ld
 yz
 Pn
 yz
@@ -33331,7 +33330,7 @@ AF
 Sw
 wG
 BC
-CD
+jT
 jT
 wG
 Sw

@@ -166,7 +166,7 @@
 	name = "INV Eltiran Dawn - Deck 3"
 	display_id = "eltirandawn-deck-3"
 	display_name = "INV Eltiran Dawn - Engineering Deck"
-	absolute_path = "maps/inv_elitran_dawn/levels/deck3.dmm"
+	absolute_path = "maps/inv_eltiran_dawn/levels/deck3.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
