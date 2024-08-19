@@ -2099,13 +2099,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
-"fus" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 5
-	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "fvp" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/computer)
@@ -2907,8 +2900,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/lattice,
-/turf/space,
+/turf/space/basic,
 /area/space)
 "hMz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -3559,11 +3551,6 @@
 	},
 /turf/simulated/floor,
 /area/engineering/engine_room)
-"jyA" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "jzA" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -4605,13 +4592,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/shield_gen)
-"mUK" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 9
-	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "mUN" = (
 /obj/machinery/light{
 	dir = 8;
@@ -6193,13 +6173,6 @@
 /obj/machinery/shield_diffuser,
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/engineering/portnacelle)
-"rJC" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 4
-	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "rKV" = (
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/engineering/starboardnacelle)
@@ -7792,13 +7765,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/engine_room)
-"xoV" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 6
-	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "xpw" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Toilet Stall"
@@ -17244,10 +17210,10 @@ pRW
 pRW
 kUn
 lfu
-jyA
 mIa
 mIa
-jyA
+mIa
+mIa
 mIa
 mIa
 dlB
@@ -17438,10 +17404,10 @@ pRW
 pRW
 kUn
 fUH
-jyA
 mIa
 mIa
-jyA
+mIa
+mIa
 mIa
 mIa
 hzN
@@ -17635,7 +17601,7 @@ lfu
 mIa
 mIa
 mIa
-jyA
+mIa
 mIa
 mIa
 dlB
@@ -17829,7 +17795,7 @@ fUH
 mIa
 mIa
 mIa
-jyA
+mIa
 mIa
 mIa
 hzN
@@ -18018,15 +17984,15 @@ pRW
 pRW
 pRW
 pRW
-rJC
+kUn
 hKM
-jyA
-jyA
-jyA
-jyA
-jyA
-jyA
-fus
+mIa
+mIa
+mIa
+mIa
+mIa
+ppj
+dlB
 pRW
 pRW
 pRW
@@ -18214,10 +18180,10 @@ pRW
 pRW
 lfu
 dlB
-xoV
+fUH
 mIa
 mIa
-jyA
+mIa
 mIa
 mIa
 hzN
@@ -18408,10 +18374,10 @@ pRW
 pRW
 mDp
 kUn
-hKM
+lfu
 mIa
 mIa
-jyA
+mIa
 mIa
 mIa
 dlB
@@ -18602,13 +18568,13 @@ pRW
 pRW
 mDp
 kUn
-xoV
-jyA
-jyA
-jyA
-jyA
-jyA
-mUK
+fUH
+mIa
+mIa
+mIa
+mIa
+mIa
+hzN
 pRW
 pRW
 pRW
@@ -18796,10 +18762,10 @@ pRW
 pRW
 mDp
 kUn
-hKM
+lfu
 mIa
 mIa
-jyA
+mIa
 mIa
 mIa
 dlB
@@ -18989,10 +18955,10 @@ pRW
 pRW
 pRW
 mDp
-rJC
-xoV
-jyA
-jyA
+kUn
+fUH
+mIa
+mIa
 mIa
 mIa
 mIa
@@ -19184,7 +19150,7 @@ pRW
 pRW
 mDp
 kUn
-hKM
+lfu
 mIa
 mIa
 mIa
@@ -19378,7 +19344,7 @@ pRW
 pRW
 mDp
 kUn
-xoV
+fUH
 mIa
 mIa
 mIa
@@ -19572,7 +19538,7 @@ pRW
 pRW
 mDp
 kUn
-hKM
+lfu
 mIa
 mIa
 dlB
