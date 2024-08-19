@@ -5,6 +5,10 @@
 "hL" = (
 /turf/simulated/wall/r_wall/prepainted/medical,
 /area/space)
+"jj" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/tiled/neutral,
+/area/space)
 "mr" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
@@ -79,8 +83,17 @@
 "sq" = (
 /turf/simulated/wall/r_wall/prepainted/civilian,
 /area/space)
+"sU" = (
+/turf/simulated/wall/prepainted/medical,
+/area/space)
 "tD" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
+/area/space)
+"tR" = (
+/obj/machinery/door/airlock/multi_tile/glass/medical{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/neutral,
 /area/space)
 "vt" = (
 /obj/structure/cable{
@@ -153,6 +166,10 @@
 /area/space)
 "Rg" = (
 /turf/simulated/open,
+/area/space)
+"RX" = (
+/obj/machinery/door/window/westright,
+/turf/simulated/floor/tiled/neutral,
 /area/space)
 "Ss" = (
 /obj/structure/lattice,
@@ -17731,21 +17748,21 @@ DT
 DT
 DT
 hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
-hL
+sU
+If
+tR
+sU
+sU
+sU
+sU
+sU
+sU
+sU
+sU
+sU
+sU
+sU
+sU
 hL
 DT
 DT
@@ -17925,21 +17942,21 @@ DT
 DT
 DT
 sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
-sq
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
+If
 sq
 DT
 DT
@@ -26659,13 +26676,13 @@ DT
 sq
 sq
 sq
-If
-If
-If
-If
-If
-If
-If
+jj
+jj
+jj
+jj
+jj
+jj
+RX
 sq
 sq
 sq
