@@ -181,12 +181,16 @@
 /obj/effect/floor_decal/corner/red/full{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
 "ek" = (
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
 "et" = (
@@ -409,6 +413,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/security_lockerroom)
@@ -666,6 +673,7 @@
 /obj/structure/toilet{
 	dir = 1
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/monowhite,
 /area/security/brig/bathroom)
 "lU" = (
@@ -769,6 +777,9 @@
 /obj/machinery/door/window{
 	dir = 4;
 	name = "Showers"
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/monowhite,
 /area/security/brig/bathroom)
@@ -874,6 +885,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/neutral,
 /area/security/hallwayaux)
+"re" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "ru" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/old_tile/gray,
@@ -1227,6 +1244,9 @@
 /obj/effect/floor_decal/corner/red/full{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
 "wP" = (
@@ -1318,6 +1338,7 @@
 /obj/item/target,
 /obj/item/target,
 /obj/item/target,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
 /area/security/range)
 "zI" = (
@@ -1717,6 +1738,21 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"Fm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/security/breakroom)
 "Ft" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1874,6 +1910,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
 "GX" = (
@@ -1926,6 +1963,9 @@
 	dir = 4
 	},
 /obj/machinery/air_alarm/north_mount,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/security/range)
 "HJ" = (
@@ -2253,6 +2293,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
 "Os" = (
@@ -17481,7 +17522,7 @@ mG
 fh
 GQ
 qB
-BK
+Fm
 hy
 GX
 GX
@@ -18063,7 +18104,7 @@ eT
 fh
 cG
 qB
-BK
+Fm
 hy
 wn
 hy
@@ -24070,7 +24111,7 @@ he
 he
 he
 eR
-Li
+re
 Li
 Li
 Li
@@ -25622,7 +25663,7 @@ he
 he
 he
 eR
-Li
+re
 Li
 Li
 Li
