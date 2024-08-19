@@ -143,6 +143,10 @@ LINEN BINS
 	icon_state = "doublesheetcaptain"
 	item_state = "sheetcaptain"
 
+/obj/item/bedsheet/capdoubleflipped
+	icon_state = "doublesheetcaptainflipped"
+	item_state = "sheetcaptain"
+
 /obj/item/bedsheet/rddouble
 	icon_state = "doublesheetrd"
 	item_state = "sheetrd"

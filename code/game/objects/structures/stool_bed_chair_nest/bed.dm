@@ -380,3 +380,12 @@
 
 /obj/structure/bed/alien/attackby(obj/item/W, mob/user)
 	return // No deconning.
+
+/obj/structure/bed/flipped
+	buckle_dir = NORTH
+
+/obj/structure/bed/flipped/double
+
+	name = "double bed"
+	desc = "This is used to lie in, sleep in or strap on. It's been flipped 180 degrees. Flippin' amazing!"
+	icon_state = "doublebed_flipped"
