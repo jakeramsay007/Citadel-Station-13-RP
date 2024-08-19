@@ -40,6 +40,7 @@
 	name = "Security Lobby";
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/dark,
 /area/security/lobby)
 "axA" = (
@@ -58,6 +59,10 @@
 "ayE" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/bridge/bridge_hallway)
+"aCN" = (
+/obj/item/barrier_tape_segment/engineering,
+/turf/simulated/floor/tiled/neutral,
+/area/rnd/hallway)
 "aJp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -605,6 +610,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
+"gIp" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel,
+/area/bridge/meeting_room)
 "gID" = (
 /obj/effect/floor_decal/carpet/blue{
 	dir = 4
@@ -877,6 +886,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/dark,
 /area/security/lobby)
 "jfN" = (
@@ -1188,6 +1198,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hop)
+"mjC" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel,
+/area/bridge/meeting_room)
 "mmF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -1815,6 +1831,10 @@
 /obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
 /turf/simulated/floor/plating,
 /area/bridge/bridge_hallway)
+"rRg" = (
+/obj/item/barrier_tape_segment/engineering,
+/turf/simulated/floor/tiled/neutral,
+/area/rnd/robotics/mechbay)
 "rSZ" = (
 /obj/structure/cable{
 	icon_state = "32-8"
@@ -2573,6 +2593,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 8;
+	old_wall = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
 "xOM" = (
@@ -2650,6 +2674,7 @@
 "ycp" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/high/east_mount,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/steel,
 /area/bridge/meeting_room)
 "ydP" = (
@@ -18105,9 +18130,9 @@ hCk
 hCk
 hCk
 brm
-eCU
-eCU
-eCU
+aCN
+aCN
+aCN
 ezV
 dSN
 dSN
@@ -18304,8 +18329,8 @@ eCU
 brm
 ezV
 ezV
-dSN
-dSN
+rRg
+rRg
 ezV
 ezV
 dhq
@@ -19087,7 +19112,7 @@ xVa
 oYj
 oYj
 oYj
-oYj
+gIp
 wan
 ydP
 qon
@@ -19471,7 +19496,7 @@ tJM
 tJM
 tJM
 wan
-oYj
+mjC
 keo
 tZE
 bDz
@@ -20053,7 +20078,7 @@ smi
 smi
 smi
 wan
-oYj
+mjC
 keo
 tZE
 bDz
@@ -21018,7 +21043,7 @@ ntW
 pet
 pet
 pet
-pet
+sNn
 pet
 jfN
 pet
@@ -21027,7 +21052,7 @@ nSW
 pet
 pet
 pet
-pet
+sNn
 jfN
 pet
 pet
