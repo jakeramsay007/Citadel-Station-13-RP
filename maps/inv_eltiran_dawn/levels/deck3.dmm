@@ -3145,6 +3145,7 @@
 /obj/effect/floor_decal/corner/lightorange/bordercee{
 	dir = 4
 	},
+/obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/starboardnacelle)
 "itJ" = (
@@ -5797,6 +5798,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/starboardnacelle)
 "qTq" = (
@@ -7800,6 +7802,10 @@
 	},
 /turf/simulated/floor/reinforced/n20,
 /area/engineering/atmos/gas_storage)
+"xFz" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "xFH" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 1
@@ -29061,7 +29067,7 @@ sgF
 moI
 eld
 sgF
-sgF
+xFz
 moI
 pRW
 pRW
@@ -29255,7 +29261,7 @@ sgF
 moI
 eld
 sgF
-sgF
+xFz
 moI
 pRW
 pRW
@@ -29449,7 +29455,7 @@ sgF
 moI
 eld
 sgF
-sgF
+xFz
 moI
 pRW
 pRW
