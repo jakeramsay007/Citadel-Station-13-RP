@@ -45,12 +45,12 @@
 	move_time = 20
 
 /area/shuttle/excursion/inv_eltiran_dawn
-	name = "Excursion Shuttle"
+	name = "Marine Transport Shuttle"
 	icon_state = "shuttle"
 
 /obj/machinery/computer/shuttle_control/explore/excursion
 	name = "short jump console"
-	shuttle_tag = "Excursion Shuttle"
+	shuttle_tag = "Marine Transport Shuttle"
 	req_one_access = list(ACCESS_GENERAL_PILOT)
 
 // COURSER SHUTTLE DATA

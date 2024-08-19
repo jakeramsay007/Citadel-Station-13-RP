@@ -62,7 +62,7 @@ right now its not a big priority - Bloop 2022
 
 // Exclusive landmark for docking *inside* the station
 
-/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck4/excursion
+/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/excursion
 	name = "INV Eltiran Dawn - Excursion Hangar"
 	landmark_tag = "inv_eltiran_dawn_excursion_hangar"
 	docking_controller = "expshuttle_dock"
@@ -85,7 +85,7 @@ right now its not a big priority - Bloop 2022
 
 // ON STATION NAV POINTS
 
-/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck4/excursion_space
+/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/excursion_space
 	name = "Near INV Eltiran Dawn (SW)"
 	landmark_tag = "inv_eltiran_dawn_space_SW"
 	base_turf = /turf/space

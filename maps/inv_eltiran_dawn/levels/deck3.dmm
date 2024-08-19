@@ -322,6 +322,24 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/tcommsat/chamber)
+"aJD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "aPL" = (
 /obj/machinery/door/airlock/maintenance/engi{
 	req_one_access = null
@@ -3192,6 +3210,24 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/tcommsat/chamber)
+"izO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "izS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9;
@@ -4563,6 +4599,14 @@
 /obj/structure/lattice,
 /turf/space,
 /area/space)
+"mUN" = (
+/obj/machinery/light{
+	dir = 8;
+	use_power = 0;
+	old_wall = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "mWk" = (
 /obj/item/radio/intercom{
 	dir = 1;
@@ -5629,12 +5673,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/portnacelle)
-"quy" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/simulated/open,
-/area/engineering/hallway)
 "qxU" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -5664,6 +5702,10 @@
 "qEp" = (
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/engineering/storage)
+"qEw" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "qIz" = (
 /obj/machinery/light{
 	dir = 8;
@@ -6076,6 +6118,13 @@
 	},
 /turf/simulated/floor/airless/ceiling,
 /area/engineering/starboardnacelle)
+"rIB" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "rII" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 1
@@ -6813,6 +6862,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/starboardnacelle)
+"uju" = (
+/obj/structure/window/reinforced,
+/turf/simulated/open,
+/area/engineering/hallway)
 "ujV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
@@ -7167,6 +7220,12 @@
 /obj/structure/cable,
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
+"vDZ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "vEs" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -22795,7 +22854,7 @@ jON
 mXX
 cLJ
 qjI
-sgF
+vDZ
 sgF
 ioN
 uFa
@@ -23765,7 +23824,7 @@ urv
 qjI
 rtF
 qjI
-sgF
+vDZ
 sgF
 ioN
 waz
@@ -25512,7 +25571,7 @@ vxd
 cqG
 qeU
 qjI
-sgF
+vDZ
 vFe
 dHM
 cmc
@@ -26869,7 +26928,7 @@ pRW
 pRW
 pRW
 moI
-sgF
+vDZ
 sgF
 vFe
 sgF
@@ -27841,7 +27900,7 @@ pRW
 pRW
 pRW
 moI
-vFe
+aJD
 sgF
 qEp
 eOr
@@ -29199,7 +29258,7 @@ pRW
 pRW
 pRW
 moI
-bsS
+izO
 sgF
 sgF
 sgF
@@ -29208,8 +29267,8 @@ sgF
 sgF
 sgF
 sgF
-quy
 gtQ
+uju
 sgF
 eld
 sgF
@@ -29401,9 +29460,9 @@ sgF
 sgF
 sgF
 sgF
-sgF
-quy
+rIB
 gtQ
+uju
 sgF
 eld
 sgF
@@ -29979,7 +30038,7 @@ bsS
 sgF
 sgF
 sgF
-sgF
+qEw
 qRe
 ogK
 ogK
@@ -30558,17 +30617,17 @@ pRW
 pRW
 pRW
 moI
-bsS
+izO
 sgF
 cVz
 cVz
-sgF
+mUN
 sgF
 qxU
 qxU
 qxU
 sgF
-sgF
+mUN
 sgF
 sgF
 moI

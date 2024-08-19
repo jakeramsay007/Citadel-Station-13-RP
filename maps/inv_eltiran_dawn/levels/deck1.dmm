@@ -4,7 +4,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "ah" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet/excursion,
@@ -20,7 +20,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/department,
 /turf/simulated/floor/tiled/neutral,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "aq" = (
 /obj/map_helper/airlock/door/int_door,
 /obj/machinery/access_button/airlock_interior{
@@ -53,6 +53,11 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/old_tile/red,
 /area/security/range)
+"aU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "bl" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -169,7 +174,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "dQ" = (
 /obj/structure/closet/secure_closet/security,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -263,7 +268,7 @@
 "fn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "fP" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -281,7 +286,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "gr" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/recharger/wallcharger{
@@ -436,8 +441,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "if" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/anomaly_container,
@@ -538,10 +544,17 @@
 	name = "Marine Shuttle Hangar"
 	},
 /turf/simulated/floor/tiled/neutral,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "kD" = (
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/office)
+"kO" = (
+/obj/machinery/light{
+	dir = 8;
+	old_wall = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "kU" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/item/clothing/mask/gas{
@@ -630,8 +643,11 @@
 /obj/structure/handrail{
 	dir = 4
 	},
-/obj/overmap/entity/visitable/ship/landable/excursion/inv_eltiran_dawn,
-/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck4/excursion,
+/obj/overmap/entity/visitable/ship/landable/excursion/inv_eltiran_dawn{
+	name = "Marine Transport Shuttle";
+	shuttle = "Marine Transport Shuttle"
+	},
+/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/excursion,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "lF" = (
@@ -722,11 +738,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "nG" = (
 /obj/machinery/air_alarm/north_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "nP" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -745,7 +761,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "nR" = (
 /obj/machinery/door/window{
 	dir = 4;
@@ -812,6 +828,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"qf" = (
+/turf/simulated/wall/r_wall/prepainted/security,
+/area/exploration/excursion_dock)
 "qh" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -893,7 +912,7 @@
 "si" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "sp" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -904,8 +923,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "sz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1014,6 +1037,19 @@
 /obj/structure/cable/cyan,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"tZ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "uk" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/quartermaster/hallway)
@@ -1135,7 +1171,7 @@
 	},
 /obj/machinery/air_alarm/south_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "vR" = (
 /obj/machinery/door/window/brigdoor/westright{
 	dir = 2;
@@ -1188,7 +1224,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "wS" = (
 /turf/simulated/wall/r_wall/prepainted/security,
 /area/security/breakroom)
@@ -1412,7 +1448,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/department,
 /turf/simulated/floor/tiled/neutral,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Aa" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -1460,7 +1496,7 @@
 /area/security/breakroom)
 "Ca" = (
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Cl" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -1651,7 +1687,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Ft" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1739,11 +1775,12 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Gb" = (
 /obj/machinery/computer/shuttle_control/explore/excursion{
 	dir = 4;
-	req_one_access = null
+	req_one_access = null;
+	shuttle_tag = "Marine Transport Shuttle"
 	},
 /obj/machinery/button/remote/blast_door{
 	dir = 4;
@@ -1819,7 +1856,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Hd" = (
 /obj/machinery/light{
 	dir = 8
@@ -1831,7 +1868,7 @@
 "Hk" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
 /turf/simulated/floor,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Hw" = (
 /obj/effect/floor_decal/corner/red/full,
 /obj/machinery/air_alarm{
@@ -1859,6 +1896,12 @@
 /obj/machinery/air_alarm/north_mount,
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/security/range)
+"HJ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "HN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1893,7 +1936,7 @@
 	},
 /obj/machinery/power/apc/south_mount,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "ID" = (
 /obj/item/gps/internal/base{
 	desc = "A tracking beacon embedded in the shuttle systems, to help explorers find where they landed.";
@@ -1943,7 +1986,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "Ju" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/porta_turret/stationary{
@@ -1958,8 +2001,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "JI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2013,8 +2060,12 @@
 "KV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "KY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -2182,7 +2233,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "OU" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/stasis_cage,
@@ -2197,7 +2248,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
+"Pv" = (
+/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/excursion_space,
+/turf/space/basic,
+/area/space)
 "Qb" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
@@ -2281,6 +2336,10 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/hanger)
+"SU" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Tu" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 32;
@@ -2326,7 +2385,7 @@
 "Uq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "UL" = (
 /turf/simulated/floor/tiled/neutral,
 /area/security/hallwayaux)
@@ -2339,6 +2398,15 @@
 "UW" = (
 /turf/simulated/wall/r_wall/prepainted/cargo,
 /area/quartermaster/warehouse)
+"UX" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "expshuttle_dock";
+	pixel_y = 32;
+	req_one_access = list(19,43,67)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Va" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
 	dir = 8
@@ -2598,7 +2666,7 @@
 "XN" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "XW" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/security/hanger)
@@ -2643,7 +2711,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "YD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -2652,7 +2720,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 "YG" = (
 /obj/structure/table/steel,
 /obj/item/tool/crowbar{
@@ -2716,7 +2784,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/hanger)
+/area/exploration/excursion_dock)
 
 (1,1,1) = {"
 he
@@ -12357,7 +12425,7 @@ he
 he
 he
 he
-he
+Pv
 he
 he
 he
@@ -18327,23 +18395,23 @@ he
 he
 he
 he
-VD
-VD
-VD
-VD
-VD
-VD
-VD
-VD
-VD
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
 Hk
 Hk
 Hk
-VD
+qf
 zY
-VD
-VD
-VD
+qf
+qf
+qf
 he
 he
 he
@@ -18521,23 +18589,23 @@ he
 he
 he
 he
-VD
+qf
 si
 FW
+aU
 KV
-KV
-KV
-KV
-KV
-KV
-KV
-KV
-KV
+aU
+aU
+aU
+aU
+aU
+aU
+aU
 KV
 nB
 fU
 Iu
-VD
+qf
 he
 he
 he
@@ -18715,7 +18783,7 @@ he
 he
 he
 he
-VD
+qf
 XN
 Hc
 Ca
@@ -18731,7 +18799,7 @@ Ca
 YD
 fn
 OL
-VD
+qf
 he
 he
 he
@@ -18909,8 +18977,8 @@ he
 he
 he
 he
-VD
-Ca
+qf
+HJ
 Pu
 Ca
 Ca
@@ -18925,7 +18993,7 @@ Ca
 ZD
 Uq
 hC
-VD
+qf
 he
 he
 he
@@ -19103,7 +19171,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -19119,7 +19187,7 @@ Ca
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -19297,7 +19365,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -19313,7 +19381,7 @@ Ca
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -19491,7 +19559,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -19507,7 +19575,7 @@ Ca
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -19685,7 +19753,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -19701,7 +19769,7 @@ Ca
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -19879,7 +19947,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -19895,7 +19963,7 @@ Ca
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -20073,8 +20141,8 @@ he
 he
 he
 he
-VD
-Ca
+qf
+HJ
 Pu
 Ca
 mS
@@ -20088,8 +20156,8 @@ XD
 Vh
 Ca
 Ca
-Jk
-VD
+tZ
+qf
 he
 he
 he
@@ -20267,7 +20335,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -20283,7 +20351,7 @@ ds
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -20461,7 +20529,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -20477,7 +20545,7 @@ ww
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -20655,7 +20723,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -20671,7 +20739,7 @@ DF
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -20849,7 +20917,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -20865,7 +20933,7 @@ XD
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -21043,7 +21111,7 @@ he
 he
 he
 he
-VD
+qf
 nG
 Pu
 Ca
@@ -21059,7 +21127,7 @@ mn
 Ca
 Ca
 vO
-VD
+qf
 he
 he
 he
@@ -21237,7 +21305,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -21253,7 +21321,7 @@ mn
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -21431,8 +21499,8 @@ he
 he
 he
 he
-VD
-Ca
+qf
+UX
 Pu
 Ca
 LQ
@@ -21447,7 +21515,7 @@ mn
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -21625,7 +21693,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -21641,7 +21709,7 @@ mn
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -21819,8 +21887,8 @@ he
 he
 he
 he
-VD
-Ca
+qf
+HJ
 Pu
 Ca
 mn
@@ -21834,8 +21902,8 @@ mn
 mn
 Ca
 Ca
-Jk
-VD
+tZ
+qf
 he
 he
 he
@@ -22013,7 +22081,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -22029,7 +22097,7 @@ mc
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -22207,7 +22275,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -22223,7 +22291,7 @@ mc
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -22401,7 +22469,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -22417,7 +22485,7 @@ mc
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -22595,7 +22663,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -22611,7 +22679,7 @@ mc
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -22789,7 +22857,7 @@ he
 he
 he
 he
-VD
+qf
 Ca
 Pu
 Ca
@@ -22805,7 +22873,7 @@ mc
 Ca
 Ca
 Jk
-VD
+qf
 he
 he
 he
@@ -22983,8 +23051,8 @@ he
 he
 he
 he
-VD
-Ca
+qf
+HJ
 Pu
 Ca
 hx
@@ -22999,7 +23067,7 @@ ht
 Ca
 ab
 hC
-VD
+qf
 he
 he
 he
@@ -23177,7 +23245,7 @@ he
 he
 he
 he
-VD
+qf
 XN
 YA
 Ca
@@ -23193,7 +23261,7 @@ pg
 Ca
 dO
 EY
-VD
+qf
 he
 he
 he
@@ -23371,7 +23439,7 @@ he
 he
 he
 he
-VD
+qf
 si
 JB
 Ca
@@ -23387,7 +23455,7 @@ Ca
 wP
 sp
 nP
-VD
+qf
 he
 he
 he
@@ -23565,9 +23633,9 @@ he
 he
 he
 he
-VD
-VD
-VD
+qf
+qf
+qf
 Hk
 Hk
 Hk
@@ -23575,13 +23643,13 @@ Hk
 Hk
 Hk
 Hk
-VD
-VD
-VD
+qf
+qf
+qf
 ao
-VD
+qf
 ki
-VD
+qf
 he
 he
 he
@@ -23963,7 +24031,7 @@ Li
 DV
 Li
 Li
-Li
+SU
 VD
 FA
 ff
@@ -24345,7 +24413,7 @@ eR
 Li
 Li
 Li
-Li
+SU
 Ba
 XC
 XC
@@ -25121,7 +25189,7 @@ eR
 Li
 Li
 Li
-Li
+SU
 Ba
 XC
 uk
@@ -25316,12 +25384,12 @@ Li
 Li
 Li
 Li
-Li
+kO
 Li
 dv
 dv
 dv
-Li
+SU
 uC
 UL
 UL

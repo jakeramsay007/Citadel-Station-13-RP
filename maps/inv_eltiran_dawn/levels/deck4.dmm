@@ -195,10 +195,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
-"cxy" = (
-/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_four,
-/turf/simulated/floor/tiled/dark,
-/area/bridge)
 "cEN" = (
 /obj/effect/shuttle_landmark/automatic/station_dockpoint1,
 /turf/space,
@@ -759,6 +755,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_four,
 /turf/simulated/floor/tiled/neutral,
 /area/bridge/bridge_hallway)
 "ibn" = (
@@ -980,6 +977,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
+"kyW" = (
+/obj/machinery/door/airlock/glass/security{
+	name = "Hangar Checkpoint";
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/security/checkpoint)
 "kCw" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1321,10 +1325,30 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
+"nho" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/airlock/glass/security{
+	name = "Hangar Checkpoint";
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/security/security_cell_hallway)
 "niq" = (
 /obj/machinery/holopad/ship,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
+"nkz" = (
+/obj/machinery/door/airlock/security/armory,
+/turf/simulated/floor/tiled/neutral,
+/area/security/armory/blue)
 "npe" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -1461,6 +1485,10 @@
 "oRg" = (
 /turf/simulated/wall/prepainted/engineering,
 /area/bridge/bridge_hallway)
+"oRj" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/neutral,
+/area/security/warden)
 "oWI" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -2128,6 +2156,13 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
+"ufc" = (
+/obj/machinery/door/airlock/glass/security{
+	name = "Hangar Checkpoint";
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/security/warden)
 "uoL" = (
 /turf/simulated/wall/r_wall/prepainted/security,
 /area/security/warden)
@@ -2233,11 +2268,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
-"vbW" = (
+"uZi" = (
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "armoryriot";
+	name = "Emergency Armory Access"
+	},
 /turf/simulated/floor/tiled/neutral,
-/area/security/lobby)
-"vfV" = (
-/obj/spawner/window/low_wall/reinforced/full/firelocks,
+/area/security/armory/red)
+"vbW" = (
 /turf/simulated/floor/tiled/neutral,
 /area/security/lobby)
 "vlO" = (
@@ -2493,7 +2532,7 @@
 /area/rnd/rdoffice)
 "xmP" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/security/lobby)
 "xra" = (
 /obj/landmark/spawnpoint/overflow/station,
@@ -13034,7 +13073,7 @@ xRj
 qip
 qip
 qip
-rUT
+uZi
 qip
 qip
 xRj
@@ -14780,7 +14819,7 @@ meD
 rvN
 rvN
 rvN
-bLy
+nkz
 rvN
 rvN
 rvN
@@ -15942,10 +15981,10 @@ thD
 thD
 meD
 uoL
-bKL
+ufc
 uoL
-uoL
-uoL
+oRj
+oRj
 uoL
 uoL
 uoL
@@ -17494,10 +17533,10 @@ dSN
 dSN
 ezV
 dhq
-wgm
+kyW
 dhq
 dhq
-pDO
+nho
 hDZ
 hDZ
 hDZ
@@ -18273,7 +18312,7 @@ dhq
 dhq
 dhq
 dhq
-vfV
+xmP
 jeH
 ave
 xmP
@@ -25829,7 +25868,7 @@ xRj
 hCk
 ntW
 vYC
-cxy
+izO
 izO
 izO
 qgb

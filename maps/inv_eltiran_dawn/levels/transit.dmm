@@ -107,7 +107,7 @@
 /turf/simulated/floor/holofloor/tiled,
 /area/houseboat/holodeck/basketball)
 "lP" = (
-/obj/effect/shuttle_landmark/transit/triumph/excursion,
+/obj/effect/shuttle_landmark/transit/inv_eltiran_dawn/excursion,
 /turf/space/transit/east,
 /area/space)
 "mb" = (

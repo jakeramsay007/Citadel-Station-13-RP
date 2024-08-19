@@ -139,6 +139,7 @@
 /area/hallway/secondary/civilian_hallway_mid)
 "xo" = (
 /obj/structure/stairs/spawner/south,
+/obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "yy" = (
@@ -212,12 +213,6 @@
 "IB" = (
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
-"Jo" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/neutral,
-/area/hallway/secondary/civilian_hallway_mid)
 "Lv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -226,6 +221,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
+"Mw" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/hallway/secondary/civilian_hallway_mid)
 "Ne" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/space)
@@ -233,10 +234,6 @@
 /obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_two,
 /turf/simulated/floor/tiled/neutral,
 /area/crew_quarters)
-"Rg" = (
-/obj/structure/window/reinforced,
-/turf/simulated/open,
-/area/hallway/secondary/civilian_hallway_mid)
 "RX" = (
 /obj/machinery/door/window/westright,
 /turf/simulated/floor/tiled/neutral,
@@ -21535,10 +21532,10 @@ IB
 IB
 IB
 IB
+Mw
 qz
-Rg
 IB
-Jo
+IB
 xo
 IB
 IB
@@ -21729,10 +21726,10 @@ IB
 IB
 IB
 IB
+Mw
 qz
-Rg
 IB
-Jo
+IB
 xo
 IB
 IB
