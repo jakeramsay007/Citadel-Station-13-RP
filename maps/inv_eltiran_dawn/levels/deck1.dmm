@@ -1631,6 +1631,10 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/hallwayaux)
+"DZ" = (
+/obj/item/barrier_tape_segment/engineering,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Ec" = (
 /obj/machinery/computer/ship/engines,
 /obj/machinery/power/apc/east_mount,
@@ -25815,9 +25819,9 @@ eR
 Li
 Li
 Li
-Li
-Li
-Li
+DZ
+DZ
+DZ
 Li
 Li
 Li
