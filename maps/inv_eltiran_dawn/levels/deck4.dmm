@@ -1364,6 +1364,19 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/bridge/bridge_hallway)
+"nFe" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "nGR" = (
 /obj/effect/floor_decal/carpet/blue{
 	dir = 4
@@ -2600,6 +2613,21 @@
 /obj/machinery/power/apc/high/east_mount,
 /turf/simulated/floor/tiled/steel,
 /area/bridge/meeting_room)
+"ydP" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "yho" = (
 /obj/map_helper/airlock/door/int_door,
 /obj/machinery/access_button/airlock_interior{
@@ -19022,7 +19050,7 @@ oYj
 oYj
 oYj
 wan
-nSW
+ydP
 qon
 moG
 wNb
@@ -19397,7 +19425,7 @@ hCk
 hCk
 ntW
 pet
-nSW
+nFe
 wan
 tJM
 tJM
@@ -19979,7 +20007,7 @@ hCk
 hCk
 ntW
 pet
-nSW
+nFe
 wan
 smi
 smi
@@ -20380,7 +20408,7 @@ oYj
 iqR
 ycp
 wan
-nSW
+ydP
 qon
 moG
 wNb
