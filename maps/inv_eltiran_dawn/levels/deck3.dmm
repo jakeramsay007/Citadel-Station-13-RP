@@ -679,14 +679,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/engine_room)
-"bEz" = (
-/obj/machinery/atmospherics/component/quaternary/atmos_filter{
-	tag_north = 1;
-	tag_south = 2;
-	tag_west = 6
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/engineering/atmos)
 "bFw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 1
@@ -1080,14 +1072,6 @@
 /obj/machinery/atmospherics/pipe/tank/phoron,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/starboardnacelle)
-"cBf" = (
-/obj/machinery/atmospherics/component/quaternary/atmos_filter{
-	tag_north = 1;
-	tag_south = 2;
-	tag_west = 7
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/engineering/atmos)
 "cCD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2470,17 +2454,23 @@
 /area/engineering/engine_room)
 "gmW" = (
 /obj/spawner/window/reinforced/firelocks,
-/obj/machinery/door/blast/regular/open{
-	id = "CEShutters";
-	name = "Window Blast Shutters"
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "CEShutters";
+	opacity = 0
 	},
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
 "gtM" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple,
+/obj/machinery/atmospherics/component/binary/pump{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
 "gtQ" = (
@@ -2587,6 +2577,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tcommsat/computer)
+"gEB" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/atmos)
 "gEL" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -3168,6 +3165,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
+"itO" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/atmos)
 "iui" = (
 /obj/machinery/power/grid_checker,
 /obj/structure/cable{
@@ -3320,6 +3323,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
+"iOc" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/atmos)
 "iPf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -3804,6 +3813,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
+"keF" = (
+/obj/machinery/atmospherics/pipe/manifold4w/visible/green,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/atmos)
 "kfr" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
@@ -5816,15 +5829,18 @@
 /area/engineering/engine_room)
 "qVH" = (
 /obj/spawner/window/reinforced/firelocks,
-/obj/machinery/door/blast/regular/open{
-	id = "CEShutters";
-	name = "Window Blast Shutters"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "CEShutters";
+	opacity = 0
 	},
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
@@ -7183,11 +7199,14 @@
 /area/engineering/engine_room)
 "vrE" = (
 /obj/spawner/window/reinforced/firelocks,
-/obj/machinery/door/blast/regular/open{
-	id = "CEShutters";
-	name = "Window Blast Shutters"
-	},
 /obj/structure/cable,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "CEShutters";
+	opacity = 0
+	},
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
 "vrN" = (
@@ -7943,12 +7962,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
 "xXp" = (
-/obj/machinery/atmospherics/component/quaternary/atmos_filter{
-	tag_east = 2;
-	tag_north = 1;
-	tag_south = 4;
-	tag_west = 5
-	},
+/obj/machinery/atmospherics/component/quaternary/atmos_filter,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
 "xYe" = (
@@ -32953,10 +32967,10 @@ lwk
 glJ
 bxz
 jGQ
-bEz
+xXp
 jGQ
 jGQ
-cBf
+xXp
 caR
 bxz
 xXp
@@ -33342,7 +33356,7 @@ rYp
 aaK
 rYp
 aAw
-rYp
+keF
 mFI
 cXC
 cXC
@@ -33729,8 +33743,8 @@ wBJ
 kXE
 cXC
 dTO
-bEz
-hih
+xXp
+gEB
 peR
 reb
 wKq
@@ -33924,7 +33938,7 @@ mwF
 dxd
 wCH
 tuF
-eWB
+itO
 kXE
 cXC
 cXC
@@ -34118,7 +34132,7 @@ eWB
 kDs
 ewY
 aww
-jSF
+iOc
 uvO
 rNd
 kMe
@@ -34311,7 +34325,7 @@ kBB
 rkQ
 lAk
 cSU
-bEz
+xXp
 hih
 eyv
 reb
