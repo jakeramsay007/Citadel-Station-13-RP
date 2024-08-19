@@ -29,6 +29,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "mu" = (
@@ -41,6 +42,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "ng" = (
@@ -55,6 +57,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "pA" = (
@@ -142,9 +145,25 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
+"yd" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/item/barrier_tape_segment/engineering,
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "yy" = (
 /turf/simulated/floor/tiled/neutral,
 /area/crew_quarters/kitchen)
+"yT" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "zy" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -169,6 +188,22 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
+"Bw" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
+"Cj" = (
+/obj/item/barrier_tape_segment/engineering,
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "Do" = (
 /turf/simulated/wall/r_wall/prepainted/civilian,
 /area/crew_quarters/bar)
@@ -191,6 +226,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "GY" = (
@@ -208,6 +244,9 @@
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
+/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_two,
+/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_two,
+/obj/machinery/power/apc/north_mount,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "IB" = (
@@ -230,10 +269,6 @@
 "Ne" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/space)
-"NF" = (
-/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_two,
-/turf/simulated/floor/tiled/neutral,
-/area/crew_quarters)
 "RX" = (
 /obj/machinery/door/window/westright,
 /turf/simulated/floor/tiled/neutral,
@@ -242,6 +277,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "Sq" = (
@@ -253,6 +289,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/item/barrier_tape_segment/engineering,
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
 "Ss" = (
@@ -290,6 +327,13 @@
 "UO" = (
 /turf/simulated/floor/tiled/neutral,
 /area/crew_quarters/cafeteria)
+"Ye" = (
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/crew_quarters/kitchen)
 
 (1,1,1) = {"
 cW
@@ -18049,7 +18093,7 @@ Sz
 Sz
 Sz
 Sz
-NF
+Sz
 sq
 DT
 DT
@@ -21728,7 +21772,7 @@ IB
 IB
 Mw
 qz
-IB
+yT
 IB
 xo
 IB
@@ -22889,13 +22933,13 @@ yy
 yy
 yy
 yy
-yy
-IB
+Ye
+Cj
 Sd
 ms
 Sq
-Lv
-Lv
+yd
+Bw
 Lv
 Lv
 rt
