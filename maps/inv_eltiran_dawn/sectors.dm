@@ -2,17 +2,17 @@
 // There is literally a dm file for triumph shuttles, why are these here//
 //////////////////////////////////////////////////////////////////////////
 // EXCURSION SHUTTLE DATA
-/obj/overmap/entity/visitable/ship/landable/excursion/triumph
+/obj/overmap/entity/visitable/ship/landable/excursion/inv_eltiran_dawn
 	name = "Excursion Shuttle"
-	desc = "A modified Excursion shuttle thats seen in use of the Marksman fleet of Nanotrasen."
+	desc = "A modified Excursion shuttle that's seen in use of the Imperial Marine Corps for landing operations."
 	color = "#72388d" //Purple
 	fore_dir = WEST
 	vessel_mass = 10000
 	vessel_size = SHIP_SIZE_SMALL
-	shuttle = "Excursion Shuttle"
+	shuttle = "Marine Shuttle"
 
 //Courser Shuttle Data
-/obj/overmap/entity/visitable/ship/landable/courser/triumph
+/obj/overmap/entity/visitable/ship/landable/courser/inv_eltiran_dawn
 	name = "Courser Scouting Vessel"
 	desc = "Where there's a cannon, there's a way."
 	color = "#af3e97" //Pinkish Purple
@@ -23,7 +23,7 @@
 
 // Public Civilian Shuttle
 
-/obj/overmap/entity/visitable/ship/landable/civvie/triumph
+/obj/overmap/entity/visitable/ship/landable/civvie/inv_eltiran_dawn
 	name = "Civilian Transport"
 	desc = "A basic, but slow, transport to ferry civilian to and from the ship."
 	fore_dir = EAST
@@ -35,7 +35,7 @@
 
 // Mining Shuttle
 
-/obj/overmap/entity/visitable/ship/landable/mining/triumph
+/obj/overmap/entity/visitable/ship/landable/mining/inv_eltiran_dawn
 	name = "Mining Shuttle"
 	desc = "It ain't much, but it's honest work."
 	color = "#ba7d4b" //Tan
@@ -46,7 +46,7 @@
 
 //EMT Shuttle
 
-/obj/overmap/entity/visitable/ship/landable/emt/triumph
+/obj/overmap/entity/visitable/ship/landable/emt/inv_eltiran_dawn
 	name = "Dart EMT Shuttle"
 	desc = "The budget didn't allow for flashing lights."
 	color = "#00a5f2" //Light Blue

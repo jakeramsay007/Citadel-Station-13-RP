@@ -1,14 +1,14 @@
-/datum/map/station/triumph
-	id = "triumph"
-	name = "World - Triumph"
+/datum/map/station/inv_eltiran_dawn
+	id = "inv_eltiran_dawn"
+	name = "World - INV Eltiran Dawn"
 	levels = list(
-		/datum/map_level/triumph/ship/deck_one,
-		/datum/map_level/triumph/ship/deck_two,
-		/datum/map_level/triumph/ship/deck_three,
-		/datum/map_level/triumph/ship/deck_four,
-		/datum/map_level/triumph/misc,
-		/datum/map_level/triumph/transit,
-		/datum/map_level/triumph/flagship,
+		/datum/map_level/inv_eltiran_dawn/ship/deck_one,
+		/datum/map_level/inv_eltiran_dawn/ship/deck_two,
+		/datum/map_level/inv_eltiran_dawn/ship/deck_three,
+		/datum/map_level/inv_eltiran_dawn/ship/deck_four,
+		/datum/map_level/inv_eltiran_dawn/misc,
+		/datum/map_level/inv_eltiran_dawn/transit,
+		/datum/map_level/inv_eltiran_dawn/flagship,
 	)
 	width = 192
 	height = 192
@@ -30,36 +30,36 @@
 	//* LEGACY BELOW *//
 
 	legacy_assert_shuttle_datums = list(
-		/datum/shuttle/autodock/overmap/excursion/triumph,
-		/datum/shuttle/autodock/ferry/emergency/escape/triumph,
-		/datum/shuttle/autodock/ferry/supply/cargo/triumph,
-		/datum/shuttle/autodock/overmap/emt/triumph,
-		/datum/shuttle/autodock/overmap/mining/triumph,
-		/datum/shuttle/autodock/overmap/civvie/triumph,
-		/datum/shuttle/autodock/overmap/courser/triumph,
+		/datum/shuttle/autodock/overmap/excursion/inv_eltiran_dawn,
+		/datum/shuttle/autodock/ferry/emergency/escape/inv_eltiran_dawn,
+		/datum/shuttle/autodock/ferry/supply/cargo/inv_eltiran_dawn,
+		/datum/shuttle/autodock/overmap/emt/inv_eltiran_dawn,
+		/datum/shuttle/autodock/overmap/mining/inv_eltiran_dawn,
+		/datum/shuttle/autodock/overmap/civvie/inv_eltiran_dawn,
+		/datum/shuttle/autodock/overmap/courser/inv_eltiran_dawn,
 		/datum/shuttle/autodock/ferry/belter,
 	)
 
-	full_name = "NSV Triumph"
+	full_name = "INV Eltiran Dawn"
 
 	use_overmap = TRUE
 	overmap_size = 60
 	overmap_event_areas = 50
-	usable_email_tlds = list("triumph.nt")
+	usable_email_tlds = list("inv_eltiran_dawn.nt")
 
-	station_name	= "NSV Triumph"
-	station_short	= "Triumph"
-	dock_name		= "NDV Marksman"
+	station_name	= "INV Eltiran Dawn"
+	station_short	= "Eltiran Dawn"
+	dock_name		= "INV-CC Kalyrrah's Wrath"
 	dock_type		= "space"
-	boss_name		= "Central Command"
-	boss_short		= "CentCom"
-	company_name	= "Nanotrasen"
-	company_short	= "NT"
+	boss_name		= "Imperial Command"
+	boss_short		= "IMPCOMM"
+	company_name	= "Imperial Navy"
+	company_short	= "IN"
 	starsys_name	= "Sigmar Concord"
 
-	shuttle_docked_message = "This is the %dock_name% calling to the NSV Triumph. The scheduled crew transfer shuttle has docked with the NSV Triumph. Departing crew should board the shuttle within %ETD%."
+	shuttle_docked_message = "This is the %dock_name% calling to the INV Eltiran Dawn. The scheduled crew transfer shuttle has docked with the INV Eltiran Dawn. Departing crew should board the shuttle within %ETD%."
 	shuttle_leaving_dock = "The transfer shuttle has left the ship. Estimate %ETA% until the shuttle arrives at the %dock_name%."
-	shuttle_called_message = "This is the %dock_name% calling to the NSV Triumph. A scheduled crew transfer to the %dock_name% is commencing. Those departing should proceed to the shuttle bay within %ETA%."
+	shuttle_called_message = "This is the %dock_name% calling to the INV Eltiran Dawn. A scheduled crew transfer to the %dock_name% is commencing. Those departing should proceed to the shuttle bay within %ETA%."
 	shuttle_recall_message = "The scheduled crew transfer has been cancelled."
 	shuttle_name = "Crew Hands Transfer"
 	emergency_shuttle_docked_message = "The evacuation shuttle has arrived at the ship. You have approximately %ETD% to board the shuttle."
@@ -84,7 +84,7 @@
 							NETWORK_ROBOTS,
 							NETWORK_SECURITY,
 							NETWORK_TCOMMS,
-							NETWORK_TRIUMPH
+							NETWORK_INV_ELTIRAN_DAWN
 							)
 	secondary_networks = list(
 							NETWORK_ERT,
@@ -118,65 +118,65 @@
 
 // For making the 4-in-1 holomap, we calculate some offsets
 /// Width and height of compiled in triumph z levels.
-#define TRIUMPH_MAP_SIZE 192
+#define INV_ELTIRAN_DAWN_MAP_SIZE 192
 /// 40px central gutter between columns
-#define TRIUMPH_HOLOMAP_CENTER_GUTTER 20
+#define INV_ELTIRAN_DAWN_HOLOMAP_CENTER_GUTTER 20
 /// 100
-#define TRIUMPH_HOLOMAP_MARGIN_X ((HOLOMAP_ICON_SIZE - (2*TRIUMPH_MAP_SIZE) - TRIUMPH_HOLOMAP_CENTER_GUTTER) / 2)
+#define INV_ELTIRAN_DAWN_HOLOMAP_MARGIN_X ((HOLOMAP_ICON_SIZE - (2*INV_ELTIRAN_DAWN_MAP_SIZE) - INV_ELTIRAN_DAWN_HOLOMAP_CENTER_GUTTER) / 2)
 /// 60
-#define TRIUMPH_HOLOMAP_MARGIN_Y ((HOLOMAP_ICON_SIZE - (3*TRIUMPH_MAP_SIZE)) / 2)
+#define INV_ELTIRAN_DAWN_HOLOMAP_MARGIN_Y ((HOLOMAP_ICON_SIZE - (3*INV_ELTIRAN_DAWN_MAP_SIZE)) / 2)
 // We have a bunch of stuff common to the station z levels
 
-/datum/map_level/triumph/ship
+/datum/map_level/inv_eltiran_dawn/ship
 	flags = LEGACY_LEVEL_STATION|LEGACY_LEVEL_CONTACT|LEGACY_LEVEL_PLAYER|LEGACY_LEVEL_CONSOLES
 	persistence_allowed = TRUE
 
-/datum/map_level/triumph/ship/deck_one
-	id = "TriumphDeck1"
-	name = "Triumph - Deck 1"
-	display_id = "triumph-deck-1"
-	display_name = "NSV Triumph - Engineering Deck"
-	absolute_path = "maps/triumph/levels/deck1.dmm"
+/datum/map_level/inv_eltiran_dawn/ship/deck_one
+	id = "EltiranDawnDeck1"
+	name = "INV Eltiran Dawn - Deck 1"
+	display_id = "inv_eltiran_dawn-deck-1"
+	display_name = "INV Eltiran Dawn - Operations Deck"
+	absolute_path = "maps/inv_eltiran_dawn/levels/deck1.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
 	)
 	base_turf = /turf/space
-	link_above = /datum/map_level/triumph/ship/deck_two
+	link_above = /datum/map_level/inv_eltiran_dawn/ship/deck_two
 	flags = LEGACY_LEVEL_STATION|LEGACY_LEVEL_CONTACT|LEGACY_LEVEL_PLAYER|LEGACY_LEVEL_CONSOLES
 
-/datum/map_level/triumph/ship/deck_two
-	id = "TriumphDeck2"
-	name = "Triumph - Deck 2"
-	display_id = "triumph-deck-2"
-	display_name = "NSV Triumph - Service Deck"
-	absolute_path = "maps/triumph/levels/deck2.dmm"
+/datum/map_level/inv_eltiran_dawn/ship/deck_two
+	id = "EltiranDawnDeck2"
+	name = "INV Eltiran Dawn - Deck 2"
+	display_id = "inv_eltiran_dawn-deck-2"
+	display_name = "INV Eltiran Dawn - Habitation Deck"
+	absolute_path = "maps/inv_eltiran_dawn/levels/deck2.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
 		ZTRAIT_LEGACY_BELTER_DOCK,
 	)
 	base_turf = /turf/simulated/open
-	link_above = /datum/map_level/triumph/ship/deck_three
-	link_below = /datum/map_level/triumph/ship/deck_one
+	link_above = /datum/map_level/inv_eltiran_dawn/ship/deck_three
+	link_below = /datum/map_level/inv_eltiran_dawn/ship/deck_one
 	flags = LEGACY_LEVEL_STATION|LEGACY_LEVEL_CONTACT|LEGACY_LEVEL_PLAYER|LEGACY_LEVEL_CONSOLES
 
-/datum/map_level/triumph/ship/deck_three
+/datum/map_level/inv_eltiran_dawn/ship/deck_three
 	id = "EltiranDawnDeck3"
 	name = "INV Eltiran Dawn - Deck 3"
 	display_id = "eltirandawn-deck-3"
-	display_name = "INV Eltiran Dawn - Operations Deck"
+	display_name = "INV Eltiran Dawn - Engineering Deck"
 	absolute_path = "maps/inv_elitran_dawn/levels/deck3.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
 	)
 	base_turf = /turf/simulated/open
-	link_above = /datum/map_level/triumph/ship/deck_four
-	link_below = /datum/map_level/triumph/ship/deck_two
+	link_above = /datum/map_level/inv_eltiran_dawn/ship/deck_four
+	link_below = /datum/map_level/inv_eltiran_dawn/ship/deck_two
 	flags = LEGACY_LEVEL_STATION|LEGACY_LEVEL_CONTACT|LEGACY_LEVEL_PLAYER|LEGACY_LEVEL_CONSOLES
 
-/datum/map_level/triumph/ship/deck_four
+/datum/map_level/inv_eltiran_dawn/ship/deck_four
 	id = "EltiranDawnDeck4"
 	name = "INV Eltiran Dawn - Deck 4"
 	display_id = "eltirandawn-deck-4"
@@ -187,33 +187,33 @@
 		ZTRAIT_FACILITY_SAFETY,
 	)
 	base_turf = /turf/simulated/open
-	link_below = /datum/map_level/triumph/ship/deck_three
+	link_below = /datum/map_level/inv_eltiran_dawn/ship/deck_three
 	flags = LEGACY_LEVEL_STATION|LEGACY_LEVEL_CONTACT|LEGACY_LEVEL_PLAYER|LEGACY_LEVEL_CONSOLES
 
-/datum/map_level/triumph/flagship
-	id = "TriumphFlagship"
+/datum/map_level/inv_eltiran_dawn/flagship
+	id = "EltiranDawnFlagship"
 	name = "Eltiran Dawn - IMPCOMM / Flagship"
 	display_id = "eltirandawn-flagship"
 	display_name = "INV Eltiran Dawn - Flagship Offboarding"
 	absolute_path = "maps/inv_eltiran_dawn/levels/flagship.dmm"
 	flags = LEGACY_LEVEL_ADMIN|LEGACY_LEVEL_CONTACT
 
-/datum/map_level/triumph/transit
-	id = "TriumphTransit"
-	name = "Triumph - Ships / Static Transit"
+/datum/map_level/inv_eltiran_dawn/transit
+	id = "EltiranDawnTransit"
+	name = "Eltiran Dawn - Ships / Static Transit"
 	absolute_path = "maps/inv_eltiran_dawn/levels/transit.dmm"
 	traits = list(
 		ZTRAIT_LEGACY_BELTER_TRANSIT,
 	)
 	flags = LEGACY_LEVEL_ADMIN
 
-/datum/map_level/triumph/misc
-	id = "TriumphMisc"
-	name = "Triumph - Misc"
+/datum/map_level/inv_eltiran_dawn/misc
+	id = "EltiranDawnMisc"
+	name = "EltiranDawn - Misc"
 	absolute_path = "maps/inv_eltiran_dawn/levels/misc.dmm"
 	flags = LEGACY_LEVEL_ADMIN
 
-#undef TRIUMPH_MAP_SIZE
-#undef TRIUMPH_HOLOMAP_CENTER_GUTTER
-#undef TRIUMPH_HOLOMAP_MARGIN_X
-#undef TRIUMPH_HOLOMAP_MARGIN_Y
+#undef INV_ELTIRAN_DAWN_MAP_SIZE
+#undef INV_ELTIRAN_DAWN_HOLOMAP_CENTER_GUTTER
+#undef INV_ELTIRAN_DAWN_HOLOMAP_MARGIN_X
+#undef INV_ELTIRAN_DAWN_HOLOMAP_MARGIN_Y

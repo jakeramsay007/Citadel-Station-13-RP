@@ -2,9 +2,9 @@
 // Triumph custom shuttle implemnetations
 ////////////////////////////////////////
 
-/obj/machinery/computer/shuttle_control/triumph_backup
-	name = "triumph backup shuttle control console"
-	shuttle_tag = "Triumph Backup"
+/obj/machinery/computer/shuttle_control/inv_eltiran_dawn_backup
+	name = "eltiran dawn backup shuttle control console"
+	shuttle_tag = "Eltiran Dawn Backup"
 	req_one_access = list(ACCESS_COMMAND_BRIDGE,ACCESS_GENERAL_PILOT)
 
 /obj/machinery/computer/shuttle_control/multi/mercenary
@@ -34,17 +34,17 @@
 
 // EXCURSION SHUTTLE DATA
 
-/datum/shuttle/autodock/overmap/excursion/triumph
-	name = "Excursion Shuttle"
+/datum/shuttle/autodock/overmap/excursion/inv_eltiran_dawn
+	name = "Marine Transport Shuttle"
 	warmup_time = 0
-	shuttle_area = list(/area/shuttle/excursion/triumph)
+	shuttle_area = list(/area/shuttle/excursion/inv_eltiran_dawn)
 	shuttle_area = list(/area/shuttle/excursion/cockpit, /area/shuttle/excursion/general, /area/shuttle/excursion/cargo)
-	current_location = "triumph_excursion_hangar"
+	current_location = "inv_eltiran_dawn_excursion_hangar"
 	docking_controller_tag = "expshuttle_docker"
 	landmark_transition = "nav_transit_exploration"
 	move_time = 20
 
-/area/shuttle/excursion/triumph
+/area/shuttle/excursion/inv_eltiran_dawn
 	name = "Excursion Shuttle"
 	icon_state = "shuttle"
 
@@ -55,12 +55,12 @@
 
 // COURSER SHUTTLE DATA
 
-/datum/shuttle/autodock/overmap/courser/triumph
+/datum/shuttle/autodock/overmap/courser/inv_eltiran_dawn
 	name = "Courser Scouting Vessel"
 	warmup_time = 0
 	shuttle_area = list(/area/shuttle/courser/cockpit, /area/shuttle/courser/general, /area/shuttle/courser/battery)
 	//shuttle_area = list(/area/shuttle/excursion/cockpit, /area/shuttle/excursion/general, /area/shuttle/excursion/cargo)
-	current_location = "triumph_courser_hangar"
+	current_location = "inv_eltiran_dawn_courser_hangar"
 	docking_controller_tag = "courser_docker"
 	landmark_transition = "nav_transit_courser"
 	move_time = 15
@@ -76,11 +76,11 @@
 
 // Public Civilian Shuttle
 
-/datum/shuttle/autodock/overmap/civvie/triumph
+/datum/shuttle/autodock/overmap/civvie/inv_eltiran_dawn
 	name = "Civilian Transport"
 	warmup_time = 10
 	shuttle_area = list(/area/shuttle/civvie/cockpit, /area/shuttle/civvie/general)
-	current_location = "triumph_civvie_home"
+	current_location = "inv_eltiran_dawn_civvie_home"
 	docking_controller_tag = "civvie_docker"
 	landmark_transition = "nav_transit_civvie"
 	fuel_consumption = 10
@@ -97,11 +97,11 @@
 
 // Mining Shuttle
 
-/datum/shuttle/autodock/overmap/mining/triumph
+/datum/shuttle/autodock/overmap/mining/inv_eltiran_dawn
 	name = "Mining Shuttle"
 	warmup_time = 10
 	shuttle_area = list(/area/shuttle/mining_ship/general)
-	current_location = "triumph_mining_port"
+	current_location = "inv_eltiran_dawn_mining_port"
 	docking_controller_tag = "mining_docker"
 	landmark_transition = "nav_transit_mining"
 	move_time = 30
@@ -115,11 +115,11 @@
 	shuttle_tag = "Mining Shuttle"
 
 //EMT Shuttle
-/datum/shuttle/autodock/overmap/emt/triumph
+/datum/shuttle/autodock/overmap/emt/inv_eltiran_dawn
 	name = "Dart EMT Shuttle"
 	warmup_time = 5
 	shuttle_area = list(/area/shuttle/emt/general, /area/shuttle/emt/cockpit)
-	current_location = "triumph_emt_dock"
+	current_location = "inv_eltiran_dawn_emt_dock"
 	docking_controller_tag = "emt_shuttle_docker"
 	landmark_transition = "nav_transit_emt"
 	move_time = 20
@@ -134,18 +134,18 @@
 
 //////////////////////////////////////////////////////////////
 // Escape shuttle and pods
-/datum/shuttle/autodock/ferry/emergency/escape/triumph
+/datum/shuttle/autodock/ferry/emergency/escape/inv_eltiran_dawn
 	name = "Escape"
 	location = FERRY_LOCATION_OFFSITE
 	shuttle_area = /area/shuttle/escape
 	warmup_time = 10
 	landmark_offsite = "escape_cc"
-	landmark_station = "escape_triumph"
+	landmark_station = "escape_inv_eltiran_dawn"
 	landmark_transition = "escape_transit"
 	move_time = SHUTTLE_TRANSIT_DURATION_RETURN
 
 // Supply shuttle
-/datum/shuttle/autodock/ferry/supply/cargo/triumph
+/datum/shuttle/autodock/ferry/supply/cargo/inv_eltiran_dawn
 	name = "Supply"
 	location = FERRY_LOCATION_OFFSITE
 	shuttle_area = /area/shuttle/supply

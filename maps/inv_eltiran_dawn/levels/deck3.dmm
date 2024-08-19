@@ -1689,8 +1689,8 @@
 /turf/simulated/floor/tiled/neutral,
 /area/space)
 "emc" = (
-/obj/machinery/telecomms/relay/preset/triumph/deck_two,
 /obj/machinery/light/small,
+/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_three,
 /turf/simulated/floor/tiled/dark{
 	initial_gas_mix = "n2=100;TEMP=80"
 	},

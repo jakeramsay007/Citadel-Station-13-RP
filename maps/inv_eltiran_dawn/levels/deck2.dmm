@@ -164,6 +164,10 @@
 "Ne" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/space)
+"NF" = (
+/obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_two,
+/turf/simulated/floor/tiled/neutral,
+/area/space)
 "Rg" = (
 /turf/simulated/open,
 /area/space)
@@ -17956,7 +17960,7 @@ If
 If
 If
 If
-If
+NF
 sq
 DT
 DT

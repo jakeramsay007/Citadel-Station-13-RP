@@ -147,3 +147,18 @@
 /datum/turbolift
 	music = list('sound/music/elevator1.ogg', 'sound/music/elevator2.ogg')  // Woo elevator music!
 */
+
+/obj/turbolift_map_holder/inv_eltiran_dawn
+	name = "Eltiran Dawn Climber"
+	depth = 4
+	lift_size_x = 2
+	lift_size_y = 4
+	icon = 'icons/obj/turbolift_preview_3x3.dmi'
+	wall_type = null // Don't make walls
+
+	areas_to_use = list(
+		/area/turbolift/t_ship/level1,
+		/area/turbolift/t_ship/level2,
+		/area/turbolift/t_ship/level3,
+		/area/turbolift/t_ship/level4
+		)
