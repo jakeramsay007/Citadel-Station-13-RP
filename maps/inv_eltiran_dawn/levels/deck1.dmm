@@ -167,6 +167,9 @@
 /area/shuttle/excursion/cargo)
 "cv" = (
 /obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "cG" = (
@@ -181,6 +184,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
+"cK" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/warehouse)
 "cO" = (
 /obj/structure/catwalk,
 /obj/structure/fuel_port{
@@ -671,6 +683,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/excursion/general)
+"kb" = (
+/obj/machinery/door/airlock/external{
+	name = "Cargo Lift"
+	},
+/obj/map_helper/airlock/door/simple,
+/obj/map_helper/access_helper/airlock/station/external_airlock,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/quartermaster/office)
 "kd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -1144,9 +1164,15 @@
 "rM" = (
 /obj/machinery/light_switch{
 	dir = 8;
-	pixel_x = 24
+	pixel_x = 24;
+	pixel_y = -6
 	},
 /obj/structure/closet/secure_closet/quartermaster,
+/obj/machinery/button/windowtint{
+	pixel_x = 23;
+	pixel_y = 6;
+	id = "QMOffice"
+	},
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
 "rQ" = (
@@ -1248,6 +1274,12 @@
 /obj/landmark/spawnpoint/job/security_officer,
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"sQ" = (
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "QMOffice"
+	},
+/turf/simulated/floor,
+/area/quartermaster/office)
 "sY" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
@@ -1283,6 +1315,15 @@
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/quartermaster/office)
+"tB" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/freezer,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/warehouse)
 "tN" = (
 /obj/machinery/light{
 	dir = 1
@@ -1863,6 +1904,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"AQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "AV" = (
 /obj/machinery/button/remote/blast_door{
 	pixel_x = 22;
@@ -1882,6 +1936,13 @@
 "Ba" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/quartermaster/hallway)
+"Bc" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/warehouse)
 "BK" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1897,6 +1958,12 @@
 "Ca" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"Cj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "Cl" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -2064,9 +2131,11 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "Ek" = (
-/obj/machinery/door/airlock/external,
 /obj/map_helper/airlock/door/simple,
 /obj/map_helper/access_helper/airlock/station/external_airlock,
+/obj/machinery/door/airlock/external{
+	name = "Cargo Lift"
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/quartermaster/office)
 "Ez" = (
@@ -2130,6 +2199,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"EU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "EX" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/wall/r_wall/prepainted/cargo,
@@ -2366,6 +2447,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/item/duct_tape_roll,
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "GX" = (
@@ -2408,6 +2490,9 @@
 "Hs" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /obj/structure/bed/chair,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "Hw" = (
@@ -2956,6 +3041,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"Rr" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "RF" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
@@ -3092,6 +3184,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "TD" = (
@@ -3555,6 +3648,10 @@
 /area/shuttle/excursion/cargo)
 "Zm" = (
 /obj/landmark/spawnpoint/job/cargo_technician,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
 "Zx" = (
@@ -27150,7 +27247,7 @@ TD
 cv
 nt
 hO
-SX
+AQ
 IX
 Qr
 Qr
@@ -28127,8 +28224,8 @@ Qr
 Qr
 IX
 rU
-Qf
-Qf
+sQ
+sQ
 TD
 TD
 he
@@ -28506,11 +28603,11 @@ he
 he
 he
 TD
-hO
+Cj
 xM
 qU
 PD
-Ek
+kb
 Ek
 Ek
 PD
@@ -28703,7 +28800,7 @@ TD
 en
 hO
 Ho
-OC
+EU
 OC
 oe
 OC
@@ -28895,15 +28992,15 @@ he
 he
 TD
 YJ
-hO
+Rr
 hO
 AV
 hO
 CT
 hO
+Rr
 hO
-hO
-hO
+Rr
 ur
 TD
 he
@@ -29867,11 +29964,11 @@ he
 UW
 vT
 NN
-Kz
+tB
 Kz
 vT
 NN
-NN
+cK
 GE
 vT
 UW
@@ -30451,7 +30548,7 @@ he
 he
 UW
 GE
-vT
+Bc
 NN
 UW
 he
