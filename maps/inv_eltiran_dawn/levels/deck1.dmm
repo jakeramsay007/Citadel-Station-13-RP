@@ -683,6 +683,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/excursion/general)
+"jI" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "kb" = (
 /obj/machinery/door/airlock/external{
 	name = "Cargo Lift"
@@ -24919,7 +24923,7 @@ re
 Li
 Li
 Li
-Li
+jI
 Li
 DV
 Li
@@ -25113,7 +25117,7 @@ Li
 Li
 Li
 Li
-Li
+jI
 Li
 DV
 Li

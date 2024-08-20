@@ -460,6 +460,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/rdoffice)
+"bIi" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "bKL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -29643,7 +29647,7 @@ ntW
 ntW
 hiH
 lJa
-pet
+bIi
 pet
 nSW
 eWh
