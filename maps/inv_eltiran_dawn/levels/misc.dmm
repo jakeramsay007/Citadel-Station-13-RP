@@ -104,6 +104,9 @@
 /obj/effect/floor_decal/sign/dock/one,
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_checker)
+"bJ" = (
+/turf/simulated/shuttle/wall/voidcraft/blue,
+/area/centcom/suppy)
 "bL" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/dead,
@@ -140,12 +143,6 @@
 /obj/item/chess/wpawn,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_chess)
-"cI" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "cJ" = (
 /turf/space,
 /turf/space,
@@ -230,15 +227,9 @@
 "fQ" = (
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
-"gh" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "burst_r"
-	},
-/turf/space,
-/turf/simulated/shuttle/plating/airless/carry{
-	dir = 1
-	},
-/area/shuttle/supply)
+"gf" = (
+/turf/space/basic,
+/area/space)
 "gm" = (
 /obj/effect/floor_decal/sign/c,
 /turf/simulated/floor/holofloor/wood,
@@ -419,18 +410,6 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
-"kS" = (
-/obj/machinery/door/airlock/glass_external{
-	frequency = 1380;
-	icon_state = "door_locked";
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
-	name = "Shuttle Hatch";
-	req_one_access = null
-	},
-/obj/map_helper/access_helper/airlock/station/external_airlock,
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "la" = (
 /obj/effect/floor_decal/corner/blue/full{
 	dir = 1
@@ -443,6 +422,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_emptycourt)
+"lx" = (
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/simple,
+/obj/map_helper/access_helper/airlock/station/external_airlock,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/shuttle/supply)
 "lJ" = (
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/holodorm/source_beach)
@@ -572,6 +557,19 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_emptycourt)
+"of" = (
+/obj/effect/shuttle_landmark{
+	base_area = /area/space;
+	base_turf = /turf/simulated/floor/airless/ceiling;
+	docking_controller = "cargo_bay";
+	landmark_tag = "supply_dock";
+	name = "NSV Triumph Cargo Dock"
+	},
+/obj/machinery/door/airlock/external,
+/obj/map_helper/airlock/door/simple,
+/obj/map_helper/access_helper/airlock/station/external_airlock,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/shuttle/supply)
 "oi" = (
 /turf/space,
 /area/space)
@@ -617,9 +615,6 @@
 "pA" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_boxingcourt)
-"pQ" = (
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "pW" = (
 /obj/machinery/door/window/holowindoor{
 	name = "Red Team";
@@ -627,22 +622,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_emptycourt)
-"qb" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "QMLoad"
-	},
-/obj/machinery/door/airlock/glass_external{
-	frequency = 1380;
-	icon_state = "door_locked";
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
-	name = "Shuttle Hatch";
-	req_one_access = null
-	},
-/obj/map_helper/access_helper/airlock/station/external_airlock,
-/turf/simulated/shuttle/plating,
-/area/shuttle/supply)
 "qd" = (
 /obj/item/chess/brook,
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -763,16 +742,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_thunderdomecourt)
-"sZ" = (
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
-	id_tag = "supply_shuttle";
-	pixel_x = -25;
-	req_one_access = list(13,31);
-	tag_door = "supply_shuttle_hatch"
-	},
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "te" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -789,6 +758,10 @@
 /area/holodeck/source_courtroom)
 "tv" = (
 /turf/unsimulated/wall,
+/area/space)
+"ty" = (
+/obj/effect/step_trigger/teleporter/random,
+/turf/space/basic,
 /area/space)
 "tF" = (
 /turf/simulated/floor/holofloor/snow,
@@ -1121,19 +1094,6 @@
 	},
 /turf/simulated/floor/holofloor/snow,
 /area/holodeck/holodorm/source_snow)
-"Ao" = (
-/obj/structure/shuttle/engine/propulsion,
-/obj/effect/shuttle_landmark{
-	base_area = /area/space;
-	base_turf = /turf/simulated/floor/airless/ceiling;
-	landmark_tag = "supply_cc";
-	name = "Centcom Supply Depot"
-	},
-/turf/space,
-/turf/simulated/shuttle/plating/airless/carry{
-	dir = 1
-	},
-/area/shuttle/supply)
 "At" = (
 /turf/simulated/floor/holofloor/desert,
 /area/holodeck/source_picnicarea)
@@ -1299,6 +1259,9 @@
 "Eu" = (
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
+"ED" = (
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/shuttle/supply)
 "ES" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_emptycourt)
@@ -1435,15 +1398,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
-"HJ" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "burst_l"
-	},
-/turf/space,
-/turf/simulated/shuttle/plating/airless/carry{
-	dir = 1
-	},
-/area/shuttle/supply)
 "HS" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -1460,13 +1414,6 @@
 /obj/effect/floor_decal/corner/green/full,
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
-"HY" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/shuttle/supply)
 "Ie" = (
 /obj/item/checker/redking,
 /obj/item/checker/redking,
@@ -1496,13 +1443,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_boxingcourt)
-"Io" = (
-/obj/structure/shuttle/engine/propulsion,
-/turf/space,
-/turf/simulated/shuttle/plating/airless/carry{
-	dir = 1
-	},
-/area/shuttle/supply)
 "Ir" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/holofloor/reinforced,
@@ -1618,6 +1558,9 @@
 /obj/effect/overlay/palmtree_l,
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/holodorm/source_beach)
+"Ms" = (
+/turf/simulated/shuttle/wall/voidcraft/hard_corner,
+/area/centcom/suppy)
 "MC" = (
 /obj/structure/bed/chair/holochair,
 /obj/effect/floor_decal/carpet{
@@ -1669,12 +1612,6 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
-"Ov" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "Oy" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -1779,6 +1716,9 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
+"Rv" = (
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/centcom/suppy)
 "RG" = (
 /obj/item/chess/bknight,
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -1795,9 +1735,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_theatre)
-"RS" = (
-/turf/simulated/shuttle/wall,
-/area/shuttle/supply)
 "RW" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/holodorm/source_boxing)
@@ -1937,13 +1874,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/holodorm/source_basic)
-"Us" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad2"
-	},
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "UC" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -2036,22 +1966,6 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/holodorm/source_garden)
-"We" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad2"
-	},
-/obj/machinery/door/airlock/glass_external{
-	frequency = 1380;
-	icon_state = "door_locked";
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
-	name = "Shuttle Hatch";
-	req_one_access = null
-	},
-/obj/map_helper/access_helper/airlock/station/external_airlock,
-/turf/simulated/shuttle/plating,
-/area/shuttle/supply)
 "Ws" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -2137,13 +2051,6 @@
 "Yj" = (
 /turf/space/transit/east,
 /area/space)
-"Ys" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "QMLoad"
-	},
-/turf/simulated/shuttle/floor,
-/area/shuttle/supply)
 "Yx" = (
 /obj/structure/window/reinforced/holowindow/disappearing{
 	dir = 1
@@ -21236,10 +21143,10 @@ AS
 AS
 AS
 AS
-oi
-oi
-oi
-oi
+AS
+AS
+AS
+AS
 oi
 oi
 oi
@@ -21427,13 +21334,13 @@ Ct
 Ct
 Ct
 Ct
-oi
+Ms
+bJ
+bJ
+bJ
+Ms
 oi
 AS
-oi
-oi
-oi
-oi
 oi
 oi
 oi
@@ -21621,13 +21528,13 @@ uT
 gH
 gH
 Ct
-oi
+bJ
+ED
+ED
+ED
+bJ
 oi
 AS
-oi
-oi
-oi
-oi
 oi
 oi
 oi
@@ -21815,17 +21722,17 @@ uT
 uT
 uT
 Ct
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22009,17 +21916,17 @@ uT
 gH
 gH
 Ct
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22203,17 +22110,17 @@ uT
 uT
 uT
 Ct
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22389,7 +22296,7 @@ oi
 Ct
 gH
 gH
-uT
+Rv
 gH
 gH
 gH
@@ -22397,17 +22304,17 @@ uT
 gH
 gH
 Ct
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22591,17 +22498,17 @@ uT
 uT
 uT
 iQ
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22774,28 +22681,28 @@ oi
 (107,1,1) = {"
 AS
 oi
-RS
-RS
-RS
-We
-kS
-RS
-kS
-qb
-RS
-RS
-RS
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+bJ
+ED
+ED
+ED
+bJ
 oi
-oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -22968,28 +22875,28 @@ oi
 (108,1,1) = {"
 AS
 oi
-RS
-pQ
-cI
-Us
-pQ
-sZ
-pQ
-Ys
-cI
-RS
-RS
-HJ
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+bJ
+lx
+of
+lx
+bJ
 oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -23162,28 +23069,28 @@ oi
 (109,1,1) = {"
 AS
 oi
-RS
-pQ
-pQ
-Us
-pQ
-pQ
-pQ
-Ys
-pQ
-pQ
-HY
-Io
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+Ms
+Rv
+Rv
+Rv
+Ms
 oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -23356,28 +23263,28 @@ oi
 (110,1,1) = {"
 AS
 oi
-RS
-pQ
-pQ
-Us
-pQ
-pQ
-pQ
-Ys
-pQ
-pQ
-HY
-Ao
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+Ct
 oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -23550,28 +23457,28 @@ oi
 (111,1,1) = {"
 AS
 oi
-RS
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
-HY
-Io
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+Ct
 oi
-AS
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
+ty
+gf
+gf
+gf
+gf
 oi
 oi
 oi
@@ -23744,24 +23651,24 @@ oi
 (112,1,1) = {"
 AS
 oi
-RS
-pQ
-Ov
-pQ
-pQ
-pQ
-pQ
-pQ
-Ov
-RS
-RS
-gh
+Ct
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+uT
+Ct
 oi
 AS
-oi
-oi
-oi
-oi
 oi
 oi
 oi
@@ -23938,24 +23845,24 @@ oi
 (113,1,1) = {"
 AS
 oi
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-oi
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
+Ct
 oi
 AS
-oi
-oi
-oi
-oi
 oi
 oi
 oi
@@ -24146,10 +24053,10 @@ AS
 AS
 AS
 AS
-oi
-oi
-oi
-oi
+AS
+AS
+AS
+AS
 oi
 oi
 oi
