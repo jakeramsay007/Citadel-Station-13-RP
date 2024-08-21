@@ -525,6 +525,9 @@
 /area/crew_quarters/heads/hos)
 "bRQ" = (
 /obj/machinery/fire_alarm/east_mount,
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/monowhite,
 /area/bridge/meeting_room)
 "bSp" = (
@@ -583,9 +586,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/robotics/mechbay)
 "ccY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel,
 /area/bridge/meeting_room)
 "cdt" = (
@@ -749,11 +753,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/blue)
 "cUZ" = (
-/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
-	id = CommBrief
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "CommandBrief"
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
@@ -883,12 +887,10 @@
 /turf/simulated/floor/tiled,
 /area/rnd/rdoffice)
 "dFh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/steel,
 /area/bridge/meeting_room)
 "dFI" = (
@@ -1726,6 +1728,17 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/checkpoint)
+"gAn" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/button/windowtint{
+	id = "CommandBrief";
+	pixel_x = -6;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/steel,
+/area/bridge/meeting_room)
 "gDz" = (
 /obj/machinery/door/airlock/command{
 	name = "Intership Transport Pads";
@@ -3041,13 +3054,13 @@
 /turf/simulated/wall/prepainted/engineering,
 /area/bridge/bridge_hallway)
 "ltM" = (
-/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
-	id = CommBrief
-	},
 /obj/structure/cable,
 /obj/structure/cable{
 	icon_state = "2-8";
 	dir = 8
+	},
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "CommandBrief"
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
@@ -3186,15 +3199,15 @@
 /turf/simulated/floor/tiled/neutral,
 /area/security/brig)
 "mcG" = (
-/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
-	id = CommBrief
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
 /obj/structure/cable{
 	icon_state = "2-8";
 	dir = 1
+	},
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "CommandBrief"
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
@@ -4920,6 +4933,7 @@
 /area/bridge)
 "rSv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel,
 /area/bridge/meeting_room)
 "rSZ" = (
@@ -5359,14 +5373,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
 "txz" = (
-/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
-	id = CommBrief
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "CommandBrief"
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
@@ -5869,11 +5883,11 @@
 /turf/simulated/floor/tiled/neutral,
 /area/rnd/robotics)
 "uVw" = (
-/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
-	id = CommBrief
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
+	},
+/obj/spawner/window/low_wall/reinforced/electrochromic/full/firelocks{
+	id = "CommandBrief"
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
@@ -5939,6 +5953,10 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/security_cell_hallway)
+"vle" = (
+/obj/spawner/window/low_wall,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "vlO" = (
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/dark,
@@ -5970,6 +5988,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/robotics/mechbay)
+"vuf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/monowhite,
+/area/bridge/meeting_room)
 "vuv" = (
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -6715,6 +6742,8 @@
 	},
 /obj/map_helper/access_helper/airlock/station/command/bridge,
 /obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/monowhite,
 /area/bridge/meeting_room)
 "xXE" = (
@@ -6772,6 +6801,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/hallway)
+"ybW" = (
+/obj/machinery/air_alarm/south_mount,
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monowhite,
+/area/bridge/meeting_room)
 "ycp" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/high/east_mount,
@@ -22667,7 +22703,7 @@ pet
 bda
 pet
 pet
-pet
+vle
 pet
 qRo
 pet
@@ -23834,7 +23870,7 @@ oYj
 aqL
 tZE
 eJa
-eGd
+gAn
 wan
 nHD
 pet
@@ -24216,7 +24252,7 @@ wan
 upq
 wan
 oyx
-qAD
+ybW
 wan
 mjC
 lZW
@@ -24410,9 +24446,9 @@ wan
 qAD
 wRD
 qAD
-qAD
+vuf
 xXq
-oYj
+rSv
 ccY
 rSv
 dFh
