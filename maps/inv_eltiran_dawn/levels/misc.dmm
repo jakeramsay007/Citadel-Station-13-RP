@@ -592,6 +592,17 @@
 "oM" = (
 /turf/simulated/floor/holofloor/snow,
 /area/holodeck/holodorm/source_snow)
+"oV" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "supply_shuttle";
+	pixel_x = 8;
+	req_one_access = list(13,31);
+	tag_door = "supply_shuttle_hatch";
+	pixel_y = -25
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/shuttle/supply)
 "pb" = (
 /obj/structure/lattice,
 /obj/structure/railing{
@@ -22695,7 +22706,7 @@ uT
 bJ
 ED
 ED
-ED
+oV
 bJ
 oi
 ty

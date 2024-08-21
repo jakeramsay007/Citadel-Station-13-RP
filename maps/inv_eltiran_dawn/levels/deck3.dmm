@@ -1386,6 +1386,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "2-8";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "dwM" = (
@@ -1685,6 +1689,21 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/portnacelle)
+"eea" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "efL" = (
 /obj/structure/cable{
 	icon_state = "2-8";
@@ -3015,6 +3034,17 @@
 /obj/fiftyspawner/glass,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
+"hWY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "hXy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -5381,6 +5411,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/shield_gen)
+"oSP" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/engineering/hallway)
 "oUc" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/structure/window/reinforced{
@@ -5862,6 +5898,10 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/structure/cable{
+	icon_state = "2-8";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "qPc" = (
@@ -6244,7 +6284,6 @@
 	dir = 4;
 	use_power = 0
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "rII" = (
@@ -6996,10 +7035,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/starboardnacelle)
-"uju" = (
-/obj/structure/window/reinforced,
-/turf/simulated/open,
-/area/engineering/hallway)
 "ujV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
@@ -7659,9 +7694,6 @@
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/engineering/portnacelle)
 "wpm" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -7814,13 +7846,12 @@
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
 "wRU" = (
-/obj/structure/cable{
-	icon_state = "32-8";
-	dir = 4
-	},
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
+/obj/structure/cable{
+	icon_state = "32-8"
+	},
 /turf/simulated/open,
 /area/engineering/hallway)
 "wVf" = (
@@ -29222,7 +29253,7 @@ cbv
 cbv
 cCD
 cCD
-cbv
+hWY
 jxl
 sgF
 moI
@@ -29413,10 +29444,10 @@ sgF
 sgF
 sgF
 sgF
-xXD
-gtQ
-uju
 sgF
+oSP
+gtQ
+xXD
 eld
 sgF
 moI
@@ -29608,9 +29639,9 @@ sgF
 sgF
 sgF
 rIB
+oSP
 gtQ
-uju
-sgF
+xXD
 eld
 sgF
 moI
@@ -29805,7 +29836,7 @@ qRe
 qRe
 qRe
 sqm
-eld
+eea
 sgF
 moI
 kpq
