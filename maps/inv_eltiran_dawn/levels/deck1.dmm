@@ -2953,6 +2953,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/range)
+"Ou" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/neutral,
+/area/security/hallwayaux)
 "OC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3203,6 +3212,11 @@
 "TP" = (
 /turf/space,
 /area/space)
+"Ui" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/neutral,
+/area/security/hallwayaux)
 "Uq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -26481,7 +26495,7 @@ Li
 Li
 Li
 Li
-uC
+Ui
 UL
 UL
 sz
@@ -26675,7 +26689,7 @@ NI
 NI
 NI
 NI
-fV
+Ou
 fV
 Jg
 Sa
