@@ -2769,6 +2769,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Ld" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Li" = (
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
@@ -3673,6 +3677,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"Zq" = (
+/obj/machinery/light,
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Zx" = (
 /obj/machinery/door/airlock/glass/mining{
 	id_tag = "cargodoor";
@@ -24938,8 +24947,8 @@ re
 Li
 Li
 Li
-jI
 Li
+jI
 DV
 Li
 Li
@@ -25132,12 +25141,12 @@ Li
 Li
 Li
 Li
-jI
 Li
+jI
 DV
 Li
 Li
-Li
+Ld
 VD
 FU
 HN
@@ -26301,7 +26310,7 @@ Li
 dv
 dv
 dv
-SU
+Zq
 fl
 Li
 Li

@@ -308,6 +308,10 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/machinery/keycard_auth{
+	pixel_x = 0;
+	pixel_y = -26
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "bbQ" = (
@@ -463,10 +467,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/rdoffice)
-"bIi" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/dark,
-/area/bridge/bridge_hallway)
 "bKL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -1327,7 +1327,8 @@
 /obj/map_helper/access_helper/airlock/station/head_office/research_director,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/space/basic,
+/obj/machinery/door/firedoor/border_only,
+/turf/simulated/floor/tiled/techfloor,
 /area/rnd/hallway)
 "eSK" = (
 /obj/machinery/cryopod/robot/door/shuttle,
@@ -1399,7 +1400,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/robotics/mechbay)
 "fig" = (
-/obj/machinery/camera/network/research,
+/obj/machinery/camera/network/research{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/rnd/robotics)
 "flW" = (
@@ -1739,6 +1742,10 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/machinery/keycard_auth{
+	pixel_x = 0;
+	pixel_y = 28
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "gzk" = (
@@ -1768,7 +1775,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating/indoors,
+/turf/simulated/floor/tiled/techfloor,
 /area/teleporter/departing)
 "gEQ" = (
 /obj/machinery/computer/ship/helm{
@@ -2553,6 +2560,13 @@
 	},
 /turf/simulated/floor/tiled/monowhite,
 /area/security/security_cell_hallway)
+"jDQ" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/obj/machinery/papershredder,
+/turf/simulated/floor/tiled/dark,
+/area/bridge)
 "jFu" = (
 /obj/machinery/light{
 	dir = 4;
@@ -2580,6 +2594,10 @@
 "jNg" = (
 /turf/space,
 /area/space)
+"jQq" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "jRn" = (
 /turf/simulated/wall/r_wall/prepainted/command,
 /area/crew_quarters/heads)
@@ -2690,7 +2708,7 @@
 /obj/machinery/door/airlock/maintenance/engi{
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/bridge/bridge_hallway)
 "kyW" = (
 /obj/machinery/door/airlock/glass/security{
@@ -2749,6 +2767,9 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 9
 	},
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "kOb" = (
@@ -3153,6 +3174,7 @@
 	dir = 4;
 	old_wall = 1
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/neutral,
 /area/bridge/bridge_hallway)
 "lJi" = (
@@ -3187,10 +3209,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/robotics/mechbay)
 "lLq" = (
-/obj/machinery/door_timer/cell_1{
-	pixel_x = -32;
-	pixel_y = -28
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -3356,6 +3374,13 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/captain)
+"mxa" = (
+/obj/machinery/door_timer/cell_2{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/turf/simulated/wall/r_wall/prepainted/security,
+/area/security/brig)
 "mye" = (
 /obj/machinery/computer/rdconsole/core,
 /turf/simulated/floor/tiled,
@@ -4309,6 +4334,14 @@
 /obj/effect/floor_decal/techfloor/orange,
 /turf/simulated/floor/tiled/techfloor,
 /area/teleporter/departing)
+"pIU" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/dark,
+/area/bridge)
 "pMT" = (
 /obj/machinery/power/apc/south_mount,
 /obj/effect/floor_decal/techfloor{
@@ -4397,6 +4430,11 @@
 /obj/machinery/fire_alarm/west_mount,
 /turf/simulated/floor/tiled/techfloor,
 /area/teleporter/departing)
+"qcq" = (
+/obj/machinery/light,
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/bridge_hallway)
 "qem" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
@@ -5350,6 +5388,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 10
 	},
+/obj/machinery/photocopier,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "tld" = (
@@ -5668,6 +5707,7 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
+/obj/machinery/keycard_auth,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "udx" = (
@@ -6143,7 +6183,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating/indoors,
+/turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "vVU" = (
 /obj/structure/table/rack/shelf/steel,
@@ -6544,10 +6584,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door_timer/cell_2{
-	pixel_x = -32;
-	pixel_y = -28
-	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/security_cell_hallway)
 "xjJ" = (
@@ -6679,6 +6715,13 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
+"xDn" = (
+/obj/machinery/door_timer/cell_1{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/turf/simulated/wall/r_wall/prepainted/security,
+/area/security/warden)
 "xEa" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -20244,7 +20287,7 @@ ufc
 uoL
 dXe
 oRj
-uoL
+xDn
 uoL
 uoL
 uoL
@@ -21020,7 +21063,7 @@ bsr
 cKs
 kiD
 dLm
-bej
+mxa
 bej
 bej
 bej
@@ -22768,7 +22811,7 @@ pet
 gnK
 nSW
 pet
-pet
+jQq
 rQl
 hCk
 hCk
@@ -25290,7 +25333,7 @@ sNn
 jfN
 pet
 pet
-pet
+jQq
 rQl
 hCk
 hCk
@@ -28197,7 +28240,7 @@ hCM
 sgI
 qux
 mYJ
-aRv
+qcq
 vdl
 pYd
 upG
@@ -29361,7 +29404,7 @@ jyZ
 sQl
 ayE
 yda
-aRv
+qcq
 vdl
 vdl
 vdl
@@ -29741,7 +29784,7 @@ ntW
 ntW
 hiH
 lJa
-bIi
+pet
 pet
 nSW
 eWh
@@ -30904,7 +30947,7 @@ hCk
 hCk
 vYC
 vYC
-ezX
+pIU
 fBd
 aVZ
 sSF
@@ -30912,7 +30955,7 @@ hht
 hht
 hht
 hft
-uIn
+jDQ
 vYC
 vYC
 hCk
