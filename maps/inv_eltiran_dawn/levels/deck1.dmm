@@ -386,6 +386,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"fI" = (
+/obj/machinery/computer/supplycomp{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "fJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -1928,7 +1934,9 @@
 /area/quartermaster/office)
 "AW" = (
 /obj/machinery/telecomms/relay/preset/inv_eltiran_dawn/deck_one,
-/obj/machinery/power/apc/hyper/north_mount,
+/obj/machinery/power/apc/hyper/north_mount{
+	old_wall = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -2812,10 +2820,10 @@
 "Mx" = (
 /obj/effect/shuttle_landmark{
 	base_area = /area/space;
-	base_turf = /turf/simulated/floor/airless/ceiling;
+	base_turf = /turf/simulated/floor/holofloor/tiled/dark;
 	docking_controller = "cargo_bay";
 	landmark_tag = "supply_dock";
-	name = "NSV Triumph Cargo Dock"
+	name = "INV Eltiran Dawn Cargo Dock"
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
@@ -3286,6 +3294,9 @@
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
 /obj/structure/cable{
 	icon_state = "0-2"
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "16-0"
@@ -28030,7 +28041,7 @@ he
 TD
 Iw
 hO
-hO
+fI
 SX
 IX
 Qr

@@ -558,16 +558,15 @@
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_emptycourt)
 "of" = (
-/obj/effect/shuttle_landmark{
-	base_area = /area/space;
-	base_turf = /turf/simulated/floor/airless/ceiling;
-	docking_controller = "cargo_bay";
-	landmark_tag = "supply_dock";
-	name = "NSV Triumph Cargo Dock"
-	},
 /obj/machinery/door/airlock/external,
 /obj/map_helper/airlock/door/simple,
 /obj/map_helper/access_helper/airlock/station/external_airlock,
+/obj/effect/shuttle_landmark{
+	base_area = /area/space;
+	base_turf = /turf/simulated/floor/holofloor/tiled/dark;
+	landmark_tag = "supply_cc";
+	name = "IMPCOMM Supply Depot"
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/shuttle/supply)
 "oi" = (

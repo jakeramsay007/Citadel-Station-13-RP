@@ -1433,6 +1433,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/kitchen)
+"ok" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/turf/space/basic,
+/area/space)
 "ol" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1592,22 +1598,23 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "pA" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "2-8";
-	dir = 4
+/obj/machinery/light{
+	dir = 8
 	},
 /obj/structure/cable{
-	icon_state = "2-8";
-	dir = 1
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/hallway/secondary/civilian_hallway_mid)
@@ -1804,6 +1811,12 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
+"rq" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/wall/r_wall/prepainted/civilian,
+/area/crew_quarters/sleep/Dorm_4)
 "rr" = (
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
@@ -1820,6 +1833,12 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/hallway/secondary/civilian_hallway_mid)
+"rM" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/wall/r_wall/prepainted/civilian,
+/area/crew_quarters/sleep/Dorm_4)
 "rV" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
@@ -2144,7 +2163,7 @@
 /obj/machinery/door/airlock/maintenance/engi{
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/plating,
 /area/hallway/secondary/civilian_hallway_mid)
 "vu" = (
 /obj/machinery/door/airlock{
@@ -4346,12 +4365,11 @@
 /area/hallway/secondary/civilian_hallway_mid)
 "Ss" = (
 /obj/structure/lattice,
-/obj/structure/cable{
-	icon_state = "32-8";
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
+/obj/structure/cable{
+	icon_state = "32-8"
+	},
 /turf/simulated/open,
 /area/hallway/secondary/civilian_hallway_mid)
 "Sy" = (
@@ -23703,7 +23721,7 @@ DT
 DT
 DT
 DT
-DT
+ok
 DT
 DT
 DT
@@ -26830,8 +26848,8 @@ mr
 mr
 mr
 Ne
-VH
-VH
+rM
+rq
 VH
 VH
 VH
