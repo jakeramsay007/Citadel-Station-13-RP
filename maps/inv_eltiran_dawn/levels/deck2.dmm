@@ -56,7 +56,9 @@
 /area/crew_quarters/sleep/Dorm_2)
 "bc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "bg" = (
@@ -268,8 +270,8 @@
 /obj/item/clothing/shoes/black,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/green,
-/obj/machinery/atmospherics/component/unary/vent_pump/on{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
@@ -572,6 +574,10 @@
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/bar)
+"fO" = (
+/obj/machinery/bodyscanner,
+/turf/simulated/floor/tiled,
+/area/medical/surgery)
 "fP" = (
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/lightorange/border,
@@ -660,6 +666,9 @@
 /obj/item/clothing/shoes/black,
 /obj/item/clothing/shoes/black,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "gJ" = (
@@ -672,6 +681,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/atmospherics/component/unary/cryo_cell,
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "gL" = (
@@ -691,6 +701,9 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/hyper/south_mount,
+/obj/machinery/sleep_console{
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "gW" = (
@@ -778,18 +791,6 @@
 /area/hallway/secondary/civilian_hallway_mid)
 "hL" = (
 /turf/simulated/wall/r_wall/prepainted/medical,
-/area/medical)
-"hM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
-/obj/machinery/body_scanconsole{
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
 /area/medical)
 "hX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -970,7 +971,7 @@
 	},
 /obj/spawner/window/low_wall/reinforced/full,
 /turf/simulated/floor/plating,
-/area/medical/recovery_room)
+/area/medical/surgery)
 "km" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -1017,9 +1018,6 @@
 /area/medical/reception)
 "kV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
-/obj/machinery/bodyscanner{
 	dir = 4
 	},
 /obj/machinery/air_alarm/north_mount,
@@ -1118,7 +1116,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/recovery_room)
+/area/medical/surgery)
 "lw" = (
 /turf/simulated/floor/wood,
 /area/crew_quarters)
@@ -1188,16 +1186,15 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/bar)
 "ma" = (
-/obj/structure/table/steel_reinforced,
 /obj/item/storage/firstaid/surgery,
-/obj/item/surgical/bioregen,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled,
 /area/medical/surgery)
 "md" = (
-/obj/machinery/sleep_console{
-	dir = 4
-	},
 /obj/machinery/light,
+/obj/machinery/sleep_console{
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "mj" = (
@@ -1407,6 +1404,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+/obj/map_helper/access_helper/airlock/station/medical/department,
 /turf/simulated/floor/wood,
 /area/medical)
 "oj" = (
@@ -1901,12 +1899,7 @@
 /turf/simulated/floor/tiled,
 /area/medical)
 "sy" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "sB" = (
@@ -1940,13 +1933,6 @@
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/freezer)
 "sV" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/reagent_containers/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner";
-	pixel_x = 2;
-	pixel_y = 2
-	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -2012,6 +1998,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/map_helper/access_helper/airlock/station/medical/department,
 /turf/simulated/floor/wood,
 /area/medical)
 "tG" = (
@@ -2800,6 +2787,12 @@
 "BH" = (
 /turf/simulated/wall/r_wall/prepainted/medical,
 /area/crew_quarters/medbreak)
+"BI" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical)
 "BM" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
@@ -3096,6 +3089,7 @@
 /obj/item/stack/nanopaste{
 	amount = 30
 	},
+/obj/item/surgical/bioregen,
 /turf/simulated/floor/tiled,
 /area/medical/surgery)
 "DT" = (
@@ -3146,6 +3140,17 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
+"Ew" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	name = "Surgery Cleaner";
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/medical/surgery)
 "EK" = (
 /obj/machinery/holopad,
 /turf/simulated/floor/tiled/white,
@@ -3574,6 +3579,8 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/hyper/east_mount,
+/obj/structure/table/steel_reinforced,
+/obj/item/storage/firstaid/surgery,
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery)
 "JI" = (
@@ -3584,8 +3591,7 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "JV" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/storage/firstaid/surgery,
+/obj/machinery/body_scanconsole,
 /turf/simulated/floor/tiled,
 /area/medical/surgery)
 "JX" = (
@@ -4551,6 +4557,9 @@
 	pixel_x = 0;
 	pixel_y = -28
 	},
+/obj/machinery/bodyscanner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "UM" = (
@@ -4825,9 +4834,6 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
 "XF" = (
-/obj/machinery/sleeper{
-	dir = 4
-	},
 /obj/machinery/fire_alarm/south_mount,
 /turf/simulated/floor/tiled/white,
 /area/medical)
@@ -4933,6 +4939,9 @@
 /obj/machinery/vending/wallmed2{
 	pixel_x = 0;
 	pixel_y = -28
+	},
+/obj/machinery/body_scanconsole{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
@@ -17373,8 +17382,8 @@ DT
 DT
 DT
 tE
-tE
-tE
+ca
+lc
 tE
 DT
 DT
@@ -17567,8 +17576,8 @@ tE
 tE
 tE
 tE
-tE
-tE
+Vz
+Ew
 tE
 DT
 DT
@@ -17758,10 +17767,10 @@ Zj
 dB
 dF
 tE
-lc
+fO
 Vz
 Wa
-ca
+Vz
 ma
 tE
 DT
@@ -18533,13 +18542,13 @@ zW
 XO
 iv
 Tz
-qk
-qk
-qk
-qk
+tE
+tE
+tE
+tE
 lv
 kc
-qk
+tE
 DT
 DT
 DT
@@ -19306,7 +19315,7 @@ el
 hp
 Rm
 Rm
-hM
+KF
 nY
 UK
 qk
@@ -19502,7 +19511,7 @@ ti
 Rm
 kV
 nY
-lt
+BI
 md
 hL
 SX
@@ -19890,7 +19899,7 @@ CY
 CT
 JX
 nY
-lt
+BI
 gO
 hL
 hL

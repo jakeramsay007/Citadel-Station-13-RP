@@ -875,7 +875,6 @@
 /obj/machinery/door/airlock/maintenance/engi{
 	req_one_access = null
 	},
-/obj/map_helper/access_helper/airlock/station/maintenance,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -885,6 +884,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/map_helper/access_helper/airlock/station/engineering/telecomms,
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/computer)
 "cac" = (
@@ -1085,6 +1085,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
+"cxF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/closet/walllocker/emerglocker/north,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "cAA" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/window/phoronreinforced,
@@ -1718,6 +1734,16 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/portnacelle)
+"ebq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/northleft{
+	req_access = null;
+	req_one_access = list(10,24,11);
+	name = "Engineering Reception WIndow"
+	},
+/obj/machinery/door/window/southleft,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "eea" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1803,6 +1829,16 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/tcommsat/chamber)
+"erI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "ety" = (
 /obj/machinery/telecomms/broadcaster/preset_right/triumph,
 /turf/simulated/floor/tiled/dark{
@@ -1902,7 +1938,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/glass/engineering{
-	name = "Engineering";
+	name = "Engineering Portables Storage";
 	req_one_access = null
 	},
 /obj/map_helper/access_helper/airlock/station/engineering/department,
@@ -2236,6 +2272,16 @@
 /obj/machinery/power/shield_generator,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/storage)
+"fIz" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/northright{
+	req_access = null;
+	req_one_access = list(10,24,11);
+	name = "Engineering Reception Window"
+	},
+/obj/machinery/door/window/southright,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "fIK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2302,6 +2348,12 @@
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled/dark,
 /area/tcommsat/computer)
+"fQf" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "fRq" = (
 /obj/structure/cable{
 	icon_state = "2-8";
@@ -2866,6 +2918,10 @@
 /obj/machinery/camera/network/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/storage)
+"hro" = (
+/obj/structure/sign/department/ai,
+/turf/simulated/wall/r_wall/prepainted/engineering,
+/area/tcommsat/computer)
 "hwg" = (
 /obj/machinery/pipedispenser,
 /obj/structure/window/reinforced{
@@ -3630,13 +3686,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "jsT" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/air_alarm{
-	dir = 4;
-	pixel_x = -23
-	},
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
@@ -4008,10 +4057,10 @@
 	name = "Telecomms Control Room";
 	req_one_access = null
 	},
-/obj/map_helper/access_helper/airlock/station/engineering/department,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/map_helper/access_helper/airlock/station/engineering/telecomms,
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
@@ -4262,6 +4311,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"lql" = (
+/obj/structure/bed/chair/bay/chair/padded,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "lta" = (
 /turf/simulated/wall/r_wall/prepainted/engineering,
 /area/crew_quarters/heads/chief)
@@ -4668,6 +4721,22 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"mBp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/closet/walllocker_double/hydrant/north,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "mDp" = (
 /turf/space,
 /area/space)
@@ -5394,6 +5463,17 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
+"oND" = (
+/obj/machinery/door/airlock/glass/engineering{
+	name = "Engineering Equipment";
+	req_one_access = null
+	},
+/obj/map_helper/access_helper/airlock/station/engineering/equipment,
+/obj/machinery/door/firedoor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/storage)
 "oNP" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5738,6 +5818,12 @@
 "pRW" = (
 /turf/space/basic,
 /area/space)
+"pTX" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "pUG" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
@@ -5748,6 +5834,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/portnacelle)
+"pWQ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "pXy" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5923,6 +6020,9 @@
 "qEk" = (
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/storage)
@@ -6811,6 +6911,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/rust,
 /obj/machinery/shield_capacitor,
+/obj/machinery/air_alarm{
+	dir = 4;
+	pixel_x = -23
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/storage)
 "sTi" = (
@@ -7810,6 +7914,12 @@
 	},
 /turf/simulated/floor/airless/ceiling,
 /area/engineering/starboardnacelle)
+"wkV" = (
+/obj/machinery/computer/atmos_alert{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "woC" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -25124,7 +25234,7 @@ sgF
 sgF
 sgF
 sgF
-sgF
+fQf
 eld
 sgF
 xXD
@@ -25318,7 +25428,7 @@ vNZ
 vNZ
 vNZ
 bFw
-uDg
+vNZ
 rII
 vNZ
 ibj
@@ -25508,16 +25618,16 @@ dHM
 dHM
 dHM
 uJI
+fsC
 uJI
-uJI
-uJI
+fsC
 bYT
-uJI
+hro
 uJI
 uJI
 qEp
 qEp
-qEp
+oND
 qEp
 ezI
 rbM
@@ -26096,7 +26206,7 @@ uJI
 agS
 uqK
 fPm
-uJI
+hro
 hnB
 bLL
 lyk
@@ -29378,7 +29488,7 @@ pRW
 pRW
 moI
 tKR
-cbv
+erI
 cLH
 cbv
 cbv
@@ -29572,7 +29682,7 @@ pRW
 pRW
 moI
 izO
-sgF
+pTX
 moI
 vDZ
 sgF
@@ -29765,8 +29875,8 @@ pRW
 pRW
 pRW
 moI
-bsS
-sgF
+cxF
+wkV
 moI
 sgF
 sgF
@@ -29959,9 +30069,9 @@ pRW
 pRW
 pRW
 moI
-bsS
-sgF
-uws
+mBp
+lql
+ebq
 sgF
 sgF
 sqm
@@ -30153,9 +30263,9 @@ pRW
 pRW
 pRW
 moI
-bsS
-sgF
+cxF
 uws
+pWQ
 sgF
 sgF
 qRe
@@ -30348,8 +30458,8 @@ pRW
 pRW
 moI
 izO
-sgF
-uws
+lql
+fIz
 sgF
 qEw
 qRe

@@ -2098,6 +2098,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/map_helper/access_helper/airlock/station/science/robotics,
 /turf/simulated/floor/tiled/neutral,
 /area/rnd/robotics/mechbay)
 "hJk" = (
@@ -5972,6 +5973,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/map_helper/access_helper/airlock/station/science/research_lab,
 /turf/simulated/floor/tiled/neutral,
 /area/rnd/robotics)
 "uVw" = (
