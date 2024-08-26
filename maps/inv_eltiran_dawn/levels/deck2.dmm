@@ -3690,6 +3690,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/kitchen)
+"Le" = (
+/obj/machinery/holosign/bar{
+	id = "barsign1";
+	pixel_y = 24
+	},
+/turf/space,
+/area/space)
 "Lh" = (
 /obj/machinery/light{
 	dir = 8;
@@ -5007,6 +5014,13 @@
 /obj/structure/table/marble,
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"Zt" = (
+/obj/machinery/holosign/bar{
+	id = "barsign1";
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "Zy" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
 	anchored = 1
@@ -6740,7 +6754,7 @@ cW
 cW
 cW
 cW
-cW
+Le
 cW
 cW
 cW
@@ -29211,7 +29225,7 @@ dx
 FR
 Wu
 bD
-IB
+Zt
 dp
 qx
 NT

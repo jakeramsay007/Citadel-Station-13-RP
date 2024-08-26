@@ -2438,7 +2438,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "fTE" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
@@ -6462,9 +6462,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/hallway)
-"qNB" = (
-/turf/simulated/floor/tiled/neutral,
-/area/space)
 "qPc" = (
 /obj/machinery/atmospherics/component/binary/pump,
 /turf/simulated/floor,
@@ -8108,8 +8105,8 @@
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
 "vrN" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 8
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/engine_room)
@@ -8742,11 +8739,11 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "xnz" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/red{
-	dir = 8
-	},
 /obj/machinery/camera/network/engine{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/red{
+	dir = 8
 	},
 /turf/simulated/floor/reinforced,
 /area/engineering/engine_room)
@@ -31415,7 +31412,7 @@ moI
 moI
 moI
 mjf
-qNB
+sgF
 sgF
 sqm
 qRe
