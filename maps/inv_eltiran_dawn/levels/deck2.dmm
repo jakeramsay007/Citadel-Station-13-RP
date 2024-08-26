@@ -607,6 +607,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/medical/reception)
+"fY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/status_display{
+	pixel_x = -31
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters)
 "gm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -861,6 +872,7 @@
 	icon_state = "2-8";
 	dir = 1
 	},
+/obj/structure/closet/crate/biohazard,
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "iC" = (
@@ -1624,6 +1636,7 @@
 	dir = 4;
 	use_power = 0
 	},
+/obj/structure/closet/secure_closet/medical3,
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "pP" = (
@@ -2010,12 +2023,12 @@
 	},
 /area/holodeck/alphadeck)
 "tL" = (
-/obj/structure/closet/secure_closet/personal,
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
+/obj/structure/closet/secure_closet/medical3,
 /turf/simulated/floor/wood,
 /area/medical)
 "tP" = (
@@ -2723,6 +2736,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "Bh" = (
@@ -2764,6 +2780,14 @@
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 7;
+	pixel_y = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "Bw" = (
@@ -2784,6 +2808,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters)
+"BF" = (
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "BH" = (
 /turf/simulated/wall/r_wall/prepainted/medical,
 /area/crew_quarters/medbreak)
@@ -2990,6 +3020,9 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "Dv" = (
@@ -3002,6 +3035,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/landmark/spawnpoint/job/head_nurse,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "DA" = (
@@ -3108,6 +3142,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
+"DY" = (
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/turf/simulated/floor/reinforced{
+	name = "Holodeck Projector Floor"
+	},
+/area/holodeck/alphadeck)
 "Em" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
@@ -3227,6 +3269,13 @@
 "Fe" = (
 /turf/simulated/floor/tiled,
 /area/medical/reception)
+"Fq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/landmark/spawnpoint/job/field_medic,
+/turf/simulated/floor/tiled/white,
+/area/medical)
 "Fu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -4194,6 +4243,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/bar)
 "Qy" = (
@@ -4488,6 +4540,9 @@
 /area/holodeck_control)
 "Tz" = (
 /obj/machinery/vending/medical,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "TL" = (
@@ -4704,6 +4759,12 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/medical/surgery)
+"Wb" = (
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/bar)
 "Wm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -18942,7 +19003,7 @@ Zf
 Fe
 DA
 Gg
-JX
+Fq
 cL
 oo
 Vx
@@ -24577,7 +24638,7 @@ ij
 ij
 ij
 ij
-ij
+DY
 Gc
 DT
 DT
@@ -25927,7 +25988,7 @@ OA
 zv
 UP
 CD
-tT
+fY
 zL
 UP
 CD
@@ -28449,7 +28510,7 @@ Zy
 sM
 lh
 Sa
-IB
+BF
 ro
 qx
 Ml
@@ -29613,7 +29674,7 @@ sJ
 oj
 Ce
 bD
-Qp
+Wb
 YE
 Qn
 hF

@@ -53,6 +53,19 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/old_tile/red,
 /area/security/range)
+"aD" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/suit_cycler/exploration,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "aH" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
 /turf/simulated/floor,
@@ -60,6 +73,9 @@
 "aU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "bb" = (
@@ -129,6 +145,11 @@
 /obj/structure/bed/chair/bay/chair/padded/black{
 	dir = 8
 	},
+/obj/machinery/status_display/supply_display{
+	mode = 99;
+	pixel_y = 29;
+	pixel_x = 0
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "bZ" = (
@@ -144,6 +165,10 @@
 /obj/structure/closet/l3closet/security,
 /turf/simulated/floor/tiled/dark,
 /area/security/security_lockerroom)
+"ca" = (
+/obj/landmark/spawnpoint/job/explorer,
+/turf/simulated/floor/tiled,
+/area/shuttle/excursion/general)
 "ce" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -224,6 +249,20 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
+"dw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/light,
+/obj/machinery/suit_storage_unit/exploration,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "dB" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/security/hanger)
@@ -273,6 +312,19 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"ei" = (
+/obj/structure/closet/secure_closet/sar{
+	req_access = list(5);
+	req_one_access = list(5)
+	},
+/obj/item/clothing/accessory/permit/gun/planetside,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/storage/backpack/parachute,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/pillbottles,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "ek" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -293,6 +345,10 @@
 /obj/item/stamp/cargo,
 /obj/item/stamp/denied{
 	pixel_x = 7
+	},
+/obj/machinery/requests_console/preset/cargo{
+	pixel_x = 0;
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
@@ -463,6 +519,7 @@
 /obj/structure/cable/cyan{
 	icon_state = "1-2"
 	},
+/obj/landmark/spawnpoint/job/pilot,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "gD" = (
@@ -484,6 +541,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/quartermaster/hallway)
+"gN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "gP" = (
 /obj/machinery/computer/ship/sensors{
 	dir = 4
@@ -602,6 +671,15 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"hJ" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/on,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -24
+	},
+/obj/machinery/suit_cycler/medical,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "hO" = (
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
@@ -642,6 +720,18 @@
 	},
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/shuttle/excursion/cargo)
+"iz" = (
+/obj/structure/closet/secure_closet/pathfinder,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/suit_cooling_unit,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/binoculars,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "iH" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -696,6 +786,25 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
+"jL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/table/rack/shelf,
+/obj/item/storage/backpack/parachute,
+/obj/item/suit_cooling_unit,
+/obj/item/tank/oxygen,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "kb" = (
 /obj/machinery/door/airlock/external{
 	name = "Cargo Lift"
@@ -718,6 +827,7 @@
 	icon_state = "4-8"
 	},
 /obj/item/radio/beacon/anchored,
+/obj/landmark/spawnpoint/job/explorer,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "ki" = (
@@ -730,12 +840,37 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/map_helper/access_helper/airlock/station/security/department,
 /obj/machinery/door/airlock/security{
 	name = "Marine Shuttle Hangar"
 	},
+/obj/map_helper/access_helper/airlock/station/security/department{
+	req_one_access = list(2,1,63,4,43,67,19)
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"kl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/exploration,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
+"ko" = (
+/obj/machinery/status_display/supply_display{
+	mode = 99;
+	pixel_y = -32
+	},
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "kD" = (
 /obj/machinery/air_alarm{
 	dir = 4;
@@ -889,6 +1024,12 @@
 "mc" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/shuttle/excursion/cargo)
+"md" = (
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on,
+/obj/machinery/suit_storage_unit/search_and_rescue,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "mn" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/shuttle/excursion/general)
@@ -932,6 +1073,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/excursion/general)
+"nr" = (
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "ns" = (
 /obj/machinery/light{
 	dir = 8;
@@ -954,10 +1101,17 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "nG" = (
 /obj/machinery/air_alarm/north_mount,
+/obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "nP" = (
@@ -1004,9 +1158,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"om" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "oJ" = (
 /turf/simulated/wall/r_wall/prepainted/security,
 /area/security/range)
+"oL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/pathfinder,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "oO" = (
 /obj/structure/table/reinforced,
 /obj/item/hand_labeler,
@@ -1063,7 +1237,6 @@
 	req_access = list();
 	req_one_access = null
 	},
-/obj/map_helper/access_helper/airlock/station/security/equipment,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -1072,6 +1245,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
+	},
+/obj/map_helper/access_helper/airlock/station/security/department{
+	req_one_access = list(2,1,63,4,43,67,19)
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/security_lockerroom)
@@ -1145,11 +1321,23 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"qV" = (
+/obj/machinery/status_display/supply_display{
+	mode = 99;
+	pixel_y = 30;
+	pixel_x = 0
+	},
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled,
+/area/quartermaster/office)
 "qW" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
 	},
 /obj/machinery/holopad/ship,
+/obj/landmark/spawnpoint/job/explorer,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "ra" = (
@@ -1175,6 +1363,10 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/security/range)
+"rw" = (
+/obj/machinery/mech_recharger,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "rD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1304,6 +1496,23 @@
 	},
 /turf/simulated/floor,
 /area/quartermaster/office)
+"sW" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/explorer,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/tank/jetpack/oxygen,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "sY" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
@@ -1423,6 +1632,10 @@
 	dir = 8
 	},
 /obj/machinery/light,
+/obj/structure/table/rack/shelf,
+/obj/item/storage/backpack/parachute,
+/obj/item/suit_cooling_unit,
+/obj/item/tank/oxygen,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "uk" = (
@@ -1543,7 +1756,7 @@
 /obj/machinery/power/terminal{
 	dir = 4
 	},
-/obj/structure/cable/green,
+/obj/structure/cable,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "vO" = (
@@ -1557,6 +1770,10 @@
 	dir = 8
 	},
 /obj/machinery/air_alarm/south_mount,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/suit_cycler/exploration,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "vR" = (
@@ -1633,6 +1850,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"xm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "xn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -1654,6 +1883,13 @@
 /obj/structure/anomaly_container,
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"xI" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/mech_recharger,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "xL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1665,6 +1901,10 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"xN" = (
+/obj/structure/closet/crate/freezer/rations,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "xP" = (
 /obj/structure/curtain/open/shower/security,
 /obj/machinery/shower{
@@ -1710,6 +1950,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
+	},
+/obj/machinery/requests_console/preset/cargo{
+	pixel_x = 0;
+	pixel_y = 28
 	},
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
@@ -1763,11 +2007,11 @@
 	name = "Shuttle Lockdown";
 	opacity = 0
 	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/spawner/window/low_wall/borosillicate/full,
 /obj/effect/paint_stripe/violet,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/shuttle/floor/voidcraft,
 /area/shuttle/excursion/general)
 "zK" = (
@@ -1877,6 +2121,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/security_lockerroom)
+"zX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/light,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "zY" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1891,7 +2147,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/map_helper/access_helper/airlock/station/security/department,
+/obj/map_helper/access_helper/airlock/station/security/department{
+	req_one_access = list(2,1,63,4,43,67,19)
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/exploration/excursion_dock)
 "Aa" = (
@@ -1969,6 +2227,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"Bf" = (
+/obj/structure/table/standard,
+/obj/item/bodybag/cryobag,
+/obj/item/roller,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "BG" = (
 /obj/machinery/atmospherics/pipe/tank/phoron{
 	dir = 8
@@ -1990,6 +2254,19 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
+"BU" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Ca" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
@@ -2036,6 +2313,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"CX" = (
+/obj/landmark/spawnpoint/job/pathfinder,
+/turf/simulated/floor/tiled,
+/area/shuttle/excursion/general)
 "Dm" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/shuttle/excursion/cargo)
@@ -2118,12 +2399,26 @@
 "DF" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/shuttle/excursion/general)
+"DJ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "DK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 6
 	},
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/shuttle/excursion/general)
+"DP" = (
+/obj/structure/closet/secure_closet/explorer,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "DV" = (
 /obj/structure/stairs/spawner/south,
 /obj/structure/window/reinforced,
@@ -2252,6 +2547,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"Fe" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/crate/freezer/rations,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Fm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2288,6 +2590,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+/obj/structure/closet/crate/secure/weapon,
 /turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "FE" = (
@@ -2370,6 +2673,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -24
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
@@ -2485,6 +2794,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "Hd" = (
@@ -2496,9 +2808,17 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Hj" = (
+/obj/structure/closet/secure_closet/guncabinet/excursion,
+/turf/simulated/floor/tiled/neutral,
+/area/security/breakroom)
 "Hk" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
 /turf/simulated/floor,
+/area/exploration/excursion_dock)
+"Hn" = (
+/obj/machinery/suit_cycler/pilot,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "Ho" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2566,6 +2886,8 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/suit_storage_unit/search_and_rescue,
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "HN" = (
@@ -2613,6 +2935,9 @@
 /obj/machinery/power/apc/south_mount,
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
@@ -2703,6 +3028,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"JG" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "JI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2750,8 +3079,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"Kp" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/gun/energy/hardlight_bow,
+/obj/machinery/door/window/northleft,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Ku" = (
 /obj/structure/bed/chair,
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "Kx" = (
@@ -2778,6 +3125,9 @@
 /obj/machinery/light{
 	dir = 8;
 	light_range = 12
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
@@ -2807,6 +3157,13 @@
 "Li" = (
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
+"Lw" = (
+/obj/structure/bed/chair/shuttle{
+	dir = 8
+	},
+/obj/landmark/spawnpoint/job/pilot,
+/turf/simulated/floor/tiled,
+/area/shuttle/excursion/general)
 "LQ" = (
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/door/blast/regular{
@@ -2838,6 +3195,13 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
+"Mr" = (
+/obj/structure/cable/cyan{
+	icon_state = "4-8"
+	},
+/obj/landmark/spawnpoint/job/explorer,
+/turf/simulated/floor/tiled,
+/area/shuttle/excursion/general)
 "Mv" = (
 /obj/machinery/vending/security,
 /obj/effect/floor_decal/corner/red{
@@ -2963,7 +3327,6 @@
 	name = "Firing Range";
 	req_one_access = null
 	},
-/obj/map_helper/access_helper/airlock/station/security/department,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -2972,6 +3335,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
+	},
+/obj/map_helper/access_helper/airlock/station/security/department{
+	req_one_access = list(2,1,63,4,43,67,19)
 	},
 /turf/simulated/floor/tiled,
 /area/security/range)
@@ -3012,6 +3378,23 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"Pp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/fire{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Pu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -3028,6 +3411,18 @@
 "PD" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/quartermaster/office)
+"PK" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/pilot,
+/obj/effect/floor_decal/industrial/outline,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/suit_cooling_unit,
+/obj/item/storage/backpack/parachute,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Qb" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
@@ -3097,6 +3492,22 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"Rt" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/table/rack/shelf,
+/obj/item/storage/backpack/parachute,
+/obj/item/suit_cooling_unit,
+/obj/item/tank/oxygen,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "RF" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
@@ -3112,12 +3523,14 @@
 	name = "Locker Room";
 	req_one_access = null
 	},
-/obj/map_helper/access_helper/airlock/station/security/equipment,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/map_helper/access_helper/airlock/station/security/department{
+	req_one_access = list(2,1,63,4,43,67,19)
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
 "RR" = (
@@ -3279,6 +3692,15 @@
 /turf/simulated/wall/r_wall/prepainted/cargo,
 /area/quartermaster/warehouse)
 "UX" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/pilot,
+/obj/effect/floor_decal/industrial/outline,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/suit_cooling_unit,
+/obj/item/storage/backpack/parachute,
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	frequency = 1380;
 	id_tag = "expshuttle_dock";
@@ -3293,6 +3715,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Ve" = (
+/obj/machinery/suit_storage_unit/exploration,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Vh" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -3515,6 +3941,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/security_lockerroom)
 "We" = (
+/obj/machinery/status_display/supply_display{
+	mode = 99;
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
 "Wi" = (
@@ -3525,6 +3955,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"Wz" = (
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "WB" = (
 /obj/machinery/computer/security/mining{
 	dir = 4
@@ -3689,6 +4125,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/west_mount,
+/obj/structure/closet/crate/secure/weapon,
 /turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "Zi" = (
@@ -19164,7 +19601,7 @@ ve
 Ft
 Ft
 Mk
-hy
+Hj
 wS
 he
 he
@@ -19539,9 +19976,9 @@ he
 he
 he
 qf
-si
+hJ
 FW
-aU
+Pp
 KV
 aU
 aU
@@ -19552,7 +19989,7 @@ aU
 aU
 KV
 nB
-fU
+DJ
 Iu
 qf
 he
@@ -19733,9 +20170,9 @@ he
 he
 he
 qf
-XN
+md
 Hc
-Ca
+Bf
 Ca
 Ca
 mn
@@ -19928,8 +20365,8 @@ he
 he
 qf
 HJ
-Pu
-Ca
+gN
+JG
 Ca
 Ca
 mn
@@ -20121,21 +20558,21 @@ he
 he
 he
 qf
-Ca
-Pu
+ei
+gN
 Ca
 Ca
 Ca
 up
 FN
-Sk
+Lw
 iP
 up
 Ca
 Ca
 Ca
 Ca
-Jk
+sW
 qf
 he
 he
@@ -20315,8 +20752,8 @@ he
 he
 he
 qf
-Ca
-Pu
+ei
+gN
 Ca
 Ca
 Ca
@@ -20329,7 +20766,7 @@ Ca
 Ca
 Ca
 Ca
-Jk
+sW
 qf
 he
 he
@@ -20509,8 +20946,8 @@ he
 he
 he
 qf
-Ca
-Pu
+iz
+gN
 Ca
 Ca
 Ju
@@ -20523,7 +20960,7 @@ Ju
 Ca
 Ca
 Ca
-Jk
+sW
 qf
 he
 he
@@ -20703,8 +21140,8 @@ he
 he
 he
 qf
-Ca
-Pu
+DP
+gN
 Ca
 Ca
 et
@@ -20717,7 +21154,7 @@ qN
 Ca
 Ca
 Ca
-Jk
+sW
 qf
 he
 he
@@ -20897,21 +21334,21 @@ he
 he
 he
 qf
-Ca
-Pu
+DP
+gN
 Ca
 Ca
 DF
 DF
 NJ
-iP
+CX
 Ds
 DF
 DF
 Ca
 Ca
 Ca
-Jk
+sW
 qf
 he
 he
@@ -21091,15 +21528,15 @@ he
 he
 he
 qf
-HJ
-Pu
+oL
+gN
 Ca
 mS
 XD
 Sk
+ca
 iP
-iP
-qb
+Mr
 Sk
 XD
 Vh
@@ -21285,13 +21722,13 @@ he
 he
 he
 qf
-Ca
-Pu
+Hn
+gN
 Ca
 Gz
 XD
 Sk
-iP
+ca
 iP
 qW
 Sk
@@ -21299,7 +21736,7 @@ XD
 ds
 Ca
 Ca
-Jk
+Rt
 qf
 he
 he
@@ -21479,13 +21916,13 @@ he
 he
 he
 qf
-Ca
-Pu
+Ve
+gN
 Ca
 jy
 XD
 Sk
-iP
+ca
 iP
 kf
 Sk
@@ -21493,7 +21930,7 @@ XD
 ww
 Ca
 Ca
-Jk
+Rt
 qf
 he
 he
@@ -21673,8 +22110,8 @@ he
 he
 he
 qf
-Ca
-Pu
+Ve
+gN
 Ca
 DF
 mn
@@ -21687,7 +22124,7 @@ mn
 DF
 Ca
 Ca
-Jk
+jL
 qf
 he
 he
@@ -21867,9 +22304,9 @@ he
 he
 he
 qf
-Ca
-Pu
-Ca
+Ve
+xm
+fU
 zI
 vL
 JI
@@ -21881,7 +22318,7 @@ Hd
 XD
 Ca
 Ca
-Jk
+Kp
 qf
 he
 he
@@ -22255,7 +22692,7 @@ he
 he
 he
 qf
-Ca
+PK
 Pu
 Ca
 mn
@@ -22269,7 +22706,7 @@ fg
 mn
 Ca
 Ca
-Jk
+aD
 qf
 he
 he
@@ -22463,7 +22900,7 @@ tX
 mn
 Ca
 Ca
-Jk
+kl
 qf
 he
 he
@@ -22643,7 +23080,7 @@ he
 he
 he
 qf
-Ca
+PK
 Pu
 Ca
 mn
@@ -22657,7 +23094,7 @@ rQ
 mn
 Ca
 Ca
-Jk
+kl
 qf
 he
 he
@@ -22837,7 +23274,7 @@ he
 he
 he
 qf
-HJ
+Fe
 Pu
 Ca
 mn
@@ -22851,7 +23288,7 @@ mn
 mn
 Ca
 Ca
-tZ
+dw
 qf
 he
 he
@@ -23031,7 +23468,7 @@ he
 he
 he
 qf
-Ca
+xN
 Pu
 Ca
 mc
@@ -23045,7 +23482,7 @@ it
 mc
 Ca
 Ca
-Jk
+kl
 qf
 he
 he
@@ -23419,7 +23856,7 @@ he
 he
 he
 qf
-Ca
+rw
 Pu
 Ca
 mc
@@ -23433,7 +23870,7 @@ Co
 mc
 Ca
 Ca
-Jk
+BU
 qf
 he
 he
@@ -23613,7 +24050,7 @@ he
 he
 he
 qf
-Ca
+rw
 Pu
 Ca
 mc
@@ -23627,7 +24064,7 @@ TL
 mc
 Ca
 Ca
-Jk
+om
 qf
 he
 he
@@ -23807,7 +24244,7 @@ he
 he
 he
 qf
-Ca
+rw
 Pu
 Ca
 mc
@@ -23821,7 +24258,7 @@ OU
 mc
 Ca
 Ca
-Jk
+om
 qf
 he
 he
@@ -24001,7 +24438,7 @@ he
 he
 he
 qf
-HJ
+xI
 Pu
 Ca
 hx
@@ -24015,7 +24452,7 @@ KY
 ht
 Ca
 ab
-hC
+zX
 qf
 he
 he
@@ -25747,7 +26184,7 @@ he
 he
 he
 eR
-Li
+Wz
 Li
 Li
 Li
@@ -26340,7 +26777,7 @@ dv
 dv
 Zq
 fl
-Li
+nr
 Li
 sz
 Sh
@@ -27494,7 +27931,7 @@ he
 he
 he
 TD
-hO
+qV
 hO
 hO
 SX
@@ -28475,7 +28912,7 @@ Qr
 IX
 HD
 hO
-hO
+ko
 TD
 he
 he

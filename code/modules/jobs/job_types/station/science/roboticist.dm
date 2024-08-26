@@ -1,6 +1,6 @@
 /datum/role/job/station/roboticist
 	id = JOB_ID_ROBOTICIST
-	title = "Roboticist"
+	title = "INI Roboticist"
 	flag = ROBOTICIST
 	departments = list(DEPARTMENT_RESEARCH)
 	department_flag = MEDSCI
@@ -23,28 +23,36 @@
 
 	outfit_type = /datum/outfit/job/station/roboticist
 	desc = "A Roboticist maintains and repairs the station's synthetics, including crew with prosthetic limbs. \
-						They can also assist the station by producing simple robots and even pilotable exosuits."
+						They can also assist the station by producing simple robots and even pilotable exosuits. \
+						As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+						They typically hold the rank of Midshipman."
 	alt_titles = list(
-		"Biomechanical Engineer" = /datum/prototype/struct/alt_title/biomech,
-		"Mechatronic Engineer" = /datum/prototype/struct/alt_title/mech_tech,
-		"Junior Roboticist" = /datum/prototype/struct/alt_title/junior_roboticist,
+		"INI Biomechanical Engineer" = /datum/prototype/struct/alt_title/biomech,
+		"INI Mechatronic Engineer" = /datum/prototype/struct/alt_title/mech_tech,
+		"INI Junior Roboticist" = /datum/prototype/struct/alt_title/junior_roboticist,
 		)
 
 
 /datum/prototype/struct/alt_title/junior_roboticist
-	title = "Junior Roboticist"
+	title = "INI Junior Roboticist"
 	title_blurb = "A Junior Roboticist is someone still learning the field of robotics and  \
-					should seek guidance from other roboticists and the research seniors and lead."
+					should seek guidance from other roboticists and the research seniors and lead. \
+					As a member of the Imperial Naval Intelligence, they report only to their Instructors, the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Chief Petty Officer."
 
 /datum/prototype/struct/alt_title/biomech
-	title = "Biomechanical Engineer"
+	title = "INI Biomechanical Engineer"
 	title_blurb = "A Biomechanical Engineer primarily works on prosthetics, and the organic parts attached to them. They may have some \
-					knowledge of the relatively simple surgical procedures used in making cyborgs and attaching prosthesis."
+					knowledge of the relatively simple surgical procedures used in making cyborgs and attaching prosthesis. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 
 /datum/prototype/struct/alt_title/mech_tech
-	title = "Mechatronic Engineer"
+	title = "INI Mechatronic Engineer"
 	title_blurb = "A Mechatronic Engineer focuses on the construction and maintenance of Exosuits, and should be well versed in their use. \
-					They may also be called upon to work on synthetics and prosthetics, if needed."
+					They may also be called upon to work on synthetics and prosthetics, if needed. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 
 /datum/outfit/job/station/roboticist
 	name = OUTFIT_JOB_NAME("Roboticist")

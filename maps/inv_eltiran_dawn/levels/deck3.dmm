@@ -575,6 +575,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/storage)
+"bpk" = (
+/obj/structure/table/gamblingtable,
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/engineering/break_room)
 "bqe" = (
 /obj/machinery/atmospherics/component/unary/outlet_injector{
 	dir = 4;
@@ -587,13 +594,6 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/engineering/atmos/gas_storage)
 "brw" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 4;
-	frequency = 1380;
-	id_tag = "deck4_dockarm1";
-	pixel_x = -26;
-	pixel_y = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
@@ -638,6 +638,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
+	},
+/obj/machinery/status_display{
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
@@ -865,6 +868,9 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/workshop)
 "bTa" = (
@@ -2342,6 +2348,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "fIZ" = (
@@ -4267,6 +4276,9 @@
 /area/engineering/atmos/workshop)
 "kpE" = (
 /obj/machinery/computer/atmos_alert,
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/carpet/blucarpet,
 /area/crew_quarters/heads/chief)
 "kuF" = (
@@ -4540,6 +4552,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/lower/lobby{
 	name = "\improper Enginering Lobby"
@@ -4796,6 +4811,20 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
+"miw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/status_display{
+	pixel_x = -31
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "miy" = (
 /obj/machinery/button/remote/blast_door{
 	id = "portnacelle_blastdoor";
@@ -4940,6 +4969,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos/workshop)
 "mAn" = (
@@ -5064,6 +5096,9 @@
 "mHV" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 1
+	},
+/obj/machinery/status_display{
+	pixel_y = 30
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
@@ -5912,6 +5947,9 @@
 /obj/structure/dispenser{
 	phorontanks = 0
 	},
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
 "oXG" = (
@@ -6229,6 +6267,9 @@
 /obj/machinery/power/apc/west_mount,
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/machinery/status_display{
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
@@ -7050,6 +7091,14 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/engineering/atmos/gas_storage)
+"rVf" = (
+/obj/machinery/shieldwallgen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/storage)
 "rVm" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -7910,6 +7959,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos/workshop)
+"uHb" = (
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_airlock)
 "uIP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8061,6 +8116,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/requests_console/preset/atmos{
+	pixel_x = 0;
+	pixel_y = 27
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
@@ -25218,7 +25277,7 @@ tYr
 wEl
 vrg
 egu
-rbx
+uHb
 tYr
 ohC
 bjg
@@ -26942,7 +27001,7 @@ mlj
 xQV
 nUG
 lkr
-lkr
+bpk
 vxd
 pEW
 owt
@@ -27353,7 +27412,7 @@ nGk
 svB
 svB
 uJI
-lqf
+rVf
 iYh
 aRd
 qEp
@@ -30060,7 +30119,7 @@ cbv
 dBQ
 cbv
 cbv
-cCD
+miw
 cCD
 hWY
 jxl

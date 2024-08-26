@@ -1,5 +1,5 @@
 /datum/role/job/station/senior_engineer
-	title = "Senior Engineer"
+	title = "IEC Senior Engineer"
 	id = JOB_ID_SENIOR_ENGINEER
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
 	flag = SENIOR_ENGINEER
@@ -7,7 +7,7 @@
 	department_flag = ENGSEC
 	total_positions = 1
 	spawn_positions = 5
-	supervisors = "the Chief Engineer"
+	supervisors = "the Chief Engineer and all superior officers."
 	selection_color = "#5B4D20"
 	idtype = /obj/item/card/id/engineering/engineer
 	pto_type = PTO_ENGINEERING
@@ -30,18 +30,19 @@
 
 	outfit_type = /datum/outfit/job/station/station_engineer/senior
 	desc = "A Senior Engineer fulfills similar duties to other engineers, but usually occupies spare time with with training of other, newer Engineers \
-			and giving advice in tricky engineering situations. You are not in command of the Engineering department, but should assist the CE in accordance with Standard Operating Procedures."
+			and giving advice in tricky engineering situations. You are not in command of the Engineering department, but should assist the CE in accordance with Standard Operating Procedures. \
+			Senior Engineers typically hold the rank of Staff Sergeant or Warrant Officer 2."
 
 	alt_titles = list(
-		"Engineering Training Specialist" = /datum/prototype/struct/alt_title/engi_trainer,
+		"IEC Engineering Training Specialist" = /datum/prototype/struct/alt_title/engi_trainer,
 		)
 
 /datum/prototype/struct/alt_title/engi_trainer
-	title = "Engineering Training Specialist"
+	title = "IEC Engineering Training Specialist"
 	title_blurb = "An Engineering Training Specialist is an experienced engineer who dedicates their time and expertise to the training of those who are less knowledgeable."
 
 /datum/outfit/job/station/station_engineer/senior
-	name = OUTFIT_JOB_NAME("Senior Engineer")
+	name = OUTFIT_JOB_NAME("IEC Senior Engineer")
 	head = /obj/item/clothing/head/hardhat/white
 	uniform = /obj/item/clothing/under/rank/engineer
 	id_type = /obj/item/card/id/engineering/engineer

@@ -1,6 +1,6 @@
 /datum/role/job/station/chief_medical_officer
 	id = JOB_ID_CHIEF_MEDICAL_OFFICER
-	title = "Chief Medical Officer"
+	title = "IMS Chief Medical Officer"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
 	flag = CMO
 	departments_managed = list(
@@ -16,7 +16,7 @@
 	disallow_jobhop = TRUE
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and all superior officers."
 	selection_color = "#026865"
 	idtype = /obj/item/card/id/medical/head
 	req_admin_notify = 1
@@ -47,22 +47,13 @@
 
 	outfit_type = /datum/outfit/job/station/chief_medical_officer
 	desc = "The CMO manages the Medical department and is a position requiring experience and skill; their goal is to ensure that their \
-						staff keep the station's crew healthy and whole. They are primarily interested in making sure that patients are safely found and \
+						staff keep the ship's crew healthy and whole. They are primarily interested in making sure that patients are safely found and \
 						transported to Medical for treatment. They are expected to keep the crew informed about threats to their health and safety, and \
-						about the importance of Suit Sensors."
-	alt_titles = list (
-		"Chief Physician" = /datum/prototype/struct/alt_title/cmo/physician,
-		"Director of Medicine" = /datum/prototype/struct/alt_title/cmo/director
-	)
+						about the importance of Suit Sensors. They typically hold the rank of Lieutenant or Lieutenant Commander."
 
-/datum/prototype/struct/alt_title/cmo/physician
-	title = "Chief Physician"
-
-/datum/prototype/struct/alt_title/cmo/director
-	title = "Director of Medicine"
 
 /datum/outfit/job/station/chief_medical_officer
-	name = OUTFIT_JOB_NAME("Chief Medical Officer")
+	name = OUTFIT_JOB_NAME("IMS Chief Medical Officer")
 	l_ear  =/obj/item/radio/headset/heads/cmo
 	uniform = /obj/item/clothing/under/rank/chief_medical_officer
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo

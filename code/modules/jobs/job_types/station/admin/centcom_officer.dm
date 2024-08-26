@@ -1,13 +1,13 @@
 /datum/role/job/station/centcom_officer //For Business
 	id = JOB_ID_CENTCOM_OFFICER
-	title = "CentCom Officer"
+	title = "IMPCOMM Officer"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_ADMIN
 	whitelist_only = 1
-	departments = list("Central Command")
+	departments = list("IMPCOMM")
 	department_accounts = list(DEPARTMENT_COMMAND, DEPARTMENT_ENGINEERING, DEPARTMENT_MEDICAL, DEPARTMENT_RESEARCH, DEPARTMENT_SECURITY, DEPARTMENT_CARGO, DEPARTMENT_PLANET, DEPARTMENT_CIVILIAN)
 	total_positions = 2
 	spawn_positions = 1
-	supervisors = "company officials and Corporate Regulations"
+	supervisors = "imperial officials and Imperial Law"
 	selection_color = "#1D1D4F"
 	idtype = /obj/item/card/id/centcom
 	additional_access = list()
@@ -15,7 +15,7 @@
 	minimal_player_age = 14
 	join_types = JOB_LATEJOIN
 	outfit_type = /datum/outfit/job/station/centcom_officer
-	desc = "A Central Command Officer is there on official business. Most of time. Whatever it is, they're a VIP."
+	desc = "An Imperial Command Officer is there on official business. Most of time. Whatever it is, they're a VIP."
 
 	minimum_character_age = 25
 	ideal_character_age = 40
@@ -26,7 +26,7 @@
 	return get_all_accesses().Copy()
 
 /datum/outfit/job/station/centcom_officer
-	name = OUTFIT_JOB_NAME("CentCom Officer")
+	name = OUTFIT_JOB_NAME("IMPCOMM Officer")
 	id_type = /obj/item/card/id/centcom
 	pda_type = /obj/item/pda/centcom
 

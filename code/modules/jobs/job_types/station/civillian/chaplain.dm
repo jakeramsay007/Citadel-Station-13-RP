@@ -1,12 +1,12 @@
 /datum/role/job/station/chaplain
 	id = JOB_ID_CHAPLAIN
-	title = "Chaplain"
+	title = "Imperial Navy Padre"
 	flag = CHAPLAIN
 	departments = list(DEPARTMENT_CIVILIAN)
 	department_flag = CIVILIAN
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Head of Personnel"
+	supervisors = "the Executive Officer, Bridge Officers and Captain"
 	selection_color = "#515151"
 	idtype = /obj/item/card/id/civilian/chaplain
 	additional_access = list(
@@ -18,7 +18,7 @@
 	)
 
 	outfit_type = /datum/outfit/job/station/chaplain
-	desc = "The Chaplain ministers to the spiritual needs of the crew."
+	desc = "The Padre ministers to the spiritual needs of the crew."
 	alt_titles = list(
 		"Religious Counselor" = /datum/prototype/struct/alt_title/chaplain/counselor,
 		"Religious Affairs Advisor" = /datum/prototype/struct/alt_title/chaplain/advisor

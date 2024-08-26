@@ -1,6 +1,6 @@
 /datum/role/job/station/command_secretary
 	id = JOB_ID_COMMAND_SECRETARY
-	title = "Bridge Officer"
+	title = "IN Bridge Officer"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_HELM
 	flag = BRIDGE
 	departments = list(DEPARTMENT_COMMAND)
@@ -10,7 +10,7 @@
 	pto_type = PTO_COMMAND
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "command staff"
+	supervisors = "command staff and all superior officers."
 	selection_color = "#1D1D4F"
 	minimal_player_age = 5
 
@@ -22,7 +22,8 @@
 
 	outfit_type = /datum/outfit/job/station/command_secretary/bridge_officer
 	desc = "A bridge officer is often considered command staff in-training. Their duties are to assist the command staff with things like paperwork, \
-			as well as to assist in piloting the ship when deemed necessary and applicable."
+			as well as to assist in piloting the ship when deemed necessary and applicable. \
+			They typically hold the rank of Second Lieutenant, up to Lieutenant Commander."
 
 	alt_titles = list(
 		"Command Intern" = /datum/prototype/struct/alt_title/command_intern,

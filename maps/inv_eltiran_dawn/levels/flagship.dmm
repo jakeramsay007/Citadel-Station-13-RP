@@ -8270,17 +8270,6 @@
 	icon_state = "white"
 	},
 /area/centcom/medical)
-"Ah" = (
-/obj/structure/fans/tiny,
-/obj/spawner/window/low_wall/reinforced/full,
-/obj/effect/shuttle_landmark{
-	base_area = /area/centcom/terminal;
-	base_turf = /turf/unsimulated/floor/techfloor_grid;
-	landmark_tag = "escape_cc";
-	name = "Escape Shuttle Centcom"
-	},
-/turf/simulated/floor,
-/area/shuttle/escape)
 "Ai" = (
 /obj/item/stool/padded,
 /turf/unsimulated/floor/wood,
@@ -16233,6 +16222,19 @@
 	icon_state = "white"
 	},
 /area/centcom/medical)
+"Zz" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/effect/shuttle_landmark{
+	base_area = /area/centcom/terminal;
+	base_turf = /turf/unsimulated/floor/techfloor_grid;
+	landmark_tag = "escape_cc";
+	name = "Escape Shuttle Centcom"
+	},
+/turf/simulated/shuttle/floor/black,
+/area/shuttle/escape)
 "ZA" = (
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/paleblue/border,
@@ -30027,7 +30029,7 @@ AF
 AF
 AF
 AF
-jT
+Zz
 CG
 yz
 Ui
@@ -30609,7 +30611,7 @@ AF
 AF
 AF
 AF
-Ah
+oL
 NW
 yz
 Ew

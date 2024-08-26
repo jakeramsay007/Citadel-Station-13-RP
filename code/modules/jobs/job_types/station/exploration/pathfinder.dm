@@ -1,6 +1,6 @@
 /datum/role/job/station/pathfinder
 	id = JOB_ID_PATHFINDER
-	title = "Pathfinder"
+	title = "IMC Commander"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
 	flag = PATHFINDER
 	departments = list(DEPARTMENT_PLANET)
@@ -9,7 +9,7 @@
 	department_flag = MEDSCI
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and superior officers"
 	selection_color = "#d6d05c"
 	idtype = /obj/item/card/id/explorer/head/pathfinder
 	minimal_player_age = 7
@@ -28,16 +28,11 @@
 		ACCESS_GENERAL_PATHFINDER,
 	)
 	outfit_type = /datum/outfit/job/station/pathfinder
-	desc = "The Pathfinder's job is to lead and manage expeditions, and is the primary authority on all off-station expeditions."
-	alt_titles = list(
-		"Expedition Lead" = /datum/prototype/struct/alt_title/expedition_lead
-		)
-
-/datum/prototype/struct/alt_title/expedition_lead
-	title = "Expedition Lead"
+	desc = "The Marine Commander's job is to lead and manage the Imperial Marines, and is the primary authority on all off-ship expeditions.\
+			They typically hold the rank of Captain or Major."
 
 /datum/outfit/job/station/pathfinder
-	name = OUTFIT_JOB_NAME("Pathfinder")
+	name = OUTFIT_JOB_NAME("IMC Commander")
 	shoes = /obj/item/clothing/shoes/boots/winter/explorer
 	uniform = /obj/item/clothing/under/explorer //TODO: Uniforms.
 	l_ear = /obj/item/radio/headset/pathfinder
@@ -45,7 +40,7 @@
 	pda_slot = SLOT_ID_LEFT_POCKET
 	pda_type = /obj/item/pda/pathfinder
 	id_type = /obj/item/card/id/explorer/head/pathfinder
-	id_pda_assignment = "Pathfinder"
+	id_pda_assignment = "IMC Commander"
 
 	backpack = /obj/item/storage/backpack/voyager
 	backpack_contents = list(/obj/item/clothing/accessory/permit/gun/planetside = 1)

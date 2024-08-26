@@ -1,6 +1,6 @@
 /datum/role/job/station/quartermaster
 	id = JOB_ID_QUARTERMASTER
-	title = "Quartermaster"
+	title = "IMC-QMD Technical Quartermaster Sergeant"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
 	flag = QUARTERMASTER
 	departments = list(
@@ -15,7 +15,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	idtype = /obj/item/card/id/cargo/head
-	supervisors = "the Head of Personnel"
+	supervisors = "the Executive Officer and the Captain."
 	selection_color = "#9b633e"
 	minimal_access = list(
 		ACCESS_ENGINEERING_MAINT,
@@ -31,21 +31,12 @@
 	ideal_character_age = 40
 
 	outfit_type = /datum/outfit/job/station/quartermaster
-	desc = "The Quartermaster manages the Supply department under the Head of Personnel, checking cargo orders and ensuring supplies get to where they are needed."
-	alt_titles = list(
-		"Supply Chief" = /datum/prototype/struct/alt_title/supply_chief,
-		"Logistics Manager" = /datum/prototype/struct/alt_title/logi_man,
-		)
-
-
-/datum/prototype/struct/alt_title/supply_chief
-	title = "Supply Chief"
-
-/datum/prototype/struct/alt_title/logi_man
-	title= "Logistics Manager"
+	desc = "The Technical Quartermaster Sergeant manages the Supply department under the Head of Personnel, checking cargo orders and ensuring supplies get to where they are needed. \
+			As they are expected to ensure equipment and supplies only go to those who need them, they report only to the TQMS, XO and Captain. \
+			They typically hold the rank of Staff Sergeant or Warrant Officer 2."
 
 /datum/outfit/job/station/quartermaster
-	name = OUTFIT_JOB_NAME("Quartermaster")
+	name = OUTFIT_JOB_NAME("IMC-QMD Quartermaster")
 	uniform = /obj/item/clothing/under/rank/cargo
 	l_ear = /obj/item/radio/headset/headset_mine
 	shoes = /obj/item/clothing/shoes/brown
