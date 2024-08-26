@@ -436,6 +436,9 @@
 /obj/effect/floor_decal/corner/mauve/border,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/robotics/mechbay)
+"bxS" = (
+/turf/simulated/open,
+/area/bridge/bridge_hallway)
 "bzX" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
 /obj/structure/cable{
@@ -1988,7 +1991,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
 "hhc" = (
-/obj/structure/bed/chair/shuttle{
+/obj/structure/bed/chair/bay/comfy/captain{
 	dir = 4
 	},
 /obj/overmap/entity/visitable/ship/inv_eltiran_dawn,
@@ -2679,6 +2682,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+/obj/landmark/spawnpoint/job/command_secretary,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "ktb" = (
@@ -3144,6 +3148,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/landmark/spawnpoint/job/command_secretary,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "lDi" = (
@@ -5631,6 +5636,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
+/obj/structure/closet/wardrobe/captain{
+	name = "Captain's wardrobe"
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
 "tVn" = (
@@ -5700,6 +5708,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
+"uda" = (
+/obj/landmark/spawnpoint/job/roboticist,
+/turf/simulated/floor/tiled/dark,
+/area/rnd/robotics/mechbay)
 "udw" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -21249,7 +21261,7 @@ jlo
 ybs
 mSy
 tYi
-ddJ
+uda
 ddJ
 sjL
 rvo
@@ -28817,11 +28829,11 @@ dPo
 kOb
 pet
 sQl
-jyZ
-jyZ
-jyZ
-jyZ
-jyZ
+bxS
+bxS
+bxS
+bxS
+bxS
 sQl
 sPy
 ltC
@@ -29011,11 +29023,11 @@ dPo
 uqK
 pet
 sQl
-jyZ
-jyZ
-jyZ
-jyZ
-jyZ
+bxS
+bxS
+bxS
+bxS
+bxS
 sQl
 rSZ
 hJk
@@ -29205,11 +29217,11 @@ dPo
 fEx
 pet
 sQl
-jyZ
-jyZ
-jyZ
-jyZ
-jyZ
+bxS
+bxS
+bxS
+bxS
+bxS
 sQl
 oRg
 oRg

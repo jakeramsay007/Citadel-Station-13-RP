@@ -107,10 +107,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
-"bt" = (
-/obj/machinery/door/firedoor,
-/turf/space,
-/area/space)
 "bC" = (
 /obj/machinery/vending/dinnerware,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -804,6 +800,9 @@
 	},
 /turf/simulated/floor/wood,
 /area/hallway/secondary/civilian_hallway_mid)
+"ia" = (
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/hallway/secondary/civilian_hallway_mid)
 "id" = (
 /obj/structure/undies_wardrobe,
 /obj/machinery/air_alarm/west_mount,
@@ -1216,8 +1215,8 @@
 /turf/simulated/wall/r_wall/prepainted/medical,
 /area/medical/resleeving)
 "mr" = (
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
+/turf/simulated/open,
+/area/hallway/secondary/civilian_hallway_mid)
 "ms" = (
 /obj/structure/cable{
 	icon_state = "2-8";
@@ -1781,6 +1780,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/hyper/west_mount,
+/obj/landmark/spawnpoint/job/medical_doctor,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "rb" = (
@@ -1983,7 +1983,7 @@
 /area/crew_quarters/bar)
 "tD" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
-/area/space)
+/area/hallway/secondary/civilian_hallway_mid)
 "tE" = (
 /turf/simulated/wall/r_wall/prepainted/medical,
 /area/medical/surgery)
@@ -3912,7 +3912,7 @@
 /area/medical/resleeving)
 "Ne" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
-/area/space)
+/area/hallway/secondary/civilian_hallway_mid)
 "Ng" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
@@ -4835,6 +4835,7 @@
 /area/crew_quarters/bar)
 "XF" = (
 /obj/machinery/fire_alarm/south_mount,
+/obj/landmark/spawnpoint/job/medical_doctor,
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "XN" = (
@@ -6739,7 +6740,7 @@ cW
 cW
 cW
 cW
-bt
+cW
 cW
 cW
 cW
@@ -27464,9 +27465,9 @@ IB
 IB
 tD
 Ne
-mr
-mr
-mr
+ia
+ia
+ia
 Ne
 tD
 ng

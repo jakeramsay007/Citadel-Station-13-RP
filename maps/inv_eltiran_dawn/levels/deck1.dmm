@@ -19,7 +19,7 @@
 	req_one_access = null
 	},
 /obj/map_helper/access_helper/airlock/station/security/department,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "aq" = (
 /obj/map_helper/airlock/door/int_door,
@@ -197,7 +197,8 @@
 /obj/structure/catwalk,
 /obj/structure/fuel_port{
 	dir = 4;
-	pixel_x = 29
+	pixel_x = 27;
+	pixel_y = -6
 	},
 /obj/machinery/light{
 	dir = 4;
@@ -242,7 +243,7 @@
 /obj/machinery/computer/security{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "dN" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
@@ -321,6 +322,10 @@
 	id_tag = "expshuttle_docker_pump";
 	power_rating = 20000
 	},
+/obj/machinery/light{
+	dir = 4;
+	old_wall = 1
+	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "eR" = (
@@ -349,7 +354,7 @@
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
 "ff" = (
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "fg" = (
 /obj/machinery/air_alarm/alarms_hidden{
@@ -477,7 +482,7 @@
 /obj/machinery/door/airlock/glass/security{
 	name = "Marine Shuttle Hangar"
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/quartermaster/hallway)
 "gP" = (
 /obj/machinery/computer/ship/sensors{
@@ -612,7 +617,6 @@
 /obj/item/radio/intercom{
 	pixel_y = -24
 	},
-/obj/machinery/light,
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/tiled,
@@ -620,6 +624,9 @@
 "it" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/recharge_station,
+/obj/machinery/light{
+	old_wall = 1
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
 "iw" = (
@@ -727,7 +734,7 @@
 /obj/machinery/door/airlock/security{
 	name = "Marine Shuttle Hangar"
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "kD" = (
 /obj/machinery/air_alarm{
@@ -828,6 +835,11 @@
 	cur_coils = 3
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0;
+	old_wall = 1
+	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "lC" = (
@@ -851,7 +863,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/quartermaster/hallway)
 "lN" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -903,7 +915,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/quartermaster/hallway)
 "mO" = (
 /obj/structure/closet/hydrant{
@@ -922,7 +934,8 @@
 /area/shuttle/excursion/general)
 "ns" = (
 /obj/machinery/light{
-	dir = 8
+	dir = 8;
+	old_wall = 1
 	},
 /obj/machinery/computer/ship/sensors{
 	dir = 4
@@ -1093,7 +1106,8 @@
 	dir = 1
 	},
 /obj/machinery/light{
-	dir = 1
+	dir = 1;
+	old_wall = 1
 	},
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
@@ -1187,7 +1201,8 @@
 "rQ" = (
 /obj/machinery/sleep_console,
 /obj/machinery/light{
-	dir = 4
+	dir = 4;
+	old_wall = 1
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
@@ -1302,7 +1317,6 @@
 /obj/item/radio/intercom{
 	pixel_y = -24
 	},
-/obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
@@ -1335,7 +1349,8 @@
 /area/quartermaster/warehouse)
 "tN" = (
 /obj/machinery/light{
-	dir = 1
+	dir = 1;
+	old_wall = 1
 	},
 /obj/structure/closet/walllocker/emerglocker{
 	pixel_y = 32
@@ -1495,7 +1510,8 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/machinery/light{
-	dir = 8
+	dir = 8;
+	old_wall = 1
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
@@ -1520,9 +1536,6 @@
 "vL" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
-	},
-/obj/machinery/light{
-	dir = 8
 	},
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -24
@@ -1711,7 +1724,6 @@
 /turf/simulated/floor/carpet/sblucarpet,
 /area/quartermaster/office)
 "zd" = (
-/obj/machinery/light,
 /obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23
@@ -1727,7 +1739,9 @@
 	dir = 1;
 	pixel_y = -32
 	},
-/obj/machinery/light,
+/obj/machinery/light{
+	old_wall = 1
+	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "zm" = (
@@ -1955,6 +1969,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"BG" = (
+/obj/machinery/atmospherics/pipe/tank/phoron{
+	dir = 8
+	},
+/obj/machinery/light{
+	old_wall = 1
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/excursion/cargo)
 "BK" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2125,6 +2148,10 @@
 /obj/structure/cable/cyan{
 	icon_state = "0-2"
 	},
+/obj/machinery/light{
+	dir = 1;
+	old_wall = 1
+	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "Ek" = (
@@ -2261,7 +2288,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "FE" = (
 /obj/effect/floor_decal/corner/red{
@@ -2282,7 +2309,7 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/window/brigdoor/northleft,
 /obj/machinery/door/window/southleft,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "FJ" = (
 /obj/landmark/spawnpoint/job/quartermaster,
@@ -2335,7 +2362,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/secure_data,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "FW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2356,8 +2383,8 @@
 	dir = 4;
 	id = "cockpit_lockdown";
 	name = "Cockpit Lockdown";
-	pixel_x = -30;
-	pixel_y = -30
+	pixel_x = -24;
+	pixel_y = -23
 	},
 /obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
@@ -2462,7 +2489,8 @@
 /area/exploration/excursion_dock)
 "Hd" = (
 /obj/machinery/light{
-	dir = 8
+	dir = 8;
+	old_wall = 1
 	},
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/warning/full,
@@ -2544,7 +2572,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/bed/chair/backed_grey,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "HP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -2583,6 +2611,9 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/south_mount,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "Iw" = (
@@ -2603,11 +2634,10 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
 "II" = (
-/obj/machinery/power/apc/east_mount,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
+/obj/machinery/power/apc/east_mount{
+	old_wall = 1
 	},
-/obj/machinery/light{
+/obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -2696,9 +2726,10 @@
 	dir = 1;
 	id = "expshuttle_door_L";
 	name = "hatch bolt control";
-	pixel_y = -28;
+	pixel_y = -23;
 	req_one_access = list(19,43,67);
-	specialfunctions = 4
+	specialfunctions = 4;
+	pixel_x = -9
 	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/blast/regular{
@@ -2734,7 +2765,7 @@
 	icon_state = "2-8";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "Kz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2906,7 +2937,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/quartermaster/hallway)
 "Op" = (
 /obj/structure/cable{
@@ -3130,7 +3161,7 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "SB" = (
 /obj/machinery/door/airlock/mining,
@@ -3308,9 +3339,6 @@
 /turf/simulated/floor,
 /area/quartermaster/hallway)
 "VA" = (
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/airlock_sensor{
 	id_tag = "expshuttle_docker";
@@ -3334,7 +3362,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/window/brigdoor/northright,
 /obj/machinery/door/window/southright,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "VL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3661,7 +3689,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/west_mount,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/tiled/dark,
 /area/security/hanger)
 "Zi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -23784,7 +23812,7 @@ Pu
 Ca
 mc
 cn
-cn
+BG
 Zi
 Ca
 mc
