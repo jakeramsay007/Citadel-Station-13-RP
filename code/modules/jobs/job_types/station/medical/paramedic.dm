@@ -1,6 +1,6 @@
 /datum/role/job/station/paramedic
 	id = JOB_ID_PARAMEDIC
-	title = "Paramedic"
+	title = "IMS Paramedic"
 	flag = PARAMEDIC
 	departments = list(DEPARTMENT_MEDICAL)
 	department_flag = MEDSCI
@@ -26,20 +26,22 @@
 	)
 	outfit_type = /datum/outfit/job/station/paramedic
 	desc = "A Paramedic is primarily concerned with the stabilization and recovery of patients who are unable to make it to the Medical Department on their own. \
-						They may also be called upon to keep patients stable when Medical is busy or understaffed."
+						They may also be called upon to keep patients stable when Medical is busy or understaffed. \
+						They are typically of the rank of Leading Hand."
 	alt_titles = list(
-		"Emergency Medical Technician" = /datum/prototype/struct/alt_title/emt,
+		"IMS Emergency Medical Technician" = /datum/prototype/struct/alt_title/emt,
 		)
 
 
 /datum/prototype/struct/alt_title/emt
-	title = "Emergency Medical Technician"
+	title = "IMS Emergency Medical Technician"
 	title_blurb = "An Emergency Medical Technician is primarily concerned with the stabilization and recovery of patients who are unable to make it to the Medical Department on their \
-					own. They are capable of keeping a patient stabilized until they reach the hands of someone with more training."
+					own. They are capable of keeping a patient stabilized until they reach the hands of someone with more training. \
+					They are typically of the rank of Leading Hand."
 	title_outfit = /datum/outfit/job/station/paramedic/emt
 
 /datum/outfit/job/station/paramedic
-	name = OUTFIT_JOB_NAME("Paramedic")
+	name = OUTFIT_JOB_NAME("IMS Paramedic")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/black
 	suit = /obj/item/clothing/suit/storage/toggle/fr_jacket
 	shoes = /obj/item/clothing/shoes/boots/jackboots
@@ -58,6 +60,6 @@
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /datum/outfit/job/station/paramedic/emt
-	name = OUTFIT_JOB_NAME("Emergency Medical Technician")
+	name = OUTFIT_JOB_NAME("IMS Emergency Medical Technician")
 	uniform = /obj/item/clothing/under/rank/medical/paramedic
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/emt

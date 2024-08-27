@@ -1,12 +1,12 @@
 /datum/role/job/station/hydro
 	id = JOB_ID_BOTANIST
-	title = "Botanist"
+	title = "INSS Botanist"
 	flag = BOTANIST
 	departments = list(DEPARTMENT_CIVILIAN)
 	department_flag = CIVILIAN
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Head of Personnel"
+	supervisors = "the Executive Officer and all superior officers."
 	selection_color = "#515151"
 	pto_type = PTO_CIVILIAN
 	pto_type = PTO_CIVILIAN
@@ -20,15 +20,17 @@
 	)
 
 	outfit_type = /datum/outfit/job/station/botanist/gardener
-	desc = "A Botanist grows plants for the Chef and Bartender."
-	alt_titles = list("Gardener" = /datum/prototype/struct/alt_title/gardener)
+	desc = "A Botanist grows plants for the Chef and Bartender. \
+			They typically hold the rank of Able Rate."
+	alt_titles = list("INSS Gardener" = /datum/prototype/struct/alt_title/gardener)
 
 /datum/prototype/struct/alt_title/gardener
-	title = "Gardener"
-	title_blurb = "A Gardener may be less professional than their counterparts, and are more likely to tend to the public gardens if they aren't needed elsewhere."
+	title = "INSS Gardener"
+	title_blurb = "A Gardener may be less professional than their counterparts, and are more likely to tend to the public gardens if they aren't needed elsewhere. \
+					They typically hold the rank of Able Rate."
 
 /datum/outfit/job/station/botanist
-	name = OUTFIT_JOB_NAME("Botanist")
+	name = OUTFIT_JOB_NAME("INSS Botanist")
 	pda_type = /obj/item/pda/botanist
 	id_type = /obj/item/card/id/civilian/botanist
 	l_ear = /obj/item/radio/headset/headset_service
@@ -44,5 +46,5 @@
 	dufflebag = /obj/item/storage/backpack/dufflebag/hydroponics
 
 /datum/outfit/job/station/botanist/gardener
-	name = OUTFIT_JOB_NAME("Gardener")
-	id_pda_assignment = "Gardener"
+	name = OUTFIT_JOB_NAME("INSS Gardener")
+	id_pda_assignment = "INSS Gardener"

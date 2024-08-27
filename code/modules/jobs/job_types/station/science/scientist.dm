@@ -1,6 +1,6 @@
 /datum/role/job/station/scientist
 	id = JOB_ID_SCIENTIST
-	title = "Scientist"
+	title = "INI Scientist"
 	flag = SCIENTIST
 	departments = list(DEPARTMENT_RESEARCH)
 	department_flag = MEDSCI
@@ -27,64 +27,80 @@
 	pto_type = PTO_SCIENCE
 	desc = "A Scientist is a generalist working in the Research department, with general knowledge of the scientific process, as well as \
 						the principles and requirements of Research and Development. They may also formulate experiments of their own devising, if \
-						they find an appropriate topic."
+						they find an appropriate topic. \
+						As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+						They typically hold the rank of Midshipman."
 	alt_titles = list(
-		"Junior Scientist" = /datum/prototype/struct/alt_title/scientist/junior,
-		"Lab Assistant" = /datum/prototype/struct/alt_title/scientist/assistant,
-		"Researcher" = /datum/prototype/struct/alt_title/scientist/researcher,
-		"Xenoarchaeologist" = /datum/prototype/struct/alt_title/scientist/xenoarch,
-		"Anomalist" = /datum/prototype/struct/alt_title/scientist/anomalist,
-		"Circuit Designer" = /datum/prototype/struct/alt_title/scientist/circuit,
-		"Research Field Technician" = /datum/prototype/struct/alt_title/scientist/fieldtech,
-		"Xenobotanist" = /datum/prototype/struct/alt_title/scientist/xenobotanist,
-		"Xenobiologist" = /datum/prototype/struct/alt_title/scientist/xenobiologist
+		"INI Junior Scientist" = /datum/prototype/struct/alt_title/scientist/junior,
+		"INI Lab Assistant" = /datum/prototype/struct/alt_title/scientist/assistant,
+		"INI Researcher" = /datum/prototype/struct/alt_title/scientist/researcher,
+		"INI Xenoarchaeologist" = /datum/prototype/struct/alt_title/scientist/xenoarch,
+		"INI Anomalist" = /datum/prototype/struct/alt_title/scientist/anomalist,
+		"INI Circuit Designer" = /datum/prototype/struct/alt_title/scientist/circuit,
+		"INI Research Field Technician" = /datum/prototype/struct/alt_title/scientist/fieldtech,
+		"INI Xenobotanist" = /datum/prototype/struct/alt_title/scientist/xenobotanist,
+		"INI Xenobiologist" = /datum/prototype/struct/alt_title/scientist/xenobiologist
 		)
 
 /datum/prototype/struct/alt_title/scientist/junior
-	title = "Junior Scientist"
+	title = "INI Junior Scientist"
 	title_blurb = "A Junior Scientist is a lower-level member of research staff, whose main purpose is to help scientists with their specialized work in more menial fashion, while also \
-					learning the specializations in process."
+					learning the specializations in process. \
+					As a member of the Imperial Naval Intelligence, they report only to their Instructors, the Research Director, Captain and Executive Officer. \
+					They typcially hold the rank of Chief Petty Officer."
 
 /datum/prototype/struct/alt_title/scientist/assistant
-	title = "Lab Assistant"
+	title = "INI Lab Assistant"
 	title_blurb = "A Lab Assistant is a lower-level member of research staff, whose main purpose is to help scientists with their specialized work in more menial fashion, while also \
-					learning the specializations in process."
+					learning the specializations in process. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Leading Hand."
 
 /datum/prototype/struct/alt_title/scientist/researcher
-	title = "Researcher"
+	title = "INI Researcher"
 
 /datum/prototype/struct/alt_title/scientist/xenoarch
-	title = "Xenoarchaeologist"
+	title = "INI Xenoarchaeologist"
 	title_blurb = "A Xenoarchaeologist enters digsites in search of artifacts of alien origin. These digsites are frequently in vacuum or other inhospitable \
-					locations, and as such a Xenoarchaeologist should be prepared to handle hostile environmental conditions."
+					locations, and as such a Xenoarchaeologist should be prepared to handle hostile environmental conditions. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 
 /datum/prototype/struct/alt_title/scientist/anomalist
-	title = "Anomalist"
+	title = "INI Anomalist"
 	title_blurb = "An Anomalist is a Scientist whose expertise is analyzing alien artifacts. They are familiar with the most common methods of testing artifact \
-					function. They work closely with Xenoarchaeologists, or Miners, if either role is present."
+					function. They work closely with Xenoarchaeologists, or Miners, if either role is present. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 
 /datum/prototype/struct/alt_title/scientist/circuit
-	title = "Circuit Designer"
+	title = "INI Circuit Designer"
 	title_blurb = "A Circuit Designer is a Scientist whose expertise is working with integrated circuits. They are familiar with the workings and programming of those devices. \
-					They work to create various useful devices using the capabilities of integrated circuitry."
+					They work to create various useful devices using the capabilities of integrated circuitry. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 
 /datum/prototype/struct/alt_title/scientist/fieldtech
-	title = "Research Field Technician"
+	title = "INI Research Field Technician"
 
 /datum/prototype/struct/alt_title/scientist/xenobiologist
-	title = "Xenobiologist"
+	title = "INI Xenobiologist"
 	title_blurb = "A Xenobiologist studies esoteric lifeforms, usually in the relative safety of their lab. They attempt to find ways to benefit \
-						from the byproducts of these lifeforms, and their main subject at present is the Giant Slime."
+						from the byproducts of these lifeforms, and their main subject at present is the Giant Slime. \
+						As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+						They typically hold the rank of Midshipman."
 	title_outfit = /datum/outfit/job/station/scientist/xenobiologist
 
 /datum/prototype/struct/alt_title/scientist/xenobotanist
-	title = "Xenobotanist"
+	title = "INI Xenobotanist"
 	title_blurb = "A Xenobotanist grows and cares for a variety of abnormal, custom made, and frequently dangerous plant life. When the products of these plants \
-					are both safe and beneficial to the station, they may choose to introduce it to the rest of the crew."
+					are both safe and beneficial to the station, they may choose to introduce it to the rest of the crew. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Midshipman."
 	title_outfit = /datum/outfit/job/station/scientist/xenobiologist
 
 /datum/outfit/job/station/scientist
-	name = OUTFIT_JOB_NAME("Scientist")
+	name = OUTFIT_JOB_NAME("INI Scientist")
 	uniform = /obj/item/clothing/under/rank/scientist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
 	l_ear = /obj/item/radio/headset/headset_sci
@@ -100,5 +116,5 @@
 	dufflebag = /obj/item/storage/backpack/dufflebag/sci
 
 /datum/outfit/job/station/scientist/xenobiologist
-	name = OUTFIT_JOB_NAME("Xenobiologist")
+	name = OUTFIT_JOB_NAME("INI Xenobiologist")
 	id_type = /obj/item/card/id/science/xenobiologist

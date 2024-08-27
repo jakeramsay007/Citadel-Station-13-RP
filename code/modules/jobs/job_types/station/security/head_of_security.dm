@@ -1,7 +1,7 @@
 /datum/role/job/station/head_of_security
 	id = JOB_ID_HEAD_OF_SECURITY
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
-	title = "Head of Security"
+	title = "IMC-MP Commander"
 	flag = HOS
 	departments_managed = list(
 		DEPARTMENT_SECURITY,
@@ -15,7 +15,7 @@
 	disallow_jobhop = TRUE
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and Executive Officer"
 	selection_color = "#8E2929"
 	idtype = /obj/item/card/id/security/head
 	disallow_jobhop = TRUE
@@ -53,26 +53,14 @@
 	minimal_player_age = 14
 
 	outfit_type = /datum/outfit/job/station/head_of_security
-	desc = "	The Head of Security manages the Security Department, keeping the station safe and making sure the rules are followed. They are expected to \
-						keep the other Department Heads, and the rest of the crew, aware of developing situations that may be a threat. If necessary, the HoS may \
-						perform the duties of absent Security roles, such as distributing gear from the Armory."
-	alt_titles = list(
-		"Security Commander" = /datum/prototype/struct/alt_title/hos/commander,
-		"Chief of Security" = /datum/prototype/struct/alt_title/hos/chief,
-		"Defense Director" = /datum/prototype/struct/alt_title/hos/director
-		)
-
-/datum/prototype/struct/alt_title/hos/commander
-	title = "Security Commander"
-
-/datum/prototype/struct/alt_title/hos/chief
-	title = "Chief of Security"
-
-/datum/prototype/struct/alt_title/hos/director
-	title = "Defense Director"
+	desc = "	The Military Police Commander manages the Military Police, keeping the station safe and making sure the rules are followed. They are expected to \
+						keep the other Department Heads, and the rest of the crew, aware of developing situations that may be a threat. If necessary, the MP Commander may \
+						perform the duties of absent Military Police roles, such as distributing gear from the Armory. \
+						As the Commander of the Marine Military Police, they report directly to the Executive Officer and Captain. \
+						They typically hold the rank of Captain or Major."
 
 /datum/outfit/job/station/head_of_security
-	name = OUTFIT_JOB_NAME("Head of security")
+	name = OUTFIT_JOB_NAME("IMC-MP Commander")
 	l_ear = /obj/item/radio/headset/heads/hos
 	uniform = /obj/item/clothing/under/rank/head_of_security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud

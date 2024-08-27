@@ -1,6 +1,6 @@
 /datum/role/job/station/head_of_personnel
 	id = JOB_ID_HEAD_OF_PERSONNEL
-	title = "Head of Personnel"
+	title = "IN Executive Officer"
 	flag = HOP
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
 	departments = list(
@@ -17,7 +17,7 @@
 	disallow_jobhop = TRUE
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and all superior officers."
 	idtype = /obj/item/card/id/silver/hop
 	pto_type = PTO_COMMAND
 	selection_color = "#1D1D4F"
@@ -28,14 +28,10 @@
 	ideal_character_age = 50
 
 	outfit_type = /datum/outfit/job/station/head_of_personnel
-	desc = "The Head of Personnel manages the Service department, the Exploration team, and most other civilians. They also \
-						manage the Supply department, through the Quartermaster. In addition, the Head of Personnel oversees the personal accounts \
-						of the crew, including their money and access. If necessary, the Head of Personnel is first in line to assume Acting Command."
-	alt_titles = list(
-		"First Officer" = /datum/prototype/struct/alt_title/fo,
-		"Crew Resources Officer" = /datum/prototype/struct/alt_title/cro,
-		"Deputy Director" = /datum/prototype/struct/alt_title/hop/deputy
-	)
+	desc = "The Executive Officer manages the Service department, the Exploration team, and most other civilians. They also \
+						manage the Quartermastery department, through the TQMS. In addition, the Executive Officer oversees the personal accounts \
+						of the crew, including their money and access. If necessary, the Executive Officer is first in line to assume Acting Command, \
+						and is second only to the Captain in terms of authority."
 
 	minimal_access = list(
 		ACCESS_COMMAND_ANNOUNCE,
@@ -75,17 +71,8 @@
 		ACCESS_SUPPLY_QM,
 	)
 
-/datum/prototype/struct/alt_title/fo
-	title = "First Officer"
-
-/datum/prototype/struct/alt_title/cro
-	title = "Crew Resources Officer"
-
-/datum/prototype/struct/alt_title/hop/deputy
-	title = "Deputy Director"
-
 /datum/outfit/job/station/head_of_personnel
-	name = OUTFIT_JOB_NAME("Head of Personnel")
+	name = OUTFIT_JOB_NAME("Executive Officer")
 	uniform = /obj/item/clothing/under/rank/head_of_personnel
 	l_ear = /obj/item/radio/headset/heads/hop
 	shoes = /obj/item/clothing/shoes/brown

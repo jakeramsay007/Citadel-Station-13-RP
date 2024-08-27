@@ -1,5 +1,5 @@
 /datum/role/job/station/senior_physician
-	title = "Senior Physician"
+	title = "IMS Senior Physician"
 	id = JOB_ID_HEAD_NURSE
 	flag = HEAD_NURSE
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
@@ -25,27 +25,29 @@
 	)
 	outfit_type = /datum/outfit/job/station/medical_doctor/senior_physician
 	desc = "A Senior Physician is an experienced medical professional who fulfills a similar role to other doctors but usually occupies spare time with with training of other, newer doctors \
-			and giving advice in tricky medical situations. You are not in command of the Medical department, but should assist the CMO in accordance with Standard Operating Procedures."
+			and giving advice in tricky medical situations. You are not in command of the Medical department, but should assist the CMO in accordance with Standard Operating Procedures. \
+			They typically hold the rank of Midshipman or Sub Lieutenant."
 
 	minimal_player_age = 14
 	minimum_character_age = 25
 	ideal_character_age = 45
 
 	alt_titles = list (
-		"Medical Training Specialist" = /datum/prototype/struct/alt_title/medical_specialist,
+		"IMS Medical Training Specialist" = /datum/prototype/struct/alt_title/medical_specialist,
 	)
 
 
 /datum/prototype/struct/alt_title/medical_specialist
-	title = "Medical Training Specialist"
+	title = "IMS Medical Training Specialist"
 	title_blurb = "A Medical Training Specialist is a senior medical professional with extensive knowledge within a particular field of medicine which \
 			is expected to perform the standard duties of a medical doctor, as well as offer training and guidance to both resident \
-			and attending physicians in all matters, especially when presented with difficult situations within their field of expertise."
+			and attending physicians in all matters, especially when presented with difficult situations within their field of expertise. \
+			They typically hold the rank of Midshipman or Sub Lieutenant."
 	title_outfit = /datum/outfit/job/station/medical_doctor
 
 
 /datum/outfit/job/station/medical_doctor/senior_physician
-	name = OUTFIT_JOB_NAME("Medical Doctor")
+	name = OUTFIT_JOB_NAME("IMS Medical Doctor")
 	uniform = /obj/item/clothing/under/rank/medical
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_hand = /obj/item/storage/firstaid/regular

@@ -1,6 +1,6 @@
 /datum/role/job/station/chief_engineer
 	id = JOB_ID_CHIEF_ENGINEER
-	title = "Chief Engineer"
+	title = "IEC Chief Engineer"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
 	flag = CHIEF
 	departments_managed = list(
@@ -15,7 +15,7 @@
 	disallow_jobhop = TRUE
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and all superior officers."
 	selection_color = "#7F6E2C"
 	idtype = /obj/item/card/id/engineering/head
 	req_admin_notify = 1
@@ -46,24 +46,16 @@
 	)
 
 	minimal_player_age = 7
-	alt_titles = list(
-		"Head of Engineering" = /datum/prototype/struct/alt_title/head_engineer,
-		"Engineering Director" = /datum/prototype/struct/alt_title/engineering_director
-		)
 
 	outfit_type = /datum/outfit/job/station/chief_engineer
 	desc = "The Chief Engineer manages the Engineering Department, ensuring that the Engineers work on what needs to be done, handling distribution \
-						of manpower as much as they handle hands-on operations and repairs. They are also expected to keep the rest of the station informed of \
-						any structural threats to the station that may be hazardous to health or disruptive to work."
+						of manpower as much as they handle hands-on operations and repairs. They are also expected to keep the rest of the ship informed of \
+						any structural threats to the ship that may be hazardous to health or disruptive to work. \
+						Chief Engineers typically hold the rank of Warrant Officer 1 up to First Lieutenant, but in some cases can even hold the rank of Captain."
 
-/datum/prototype/struct/alt_title/engineering_director
-	title = "Engineering Director"
-
-/datum/prototype/struct/alt_title/head_engineer
-	title = "Head of Engineering"
 
 /datum/outfit/job/station/chief_engineer
-	name = OUTFIT_JOB_NAME("Chief engineer")
+	name = OUTFIT_JOB_NAME("IEC Chief engineer")
 	head = /obj/item/clothing/head/hardhat/white
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	l_ear = /obj/item/radio/headset/heads/ce

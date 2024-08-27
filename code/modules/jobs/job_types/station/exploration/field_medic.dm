@@ -1,13 +1,13 @@
 /datum/role/job/station/field_medic
 	id = JOB_ID_FIELD_MEDIC
-	title = "Field Medic"
+	title = "IMC Combat Medical Technician"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_DANGER
 	flag = SAR
 	departments = list(DEPARTMENT_PLANET, DEPARTMENT_MEDICAL)
 	department_flag = MEDSCI
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Pathfinder and the Chief Medical Officer"
+	supervisors = "the Marine Commander, the Chief Medical Officer and all superior officers."
 	selection_color = "#999440"
 	idtype = /obj/item/card/id/medical/sar
 	minimal_player_age = 3
@@ -27,16 +27,11 @@
 		ACCESS_GENERAL_EXPLORER,
 	)
 	outfit_type = /datum/outfit/job/station/sar
-	desc = "A Field medic works as the field doctor of expedition teams."
-	alt_titles = list(
-		"Expedition Medic" = /datum/prototype/struct/alt_title/expedition_medic
-		)
-
-/datum/prototype/struct/alt_title/expedition_medic
-	title = "Expedition Medic"
+	desc = "A Combat Medical Technician (CMT) works as the field doctor of the Imperial Marines. \
+			They typically hold the rank of Lance Corporal."
 
 /datum/outfit/job/station/sar
-	name = OUTFIT_JOB_NAME("Field Medic")
+	name = OUTFIT_JOB_NAME("IMC CMT")
 	uniform = /obj/item/clothing/under/utility/blue
 	suit = /obj/item/clothing/suit/storage/hooded/wintercoat/medical/sar
 	shoes = /obj/item/clothing/shoes/boots/winter/explorer
@@ -47,7 +42,7 @@
 	r_pocket = /obj/item/flashlight/pen
 	pda_type = /obj/item/pda/sar
 	id_type = /obj/item/card/id/medical/sar
-	id_pda_assignment = "Field Medic"
+	id_pda_assignment = "IMC CMT"
 
 	backpack = /obj/item/storage/backpack/medic
 	satchel_one = /obj/item/storage/backpack/satchel/med

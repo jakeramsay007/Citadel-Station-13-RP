@@ -1,6 +1,6 @@
 /datum/role/job/station/psychiatrist
 	id = JOB_ID_PSYCHIATRIST
-	title = "Psychiatrist"
+	title = "IMS Psychiatrist"
 	flag = PSYCHIATRIST
 	departments = list(DEPARTMENT_MEDICAL)
 	department_flag = MEDSCI
@@ -21,22 +21,18 @@
 	)
 	outfit_type = /datum/outfit/job/station/psychiatrist
 	desc = "A Psychiatrist provides mental health services to crew members in need. They may also be called upon to determine whatever \
-					ails the mentally unwell, frequently under Security supervision. They understand the effects of various psychoactive drugs."
+					ails the mentally unwell, frequently under Military Police supervision. They understand the effects of various psychoactive drugs. \
+					They typically hold the rank of Midshipman."
 	alt_titles = list(
-		"Psychologist" = /datum/prototype/struct/alt_title/psychologist,
-		"Counselor" = /datum/prototype/struct/alt_title/counselor
+		"IMS Psychologist" = /datum/prototype/struct/alt_title/psychologist
 		)
 
 /datum/prototype/struct/alt_title/psychologist
-	title = "Psychologist"
+	title = "IMS Psychologist"
 	title_blurb =  "A Psychologist provides mental health services to crew members in need, focusing more on therapy than medication. They may also be \
-					called upon to determine whatever ails the mentally unwell, frequently under Security supervision."
+					called upon to determine whatever ails the mentally unwell, frequently under Military Police supervision. \
+					They typically hold the rank of Midshipman."
 	title_outfit = /datum/outfit/job/station/psychiatrist/psychologist
-
-/datum/prototype/struct/alt_title/counselor
-	title = "Counselor"
-	title_blurb = "A Counselor tends to the emotional needs of the crew, and usually specializes in giving advice to those struggling with interpersonal \
-				relationships, addictions, self-esteem issues, and/or grief."
 
 /datum/outfit/job/station/psychiatrist
 	name = OUTFIT_JOB_NAME("Psychiatrist")

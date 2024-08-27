@@ -1,14 +1,14 @@
 /datum/role/job/station/warden
 	id = JOB_ID_WARDEN
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
-	title = "Warden"
+	title = "IMC-MP Deputy Commander"
 	flag = WARDEN
 	departments = list(DEPARTMENT_SECURITY)
 	sorting_order = 1
 	department_flag = ENGSEC
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Head of Security"
+	supervisors = "the IMC-MP Commander, the Executive Officer and the Captain"
 	selection_color = "#601C1C"
 	idtype = /obj/item/card/id/security/warden
 	pto_type = PTO_SECURITY
@@ -29,24 +29,15 @@
 	minimal_player_age = 5
 
 	outfit_type = /datum/outfit/job/station/warden
-	desc = "The Warden watches over the physical Security Department, making sure the Brig and Armoury are secure and in order at all times. They oversee \
-						prisoners that have been processed and brigged, and are responsible for their well being. The Warden is also in charge of distributing \
-						Armoury gear in a crisis, and retrieving it when the crisis has passed. In an emergency, the Warden may be called upon to direct the \
-						Security Department as a whole."
-	alt_titles = list(
-		"Brig Overseer" = /datum/prototype/struct/alt_title/warden/overseer,
-		"Dispatch Officer" = /datum/prototype/struct/alt_title/warden/dispatch_officer
-		)
-
-/datum/prototype/struct/alt_title/warden/overseer
-	title = "Brig Overseer"
-
-/datum/prototype/struct/alt_title/warden/dispatch_officer
-	title = "Dispatch Officer"
-	title_blurb = "The Dispatch Officer fulfills the standard duties of the Warden, but also assists with dispatching officers to needed locations to lessen the load on the Head of Security."
+	desc = "The Deputy Commander watches over the physical Military Police Section, making sure the Brig and Armoury are secure and in order at all times. They oversee \
+						prisoners that have been processed and brigged, and are responsible for their well being. The Deputy Commander is also in charge of distributing \
+						Armoury gear in a crisis, and retrieving it when the crisis has passed. In an emergency, the Deputy Commander may be called upon to direct the \
+						Military Police as a whole. \
+						As a member of the Marine Military Police, they report directly to the MP Commander, Executive Officer and Captain. \
+						They typically hold the rank of Lieutenant or Captain."
 
 /datum/outfit/job/station/warden
-	name = OUTFIT_JOB_NAME("Warden")
+	name = OUTFIT_JOB_NAME("IMC-MP Deputy Commander")
 	uniform = /obj/item/clothing/under/rank/warden
 	l_pocket = /obj/item/flash
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud

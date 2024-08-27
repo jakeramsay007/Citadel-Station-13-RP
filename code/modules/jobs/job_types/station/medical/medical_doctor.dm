@@ -1,6 +1,6 @@
 /datum/role/job/station/doctor
 	id = JOB_ID_MEDICAL_DOCTOR
-	title = "Medical Doctor"
+	title = "IMS Medical Doctor"
 	flag = DOCTOR
 	departments = list(DEPARTMENT_MEDICAL)
 	department_flag = MEDSCI
@@ -25,53 +25,60 @@
 	outfit_type = /datum/outfit/job/station/medical_doctor
 	desc = "A Medical Doctor is a Jack-of-All-Trades Medical title, covering a variety of skill levels and minor specializations. They are likely \
 						familiar with basic first aid, and a number of accompanying medications, and can generally save, if not cure, a majority of the \
-						patients they encounter."
+						patients they encounter. \
+						They typically hold the rank of Chief Petty Officer."
 	alt_titles = list(
-		"Surgeon" = /datum/prototype/struct/alt_title/surgeon,
-		"Emergency Physician" = /datum/prototype/struct/alt_title/emergency_physician,
-		"Nurse" = /datum/prototype/struct/alt_title/nurse,
-		"Virologist" = /datum/prototype/struct/alt_title/virologist,
-		"Medical Resident" = /datum/prototype/struct/alt_title/doctor/resident,
-		"Medical Intern" = /datum/prototype/struct/alt_title/doctor/intern,
+		"IMS Surgeon" = /datum/prototype/struct/alt_title/surgeon,
+		"IMS Emergency Physician" = /datum/prototype/struct/alt_title/emergency_physician,
+		"IMS Nurse" = /datum/prototype/struct/alt_title/nurse,
+		"IMS Virologist" = /datum/prototype/struct/alt_title/virologist,
+		"IMS Medical Resident" = /datum/prototype/struct/alt_title/doctor/resident,
+		"IMS Medical Intern" = /datum/prototype/struct/alt_title/doctor/intern,
 		)
 
 
 /datum/prototype/struct/alt_title/surgeon
-	title = "Surgeon"
+	title = "IMS Surgeon"
 	title_blurb = "A Surgeon specializes in providing surgical aid to injured patients, up to and including amputation and limb reattachment. They are expected \
-					to know the ins and outs of anesthesia and surgery."
+					to know the ins and outs of anesthesia and surgery. \
+					They typically hold the rank of Sub Lieutenant."
 	title_outfit = /datum/outfit/job/station/medical_doctor/surgeon
 
 /datum/prototype/struct/alt_title/emergency_physician
-	title = "Emergency Physician"
+	title = "IMS Emergency Physician"
 	title_blurb = "An Emergency Physician is a Medical professional trained for stabilizing and treating severely injured and/or dying patients. \
 					They are generally the first response for any such individual brought to the Medbay, and can sometimes be expected to help their patients \
-					make a full recovery."
+					make a full recovery. \
+					They typically hold the rank of Petty Officer."
 	title_outfit = /datum/outfit/job/station/medical_doctor/emergency_physician
 
 /datum/prototype/struct/alt_title/nurse
-	title = "Nurse"
+	title = "IMS Nurse"
 	title_blurb = "A Nurse acts as a general purpose aide to the doctors, providing basic care to non-critical patients, and stabilizing critical patients during \
 					busy periods. They frequently watch the suit sensors console, to help manage the time of other Doctors. In rare occasions, a Nurse can be \
-					called upon to revive deceased crew members."
+					called upon to revive deceased crew members. \
+					They typcially hold the rank of Petty Officer."
 	title_outfit = /datum/outfit/job/station/medical_doctor/nurse
 
 /datum/prototype/struct/alt_title/virologist
-	title = "Virologist"
+	title = "IMS Virologist"
 	title_blurb = "A Virologist cures active diseases in the crew, and prepares antibodies for possible infections. They also have the skills \
-					to produce the various types of virus foods or mutagens."
+					to produce the various types of virus foods or mutagens. \
+					They typically hold the rank of Warrant Officer 2."
 	title_outfit = /datum/outfit/job/station/medical_doctor/virologist
 
 /datum/prototype/struct/alt_title/doctor/resident
-	title = "Medical Resident"
-	title_blurb = "A Medical Resident is someone who has a medical degree but is still in their residency, training under the supervision of more experienced doctors."
+	title = "IMS Medical Resident"
+	title_blurb = "A Medical Resident is someone who has a medical degree but is still in their residency, training under the supervision of more experienced doctors. \
+					They typically hold the rank of Leading Hand."
 
 /datum/prototype/struct/alt_title/doctor/intern
-	title = "Medical Intern"
-	title_blurb = "A Medical Intern is someone just learning the ropes of the medical field, learning from and answering to other medbay staff."
+	title = "IMS Medical Intern"
+	title_blurb = "A Medical Intern is someone just learning the ropes of the medical field, learning from and answering to other medbay staff. \
+					They typically hold the rank of Able Rate."
 
 /datum/outfit/job/station/medical_doctor
-	name = OUTFIT_JOB_NAME("Medical Doctor")
+	name = OUTFIT_JOB_NAME("IMS Medical Doctor")
 	uniform = /obj/item/clothing/under/rank/medical
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_hand = /obj/item/storage/firstaid/regular
@@ -88,16 +95,16 @@
 	dufflebag = /obj/item/storage/backpack/dufflebag/med
 
 /datum/outfit/job/station/medical_doctor/emergency_physician
-	name = OUTFIT_JOB_NAME("Emergency Physician")
+	name = OUTFIT_JOB_NAME("IMS Emergency Physician")
 	suit = /obj/item/clothing/suit/storage/toggle/fr_jacket
 
 /datum/outfit/job/station/medical_doctor/surgeon
-	name = OUTFIT_JOB_NAME("Surgeon")
+	name = OUTFIT_JOB_NAME("IMS Surgeon")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs
 	head = /obj/item/clothing/head/surgery/blue
 
 /datum/outfit/job/station/medical_doctor/virologist
-	name = OUTFIT_JOB_NAME("Virologist")
+	name = OUTFIT_JOB_NAME("IMS Virologist")
 	uniform = /obj/item/clothing/under/rank/virologist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/virologist
 	mask = /obj/item/clothing/mask/surgical
@@ -107,7 +114,7 @@
 	dufflebag = /obj/item/storage/backpack/dufflebag/virology
 
 /datum/outfit/job/station/medical_doctor/nurse
-	name = OUTFIT_JOB_NAME("Nurse")
+	name = OUTFIT_JOB_NAME("IMS Nurse")
 	suit = null
 
 /datum/outfit/job/station/medical_doctor/nurse/pre_equip(mob/living/carbon/human/H)

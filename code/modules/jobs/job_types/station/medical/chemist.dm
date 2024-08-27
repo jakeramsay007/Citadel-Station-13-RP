@@ -1,6 +1,6 @@
 /datum/role/job/station/chemist
 	id = JOB_ID_CHEMIST
-	title = "Chemist"
+	title = "IMS Chemist"
 	flag = CHEMIST
 	departments = list(DEPARTMENT_MEDICAL)
 	department_flag = MEDSCI
@@ -25,23 +25,24 @@
 
 	outfit_type = /datum/outfit/job/station/chemist
 	desc = "A Chemist produces and maintains a stock of basic to advanced chemicals for medical and occasionally research use. \
-						They are likely to know the use and dangers of many lab-produced chemicals."
+						They are likely to know the use and dangers of many lab-produced chemicals. \
+						They typically hold the rank of Lance Corporal or Corporal."
 	alt_titles = list(
-		"Pharmacist" = /datum/prototype/struct/alt_title/pharmacist,
-		"Pharmacologist" = /datum/prototype/struct/alt_title/pharmacologist,
+		"IMS Pharmacist" = /datum/prototype/struct/alt_title/pharmacist,
+		"IMS Pharmacologist" = /datum/prototype/struct/alt_title/pharmacologist,
 		)
 
 
 /datum/prototype/struct/alt_title/pharmacist
-	title = "Pharmacist"
+	title = "IMS Pharmacist"
 	title_blurb = "A Pharmacist focuses on the chemical needs of the Medical Department, and often offers to fill crew prescriptions at their discretion."
 
 /datum/prototype/struct/alt_title/pharmacologist
-	title = "Pharmacologist"
+	title = "IMS Pharmacologist"
 	title_blurb = "A Pharmacologist focuses on the chemical needs of the Medical Department, primarily specializing in producing more advanced forms of medicine."
 
 /datum/outfit/job/station/chemist
-	name = OUTFIT_JOB_NAME("Chemist")
+	name = OUTFIT_JOB_NAME("IMS Chemist")
 	uniform = /obj/item/clothing/under/rank/chemist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/chemist
 	l_ear = /obj/item/radio/headset/headset_med

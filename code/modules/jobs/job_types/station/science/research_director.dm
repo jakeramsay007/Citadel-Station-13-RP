@@ -1,6 +1,6 @@
 /datum/role/job/station/research_director
 	id = JOB_ID_RESEARCH_DIRECTOR
-	title = "Research Director"
+	title = "INI Research Director"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
 	flag = RD
 	departments_managed = list(
@@ -16,7 +16,7 @@
 	department_flag = MEDSCI
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Facility Director"
+	supervisors = "the Captain and Executive Officer"
 	selection_color = "#AD6BAD"
 	idtype = /obj/item/card/id/science/head
 	req_admin_notify = 1
@@ -55,20 +55,22 @@
 	desc = "The Research Director manages and maintains the Research department. They are required to ensure the safety of the entire crew, \
 						at least with regards to anything occurring in the Research department, and to inform the crew of any disruptions that \
 						might originate from Research. The Research Director often has at least passing knowledge of most of the Research department, but \
-						are encouraged to allow their staff to perform their own duties."
+						are encouraged to allow their staff to perform their own duties. \
+						As a member of the Imperial Naval Intelligence, they report only to the Captain and Executive Officer. \
+						They typically hold the rank of Lieutenant Commander."
 	alt_titles = list(
-		"Research Supervisor" = /datum/prototype/struct/alt_title/research_supervisor,
-		"Chief Science Officer" = /datum/prototype/struct/alt_title/cso
+		"INI Research Supervisor" = /datum/prototype/struct/alt_title/research_supervisor,
+		"INI Chief Science Officer" = /datum/prototype/struct/alt_title/cso
 		)
 
 /datum/prototype/struct/alt_title/research_supervisor
-	title = "Research Supervisor"
+	title = "INI Research Supervisor"
 
 /datum/prototype/struct/alt_title/cso
-	title = "Chief Science Officer"
+	title = "INI Chief Science Officer"
 
 /datum/outfit/job/station/research_director
-	name = OUTFIT_JOB_NAME("Research Director")
+	name = OUTFIT_JOB_NAME("INI Research Director")
 	l_ear = /obj/item/radio/headset/heads/rd
 	uniform = /obj/item/clothing/under/rank/research_director
 	shoes = /obj/item/clothing/shoes/brown

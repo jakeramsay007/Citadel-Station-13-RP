@@ -1,13 +1,13 @@
 /datum/role/job/station/blueshield
 	id = JOB_ID_BLUESHIELD
 	economy_payscale = ECONOMY_PAYSCALE_JOB_COMMAND
-	title = "Blueshield"
+	title = "IN Blueshield"
 	departments = list(DEPARTMENT_COMMAND)
 	department_flag = ENGSEC
 	total_positions = 1
 	spawn_positions = 1
 	pto_type = PTO_COMMAND
-	supervisors = "the Facility Director, Corporate Regulations, and Head of Security"
+	supervisors = "the Captain, Executive Officer, Security Commander and Imperial Law"
 	idtype = /obj/item/card/id/silver/blueshield
 	selection_color = "#1D1D4F"
 	minimal_access = list(
@@ -41,10 +41,10 @@
 	outfit_type = /datum/outfit/job/station/blueshield
 	desc = "A Blueshield is concerned with maintaining the safety and security of command personnel, dealing with direct threats while \
 						not going out of their way to apprehend distant criminals. A Blueshield is directly responsible for the health and safety \
-						of the Director and other command entities, within reason. Being only one person, use your best judgement on who needs \
+						of the Captain and other command entities, within reason. Being only one person, use your best judgement on who needs \
 						overseeing at that very moment, as well as over the course of the shift. The priority of a Blueshield is to ensure extraction \
-						and security of the client, not the apprehension or neutralization of the offender. No one is above corporate regulations however, \
-						neither Security nor Command."
+						and security of the client, not the apprehension or neutralization of the offender. No one is above Imperial Law however, \
+						neither Command nor IMPCOMM. They typically hold the rank of Lieutenant or Lieutenant Commander."
 
 /datum/outfit/job/station/blueshield
 	name = OUTFIT_JOB_NAME("Blueshield")

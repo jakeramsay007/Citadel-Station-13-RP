@@ -220,16 +220,16 @@ Will print: "/mob/living/carbon/human/death" (you can optionally embed it in a s
 
 // Job groups
 // todo: nuke this from fucking orbit during job refactor
-#define DEPARTMENT_CARGO			"cargo"
-#define DEPARTMENT_CIVILIAN			"civilian"
-#define DEPARTMENT_COMMAND			"command"
-#define DEPARTMENT_ENGINEERING		"engineering"
+#define DEPARTMENT_CARGO			"Imperial Marine Corps Quartermastery Department"
+#define DEPARTMENT_CIVILIAN			"Imperial Navy Support Staff"
+#define DEPARTMENT_COMMAND			"Imperial Navy Command"
+#define DEPARTMENT_ENGINEERING		"Imperial Engineer Corps"
 #define DEPARTMENT_EVERYONE			"everyone"
-#define DEPARTMENT_MEDICAL			"medical"
+#define DEPARTMENT_MEDICAL			"Imperial Medical Services"
 #define DEPARTMENT_OFFDUTY			"offduty"
-#define DEPARTMENT_PLANET			"exploration"
-#define DEPARTMENT_RESEARCH			"research"
-#define DEPARTMENT_SECURITY			"security"
+#define DEPARTMENT_PLANET			"Imperial Marine Corps"
+#define DEPARTMENT_RESEARCH			"Imperial Naval Intelligence"
+#define DEPARTMENT_SECURITY			"Imperial Marine Corps Military Police"
 #define DEPARTMENT_SYNTHETIC		"synthetic"
 /// Leaving this definition in place, can perhaps use it in the future but removing it will require digging into other stuff im not comfortable with -BLoop
 #define DEPARTMENT_TALON			"talon"
@@ -249,15 +249,15 @@ var/list/economy_station_departments = list(
 )
 
 // Off-duty time
-#define PTO_CARGO			"Cargo"
-#define PTO_CIVILIAN		"Civilian"
-#define PTO_COMMAND			"Command"
+#define PTO_CARGO			"Quartermastery Department"
+#define PTO_CIVILIAN		"Imperial Navy Support Staff"
+#define PTO_COMMAND			"Imperial Navy Command"
 #define PTO_CYBORG			"Cyborg"
-#define PTO_ENGINEERING 	"Engineering"
-#define PTO_EXPLORATION 	"Exploration"
-#define PTO_MEDICAL			"Medical"
-#define PTO_SCIENCE			"Science"
-#define PTO_SECURITY		"Security"
+#define PTO_ENGINEERING 	"Imperial Engineer Corps"
+#define PTO_EXPLORATION 	"Imperial Marine Corps"
+#define PTO_MEDICAL			"Imperial Medical Services"
+#define PTO_SCIENCE			"Imperial Naval Intelligence"
+#define PTO_SECURITY		"Imperial Marine Corps Military Police"
 
 // Canonical spellings of TSCs, so typos never have to happen again due to human error.
 #define TSC_BC		"Bishop Cybernetics"

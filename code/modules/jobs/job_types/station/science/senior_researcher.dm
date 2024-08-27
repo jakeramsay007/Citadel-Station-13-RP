@@ -1,5 +1,5 @@
 /datum/role/job/station/senior_researcher
-	title = "Senior Researcher"
+	title = "INI Senior Researcher"
 	economy_payscale = ECONOMY_PAYSCALE_JOB_SENIOR
 	id = JOB_ID_SENIOR_RESEARCHER
 	flag = SENIOR_RESEARCHER
@@ -29,19 +29,23 @@
 
 	outfit_type = /datum/outfit/job/station/scientist/senior_researcher
 	desc = "A Senior Researcher fulfills similar duties to other scientists, but usually occupies spare time with with training of other, newer scientists \
-			and giving advice to ensure safety. You are not in command of the Science department, but should assist the RD in accordance with Standard Operating Procedures."
+			and giving advice to ensure safety. You are not in command of the Science department, but should assist the RD in accordance with Standard Operating Procedures.\
+			As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+			They typically hold the rank of Sub Lieutenant or Lieutenant."
 
 	alt_titles = list(
-		"Research Training Specialist" = /datum/prototype/struct/alt_title/sci_trainer
+		"INI Research Training Specialist" = /datum/prototype/struct/alt_title/sci_trainer
 		)
 
 /datum/prototype/struct/alt_title/sci_trainer
-	title = "Research Training Specialist"
-	title_blurb = "An Research Training Specialist is an experienced scientist who dedicates their time and expertise to the training of those who are less knowledgeable."
+	title = "INI Research Training Specialist"
+	title_blurb = "An Research Training Specialist is an experienced scientist who dedicates their time and expertise to the training of those who are less knowledgeable. \
+					As a member of the Imperial Naval Intelligence, they report only to the Research Director, Captain and Executive Officer. \
+					They typically hold the rank of Sub Lieutenant or Lieutenant."
 
 
 /datum/outfit/job/station/scientist/senior_researcher
-	name = OUTFIT_JOB_NAME("Scientist")
+	name = OUTFIT_JOB_NAME("INI Scientist")
 	uniform = /obj/item/clothing/under/rank/scientist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
 	l_ear = /obj/item/radio/headset/headset_sci

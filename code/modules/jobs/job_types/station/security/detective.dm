@@ -1,6 +1,6 @@
 /datum/role/job/station/detective
 	id = JOB_ID_DETECTIVE
-	title = "Detective"
+	title = "IMC-MP Detective"
 	flag = DETECTIVE
 	departments = list(DEPARTMENT_SECURITY)
 	department_flag = ENGSEC
@@ -28,22 +28,26 @@
 
 	outfit_type = /datum/outfit/job/station/detective
 	desc = "A Detective works to help Security find criminals who have not properly been identified, through interviews and forensic work. \
-						For crimes only witnessed after the fact, or those with no survivors, they attempt to piece together what they can from pure evidence."
+						For crimes only witnessed after the fact, or those with no survivors, they attempt to piece together what they can from pure evidence. \
+						As a member of the Marine Military Police, they report directly to the MP Commander, Executive Officer and Captain. \
+						They typically hold the rank of Sergeant."
 	alt_titles = list(
-		"Forensic Technician" = /datum/prototype/struct/alt_title/detective/forensics_tech,
-		"Crime Scene Investigator" = /datum/prototype/struct/alt_title/detective/csi
+		"IMC-MP Forensic Technician" = /datum/prototype/struct/alt_title/detective/forensics_tech,
+		"IMC-MP Crime Scene Investigator" = /datum/prototype/struct/alt_title/detective/csi
 		)
 
 /datum/prototype/struct/alt_title/detective/csi
-	title = "Crime Scene Investigator"
+	title = "IMC-MP Crime Scene Investigator"
 
 /datum/prototype/struct/alt_title/detective/forensics_tech
-	title = "Forensic Technician"
-	title_blurb = "A Forensic Technician works more with hard evidence and labwork than a Detective, but they share the purpose of solving crimes."
+	title = "IMC-MP Forensic Technician"
+	title_blurb = "A Forensic Technician works more with hard evidence and labwork than a Detective, but they share the purpose of solving crimes. \
+					As a member of the Marine Military Police, they report directly to the MP Commander, Executive Officer and Captain. \
+					They typically hold the rank of Corporal or Sergeant."
 	title_outfit = /datum/outfit/job/station/detective/forensic
 
 /datum/outfit/job/station/detective
-	name = OUTFIT_JOB_NAME("Detective")
+	name = OUTFIT_JOB_NAME("IMC-MP Detective")
 	head = /obj/item/clothing/head/det
 	uniform = /obj/item/clothing/under/det
 	suit = /obj/item/clothing/suit/storage/det_trench
@@ -64,6 +68,6 @@
 	dufflebag = /obj/item/storage/backpack/dufflebag/sec
 
 /datum/outfit/job/station/detective/forensic
-	name = OUTFIT_JOB_NAME("Forensic technician")
+	name = OUTFIT_JOB_NAME("IMC-MP Forensic technician")
 	head = null
 	suit = /obj/item/clothing/suit/storage/forensics/blue
