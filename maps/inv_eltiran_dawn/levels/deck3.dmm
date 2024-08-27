@@ -597,6 +597,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	frequency = 1380;
+	id_tag = "deck4_dockarm1";
+	pixel_x = -26;
+	pixel_y = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/engineering/hallway)
 "bsC" = (
@@ -2095,7 +2102,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/engineering{
-	name = "Shield Room";
+	name = "Shield Generator";
 	req_one_access = null
 	},
 /obj/map_helper/access_helper/airlock/station/engineering/department,
@@ -2832,11 +2839,10 @@
 /area/engineering/engine_room)
 "gMI" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/engineering{
-	name = "Shield Room";
-	req_one_access = null
-	},
 /obj/map_helper/access_helper/airlock/station/engineering/department,
+/obj/machinery/door/airlock/engineering{
+	name = "Shield Generator"
+	},
 /turf/simulated/floor/tiled,
 /area/engineering/shield_gen)
 "gPr" = (
@@ -6367,6 +6373,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"qlx" = (
+/obj/machinery/vending/fitness,
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "qlS" = (
 /obj/machinery/fire_alarm/west_mount{
 	pixel_x = -24
@@ -6934,6 +6944,7 @@
 	dir = 4;
 	use_power = 0
 	},
+/obj/machinery/vending/nifsoft_shop,
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "rII" = (
@@ -30312,7 +30323,7 @@ kkz
 sgF
 sgF
 sgF
-sgF
+qlx
 oSP
 gtQ
 hWy

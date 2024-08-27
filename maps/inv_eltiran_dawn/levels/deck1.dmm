@@ -3,7 +3,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "ah" = (
 /obj/effect/floor_decal/industrial/outline/red,
@@ -64,7 +64,7 @@
 	dir = 8
 	},
 /obj/machinery/suit_cycler/exploration,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "aH" = (
 /obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
@@ -261,7 +261,7 @@
 	},
 /obj/machinery/light,
 /obj/machinery/suit_storage_unit/exploration,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "dB" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
@@ -299,10 +299,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "dQ" = (
-/obj/structure/closet/secure_closet/security,
+/obj/structure/closet/secure_closet/security{
+	name = "MP's locker"
+	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/red/full{
 	dir = 1
@@ -315,7 +317,8 @@
 "ei" = (
 /obj/structure/closet/secure_closet/sar{
 	req_access = list(5);
-	req_one_access = list(5)
+	req_one_access = list(5);
+	name = "CMT locker"
 	},
 /obj/item/clothing/accessory/permit/gun/planetside,
 /obj/item/tank/jetpack/oxygen,
@@ -323,7 +326,7 @@
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/pillbottles,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "ek" = (
 /obj/structure/cable{
@@ -445,7 +448,7 @@
 /area/quartermaster/hallway)
 "fn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "fI" = (
 /obj/machinery/computer/supplycomp{
@@ -476,6 +479,9 @@
 "fU" = (
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
@@ -551,7 +557,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "gP" = (
 /obj/machinery/computer/ship/sensors{
@@ -669,7 +675,14 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/light,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/tank/jetpack/oxygen,
+/obj/structure/closet/secure_closet/explorer{
+	name = "marine locker"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "hJ" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -678,7 +691,7 @@
 	},
 /obj/machinery/suit_cycler/medical,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "hO" = (
 /turf/simulated/floor/tiled,
@@ -720,18 +733,6 @@
 	},
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/shuttle/excursion/cargo)
-"iz" = (
-/obj/structure/closet/secure_closet/pathfinder,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
-/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/oxygen,
-/obj/item/suit_cooling_unit,
-/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
-/obj/item/binoculars,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/exploration/excursion_dock)
 "iH" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -803,7 +804,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "kb" = (
 /obj/machinery/door/airlock/external{
@@ -859,7 +860,7 @@
 	dir = 8
 	},
 /obj/machinery/suit_storage_unit/exploration,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "ko" = (
 /obj/machinery/status_display/supply_display{
@@ -1028,7 +1029,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /obj/machinery/suit_storage_unit/search_and_rescue,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "mn" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
@@ -1067,6 +1068,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"mP" = (
+/obj/effect/floor_decal/industrial/danger,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "mS" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 9
@@ -1107,12 +1112,20 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "nG" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/pilot,
+/obj/effect/floor_decal/industrial/outline,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/suit_cooling_unit,
+/obj/item/storage/backpack/parachute,
 /obj/machinery/air_alarm/north_mount,
-/obj/structure/closet/crate/freezer/rations,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "nP" = (
 /obj/structure/cable{
@@ -1131,7 +1144,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "nR" = (
 /obj/machinery/door/window{
@@ -1169,7 +1182,7 @@
 	dir = 8
 	},
 /obj/structure/dispenser/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "oJ" = (
 /turf/simulated/wall/r_wall/prepainted/security,
@@ -1178,8 +1191,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/pathfinder,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "oO" = (
 /obj/structure/table/reinforced,
@@ -1268,6 +1280,22 @@
 "pU" = (
 /turf/simulated/wall/prepainted/engineering,
 /area/quartermaster/hallway)
+"pX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/exploration,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
 "qb" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
@@ -1365,7 +1393,7 @@
 /area/security/range)
 "rw" = (
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "rD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1456,7 +1484,7 @@
 /area/quartermaster/office)
 "si" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "sp" = (
 /obj/structure/cable{
@@ -1472,7 +1500,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "sz" = (
 /obj/structure/cable{
@@ -1506,12 +1534,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/explorer,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
 /obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
 /obj/item/tank/jetpack/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/closet/secure_closet/explorer{
+	name = "marine locker"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "sY" = (
 /obj/structure/cable/cyan{
@@ -1636,7 +1666,7 @@
 /obj/item/storage/backpack/parachute,
 /obj/item/suit_cooling_unit,
 /obj/item/tank/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "uk" = (
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -1739,10 +1769,12 @@
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
 "vl" = (
-/obj/structure/closet/secure_closet/security,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/red{
 	dir = 5
+	},
+/obj/structure/closet/secure_closet/security{
+	name = "MP's locker"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
@@ -1774,7 +1806,7 @@
 	dir = 8
 	},
 /obj/machinery/suit_cycler/exploration,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "vR" = (
 /obj/machinery/door/window/brigdoor/westright{
@@ -1798,6 +1830,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"wa" = (
+/obj/effect/floor_decal/industrial/danger{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "wn" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
@@ -1819,7 +1857,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/excursion/general)
 "wJ" = (
-/obj/structure/closet/secure_closet/security,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/red/full{
 	dir = 8
@@ -1827,12 +1864,16 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/security{
+	name = "MP's locker"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
 "wP" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "wS" = (
@@ -1860,7 +1901,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "xn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1888,7 +1929,7 @@
 	dir = 1
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "xL" = (
 /obj/structure/cable{
@@ -1903,7 +1944,7 @@
 /area/quartermaster/office)
 "xN" = (
 /obj/structure/closet/crate/freezer/rations,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "xP" = (
 /obj/structure/curtain/open/shower/security,
@@ -1944,6 +1985,10 @@
 /obj/structure/cable,
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
+"yK" = (
+/obj/machinery/vending/fitness,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "yT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -2131,7 +2176,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/light,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "zY" = (
 /obj/structure/cable{
@@ -2231,7 +2279,8 @@
 /obj/structure/table/standard,
 /obj/item/bodybag/cryobag,
 /obj/item/roller,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "BG" = (
 /obj/machinery/atmospherics/pipe/tank/phoron{
@@ -2265,7 +2314,10 @@
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Ca" = (
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2406,7 +2458,7 @@
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "DK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -2415,9 +2467,22 @@
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/shuttle/excursion/general)
 "DP" = (
-/obj/structure/closet/secure_closet/explorer,
+/obj/structure/closet/secure_closet/pathfinder{
+	name = "marine commander's locker"
+	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/suit_cooling_unit,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/binoculars,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "DV" = (
 /obj/structure/stairs/spawner/south,
@@ -2545,14 +2610,17 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Fe" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/closet/crate/freezer/rations,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Fm" = (
 /obj/structure/cable{
@@ -2680,7 +2748,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Gb" = (
 /obj/machinery/computer/shuttle_control/explore/excursion{
@@ -2797,7 +2865,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Hd" = (
 /obj/machinery/light{
@@ -2808,6 +2876,9 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Hh" = (
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
 "Hj" = (
 /obj/structure/closet/secure_closet/guncabinet/excursion,
 /turf/simulated/floor/tiled/neutral,
@@ -2818,7 +2889,11 @@
 /area/exploration/excursion_dock)
 "Hn" = (
 /obj/machinery/suit_cycler/pilot,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Ho" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2888,7 +2963,7 @@
 	},
 /obj/machinery/suit_storage_unit/search_and_rescue,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "HN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2903,6 +2978,12 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"HQ" = (
+/obj/effect/floor_decal/industrial/danger/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "HR" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2939,7 +3020,7 @@
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Iw" = (
 /obj/structure/table/reinforced,
@@ -3006,7 +3087,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Ju" = (
 /obj/effect/floor_decal/industrial/warning/full,
@@ -3026,11 +3107,15 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "JG" = (
 /obj/machinery/recharge_station,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "JI" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -3044,6 +3129,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"JR" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/tank/jetpack/oxygen,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/explorer{
+	name = "marine locker"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
 "JW" = (
 /obj/machinery/door/airlock/voidcraft/vertical{
 	icon_state = "door_locked";
@@ -3092,7 +3199,7 @@
 /obj/structure/table/standard,
 /obj/item/gun/energy/hardlight_bow,
 /obj/machinery/door/window/northleft,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Ku" = (
 /obj/structure/bed/chair,
@@ -3129,6 +3236,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
 "KY" = (
@@ -3366,7 +3474,17 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/pain,
+/obj/item/reagent_containers/hypospray/autoinjector/biginjector/healing_nanites,
+/obj/item/tank/jetpack/oxygen,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/explorer{
+	name = "marine locker"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "OU" = (
 /obj/effect/floor_decal/industrial/warning/full,
@@ -3393,7 +3511,8 @@
 	pixel_x = -2;
 	pixel_y = -1
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Pu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3402,7 +3521,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Pv" = (
 /obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/excursion_space,
@@ -3421,7 +3540,7 @@
 /obj/item/tank/oxygen,
 /obj/item/suit_cooling_unit,
 /obj/item/storage/backpack/parachute,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Qb" = (
 /obj/structure/table/steel,
@@ -3506,7 +3625,7 @@
 /obj/item/storage/backpack/parachute,
 /obj/item/suit_cooling_unit,
 /obj/item/tank/oxygen,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "RF" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
@@ -3563,6 +3682,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Sn" = (
+/obj/structure/closet/crate/freezer/rations,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
 "So" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
@@ -3592,6 +3718,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"SP" = (
+/obj/structure/closet/secure_closet/sar{
+	req_access = list(5);
+	req_one_access = list(5);
+	name = "CMT locker"
+	},
+/obj/item/clothing/accessory/permit/gun/planetside,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/storage/backpack/parachute,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/pillbottles,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
+"SR" = (
+/obj/effect/floor_decal/industrial/danger/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "SU" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
@@ -3661,6 +3810,11 @@
 "TP" = (
 /turf/space,
 /area/space)
+"TX" = (
+/obj/machinery/light,
+/obj/machinery/vending/nifsoft_shop,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Ui" = (
 /obj/machinery/door/airlock/multi_tile/glass,
 /obj/machinery/door/firedoor,
@@ -3668,7 +3822,15 @@
 /area/quartermaster/hallway)
 "Uq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
+/area/exploration/excursion_dock)
+"Uv" = (
+/obj/machinery/suit_storage_unit/pathfinder,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "UN" = (
 /obj/turbolift_map_holder/inv_eltiran_dawn{
@@ -3707,7 +3869,10 @@
 	pixel_y = 32;
 	req_one_access = list(19,43,67)
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Va" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
@@ -3717,7 +3882,8 @@
 /area/shuttle/excursion/general)
 "Ve" = (
 /obj/machinery/suit_storage_unit/exploration,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "Vh" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -3750,6 +3916,21 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"Vs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "Vv" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
@@ -3990,6 +4171,18 @@
 "WV" = (
 /turf/simulated/floor/tiled,
 /area/security/range)
+"Xa" = (
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
+"Xu" = (
+/obj/effect/floor_decal/industrial/danger{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration/excursion_dock)
 "XC" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
 /area/quartermaster/hallway)
@@ -4015,7 +4208,7 @@
 /area/quartermaster/warehouse)
 "XN" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "XW" = (
 /turf/simulated/shuttle/wall/voidcraft/blue,
@@ -4060,7 +4253,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "YD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4069,7 +4262,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "YG" = (
 /obj/structure/table/steel,
@@ -4169,7 +4362,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 
 (1,1,1) = {"
@@ -19979,7 +20172,7 @@ qf
 hJ
 FW
 Pp
-KV
+Vs
 aU
 aU
 aU
@@ -20173,7 +20366,7 @@ qf
 md
 Hc
 Bf
-Ca
+Xa
 Ca
 mn
 uu
@@ -20181,7 +20374,7 @@ up
 up
 mn
 Ca
-Ca
+mP
 YD
 fn
 OL
@@ -20367,7 +20560,7 @@ qf
 HJ
 gN
 JG
-Ca
+Xa
 Ca
 mn
 gP
@@ -20375,7 +20568,7 @@ ID
 Gb
 mn
 Ca
-Ca
+mP
 ZD
 Uq
 hC
@@ -20560,8 +20753,8 @@ he
 qf
 ei
 gN
-Ca
-Ca
+Hh
+Xa
 Ca
 up
 FN
@@ -20569,9 +20762,9 @@ Lw
 iP
 up
 Ca
-Ca
-Ca
-Ca
+mP
+Hh
+Hh
 sW
 qf
 he
@@ -20752,10 +20945,10 @@ he
 he
 he
 qf
-ei
+SP
 gN
-Ca
-Ca
+Hh
+Xa
 Ca
 mn
 Ec
@@ -20763,9 +20956,9 @@ gy
 pr
 mn
 Ca
-Ca
-Ca
-Ca
+mP
+Hh
+Hh
 sW
 qf
 he
@@ -20946,10 +21139,10 @@ he
 he
 he
 qf
-iz
+Hh
 gN
-Ca
-Ca
+Xu
+SR
 Ju
 mn
 mn
@@ -20957,9 +21150,9 @@ up
 VZ
 mn
 Ju
-Ca
-Ca
-Ca
+HQ
+wa
+Hh
 sW
 qf
 he
@@ -21142,7 +21335,7 @@ he
 qf
 DP
 gN
-Ca
+Xa
 Ca
 et
 mn
@@ -21152,8 +21345,8 @@ qb
 mn
 qN
 Ca
-Ca
-Ca
+mP
+Hh
 sW
 qf
 he
@@ -21334,9 +21527,9 @@ he
 he
 he
 qf
-DP
+Uv
 gN
-Ca
+Xa
 Ca
 DF
 DF
@@ -21346,9 +21539,9 @@ Ds
 DF
 DF
 Ca
-Ca
-Ca
-sW
+mP
+Hh
+JR
 qf
 he
 he
@@ -21530,7 +21723,7 @@ he
 qf
 oL
 gN
-Ca
+Xa
 mS
 XD
 Sk
@@ -21540,8 +21733,8 @@ Mr
 Sk
 XD
 Vh
-Ca
-Ca
+mP
+Hh
 tZ
 qf
 he
@@ -21724,7 +21917,7 @@ he
 qf
 Hn
 gN
-Ca
+Xa
 Gz
 XD
 Sk
@@ -21734,8 +21927,8 @@ qW
 Sk
 XD
 ds
-Ca
-Ca
+mP
+Hh
 Rt
 qf
 he
@@ -21918,7 +22111,7 @@ he
 qf
 Ve
 gN
-Ca
+Xa
 jy
 XD
 Sk
@@ -21928,8 +22121,8 @@ kf
 Sk
 XD
 ww
-Ca
-Ca
+mP
+Hh
 Rt
 qf
 he
@@ -22112,7 +22305,7 @@ he
 qf
 Ve
 gN
-Ca
+Xa
 DF
 mn
 mn
@@ -22122,8 +22315,8 @@ zj
 mn
 mn
 DF
-Ca
-Ca
+mP
+Hh
 jL
 qf
 he
@@ -22316,8 +22509,8 @@ fi
 Kx
 Hd
 XD
-Ca
-Ca
+mP
+Hh
 Kp
 qf
 he
@@ -22500,7 +22693,7 @@ he
 qf
 nG
 Pu
-Ca
+Xa
 mn
 lw
 Fw
@@ -22510,8 +22703,8 @@ vV
 iP
 ih
 mn
-Ca
-Ca
+mP
+Hh
 vO
 qf
 he
@@ -22694,7 +22887,7 @@ he
 qf
 PK
 Pu
-Ca
+Xa
 mn
 mn
 mn
@@ -22704,8 +22897,8 @@ qh
 iP
 fg
 mn
-Ca
-Ca
+mP
+Hh
 aD
 qf
 he
@@ -22888,7 +23081,7 @@ he
 qf
 UX
 Pu
-Ca
+Xa
 LQ
 lC
 dN
@@ -22898,8 +23091,8 @@ sY
 xe
 tX
 mn
-Ca
-Ca
+mP
+Hh
 kl
 qf
 he
@@ -23080,9 +23273,9 @@ he
 he
 he
 qf
-PK
+Hh
 Pu
-Ca
+Xa
 mn
 VA
 Va
@@ -23092,8 +23285,8 @@ tm
 Tu
 rQ
 mn
-Ca
-Ca
+mP
+Hh
 kl
 qf
 he
@@ -23276,7 +23469,7 @@ he
 qf
 Fe
 Pu
-Ca
+Xa
 mn
 DK
 lt
@@ -23286,8 +23479,8 @@ KZ
 mn
 mn
 mn
-Ca
-Ca
+mP
+Hh
 dw
 qf
 he
@@ -23470,7 +23663,7 @@ he
 qf
 xN
 Pu
-Ca
+Xa
 mc
 Tv
 Tv
@@ -23480,9 +23673,9 @@ NS
 cu
 it
 mc
-Ca
-Ca
-kl
+mP
+Hh
+pX
 qf
 he
 he
@@ -23662,9 +23855,9 @@ he
 he
 he
 qf
-Ca
+Sn
 Pu
-Ca
+Xa
 mc
 WH
 iH
@@ -23674,8 +23867,8 @@ jl
 jk
 zd
 mc
-Ca
-Ca
+mP
+Hh
 Jk
 qf
 he
@@ -23858,7 +24051,7 @@ he
 qf
 rw
 Pu
-Ca
+Xa
 mc
 hj
 ES
@@ -23868,8 +24061,8 @@ cO
 HP
 Co
 mc
-Ca
-Ca
+mP
+Hh
 BU
 qf
 he
@@ -24052,7 +24245,7 @@ he
 qf
 rw
 Pu
-Ca
+Xa
 mc
 mO
 tl
@@ -24062,8 +24255,8 @@ Dm
 xv
 TL
 mc
-Ca
-Ca
+mP
+Hh
 om
 qf
 he
@@ -24246,7 +24439,7 @@ he
 qf
 rw
 Pu
-Ca
+Xa
 mc
 cn
 BG
@@ -24256,8 +24449,8 @@ mc
 if
 OU
 mc
-Ca
-Ca
+mP
+Hh
 om
 qf
 he
@@ -24440,7 +24633,7 @@ he
 qf
 xI
 Pu
-Ca
+Xa
 hx
 KY
 KY
@@ -24450,7 +24643,7 @@ Cl
 hk
 KY
 ht
-Ca
+mP
 ab
 zX
 qf
@@ -24634,7 +24827,7 @@ he
 qf
 XN
 YA
-Ca
+Xa
 pg
 pg
 pg
@@ -24644,7 +24837,7 @@ pg
 pg
 pg
 pg
-Ca
+mP
 dO
 EY
 qf
@@ -24828,7 +25021,7 @@ he
 qf
 si
 JB
-Ca
+Xa
 Ca
 Ca
 Ca
@@ -25223,7 +25416,7 @@ RR
 RR
 Li
 Li
-Li
+yK
 VD
 YV
 Ky
@@ -25417,7 +25610,7 @@ jI
 DV
 Li
 Li
-SU
+TX
 VD
 FA
 ff

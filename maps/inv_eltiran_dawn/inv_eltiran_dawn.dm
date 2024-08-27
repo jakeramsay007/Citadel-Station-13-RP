@@ -213,6 +213,26 @@
 	absolute_path = "maps/inv_eltiran_dawn/levels/misc.dmm"
 	flags = LEGACY_LEVEL_ADMIN
 
+/obj/machinery/cryopod/robot/door/shuttle/eltiran_dawn
+	name = "\improper Shuttle Dock"
+
+/obj/machinery/cryopod/robot/door/shuttle/eltiran_dawn/process(delta_time)
+	if(SSemergencyshuttle.online() || SSemergencyshuttle.returned())
+		// Transform into a door!  But first despawn anyone inside
+		time_till_despawn = 0
+		..()
+		var/turf/T = get_turf(src)
+		var/obj/machinery/door/airlock/glass_external/door = new(T)
+		door.lock()
+		door.req_access = null
+		door.req_one_access = null
+		door.id_tag = "escape_shuttle_hatch"
+		door.frequency = 1390
+		door.set_frequency(1390)
+		qdel(src)
+	// Otherwise just operate normally
+	return ..()
+
 #undef INV_ELTIRAN_DAWN_MAP_SIZE
 #undef INV_ELTIRAN_DAWN_HOLOMAP_CENTER_GUTTER
 #undef INV_ELTIRAN_DAWN_HOLOMAP_MARGIN_X

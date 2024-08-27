@@ -8270,6 +8270,14 @@
 	icon_state = "white"
 	},
 /area/centcom/medical)
+"Ah" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/glass_external{
+	req_one_access = null
+	},
+/obj/map_helper/airlock/door/simple,
+/turf/simulated/shuttle/floor/black,
+/area/shuttle/escape)
 "Ai" = (
 /obj/item/stool/padded,
 /turf/unsimulated/floor/wood,
@@ -8773,6 +8781,15 @@
 	icon_state = "white"
 	},
 /area/centcom/medical)
+"BI" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "escape_shuttle";
+	pixel_x = 1;
+	pixel_y = 30
+	},
+/turf/simulated/shuttle/floor/black,
+/area/shuttle/escape)
 "BJ" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
@@ -16233,6 +16250,7 @@
 	landmark_tag = "escape_cc";
 	name = "Escape Shuttle Centcom"
 	},
+/obj/map_helper/airlock/door/simple,
 /turf/simulated/shuttle/floor/black,
 /area/shuttle/escape)
 "ZA" = (
@@ -29835,7 +29853,7 @@ AF
 AF
 AF
 AF
-jT
+Ah
 bV
 Jg
 wG
@@ -30999,7 +31017,7 @@ AF
 AF
 AF
 AF
-jT
+Ah
 CG
 yz
 Ew
@@ -31193,7 +31211,7 @@ AF
 AF
 AF
 AF
-jT
+Ah
 ld
 yz
 Pn
@@ -32943,7 +32961,7 @@ jQ
 jQ
 jQ
 wG
-CG
+BI
 CG
 Rx
 jQ

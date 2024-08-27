@@ -220,16 +220,16 @@ Will print: "/mob/living/carbon/human/death" (you can optionally embed it in a s
 
 // Job groups
 // todo: nuke this from fucking orbit during job refactor
-#define DEPARTMENT_CARGO			"imperial marine corps quartermastery department"
-#define DEPARTMENT_CIVILIAN			"imperial navy support staff"
-#define DEPARTMENT_COMMAND			"imperial navy command"
-#define DEPARTMENT_ENGINEERING		"imperial engineer corps"
+#define DEPARTMENT_CARGO			"Imperial Marine Corps Quartermastery Department"
+#define DEPARTMENT_CIVILIAN			"Imperial Navy Support Staff"
+#define DEPARTMENT_COMMAND			"Imperial Navy Command"
+#define DEPARTMENT_ENGINEERING		"Imperial Engineer Corps"
 #define DEPARTMENT_EVERYONE			"everyone"
-#define DEPARTMENT_MEDICAL			"imperial medical services"
+#define DEPARTMENT_MEDICAL			"Imperial Medical Services"
 #define DEPARTMENT_OFFDUTY			"offduty"
-#define DEPARTMENT_PLANET			"imperial marine corps"
-#define DEPARTMENT_RESEARCH			"imperial naval intelligence"
-#define DEPARTMENT_SECURITY			"imperial marine corps military police"
+#define DEPARTMENT_PLANET			"Imperial Marine Corps"
+#define DEPARTMENT_RESEARCH			"Imperial Naval Intelligence"
+#define DEPARTMENT_SECURITY			"Imperial Marine Corps Military Police"
 #define DEPARTMENT_SYNTHETIC		"synthetic"
 /// Leaving this definition in place, can perhaps use it in the future but removing it will require digging into other stuff im not comfortable with -BLoop
 #define DEPARTMENT_TALON			"talon"

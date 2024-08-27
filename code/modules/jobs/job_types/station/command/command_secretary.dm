@@ -26,21 +26,27 @@
 			They typically hold the rank of Second Lieutenant, up to Lieutenant Commander."
 
 	alt_titles = list(
-		"Command Intern" = /datum/prototype/struct/alt_title/command_intern,
-		"Helmsman" = /datum/prototype/struct/alt_title/commsec/helmsman,
-		"Command Secretary" = /datum/prototype/struct/alt_title/commsec/actually_commsec
+		"IN Command Intern" = /datum/prototype/struct/alt_title/command_intern,
+		"IN Helmsman" = /datum/prototype/struct/alt_title/commsec/helmsman,
+		"IN Command Secretary" = /datum/prototype/struct/alt_title/commsec/actually_commsec
 	)
 
 /datum/prototype/struct/alt_title/command_intern
-	title = "Command Intern"
+	title = "IN Command Intern"
 	title_outfit = /datum/outfit/job/station/command_secretary
+	title_blurb = "A Command Intern is a recruit studying to learn the ways of ship commanding and operation. \
+					They assist the command staff in general duties, such as paperwork and amenities. \
+					They typically hold the rank of Able Rate, but can be a higher ranking NCO aiming for commission."
 
 /datum/prototype/struct/alt_title/commsec/helmsman
-	title = "Helmsman"
+	title = "IN Helmsman"
 
 /datum/prototype/struct/alt_title/commsec/actually_commsec
-	title = "Command Secretary"
+	title = "IN Command Secretary"
 	title_outfit = /datum/outfit/job/station/command_secretary
+	title_blurb = "A Command Secretary is an assistant directly to the Imperial Navy Command Staff. \
+					They assist the command staff in general duties, such as paperwork and amenities. \
+					They typically hold the rank of Petty Officer or Chief Petty Officer."
 
 /datum/outfit/job/station/command_secretary
 	name = OUTFIT_JOB_NAME("Command Secretary")

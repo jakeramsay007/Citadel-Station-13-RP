@@ -281,13 +281,6 @@
 	},
 /obj/machinery/button/remote/blast_door{
 	desc = "A remote control-switch for shutters.";
-	id = "virologyquar";
-	name = "Virology Emergency Lockdown Control";
-	pixel_y = -28;
-	req_access = list(5)
-	},
-/obj/machinery/button/remote/blast_door{
-	desc = "A remote control-switch for shutters.";
 	id = "medbayquar";
 	name = "Medbay Emergency Lockdown Control";
 	pixel_y = -36;
@@ -418,6 +411,14 @@
 	req_one_access = list(5)
 	},
 /obj/item/deskbell,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "er" = (
@@ -650,6 +651,14 @@
 /area/crew_quarters/sleep/Dorm_2)
 "gw" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 1;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/plating,
 /area/medical/recovery_room)
 "gC" = (
@@ -740,6 +749,14 @@
 	},
 /obj/machinery/door/window/westleft{
 	req_one_access = list(5)
+	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -1014,6 +1031,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
+"kz" = (
+/obj/machinery/vending/fitness,
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "kQ" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 5
@@ -1173,6 +1194,14 @@
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
+	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -1793,7 +1822,15 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/hyper/west_mount,
-/obj/landmark/spawnpoint/job/medical_doctor,
+/obj/machinery/organ_printer/flesh,
+/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "rb" = (
@@ -2034,6 +2071,14 @@
 "tP" = (
 /obj/machinery/door/firedoor,
 /obj/spawner/window/low_wall/reinforced/full,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/plating,
 /area/medical/chemistry)
 "tR" = (
@@ -2088,23 +2133,15 @@
 /turf/simulated/wall/r_wall/prepainted/civilian,
 /area/crew_quarters/sleep/Dorm_6)
 "uX" = (
+/obj/machinery/fire_alarm/north_mount,
+/obj/structure/closet/secure_closet/paramedic,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 9
 	},
-/obj/structure/table/steel_reinforced,
-/obj/item/reagent_containers/glass/bottle/biomass{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/item/reagent_containers/glass/bottle/biomass{
-	pixel_x = 3;
-	pixel_y = 5
-	},
 /obj/effect/floor_decal/industrial/outline/blue,
-/obj/machinery/fire_alarm/north_mount,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "vd" = (
@@ -2216,6 +2253,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/landmark/spawnpoint/job/medical_doctor,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "vE" = (
@@ -2245,6 +2283,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 1;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -2958,6 +3004,14 @@
 	name = "Treatment Centre";
 	req_access = list()
 	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 1;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "CX" = (
@@ -3109,6 +3163,14 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/medical_restroom)
@@ -3672,6 +3734,14 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "Kk" = (
@@ -3739,6 +3809,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/kitchen)
+"KT" = (
+/obj/machinery/vending/nifsoft_shop,
+/turf/simulated/floor/tiled/neutral,
+/area/hallway/secondary/civilian_hallway_mid)
 "Le" = (
 /obj/machinery/holosign/bar{
 	id = "barsign1";
@@ -5122,15 +5196,22 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "ZY" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/reagent_containers/glass/bottle/biomass{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/glass/bottle/biomass{
+	pixel_x = 3;
+	pixel_y = 5
+	},
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/paleblue,
-/obj/machinery/organ_printer/flesh,
-/obj/effect/floor_decal/industrial/outline/blue,
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 
@@ -27922,8 +28003,8 @@ DT
 DT
 DT
 qx
-IB
-IB
+KT
+kz
 IB
 IB
 IB

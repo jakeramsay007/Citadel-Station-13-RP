@@ -673,6 +673,17 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_basketball)
+"rt" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
+	id_tag = "supply_shuttle";
+	pixel_x = 8;
+	req_one_access = list(13,31);
+	tag_door = "supply_shuttle_hatch";
+	pixel_y = -25
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/centcom/suppy)
 "rC" = (
 /obj/structure/table/woodentable/holotable,
 /obj/effect/floor_decal/carpet{
@@ -23093,7 +23104,7 @@ uT
 Ms
 Rv
 Rv
-Rv
+rt
 Ms
 oi
 ty
