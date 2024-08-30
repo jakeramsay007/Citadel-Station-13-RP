@@ -1871,6 +1871,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Holodeck - Beach"
 	sound_env = PLAIN
 
+/area/holodeck/source_pool
+	name = "\improper Holodeck - Pool"
+	sound_env = PLAIN
+
 /area/holodeck/source_burntest
 	name = "\improper Holodeck - Atmospheric Burn Test"
 

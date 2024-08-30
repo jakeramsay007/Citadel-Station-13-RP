@@ -231,6 +231,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"de" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/obj/structure/bed/chair/backed_red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"dq" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4;
+	icon_state = "spline_fancy_corner"
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "ds" = (
 /obj/effect/floor_decal/spline/fancy,
 /obj/machinery/porta_turret/stationary{
@@ -314,6 +330,16 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"dR" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/arcade,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "ei" = (
 /obj/structure/closet/secure_closet/sar{
 	req_access = list(5);
@@ -372,6 +398,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"eA" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1;
+	icon_state = "spline_fancy_corner"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4;
+	icon_state = "spline_fancy_corner"
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "eI" = (
 /obj/map_helper/airlock/atmos/chamber_pump,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -485,6 +522,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"fX" = (
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/obj/machinery/light/flamp,
+/turf/simulated/floor/carpet/patterened,
+/area/quartermaster/hallway)
 "gr" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/recharger/wallcharger{
@@ -693,9 +741,29 @@
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
+"hK" = (
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/structure/bed/chair/apidean_stool,
+/turf/simulated/floor/carpet/patterened,
+/area/quartermaster/hallway)
 "hO" = (
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"hS" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1;
+	icon_state = "spline_fancy_corner"
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "if" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/anomaly_container,
@@ -1378,15 +1446,33 @@
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
 "re" = (
-/obj/machinery/light{
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/obj/structure/bed/chair/apidean_stool,
+/turf/simulated/floor/carpet/patterened,
 /area/quartermaster/hallway)
 "ro" = (
 /obj/spawner/window/low_wall/reinforced/full/firelocks,
 /turf/simulated/floor,
 /area/quartermaster/hallway)
+"rp" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"rr" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/loot_pile/maint/trash,
+/turf/simulated/floor/tiled,
+/area/quartermaster/warehouse)
 "ru" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/old_tile/gray,
@@ -1778,6 +1864,17 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
+"vx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "vL" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1985,6 +2082,31 @@
 /obj/structure/cable,
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
+"yr" = (
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/obj/machinery/light/flamp,
+/turf/simulated/floor/carpet/patterened,
+/area/quartermaster/hallway)
+"ys" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"yI" = (
+/obj/effect/floor_decal/carpet,
+/obj/structure/bed/chair/apidean_stool,
+/turf/simulated/floor/carpet/patterened,
+/area/quartermaster/hallway)
 "yK" = (
 /obj/machinery/vending/fitness,
 /turf/simulated/floor/tiled/neutral,
@@ -2303,6 +2425,10 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
+"BQ" = (
+/obj/structure/loot_pile/maint/trash,
+/turf/simulated/floor/tiled,
+/area/quartermaster/warehouse)
 "BU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2514,6 +2640,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"Ei" = (
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/structure/table/borosilicate,
+/turf/simulated/floor/carpet/patterened,
+/area/quartermaster/hallway)
 "Ek" = (
 /obj/map_helper/airlock/door/simple,
 /obj/map_helper/access_helper/airlock/station/external_airlock,
@@ -2818,6 +2951,10 @@
 /obj/structure/closet/crate/science,
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
+"GF" = (
+/obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
+/turf/simulated/floor,
+/area/quartermaster/hallway)
 "GQ" = (
 /obj/structure/table/steel,
 /obj/item/clothing/accessory/badge/holo,
@@ -3004,6 +3141,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"In" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/structure/bed/chair/apidean_stool,
+/turf/simulated/floor/carpet/patterened,
 /area/quartermaster/hallway)
 "Iu" = (
 /obj/structure/cable{
@@ -3486,6 +3636,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
+"OS" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/obj/structure/bed/chair/backed_red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "OU" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/stasis_cage,
@@ -4136,10 +4295,27 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
+"Wm" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/arcade,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "Wz" = (
 /obj/machinery/status_display{
 	pixel_y = 30
 	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/obj/structure/flora/pottedplant/orientaltree,
 /turf/simulated/floor/tiled/neutral,
 /area/quartermaster/hallway)
 "WB" = (
@@ -25407,9 +25583,9 @@ he
 he
 he
 fl
-Li
-Li
-Li
+Wm
+de
+hS
 Li
 Li
 RR
@@ -25600,10 +25776,10 @@ he
 he
 he
 he
-eR
+GF
 re
-Li
-Li
+yr
+rp
 Li
 Li
 jI
@@ -25794,10 +25970,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+Ei
+yI
+rp
 Li
 Li
 jI
@@ -25988,10 +26164,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+Ei
+yI
+rp
 SU
 Ba
 XC
@@ -26182,10 +26358,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+In
+fX
+rp
 Li
 XC
 uk
@@ -26378,8 +26554,8 @@ he
 he
 eR
 Wz
-Li
-Li
+ys
+eA
 Li
 XC
 uk
@@ -26570,10 +26746,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+re
+yr
+rp
 Li
 XC
 uk
@@ -26764,10 +26940,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+Ei
+yI
+rp
 SU
 Ba
 XC
@@ -26780,7 +26956,7 @@ pU
 pU
 sz
 Sh
-eR
+GF
 he
 he
 he
@@ -26958,10 +27134,10 @@ he
 he
 he
 he
-eR
-Li
-Li
-Li
+GF
+Ei
+yI
+rp
 Li
 kO
 Li
@@ -26974,7 +27150,7 @@ nr
 Li
 sz
 Sh
-eR
+GF
 he
 he
 he
@@ -27152,10 +27328,10 @@ he
 he
 he
 he
-eR
-re
-Li
-Li
+GF
+hK
+fX
+rp
 Li
 Li
 Li
@@ -27347,14 +27523,14 @@ he
 he
 he
 eR
-Li
-Li
-Li
+dR
+OS
+dq
 Li
 DZ
 NI
 NI
-NI
+vx
 NI
 NI
 Ou
@@ -30263,12 +30439,12 @@ EX
 MM
 vT
 NN
-NN
+rr
 SF
 lN
 lN
 vT
-NN
+rr
 UW
 UW
 he
@@ -30648,15 +30824,15 @@ he
 he
 he
 UW
-vT
+BQ
 NN
 tB
 Kz
 vT
-NN
+rr
 cK
 GE
-vT
+BQ
 UW
 he
 he
@@ -31039,7 +31215,7 @@ he
 he
 he
 UW
-NN
+rr
 vT
 lN
 UW
@@ -31235,7 +31411,7 @@ he
 UW
 GE
 Bc
-NN
+rr
 UW
 he
 he

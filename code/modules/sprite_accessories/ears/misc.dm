@@ -60,3 +60,10 @@
 	icon_state = "zears"
 	do_colouration = 1
 	legacy_use_additive_color_matrix = FALSE
+
+/datum/sprite_accessory/ears/human
+	name = "human ears"
+	id = "ears_human"
+	icon_state = "human_ears"
+	do_colouration = 1
+	legacy_use_additive_color_matrix = FALSE

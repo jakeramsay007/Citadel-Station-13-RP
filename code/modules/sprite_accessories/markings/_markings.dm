@@ -479,3 +479,10 @@
 	icon_state = "jackal_bareback"
 	legacy_use_additive_color_matrix = FALSE
 	body_parts = list(BP_L_ARM,BP_R_ARM,BP_GROIN,BP_TORSO)
+
+/datum/sprite_accessory/marking/breasts
+	name = "Breasts"
+	id = "marking_breasts"
+	icon_state = "breasts"
+	legacy_use_additive_color_matrix = FALSE
+	body_parts = list(BP_TORSO)

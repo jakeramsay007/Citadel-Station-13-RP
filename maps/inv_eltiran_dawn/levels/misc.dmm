@@ -156,6 +156,9 @@
 /obj/effect/floor_decal/sign/dock/one,
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_chess)
+"ds" = (
+/turf/simulated/floor/water/pool,
+/area/holodeck/source_pool)
 "dt" = (
 /obj/structure/bed/chair/holochair{
 	dir = 8
@@ -173,6 +176,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/holodorm/source_boxing)
+"dT" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "el" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -195,6 +204,15 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_emptycourt)
+"fu" = (
+/obj/structure/table/rack/holorack_legacy,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "fw" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_theatre)
@@ -209,6 +227,10 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_theatre)
+"fF" = (
+/obj/structure/table/woodentable/holotable,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/holodeck/source_beach)
 "fM" = (
 /obj/structure/table/holotable,
 /obj/effect/floor_decal/corner/red/full{
@@ -234,6 +256,10 @@
 /obj/effect/floor_decal/sign/c,
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_chess)
+"gn" = (
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "gp" = (
 /obj/structure/lattice,
 /obj/structure/railing,
@@ -255,6 +281,13 @@
 "gL" = (
 /turf/simulated/floor/holofloor/reinforced,
 /area/holodeck/source_plating)
+"gT" = (
+/obj/effect/floor_decal/spline/plain/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "gX" = (
 /obj/structure/railing{
 	dir = 8
@@ -264,6 +297,9 @@
 	},
 /turf/simulated/floor/holofloor/space,
 /area/space)
+"hc" = (
+/turf/simulated/floor/water/deep/pool,
+/area/holodeck/source_pool)
 "hu" = (
 /obj/structure/railing{
 	dir = 1
@@ -385,6 +421,12 @@
 /obj/effect/step_trigger/lost_in_space,
 /turf/space/transit/east,
 /area/space)
+"kj" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "kr" = (
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/holodorm/source_basic)
@@ -416,6 +458,11 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_boxingcourt)
+"lm" = (
+/obj/structure/table/holotable,
+/obj/structure/flora/pottedplant/flower,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "ls" = (
 /obj/effect/floor_decal/corner/red/full{
 	dir = 1
@@ -647,6 +694,12 @@
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/holodorm/source_seating)
+"qo" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "qy" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -715,6 +768,10 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
+"so" = (
+/obj/structure/snowman,
+/turf/simulated/floor/holofloor/snow,
+/area/holodeck/source_snowfield)
 "sp" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -894,6 +951,10 @@
 /obj/structure/table/woodentable/holotable,
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
+"vB" = (
+/obj/effect/floor_decal/spline/plain/corner,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "vR" = (
 /obj/structure/holostool,
 /turf/simulated/floor/holofloor/tiled,
@@ -1018,6 +1079,12 @@
 /obj/structure/window/reinforced,
 /turf/unsimulated/wall,
 /area/space)
+"xF" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "xI" = (
 /obj/structure/window/reinforced/holowindow{
 	dir = 1
@@ -1088,15 +1155,28 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_thunderdomecourt)
+"yT" = (
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "zA" = (
 /obj/structure/flora/grass/green,
 /turf/simulated/floor/holofloor/snow,
 /area/holodeck/holodorm/source_snow)
+"zD" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/holodeck/source_beach)
 "zE" = (
 /obj/structure/flora/grass/green,
 /obj/structure/flora/tree/pine,
 /turf/simulated/floor/holofloor/snow,
 /area/holodeck/holodorm/source_snow)
+"zI" = (
+/obj/structure/table/rack/holorack_legacy,
+/obj/item/inflatable_duck,
+/obj/item/inflatable_duck,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "zJ" = (
 /obj/structure/railing,
 /turf/simulated/floor/holofloor/space,
@@ -1366,6 +1446,12 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_theatre)
+"Gp" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "Gr" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1915,6 +2001,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_basketball)
+"Vb" = (
+/obj/effect/floor_decal/spline/plain/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "Vf" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -1983,10 +2075,20 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_meetinghall)
+"VM" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "VZ" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/holodorm/source_garden)
+"Wl" = (
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "Ws" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -2094,6 +2196,12 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
+"YC" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/holodeck/source_pool)
 "YP" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -27759,7 +27867,7 @@ te
 tF
 WG
 tF
-tF
+so
 tF
 tF
 PK
@@ -30871,16 +30979,16 @@ Jn
 Jn
 Jn
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+yT
+vB
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
 Uk
 oi
 oi
@@ -31065,16 +31173,16 @@ Jn
 BU
 BU
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+gn
+Wl
+ds
+ds
+ds
+ds
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -31259,16 +31367,16 @@ UY
 ch
 ch
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+gn
+Wl
+ds
+ds
+ds
+ds
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -31453,16 +31561,16 @@ Ns
 Ns
 HU
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+yT
+Wl
+ds
+ds
+YC
+qo
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -31647,16 +31755,16 @@ fQ
 fQ
 XI
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+yT
+Wl
+ds
+ds
+Gp
+Wl
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -31841,16 +31949,16 @@ XI
 Ns
 HU
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+gn
+Wl
+ds
+ds
+VM
+xF
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -32035,16 +32143,16 @@ XI
 fQ
 OR
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+gn
+Wl
+ds
+ds
+ds
+ds
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -32229,16 +32337,16 @@ XI
 Oy
 Qp
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+yT
+gT
+ds
+ds
+ds
+ds
+ds
+hc
+hc
+hc
 Uk
 oi
 oi
@@ -32423,16 +32531,16 @@ fQ
 fQ
 XI
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+zI
+Vb
+kj
+kj
+kj
+kj
+kj
+kj
+kj
+kj
 Uk
 oi
 oi
@@ -32617,16 +32725,16 @@ Oy
 Oy
 Qp
 te
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+lm
+fu
+yT
+gn
+gn
+yT
+gn
+gn
+yT
+yT
 Uk
 oi
 oi
@@ -33386,7 +33494,7 @@ AT
 AA
 AT
 AT
-AT
+ba
 AT
 AT
 NL
@@ -33576,9 +33684,9 @@ CD
 CD
 CD
 xz
-AT
-AT
-AT
+zD
+fF
+zD
 AT
 AT
 AT
@@ -33770,10 +33878,10 @@ CD
 CD
 CD
 xz
+zD
+fF
+zD
 AT
-AT
-AT
-ba
 AT
 AT
 AT

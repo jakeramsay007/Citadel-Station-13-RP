@@ -68,3 +68,11 @@
 	icon_state = "zorren_longsocks"
 	legacy_use_additive_color_matrix = FALSE
 	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_LEG,BP_R_LEG,BP_L_ARM,BP_R_ARM,BP_L_HAND,BP_R_HAND)
+
+
+/datum/sprite_accessory/marking/zorren/zorren_nose
+	name = "Zorren Nose Colouring"
+	id = "marking_zorren_nose"
+	icon_state = "zorren_nose"
+	legacy_use_additive_color_matrix = FALSE
+	body_parts = list(BP_HEAD)

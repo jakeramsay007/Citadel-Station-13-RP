@@ -64,6 +64,7 @@
 	"Theatre" 			= new/datum/holodeck_program(/area/holodeck/source_theatre),
 	"Meetinghall" 		= new/datum/holodeck_program(/area/holodeck/source_meetinghall),
 	"Courtroom" 		= new/datum/holodeck_program(/area/holodeck/source_courtroom, list('sound/music/traitor.ogg')),
+	"Pool"				= new/datum/holodeck_program(/area/holodeck/source_pool),
 	"Turn Off" 			= new/datum/holodeck_program(/area/holodeck/source_plating, list())
 	)
 
