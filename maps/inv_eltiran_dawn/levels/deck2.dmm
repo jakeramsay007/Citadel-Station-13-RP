@@ -2299,14 +2299,6 @@
 /obj/map_helper/access_helper/airlock/station/medical/department,
 /turf/simulated/floor/wood,
 /area/medical)
-"tG" = (
-/obj/machinery/ai_status_display{
-	pixel_y = -32
-	},
-/turf/simulated/floor/reinforced{
-	name = "Holodeck Projector Floor"
-	},
-/area/holodeck/alphadeck)
 "tL" = (
 /obj/machinery/light{
 	dir = 4;
@@ -3992,6 +3984,9 @@
 /area/crew_quarters/sleep/Dorm_6)
 "It" = (
 /obj/structure/closet/lasertag/red,
+/obj/machinery/ai_status_display{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled,
 /area/holodeck_control)
 "Iy" = (
@@ -23794,7 +23789,7 @@ ij
 ij
 ij
 ij
-tG
+ij
 Gc
 DT
 DT
