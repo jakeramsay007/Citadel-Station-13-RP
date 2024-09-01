@@ -419,12 +419,6 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
-"kP" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "kS" = (
 /obj/machinery/door/airlock/glass_external{
 	frequency = 1380;
@@ -564,10 +558,6 @@
 /obj/item/chess/brook,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_chess)
-"nL" = (
-/obj/structure/table/bench/wooden,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "nP" = (
 /obj/structure/table/woodentable/holotable,
 /obj/structure/window/reinforced/holowindow,
@@ -701,15 +691,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
-"rG" = (
-/obj/structure/table/rack/holorack_legacy,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "rI" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -1267,22 +1248,10 @@
 /obj/structure/table/woodentable/holotable,
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
-"CX" = (
-/obj/effect/floor_decal/spline/plain/corner{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "Dl" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_picnicarea)
-"Dn" = (
-/obj/structure/table/rack/holorack_legacy,
-/obj/item/inflatable_duck,
-/obj/item/inflatable_duck,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "DA" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/holofloor/desert,
@@ -1330,10 +1299,6 @@
 "Eu" = (
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
-"EH" = (
-/obj/effect/floor_decal/spline/plain,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "ES" = (
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_emptycourt)
@@ -1357,9 +1322,6 @@
 "Fb" = (
 /turf/simulated/floor/holofloor/desert,
 /area/holodeck/holodorm/source_desert)
-"Ff" = (
-/turf/simulated/floor/water/pool,
-/area/holodeck/source_pool)
 "Fs" = (
 /obj/item/chess/bpawn,
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -1572,12 +1534,6 @@
 "IU" = (
 /turf/simulated/floor/holofloor/reinforced,
 /area/holodeck/holodorm/source_off)
-"Jb" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "Jj" = (
 /obj/structure/window/reinforced/holowindow/disappearing{
 	dir = 1
@@ -1599,10 +1555,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_boxingcourt)
-"JH" = (
-/obj/effect/floor_decal/spline/plain/corner,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "Kb" = (
 /obj/landmark{
 	name = "Holocarp Spawn Random"
@@ -1735,12 +1687,6 @@
 "OA" = (
 /turf/simulated/floor/holofloor/space,
 /area/holodeck/source_space)
-"OB" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "OK" = (
 /obj/machinery/door/window/holowindoor{
 	base_state = "right";
@@ -1818,12 +1764,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_checker)
-"QV" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "QY" = (
 /obj/structure/bed/chair/holochair{
 	dir = 8
@@ -1839,12 +1779,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
-"RA" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "RG" = (
 /obj/item/chess/bknight,
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -2021,12 +1955,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_theatre)
-"UU" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "UY" = (
 /obj/machinery/door/window/holowindoor{
 	base_state = "right";
@@ -2238,14 +2166,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
-"YF" = (
-/turf/simulated/floor/water/deep/pool,
-/area/holodeck/source_pool)
-"YL" = (
-/obj/structure/table/holotable,
-/obj/structure/flora/pottedplant/orientaltree,
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "YP" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet{
@@ -2255,12 +2175,6 @@
 	dir = 8
 	},
 /area/holodeck/source_meetinghall)
-"YU" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "YW" = (
 /obj/effect/floor_decal/sign/a,
 /turf/simulated/floor/holofloor/wood,
@@ -2273,9 +2187,6 @@
 /obj/item/chess/wqueen,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_chess)
-"Zr" = (
-/turf/simulated/floor/tiled/freezer,
-/area/holodeck/source_pool)
 "ZB" = (
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/holofloor/tiled,
@@ -31032,16 +30943,16 @@ Jn
 Jn
 Jn
 te
-Zr
-JH
-QV
-QV
-QV
-QV
-QV
-QV
-QV
-QV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -31226,16 +31137,16 @@ Jn
 BU
 BU
 te
-nL
-EH
-Ff
-Ff
-Ff
-Ff
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -31420,16 +31331,16 @@ UY
 ch
 ch
 te
-nL
-EH
-Ff
-Ff
-Ff
-Ff
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -31614,16 +31525,16 @@ Ns
 Ns
 HU
 te
-Zr
-EH
-Ff
-Ff
-kP
-YU
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -31808,16 +31719,16 @@ fQ
 fQ
 XI
 te
-Zr
-EH
-Ff
-Ff
-RA
-EH
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -32002,16 +31913,16 @@ XI
 Ns
 HU
 te
-nL
-EH
-Ff
-Ff
-Jb
-UU
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -32196,16 +32107,16 @@ XI
 fQ
 OR
 te
-nL
-EH
-Ff
-Ff
-Ff
-Ff
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -32390,16 +32301,16 @@ XI
 Oy
 Qp
 te
-Zr
-EH
-Ff
-Ff
-Ff
-Ff
-Ff
-YF
-YF
-YF
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -32584,16 +32495,16 @@ fQ
 fQ
 XI
 te
-Dn
-CX
-OB
-OB
-OB
-OB
-OB
-OB
-OB
-OB
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
@@ -32778,16 +32689,16 @@ Oy
 Oy
 Qp
 te
-YL
-rG
-Zr
-nL
-nL
-Zr
-nL
-nL
-Zr
-Zr
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 Uk
 oi
 oi
