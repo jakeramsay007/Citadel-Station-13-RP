@@ -31,7 +31,7 @@
 	ideal_character_age = 40
 
 	outfit_type = /datum/outfit/job/station/quartermaster
-	desc = "The Technical Quartermaster Sergeant manages the Supply department under the Head of Personnel, checking cargo orders and ensuring supplies get to where they are needed. \
+	desc = "The Technical Quartermaster Sergeant manages the Supply department under the Executive Officer, checking cargo orders and ensuring supplies get to where they are needed. \
 			As they are expected to ensure equipment and supplies only go to those who need them, they report only to the TQMS, XO and Captain. \
 			They typically hold the rank of Staff Sergeant or Warrant Officer 2."
 

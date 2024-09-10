@@ -381,11 +381,39 @@
 /obj/structure/bed/alien/attackby(obj/item/W, mob/user)
 	return // No deconning.
 
+//Flipped Beds
+
 /obj/structure/bed/flipped
+	desc = "This is used to lie in, sleep in or strap on. It's been flipped 180 degrees. Flippin' amazing!"
+	base_icon = "bed_flipped"
+	icon_state = "bed_flipped"
 	buckle_dir = NORTH
 
-/obj/structure/bed/flipped/double
-
+/obj/structure/bed/double/flipped
 	name = "double bed"
 	desc = "This is used to lie in, sleep in or strap on. It's been flipped 180 degrees. Flippin' amazing!"
+	base_icon = "doublebed_flipped"
 	icon_state = "doublebed_flipped"
+	buckle_dir = NORTH
+
+/obj/structure/bed/flipped/padded/Initialize(mapload)
+	. = ..(mapload, "wood", "cotton")
+
+/obj/structure/bed/double/flipped/padded/Initialize(mapload)
+	. = ..(mapload, "wood", "cotton")
+
+/obj/structure/bed/double/flipped/padded/get_buckled_y_offset(atom/buckled)
+	if(isnull(buckled))
+		return ..()
+	var/index = buckled_mobs?.Find(buckled)
+	if(!index)
+		return ..()
+	switch(index)
+		if(1)
+			return 0
+		if(2)
+			return 12
+		if(3)
+			return 6
+		else
+			return rand(0, 12)

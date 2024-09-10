@@ -1875,6 +1875,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Holodeck - Pool"
 	sound_env = PLAIN
 
+/area/holodeck/source_sauna
+	name = "\improper Holodeck - Sauna"
+	sound_env = PLAIN
+
 /area/holodeck/source_burntest
 	name = "\improper Holodeck - Atmospheric Burn Test"
 
@@ -3377,6 +3381,32 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	lift_floor_name = "Exploration, Arrivals & Departures, Security, Command, Chapel, Sauna, Docking Arm, Library, Garden, Tool Storage"
 	lift_announce_str = "Arriving at Deck 4."
 
+
+//INV Eltiran Dawn Turbolifts
+
+/area/turbolift/i_ship/level1
+	name = "Deck 1"
+	lift_floor_label = "Deck 1"
+	lift_floor_name = "Operations Deck - Imperial Marines, Cargo Bay"
+	lift_announce_str = "Arriving at Deck 1."
+
+/area/turbolift/i_ship/level2
+	name = "Deck 2"
+	lift_floor_label = "Deck 2"
+	lift_floor_name = "Crew Deck - Dorms, Bar, Holodeck, Medical"
+	lift_announce_str = "Arriving at Deck 2."
+
+/area/turbolift/i_ship/level3
+	name = "Deck 3"
+	lift_floor_label = "Deck 3"
+	lift_floor_name = "Engineering Deck - Engineering, Atmospherics, Reactor Room, Engines"
+	lift_announce_str = "Arriving at Deck 3."
+
+/area/turbolift/i_ship/level4
+	name = "Deck 4"
+	lift_floor_label = "Deck 4"
+	lift_floor_name = "Command Deck - Bridge, Command Offices, Shuttle Docks, Research, Military Police Brig"
+	lift_announce_str = "Arriving at Deck 4."
 
 //Debug/Code areas
 

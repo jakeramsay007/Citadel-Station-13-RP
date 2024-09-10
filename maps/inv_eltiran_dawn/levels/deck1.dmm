@@ -78,6 +78,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration/excursion_dock)
+"aY" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "bb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -197,15 +201,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"cB" = (
+/obj/structure/sign/deck1,
+/turf/simulated/shuttle/wall/voidcraft/blue,
+/area/quartermaster/hallway)
 "cG" = (
 /obj/machinery/vending/security,
 /obj/machinery/newscaster/security_unit{
 	pixel_y = -32
 	},
-/obj/machinery/light,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
@@ -238,14 +248,20 @@
 /obj/structure/bed/chair/backed_red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "dq" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4;
 	icon_state = "spline_fancy_corner"
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "ds" = (
 /obj/effect/floor_decal/spline/fancy,
@@ -338,7 +354,10 @@
 	dir = 1
 	},
 /obj/machinery/computer/arcade,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "ei" = (
 /obj/structure/closet/secure_closet/sar{
@@ -359,6 +378,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/light,
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/obj/machinery/power/apc/west_mount,
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
 "en" = (
@@ -407,7 +430,7 @@
 	dir = 4;
 	icon_state = "spline_fancy_corner"
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "eI" = (
 /obj/map_helper/airlock/atmos/chamber_pump,
@@ -487,6 +510,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
+"ft" = (
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "fI" = (
 /obj/machinery/computer/supplycomp{
 	dir = 1
@@ -762,7 +792,10 @@
 	dir = 1;
 	icon_state = "spline_fancy_corner"
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "if" = (
 /obj/effect/floor_decal/industrial/warning/full,
@@ -853,7 +886,7 @@
 /area/shuttle/excursion/general)
 "jI" = (
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "jL" = (
 /obj/structure/cable{
@@ -915,7 +948,7 @@
 /obj/map_helper/access_helper/airlock/station/security/department{
 	req_one_access = list(2,1,63,4,43,67,19)
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "kl" = (
 /obj/structure/cable{
@@ -955,7 +988,10 @@
 	dir = 8;
 	old_wall = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "kU" = (
 /obj/structure/table/rack/shelf/steel,
@@ -1022,6 +1058,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/security/security_lockerroom)
 "lt" = (
@@ -1227,6 +1264,10 @@
 "nZ" = (
 /turf/simulated/floor/tiled/monowhite,
 /area/security/brig/bathroom)
+"oa" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "oe" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -1310,6 +1351,13 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"pK" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "pS" = (
 /obj/machinery/door/airlock/security{
@@ -1466,7 +1514,13 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
+"rq" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "rr" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1514,7 +1568,7 @@
 /area/shuttle/excursion/general)
 "rU" = (
 /obj/machinery/door/airlock/mining{
-	name = "Quartermaster";
+	name = "TQMS";
 	req_one_access = list()
 	},
 /obj/map_helper/access_helper/airlock/station/head_office/quartermaster,
@@ -1593,6 +1647,12 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
+"sK" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "sM" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central5{
@@ -1953,6 +2013,19 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/excursion/general)
+"wG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atm{
+	pixel_x = 0;
+	pixel_y = -31
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/quartermaster/hallway)
 "wJ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/red/full{
@@ -2100,7 +2173,7 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "yI" = (
 /obj/effect/floor_decal/carpet,
@@ -2109,7 +2182,10 @@
 /area/quartermaster/hallway)
 "yK" = (
 /obj/machinery/vending/fitness,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "yT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2495,6 +2571,15 @@
 /obj/landmark/spawnpoint/job/pathfinder,
 /turf/simulated/floor/tiled,
 /area/shuttle/excursion/general)
+"CZ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "Dm" = (
 /turf/simulated/shuttle/wall/voidcraft/hard_corner,
 /area/shuttle/excursion/cargo)
@@ -2610,10 +2695,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
+"DQ" = (
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "DV" = (
 /obj/structure/stairs/spawner/south,
 /obj/structure/window/reinforced,
-/turf/simulated/floor/tiled/neutral,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "DZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2626,7 +2714,10 @@
 	icon_state = "2-8";
 	dir = 4
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "Ec" = (
 /obj/machinery/computer/ship/engines,
@@ -2655,6 +2746,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/quartermaster/office)
+"Eo" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "Ez" = (
 /obj/item/radio/intercom{
 	dir = 8;
@@ -2726,6 +2823,11 @@
 	dir = 8;
 	light_range = 12
 	},
+/obj/structure/sign/department/cargo_dock{
+	pixel_x = -36;
+	pixel_y = 0;
+	name = "CARGO ELEVATOR"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "EX" = (
@@ -2770,6 +2872,12 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
+"Fp" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "Ft" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2852,6 +2960,10 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
@@ -2975,7 +3087,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/light,
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
 "GV" = (
@@ -3410,7 +3524,10 @@
 /area/shuttle/excursion/general)
 "Ld" = (
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "Li" = (
 /turf/simulated/floor/tiled/neutral,
@@ -3580,6 +3697,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/neutral,
 /area/security/breakroom)
+"Or" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "Os" = (
 /obj/machinery/door/airlock/glass/security{
 	name = "Firing Range";
@@ -3643,7 +3764,14 @@
 /obj/structure/bed/chair/backed_red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/sign/department/cargo{
+	pixel_x = 31;
+	pixel_y = 30
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "OU" = (
 /obj/effect/floor_decal/industrial/warning/full,
@@ -3761,6 +3889,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/security_lockerroom)
 "Rr" = (
@@ -3815,7 +3947,13 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "Sa" = (
 /obj/structure/cable{
@@ -3902,7 +4040,8 @@
 /area/exploration/excursion_dock)
 "SU" = (
 /obj/machinery/light,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "SX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3916,6 +4055,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"Tt" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 "Tu" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 32;
@@ -3972,7 +4117,8 @@
 "TX" = (
 /obj/machinery/light,
 /obj/machinery/vending/nifsoft_shop,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "Ui" = (
 /obj/machinery/door/airlock/multi_tile/glass,
@@ -4296,14 +4442,17 @@
 /turf/simulated/floor/plating,
 /area/shuttle/excursion/cargo)
 "Wm" = (
-/obj/effect/floor_decal/spline/fancy{
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/computer/arcade,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "Wz" = (
 /obj/machinery/status_display{
@@ -4316,7 +4465,10 @@
 	dir = 8
 	},
 /obj/structure/flora/pottedplant/orientaltree,
-/turf/simulated/floor/tiled/neutral,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
 /area/quartermaster/hallway)
 "WB" = (
 /obj/machinery/computer/security/mining{
@@ -4419,6 +4571,9 @@
 /obj/item/clothing/under/oricon/utility/marine/security,
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/security/security_lockerroom)
@@ -4540,6 +4695,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
+"ZS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
+/area/quartermaster/hallway)
 
 (1,1,1) = {"
 he
@@ -19770,7 +19931,7 @@ eT
 fh
 cG
 qB
-Fm
+BK
 hy
 wn
 hy
@@ -25586,12 +25747,12 @@ fl
 Wm
 de
 hS
-Li
-Li
+sK
+pK
 RR
 RR
-Li
-Li
+CZ
+sK
 yK
 VD
 YV
@@ -25780,12 +25941,12 @@ GF
 re
 yr
 rp
-Li
-Li
+DQ
+oa
 jI
 DV
-Li
-Li
+Tt
+DQ
 TX
 VD
 FA
@@ -25974,12 +26135,12 @@ GF
 Ei
 yI
 rp
-Li
-Li
+Or
+ZS
 jI
 DV
-Li
-Li
+rq
+Eo
 Ld
 VD
 FU
@@ -26171,9 +26332,9 @@ rp
 SU
 Ba
 XC
+cB
 XC
-XC
-XC
+cB
 XC
 dB
 Sy
@@ -26362,7 +26523,7 @@ GF
 In
 fX
 rp
-Li
+oa
 XC
 uk
 uk
@@ -26556,7 +26717,7 @@ eR
 Wz
 ys
 eA
-Li
+ft
 XC
 uk
 uk
@@ -26750,7 +26911,7 @@ GF
 re
 yr
 rp
-Li
+oa
 XC
 uk
 uk
@@ -27138,9 +27299,9 @@ GF
 Ei
 yI
 rp
-Li
+Fp
 kO
-Li
+ro
 dv
 dv
 dv
@@ -27332,9 +27493,9 @@ GF
 hK
 fX
 rp
-Li
-Li
-Li
+DQ
+oa
+aY
 Li
 Li
 Li
@@ -27343,7 +27504,7 @@ Ui
 Li
 Li
 sz
-Sh
+wG
 eR
 he
 he
@@ -27526,7 +27687,7 @@ eR
 dR
 OS
 dq
-Li
+Eo
 DZ
 NI
 NI

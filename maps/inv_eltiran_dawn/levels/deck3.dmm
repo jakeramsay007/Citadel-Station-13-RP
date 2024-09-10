@@ -440,15 +440,15 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/computer)
 "aWr" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
-	dir = 4;
-	input_tag = "nitrous_in";
-	name = "Nitrous Oxide Supply Control";
-	output_tag = "nitrous_out";
-	sensors = list("nitrous_sensor"="Tank")
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
+	},
+/obj/machinery/computer/general_air_control/large_tank_control{
+	dir = 4;
+	input_tag = "tox_in";
+	name = "Phoron Supply Control";
+	output_tag = "tox_out";
+	sensors = list("tox_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
@@ -600,7 +600,7 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 4;
 	frequency = 1380;
-	id_tag = "deck4_dockarm1";
+	id_tag = "deck3_dockarm2";
 	pixel_x = -26;
 	pixel_y = 1
 	},
@@ -2033,6 +2033,13 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/workshop)
+"eNf" = (
+/obj/structure/sign/atmos_co2{
+	name = "CO2";
+	desc = null
+	},
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "eOr" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/effect/floor_decal/techfloor/orange{
@@ -2142,6 +2149,13 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/workshop)
+"eZZ" = (
+/obj/structure/sign/atmos_plasma{
+	name = "Phoron";
+	desc = null
+	},
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "fdp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2857,10 +2871,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
-"gRn" = (
-/obj/machinery/photocopier,
-/turf/space/basic,
-/area/space)
 "gSb" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -2968,15 +2978,15 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/computer)
 "hmb" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
-	dir = 4;
-	input_tag = "tox_in";
-	name = "Phoron Supply Control";
-	output_tag = "tox_out";
-	sensors = list("tox_sensor"="Tank")
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
+	},
+/obj/machinery/computer/general_air_control/large_tank_control{
+	dir = 4;
+	input_tag = "nitrous_in";
+	name = "Nitrous Oxide Supply Control";
+	output_tag = "nitrous_out";
+	sensors = list("nitrous_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
@@ -3636,6 +3646,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
+"iPv" = (
+/obj/structure/sign/deck3,
+/turf/simulated/shuttle/wall/voidcraft/blue,
+/area/engineering/hallway)
 "iRh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 5
@@ -3943,6 +3957,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "jEh" = (
@@ -4218,6 +4235,12 @@
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
+"kjN" = (
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "kkz" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
@@ -5301,6 +5324,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/sign/department/eng{
+	pixel_x = -31;
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
 "neQ" = (
@@ -5796,6 +5823,13 @@
 /obj/landmark/spawnpoint/job/chief_engineer,
 /turf/simulated/floor/carpet/blucarpet,
 /area/crew_quarters/heads/chief)
+"oCx" = (
+/obj/structure/sign/atmos_n2o{
+	name = "N2O";
+	desc = null
+	},
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "oFZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/paint_stripe/sun,
@@ -6106,6 +6140,9 @@
 	dir = 4;
 	old_wall = 1
 	},
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
 "pwP" = (
@@ -6143,6 +6180,18 @@
 	},
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
+"pCF" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/closet/crate/bin{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "pDl" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /obj/machinery/newscaster{
@@ -6629,9 +6678,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
-"qXK" = (
-/turf/simulated/wall/prepainted/engineering,
-/area/engineering/workshop)
 "qYG" = (
 /obj/structure/table/standard,
 /obj/item/multitool,
@@ -7027,6 +7073,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/portnacelle)
+"rPv" = (
+/obj/structure/sign/atmos/air,
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "rPC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -7457,6 +7507,16 @@
 /area/engineering/lower/lobby{
 	name = "\improper Enginering Lobby"
 	})
+"sSg" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/sign/department/eng{
+	pixel_x = 0;
+	pixel_y = -29
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "sTi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7670,6 +7730,13 @@
 /obj/structure/closet/firecloset/full,
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
+"tBY" = (
+/obj/structure/sign/atmos_n2{
+	name = "N2";
+	desc = null
+	},
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "tCI" = (
 /obj/machinery/door/airlock/command{
 	name = "Chief Engineer";
@@ -7910,6 +7977,10 @@
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
+	},
+/obj/structure/sign/department/atmos{
+	pixel_x = 32;
+	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/engineering/hallway)
@@ -8229,6 +8300,13 @@
 /obj/structure/cable,
 /turf/simulated/floor,
 /area/crew_quarters/heads/chief)
+"vCc" = (
+/obj/structure/sign/atmos_o2{
+	name = "O2";
+	desc = null
+	},
+/turf/simulated/wall/r_wall/prepainted/engineering/atmos,
+/area/engineering/atmos)
 "vDZ" = (
 /obj/machinery/light{
 	dir = 1
@@ -8431,6 +8509,18 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/storage)
+"vYC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atm{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/neutral,
+/area/engineering/hallway)
 "vZb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/machinery/holopad,
@@ -11563,7 +11653,7 @@ pRW
 pRW
 pRW
 pRW
-gRn
+pRW
 pRW
 pRW
 pRW
@@ -29177,7 +29267,7 @@ pRW
 pRW
 moI
 vFe
-sgF
+kjN
 qEp
 eOr
 bFH
@@ -29964,12 +30054,12 @@ gMI
 nxO
 nNY
 nxO
-qXK
-qXK
-qXK
+orc
+orc
+orc
 guG
-qXK
-qXK
+orc
+orc
 orc
 pRW
 pRW
@@ -30151,7 +30241,7 @@ erI
 cLH
 ndQ
 nYB
-cbv
+vYC
 dBQ
 cbv
 cbv
@@ -30735,9 +30825,9 @@ vbf
 sgF
 sqm
 qRe
+iPv
 qRe
-qRe
-qRe
+iPv
 qRe
 sqm
 eea
@@ -31707,7 +31797,7 @@ mUN
 sgF
 qxU
 qxU
-qxU
+sSg
 tPS
 jNL
 mcH
@@ -32095,7 +32185,7 @@ sdC
 sdC
 sdC
 xCr
-sdC
+pCF
 ePP
 fVQ
 vcX
@@ -32676,11 +32766,11 @@ vEs
 vEs
 vEs
 cXC
-kMx
-aUo
-cXC
 aEU
 xCH
+cXC
+kMx
+aUo
 cXC
 mZj
 bqe
@@ -32870,11 +32960,11 @@ iLN
 bHr
 smf
 cXC
-kTU
-bJZ
-cXC
 dzN
 aDe
+cXC
+kTU
+bJZ
 cXC
 rVa
 ieR
@@ -33063,13 +33153,13 @@ oBr
 aVO
 bzj
 nFT
-cXC
+oCx
 dxA
 rAp
-cXC
+eZZ
 dxA
 rAp
-cXC
+eNf
 dxA
 rAp
 cXC
@@ -34426,7 +34516,7 @@ rYp
 aAw
 keF
 mFI
-cXC
+tBY
 cXC
 cXC
 cXC
@@ -35008,7 +35098,7 @@ wCH
 tuF
 itO
 kXE
-cXC
+vCc
 cXC
 cXC
 cXC
@@ -35589,7 +35679,7 @@ bxz
 icA
 hQy
 eWB
-cXC
+rPv
 cXC
 cXC
 cXC

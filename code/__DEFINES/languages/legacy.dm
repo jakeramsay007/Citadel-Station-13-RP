@@ -47,3 +47,4 @@
 #define LANGUAGE_PROMETHEAN "Promethean Biolinguistics"
 #define LANGUAGE_SCORI "Scori"
 #define LANGUAGE_KEISANI "Keisanis"
+#define LANGUAGE_IMPERIAL "High Imperial"

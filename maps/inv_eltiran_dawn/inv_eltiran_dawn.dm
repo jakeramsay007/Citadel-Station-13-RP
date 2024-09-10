@@ -226,9 +226,9 @@
 		door.lock()
 		door.req_access = null
 		door.req_one_access = null
-		door.id_tag = "escape_shuttle_hatch"
-		door.frequency = 1390
-		door.set_frequency(1390)
+		door.id_tag = "deck4_shuttledock_hatch"
+		door.frequency = 1380
+		door.set_frequency(1380)
 		qdel(src)
 	// Otherwise just operate normally
 	return ..()

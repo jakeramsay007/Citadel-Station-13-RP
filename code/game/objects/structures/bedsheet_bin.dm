@@ -42,6 +42,9 @@ LINEN BINS
 		return
 	..()
 
+/obj/item/bedsheet/flipped
+	icon_state = "sheet_flipped"
+
 /obj/item/bedsheet/blue
 	icon_state = "sheetblue"
 
@@ -103,6 +106,9 @@ LINEN BINS
 	icon_state = "doublesheet"
 	item_state = "sheet"
 
+/obj/item/bedsheet/double/flipped
+	icon_state = "doublesheet_flipped"
+
 /obj/item/bedsheet/bluedouble
 	icon_state = "doublesheetblue"
 	item_state = "sheetblue"
@@ -143,8 +149,8 @@ LINEN BINS
 	icon_state = "doublesheetcaptain"
 	item_state = "sheetcaptain"
 
-/obj/item/bedsheet/capdoubleflipped
-	icon_state = "doublesheetcaptainflipped"
+/obj/item/bedsheet/captaindouble/flipped
+	icon_state = "doublesheetcaptain_flipped"
 	item_state = "sheetcaptain"
 
 /obj/item/bedsheet/rddouble
@@ -158,6 +164,9 @@ LINEN BINS
 /obj/item/bedsheet/hopdouble
 	icon_state = "doublesheethop"
 	item_state = "sheethop"
+
+/obj/item/bedsheet/hopdouble/flipped
+	icon_state = "doublesheethop_flipped"
 
 /obj/item/bedsheet/cedouble
 	icon_state = "doublesheetce"

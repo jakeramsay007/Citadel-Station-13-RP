@@ -65,6 +65,7 @@
 	"Meetinghall" 		= new/datum/holodeck_program(/area/holodeck/source_meetinghall),
 	"Courtroom" 		= new/datum/holodeck_program(/area/holodeck/source_courtroom, list('sound/music/traitor.ogg')),
 	"Pool"				= new/datum/holodeck_program(/area/holodeck/source_pool),
+	"Sauna"				= new/datum/holodeck_program(/area/holodeck/source_sauna),
 	"Turn Off" 			= new/datum/holodeck_program(/area/holodeck/source_plating, list())
 	)
 
@@ -246,11 +247,7 @@
 
 	holographic_objs -=obj
 
-	if(!silent)
-		var/obj/oldobj = obj
-		visible_message("The [oldobj.name] fades away!")
-
-	qdel(obj)
+	obj.holodeck_derez(silent)
 
 /obj/machinery/computer/HolodeckControl/proc/checkInteg(var/area/A)
 	for(var/turf/T in A)

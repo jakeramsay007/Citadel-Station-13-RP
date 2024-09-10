@@ -1143,3 +1143,10 @@
 	switch(var_name)
 		if(NAMEOF(src, hides_underfloor))
 			set_hides_underfloor(var_value)
+
+//Holodeck Object Delete
+
+/obj/proc/holodeck_derez(silent = 1)
+	if (!silent)
+		visible_message("[src] fades away!")
+	qdel(src)

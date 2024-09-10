@@ -79,6 +79,8 @@
 #define LANGUAGE_ID_SCORI "scori"
 /// keisani
 #define LANGUAGE_ID_KEISANI "keisani"
+/// imperial
+#define LANGUAGE_ID_IMPERIAL "imperial"
 
 //? Antagonist
 #define LANGUAGE_ID_CHANGELING "changeling"

@@ -18,6 +18,12 @@
 	new /obj/item/clothing/under/color/white(src)
 	new /obj/item/clothing/shoes/white(src)
 
+/obj/structure/closet/secure_closet/personal/holodeck/legacy_spawn_contents()
+	return
+
+/obj/structure/closet/secure_closet/personal/holodeck/holodeck_derez(silent = 1)
+	dump_contents()
+	..()
 
 /obj/structure/closet/secure_closet/personal/cabinet
 	closet_appearance = /singleton/closet_appearance/cabinet/secure

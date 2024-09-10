@@ -17,7 +17,7 @@
 /area/holodeck/source_courtroom)
 "al" = (
 /obj/structure/holostool,
-/turf/simulated/floor/holofloor/desert,
+/turf/simulated/floor/outdoors/beach/sand/dirt,
 /area/holodeck/source_picnicarea)
 "ap" = (
 /obj/structure/bed/chair/holochair,
@@ -28,7 +28,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "av" = (
 /obj/effect/floor_decal/corner/red/full{
@@ -53,11 +53,13 @@
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
 "aV" = (
-/turf/simulated/floor/holofloor/tiled,
-/area/space)
+/turf/simulated/wall/wood/hardwood,
+/area/holodeck/source_sauna)
 "ba" = (
 /obj/item/beach_ball,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "bb" = (
 /obj/item/chess/wking,
@@ -168,6 +170,13 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/holodorm/source_seating)
+"dv" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/food/drinks/bottle/patron,
+/obj/effect/mist,
+/obj/effect/map_effect/interval/effect_emitter/steam,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "dR" = (
 /obj/structure/table/holotable,
 /obj/item/clothing/gloves/boxing/hologlove{
@@ -182,6 +191,12 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/holodeck/source_pool)
+"ek" = (
+/obj/effect/mist,
+/obj/structure/table/bench/wooden,
+/obj/effect/map_effect/interval/effect_emitter/steam,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "el" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -190,7 +205,9 @@
 /area/holodeck/source_courtroom)
 "eE" = (
 /obj/item/clothing/glasses/sunglasses,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "eI" = (
 /obj/structure/window/reinforced{
@@ -198,6 +215,10 @@
 	},
 /turf/unsimulated/wall,
 /area/space)
+"eP" = (
+/obj/effect/mist,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "fi" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -229,7 +250,9 @@
 /area/holodeck/source_theatre)
 "fF" = (
 /obj/structure/table/woodentable/holotable,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "fM" = (
 /obj/structure/table/holotable,
@@ -450,7 +473,7 @@
 "kC" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "la" = (
 /obj/effect/floor_decal/corner/blue/full{
@@ -550,7 +573,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "mE" = (
 /obj/landmark{
@@ -580,7 +603,7 @@
 "nx" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "nD" = (
 /obj/effect/floor_decal/corner/white/full,
@@ -729,7 +752,7 @@
 "rt" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	frequency = 1380;
-	id_tag = "supply_shuttle";
+	id_tag = "cc_supplydock";
 	pixel_x = 8;
 	req_one_access = list(13,31);
 	tag_door = "supply_shuttle_hatch";
@@ -755,7 +778,7 @@
 /area/holodeck/source_chess)
 "rN" = (
 /obj/structure/table/woodentable/holotable,
-/turf/simulated/floor/holofloor/desert,
+/turf/simulated/floor/outdoors/beach/sand/dirt,
 /area/holodeck/source_picnicarea)
 "sg" = (
 /obj/structure/holostool,
@@ -770,7 +793,7 @@
 /area/holodeck/source_courtroom)
 "so" = (
 /obj/structure/snowman,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "sp" = (
 /obj/structure/holostool,
@@ -779,6 +802,10 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_theatre)
+"sE" = (
+/obj/effect/mist,
+/turf/simulated/floor/water/deep/pool,
+/area/holodeck/source_sauna)
 "sL" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -842,7 +869,7 @@
 /turf/space/basic,
 /area/space)
 "tF" = (
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "tM" = (
 /obj/structure/railing{
@@ -919,7 +946,7 @@
 /area/holodeck/source_courtroom)
 "vk" = (
 /obj/structure/flora/grass/green,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "vq" = (
 /obj/structure/bed/chair/holochair{
@@ -938,7 +965,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "vu" = (
 /obj/effect/floor_decal/sign/a,
@@ -1003,6 +1030,15 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_meetinghall)
+"wF" = (
+/obj/effect/mist,
+/obj/effect/map_effect/interval/effect_emitter/steam,
+/obj/item/reagent_containers/food/drinks/cans/waterbottle,
+/obj/item/reagent_containers/food/drinks/cans/waterbottle,
+/obj/item/reagent_containers/food/drinks/cans/waterbottle,
+/obj/structure/table/woodentable,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "wH" = (
 /obj/structure/lattice,
 /obj/structure/railing,
@@ -1017,6 +1053,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_emptycourt)
+"wN" = (
+/obj/structure/table/bench/wooden,
+/obj/effect/mist,
+/obj/effect/map_effect/interval/effect_emitter/steam,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "wU" = (
 /obj/effect/floor_decal/corner/blue/full{
 	dir = 8
@@ -1031,7 +1073,7 @@
 /area/holodeck/source_boxingcourt)
 "xe" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "xh" = (
 /obj/effect/floor_decal/sign/dock/three,
@@ -1057,14 +1099,14 @@
 /area/holodeck/source_theatre)
 "xu" = (
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "xv" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "xw" = (
 /obj/effect/floor_decal/corner/red{
@@ -1132,7 +1174,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "ym" = (
 /obj/structure/window/reinforced/holowindow/disappearing,
@@ -1164,7 +1206,9 @@
 /area/holodeck/holodorm/source_snow)
 "zD" = (
 /obj/structure/holostool,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "zE" = (
 /obj/structure/flora/grass/green,
@@ -1196,11 +1240,13 @@
 /turf/simulated/floor/holofloor/snow,
 /area/holodeck/holodorm/source_snow)
 "At" = (
-/turf/simulated/floor/holofloor/desert,
+/turf/simulated/floor/outdoors/beach/sand/dirt,
 /area/holodeck/source_picnicarea)
 "AA" = (
 /obj/effect/overlay/palmtree_r,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "AC" = (
 /obj/effect/floor_decal/carpet{
@@ -1227,7 +1273,9 @@
 /turf/space,
 /area/space)
 "AT" = (
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "AV" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -1271,6 +1319,12 @@
 /obj/structure/holostool,
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
+"BZ" = (
+/obj/structure/curtain/open/shower{
+	anchored = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "Cp" = (
 /obj/machinery/door/window/holowindoor{
 	dir = 1;
@@ -1311,7 +1365,7 @@
 /area/holodeck/source_courtroom)
 "Dl" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "DA" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -1324,6 +1378,10 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
+"DW" = (
+/obj/structure/closet/secure_closet/personal/holodeck,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "DX" = (
 /obj/structure/table/holotable,
 /obj/item/clothing/gloves/boxing/hologlove,
@@ -1390,6 +1448,14 @@
 /obj/item/chess/bpawn,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_chess)
+"FJ" = (
+/obj/structure/curtain/open/shower{
+	anchored = 1;
+	name = "Sauna"
+	},
+/obj/structure/fans/tiny,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "FK" = (
 /obj/effect/floor_decal/sign/b,
 /turf/simulated/floor/holofloor/wood,
@@ -1457,14 +1523,14 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Gz" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "GA" = (
 /obj/item/paper{
@@ -1477,11 +1543,10 @@
 /area/centcom/suppy)
 "GF" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Hb" = (
 /obj/effect/floor_decal/corner/white/full,
@@ -1557,7 +1622,9 @@
 "IB" = (
 /obj/effect/overlay/palmtree_l,
 /obj/effect/overlay/coconut,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "IC" = (
 /obj/structure/holostool,
@@ -1602,6 +1669,14 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_boxingcourt)
+"JP" = (
+/obj/machinery/status_display{
+	pixel_x = -32
+	},
+/obj/effect/mist,
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "Kb" = (
 /obj/landmark{
 	name = "Holocarp Spawn Random"
@@ -1616,7 +1691,9 @@
 /area/holodeck/source_basketball)
 "Lf" = (
 /obj/item/inflatable_duck,
-/turf/simulated/floor/holofloor/beach/sand,
+/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+	name = "beach"
+	},
 /area/holodeck/source_beach)
 "Lm" = (
 /obj/structure/holohoop,
@@ -1685,11 +1762,11 @@
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
 "MS" = (
-/turf/simulated/floor/holofloor/beach/water,
+/turf/simulated/floor/water/classm,
 /area/holodeck/source_beach)
 "Nr" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Ns" = (
 /obj/effect/floor_decal/corner/green{
@@ -1706,9 +1783,7 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_chess)
 "NL" = (
-/turf/unsimulated/beach/sand{
-	icon_state = "beach"
-	},
+/turf/simulated/floor/water/beach,
 /area/holodeck/source_beach)
 "NZ" = (
 /obj/structure/holostool,
@@ -1717,7 +1792,7 @@
 /area/holodeck/source_theatre)
 "Ob" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Oy" = (
 /obj/effect/floor_decal/corner/green{
@@ -1749,6 +1824,11 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
+"Pc" = (
+/obj/effect/mist,
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "Pg" = (
 /obj/structure/window/reinforced/holowindow{
 	dir = 1
@@ -1756,6 +1836,11 @@
 /obj/structure/table/woodentable/holotable,
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_courtroom)
+"Pi" = (
+/obj/effect/mist,
+/obj/effect/map_effect/interval/effect_emitter/steam,
+/turf/simulated/floor/water/deep/pool,
+/area/holodeck/source_sauna)
 "Pj" = (
 /obj/effect/floor_decal/corner/white/full,
 /obj/effect/floor_decal/corner/white{
@@ -1775,11 +1860,11 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "PK" = (
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "PR" = (
 /obj/machinery/door/window/holowindoor{
@@ -1791,6 +1876,16 @@
 /obj/item/checker/black,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_checker)
+"Qk" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/food/drinks/bottle/limejuice,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/effect/mist,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "Ql" = (
 /obj/structure/table/woodentable/holotable,
 /turf/simulated/floor/holofloor/wood,
@@ -1866,7 +1961,7 @@
 "SA" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "SC" = (
 /turf/simulated/floor/holofloor/wood,
@@ -1884,6 +1979,11 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_courtroom)
+"SM" = (
+/obj/structure/table/bench/wooden,
+/obj/effect/mist,
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "SO" = (
 /obj/structure/window/reinforced/holowindow,
 /obj/machinery/door/window/holowindoor{
@@ -1954,7 +2054,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Uf" = (
 /obj/structure/bed/chair/holochair{
@@ -2085,6 +2185,10 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/holodorm/source_garden)
+"We" = (
+/obj/effect/mist,
+/turf/simulated/floor/water/pool,
+/area/holodeck/source_sauna)
 "Wl" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/tiled/freezer,
@@ -2102,7 +2206,7 @@
 /area/holodeck/source_checker)
 "WG" = (
 /obj/structure/flora/grass/both,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "WL" = (
 /obj/structure/table/woodentable/holotable,
@@ -2116,7 +2220,7 @@
 /area/holodeck/source_boxingcourt)
 "Xf" = (
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/holofloor/snow,
+/turf/simulated/floor/snow/snow2,
 /area/holodeck/source_snowfield)
 "Xj" = (
 /obj/effect/floor_decal/corner/red{
@@ -2132,12 +2236,9 @@
 "Xu" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/outdoors/grass/classm,
 /area/holodeck/source_picnicarea)
 "Xx" = (
 /obj/effect/floor_decal/corner/red{
@@ -2171,6 +2272,9 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/holodeck/source_boxingcourt)
+"XZ" = (
+/turf/simulated/floor/holofloor/wood,
+/area/holodeck/source_sauna)
 "Yj" = (
 /turf/space/transit/east,
 /area/space)
@@ -33114,7 +33218,7 @@ MS
 MS
 te
 aV
-aV
+BZ
 aV
 aV
 aV
@@ -33308,18 +33412,18 @@ MS
 MS
 te
 aV
+XZ
+DW
+DW
+DW
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+wF
+eP
+dv
 aV
 Uk
 oi
-oi
+gf
 oi
 oi
 oi
@@ -33502,19 +33606,19 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+XZ
+XZ
+XZ
+XZ
+FJ
+eP
+eP
+Qk
 aV
 Uk
 oi
-oi
-oi
+gf
+gf
 oi
 oi
 oi
@@ -33701,9 +33805,9 @@ aV
 aV
 aV
 aV
-aV
-aV
-aV
+eP
+eP
+eP
 aV
 Uk
 oi
@@ -33890,14 +33994,14 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+ek
+Pc
+JP
+Pc
+Pc
+eP
+eP
+eP
 aV
 Uk
 oi
@@ -34084,14 +34188,14 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+We
+We
+We
+We
+We
+We
+We
+SM
 aV
 Uk
 oi
@@ -34278,14 +34382,14 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+We
+We
+We
+We
+We
+We
+We
+SM
 aV
 Uk
 oi
@@ -34472,14 +34576,14 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+sE
+sE
+sE
+sE
+sE
+We
+We
+SM
 aV
 Uk
 oi
@@ -34666,14 +34770,14 @@ MS
 MS
 te
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+Pi
+sE
+sE
+sE
+sE
+We
+We
+wN
 aV
 Uk
 oi
