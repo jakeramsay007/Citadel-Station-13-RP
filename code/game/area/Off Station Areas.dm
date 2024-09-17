@@ -419,11 +419,22 @@
 
 
 // Frozen planet world areas
-/area/class_p
+/area/cyran
 	name = "Class P World"
 	icon_state = "away"
 	requires_power = 1
 	dynamic_lighting = 1
+
+/area/cyran/outdoors
+	name = "Cyran - Outside"
+	icon_state = "bluenew"
+	is_outside = OUTSIDE_YES
+
+/area/cyran/indoors
+	name = "Cyran - Inside"
+	icon_state = "red"
+
+//Class P
 
 /area/class_p/facility
 	name = "Facility"
@@ -444,6 +455,14 @@
 /area/class_p/POIs/archaic_temple
 	name = "Archaic Temple"
 	icon_state = "purple"
+
+//Cyran
+/area/cyran/
+	name = "Cyran"
+	icon_state = "away"
+	requires_power = 1
+	dynamic_lighting = 1
+
 
 //Debris field
 /area/shuttle/excursion/debrisfield

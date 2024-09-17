@@ -882,8 +882,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
 "cSO" = (
-/obj/structure/bed,
 /obj/item/bedsheet/blue,
+/obj/structure/bed/padded,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/blueshield)
 "cTu" = (
@@ -1557,6 +1557,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/hallway)
+"eUr" = (
+/obj/item/radio/intercom{
+	dir = 8;
+	pixel_x = -28;
+	req_access = list()
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/heads/hop)
 "eVP" = (
 /obj/machinery/photocopier/faxmachine,
 /obj/structure/table/reinforced,
@@ -2194,13 +2202,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/bridge)
 "gTV" = (
-/obj/item/radio/intercom{
-	dir = 4;
-	name = "Station Intercom (General)";
-	pixel_x = 23
-	},
 /obj/structure/bed/double,
 /obj/item/bedsheet/hosdouble,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = -10
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hos)
 "gVD" = (
@@ -3167,12 +3175,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/security/lobby)
-"kuH" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 9
-	},
-/turf/simulated/wall/r_wall/prepainted/command,
-/area/crew_quarters/captain)
 "kwG" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3803,13 +3805,13 @@
 /turf/simulated/floor/tiled/monowhite,
 /area/crew_quarters/captain)
 "miI" = (
-/obj/item/radio/intercom{
-	dir = 8;
-	pixel_x = -28;
-	req_access = list()
-	},
 /obj/structure/bed/double/flipped/padded,
 /obj/item/bedsheet/hopdouble/flipped,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = -10
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hop)
 "mjC" = (
@@ -5909,6 +5911,11 @@
 /obj/effect/floor_decal/carpet/blue{
 	dir = 9
 	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = -10
+	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/captain)
 "sgI" = (
@@ -6060,8 +6067,8 @@
 /turf/simulated/floor/tiled,
 /area/rnd/rdoffice)
 "sJL" = (
-/obj/structure/bed/double,
 /obj/item/bedsheet/reddouble,
+/obj/structure/bed/double/padded,
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
 "sJW" = (
@@ -6395,9 +6402,9 @@
 /turf/simulated/shuttle/plating/airless,
 /area/crew_quarters/heads/hos)
 "tFS" = (
-/obj/structure/bed,
 /obj/item/bedsheet/blue,
 /obj/machinery/air_alarm/east_mount,
+/obj/structure/bed/padded,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads)
 "tGn" = (
@@ -6442,8 +6449,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/teleporter/departing)
 "tJM" = (
-/obj/structure/bed,
 /obj/item/bedsheet/blue,
+/obj/structure/bed/padded,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads)
 "tKe" = (
@@ -7783,6 +7790,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/bridge_hallway)
+"xEf" = (
+/obj/item/radio/intercom{
+	dir = 4;
+	name = "Station Intercom (General)";
+	pixel_x = 23
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/heads/hos)
 "xFJ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -26802,7 +26817,7 @@ tWT
 bOr
 pVm
 qBg
-qBg
+eUr
 miI
 diz
 mER
@@ -28361,7 +28376,7 @@ mYb
 wtv
 kOb
 vlO
-kuH
+cYi
 ibn
 kRX
 mdK
@@ -28936,7 +28951,7 @@ tEj
 lnR
 wCs
 hsh
-hsh
+xEf
 gTV
 upC
 mYb
