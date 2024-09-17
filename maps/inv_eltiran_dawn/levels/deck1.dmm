@@ -371,6 +371,7 @@
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/pillbottles,
 /obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/hardsuit/medical/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "ek" = (
@@ -1556,6 +1557,7 @@
 	pixel_y = 6;
 	id = "QMOffice"
 	},
+/obj/item/hardsuit/industrial/equipped,
 /turf/simulated/floor/wood,
 /area/quartermaster/office)
 "rQ" = (
@@ -3624,6 +3626,7 @@
 /area/quartermaster/office)
 "Nq" = (
 /obj/structure/closet/secure_closet/cargotech,
+/obj/item/hardsuit/industrial/equipped,
 /turf/simulated/floor/tiled,
 /area/quartermaster/warehouse)
 "Nu" = (
@@ -4030,6 +4033,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/item/hardsuit/medical/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/exploration/excursion_dock)
 "SR" = (

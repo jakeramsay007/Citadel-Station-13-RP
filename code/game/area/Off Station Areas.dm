@@ -420,7 +420,7 @@
 
 // Frozen planet world areas
 /area/cyran
-	name = "Class P World"
+	name = "Cyran - Class O World"
 	icon_state = "away"
 	requires_power = 1
 	dynamic_lighting = 1

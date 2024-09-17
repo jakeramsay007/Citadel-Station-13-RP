@@ -573,7 +573,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
 "bOr" = (
-/obj/structure/closet/secure_closet/hop,
+/obj/structure/closet/secure_closet/hop{
+	name = "executive officer's locker"
+	},
+/obj/item/hardsuit/military/equipped,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hop)
 "bPO" = (
@@ -962,7 +965,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/armory/red)
 "diz" = (
-/obj/structure/closet/secure_closet/hop2,
+/obj/structure/closet/secure_closet/hop2{
+	name = "executive officer's attire"
+	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -1214,8 +1219,11 @@
 "dNH" = (
 /obj/machinery/air_alarm/north_mount,
 /obj/structure/closet/secure_closet/guncabinet/sidearm{
-	req_access = list(19)
+	req_access = list(19);
+	name = "emergency hardsuit cabinet"
 	},
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "dPo" = (
@@ -1972,6 +1980,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/security/warden)
+"gjg" = (
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
+/obj/structure/table/rack/shelf/steel,
+/obj/item/hardsuit/hazard/equipped,
+/obj/item/hardsuit/hazard/equipped,
+/obj/item/hardsuit/hazard/equipped,
+/turf/simulated/floor/tiled/dark,
+/area/security/armory/blue)
 "gna" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -3145,7 +3166,9 @@
 	dir = 9
 	},
 /obj/item/paper_bin,
-/obj/item/stamp/captain,
+/obj/item/stamp/captain{
+	name = "Captain's rubber stamp"
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
 "ksG" = (
@@ -3403,7 +3426,8 @@
 	},
 /obj/item/stamp/hop{
 	pixel_x = -7;
-	pixel_y = 1
+	pixel_y = 1;
+	name = "executive officer's rubber stamp"
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hop)
@@ -3509,6 +3533,7 @@
 /obj/item/gun/ballistic/revolver/mateba,
 /obj/item/ammo_magazine/a357/speedloader,
 /obj/item/ammo_magazine/a357/speedloader,
+/obj/item/hardsuit/pmc/commander/grey/equipped,
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/captain)
 "ldL" = (
@@ -3574,6 +3599,7 @@
 /area/crew_quarters/captain)
 "lnR" = (
 /obj/structure/closet/secure_closet/hos2,
+/obj/item/hardsuit/military/equipped,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/hos)
 "loa" = (
@@ -4394,6 +4420,7 @@
 "nzk" = (
 /obj/structure/closet/secure_closet/blueshield,
 /obj/machinery/fire_alarm/east_mount,
+/obj/item/hardsuit/pmc/security/grey/equipped,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads/blueshield)
 "nAa" = (
@@ -7064,6 +7091,8 @@
 /obj/structure/closet/secure_closet/guncabinet/sidearm{
 	req_access = list(19)
 	},
+/obj/item/hardsuit/military/equipped,
+/obj/item/hardsuit/military/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "vDk" = (
@@ -18677,7 +18706,7 @@ frJ
 xRj
 rvN
 pdW
-aGJ
+gjg
 pDI
 aiI
 rvN

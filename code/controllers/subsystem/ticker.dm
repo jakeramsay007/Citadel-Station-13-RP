@@ -484,7 +484,7 @@ SUBSYSTEM_DEF(ticker)
 	var/captainless=1
 	for(var/mob/living/carbon/human/player in GLOB.player_list)
 		if(player && player.mind && player.mind.assigned_role)
-			if(player.mind.assigned_role == "Facility Director")
+			if(player.mind.assigned_role == "Captain")
 				captainless=0
 			if(!player_is_antag(player.mind, only_offstation_roles = 1))
 				SSjob.EquipRank(player, player.mind.assigned_role, 0)

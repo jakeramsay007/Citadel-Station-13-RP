@@ -6723,6 +6723,7 @@
 /obj/item/hardsuit/eva/equipped,
 /obj/item/hardsuit/eva/equipped,
 /obj/effect/floor_decal/techfloor/orange,
+/obj/item/hardsuit/eva/equipped,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/workshop)
 "rbx" = (
