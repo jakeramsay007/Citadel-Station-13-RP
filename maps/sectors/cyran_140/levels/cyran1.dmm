@@ -25,6 +25,23 @@
 	},
 /turf/simulated/floor/carpet/patterened/purple,
 /area/cyran/indoors)
+"aG" = (
+/obj/structure/table/marble,
+/obj/item/hand_labeler,
+/obj/item/reagent_containers/dropper,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "aN" = (
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -162,6 +179,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/patterened/blue,
+/area/cyran/indoors)
+"em" = (
+/obj/machinery/appliance/mixer/candy,
+/turf/simulated/floor/tiled,
 /area/cyran/indoors)
 "ep" = (
 /obj/machinery/light{
@@ -388,6 +409,20 @@
 /obj/machinery/reagentgrinder,
 /turf/simulated/floor/wood/classm/outdoors,
 /area/cyran/outdoors)
+"lk" = (
+/obj/structure/table/marble,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/material/knife/butch,
+/obj/item/material/kitchen/rollingpin,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "lp" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/grassybush,
@@ -522,6 +557,11 @@
 /obj/structure/closet/secure_closet,
 /turf/simulated/floor/wood/classm,
 /area/cyran/outdoors)
+"qj" = (
+/obj/structure/table/marble,
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "qk" = (
 /obj/structure/stairs/spawner/west,
 /turf/simulated/floor/wood/classm,
@@ -561,11 +601,25 @@
 	dir = 4
 	},
 /area/cyran/outdoors)
+"rm" = (
+/obj/landmark/spawnpoint/job/chef,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
+"ry" = (
+/obj/item/material/knife/butch,
+/obj/item/material/kitchen/rollingpin,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "rC" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"rM" = (
+/obj/machinery/appliance/cooker/fryer,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "rZ" = (
 /obj/structure/fence,
 /turf/simulated/floor/outdoors/snow/classp,
@@ -637,6 +691,10 @@
 "tF" = (
 /obj/machinery/light,
 /turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"tH" = (
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled,
 /area/cyran/indoors)
 "tI" = (
 /obj/structure/bed/double/padded,
@@ -750,6 +808,10 @@
 	dir = 4
 	},
 /area/cyran/outdoors)
+"wI" = (
+/obj/machinery/appliance/mixer/cereal,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "xv" = (
 /obj/structure/fence,
 /turf/simulated/floor/outdoors/beach/sand/classm,
@@ -852,6 +914,10 @@
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/cyran/indoors)
+"zP" = (
+/obj/machinery/air_alarm/north_mount,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Ao" = (
 /obj/machinery/vending/fishing,
 /turf/simulated/floor/outdoors/dirt/classm,
@@ -943,6 +1009,18 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors)
+"Cc" = (
+/obj/structure/table/marble,
+/obj/machinery/reagentgrinder,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/dropper,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Cd" = (
 /obj/structure/bed/chair/sofa/black{
 	dir = 4
@@ -975,6 +1053,12 @@
 /mob/living/simple_mob/animal/passive/fish/perch,
 /turf/simulated/floor/water/deep/classm,
 /area/cyran/outdoors)
+"De" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Df" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -1152,6 +1236,33 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"Ia" = (
+/obj/structure/table/marble,
+/obj/item/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -9
+	},
+/obj/item/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 3
+	},
+/obj/item/reagent_containers/food/condiment/spacespice{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/food/condiment/hotsauce{
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/food/condiment/coldsauce{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 9
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "If" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -1162,6 +1273,10 @@
 "IK" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Jq" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled,
 /area/cyran/indoors)
 "JE" = (
 /obj/structure/fence/post{
@@ -1214,6 +1329,10 @@
 /obj/item/stool,
 /turf/simulated/floor/outdoors/beach/sand/classm,
 /area/cyran/outdoors)
+"Me" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Mt" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -1259,6 +1378,11 @@
 	},
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
+"Oc" = (
+/obj/structure/table/marble,
+/obj/machinery/microwave,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Oi" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/outdoors/dirt/classm,
@@ -1438,6 +1562,14 @@
 	dir = 6
 	},
 /area/cyran/outdoors)
+"RW" = (
+/obj/structure/table/marble,
+/obj/machinery/microwave,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "Sj" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1452,6 +1584,38 @@
 /obj/structure/fence,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"SF" = (
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/table/marble,
+/obj/item/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -9
+	},
+/obj/item/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 3
+	},
+/obj/item/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 9
+	},
+/obj/item/reagent_containers/food/condiment/spacespice{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/food/condiment/soysauce{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/cyran/indoors)
 "SI" = (
 /turf/simulated/floor/carpet/patterened/purple,
 /area/cyran/indoors)
@@ -7953,11 +8117,11 @@ gG
 gG
 gG
 GN
+Cc
+ry
+rM
 bD
-bD
-bD
-bD
-bD
+Me
 GN
 bm
 bm
@@ -8095,7 +8259,7 @@ gG
 gG
 gG
 mt
-bD
+aG
 bD
 bD
 bD
@@ -8239,9 +8403,9 @@ gG
 mt
 Tx
 bD
+Jq
 bD
-bD
-bD
+Ia
 GN
 bm
 bm
@@ -8380,10 +8544,10 @@ gG
 gG
 mt
 Tx
+zP
+XB
 bD
-bD
-bD
-bD
+tH
 GN
 bm
 bm
@@ -8521,11 +8685,11 @@ gG
 gG
 mP
 GN
+De
 bD
-bD
-bD
-bD
-bD
+XB
+rm
+SF
 GN
 bm
 bm
@@ -8663,11 +8827,11 @@ gG
 gG
 gG
 mt
+wI
 bD
+XB
 bD
-bD
-bD
-bD
+lk
 GN
 GN
 GN
@@ -8805,7 +8969,7 @@ gG
 gG
 gG
 mt
-XB
+em
 bD
 bD
 bD
@@ -8947,7 +9111,7 @@ gG
 gG
 gG
 mt
-XB
+Oc
 bD
 bD
 bD
@@ -9089,11 +9253,11 @@ gG
 gG
 gG
 GN
+RW
 bD
-bD
-bD
-bD
-bD
+tH
+tH
+qj
 GN
 no
 no
