@@ -1,9 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aj" = (
+/obj/structure/bed/chair/sofa/black/right,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
 "aN" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/railing/grey,
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"bb" = (
+/obj/structure/simple_door/wood{
+	name = "Bathroom"
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"bl" = (
+/obj/structure/table/woodentable,
+/obj/item/storage/box/glasses/meta,
+/obj/machinery/light,
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
 "bm" = (
@@ -21,22 +38,655 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"cF" = (
+/obj/structure/fireplace{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/modular_computer/telescreen{
+	pixel_x = -2;
+	pixel_y = 22
+	},
+/turf/simulated/floor/wmarble,
+/area/cyran/indoors)
+"cI" = (
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 2
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"cK" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 9
+	},
+/obj/machinery/light/flamp{
+	pixel_x = -6;
+	pixel_y = 18
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"cZ" = (
+/obj/structure/closet/wardrobe,
+/obj/structure/mirror/long/left{
+	pixel_x = 0;
+	pixel_y = 31
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"di" = (
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"eo" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"eF" = (
+/obj/spawner/window/low_wall/full/nogrille,
+/obj/structure/curtain/open/black,
+/turf/simulated/floor/plating,
+/area/cyran/indoors)
+"eL" = (
+/obj/structure/table/woodentable,
+/obj/machinery/chemical_dispenser/catering/bar_soft{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"fl" = (
+/obj/structure/railing/grey,
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"fG" = (
+/obj/structure/simple_door/wood{
+	name = "Spare Room"
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"gh" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"gB" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"gN" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4;
+	icon_state = "spline_fancy_corner"
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"is" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"iL" = (
+/obj/effect/floor_decal/carpet/corners{
+	dir = 10;
+	icon_state = "bcarpet_corners"
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"je" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 5
+	},
+/obj/machinery/light/flamp{
+	pixel_x = 6;
+	pixel_y = 18
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"jJ" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"kB" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"lJ" = (
+/obj/structure/bookcase/manuals/xenoarchaeology,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"mv" = (
+/obj/structure/curtain/open/bed,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"mO" = (
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"mX" = (
+/obj/structure/bed/double/padded,
+/obj/item/bedsheet/browndouble,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"od" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"os" = (
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"oZ" = (
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"py" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"pK" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"qc" = (
+/obj/structure/bed/chair/sofa/black/corner,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"rw" = (
+/obj/structure/bed/chair/sofa/black{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"sJ" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"td" = (
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"uf" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"uw" = (
+/obj/structure/simple_door/wood,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"vb" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"vw" = (
+/obj/structure/bed/chair/comfy,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"vF" = (
+/obj/structure/mirror{
+	pixel_x = 0;
+	pixel_y = -38
+	},
+/obj/structure/sink{
+	pixel_x = 0;
+	pixel_y = -20
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"wv" = (
+/obj/effect/floor_decal/carpet/blue,
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"xi" = (
+/obj/structure/sink{
+	pixel_x = 0;
+	pixel_y = -20
+	},
+/obj/structure/mirror{
+	pixel_x = 0;
+	pixel_y = -38
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"xZ" = (
+/obj/item/modular_computer/telescreen{
+	pixel_x = 31;
+	pixel_y = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"yj" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"yN" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 4
+	},
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"yU" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
 "zl" = (
 /obj/structure/railing/grey,
 /turf/simulated/open,
 /area/cyran/indoors)
+"zG" = (
+/obj/structure/toilet,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"zK" = (
+/obj/machinery/shower{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"AM" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"Bk" = (
+/obj/structure/bed/double/flipped/padded,
+/obj/item/bedsheet/captaindouble/flipped,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Bx" = (
+/obj/structure/bookcase/lore,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Ch" = (
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Cq" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"Cu" = (
+/obj/structure/bookcase/manuals/xenoarchaeology,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Dg" = (
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Dm" = (
+/obj/structure/bed/chair/sofa/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"DZ" = (
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
 "Ez" = (
 /turf/simulated/open,
 /area/cyran/outdoors)
+"EA" = (
+/obj/structure/bookcase/legal,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"EU" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Ge" = (
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Gj" = (
+/obj/structure/simple_door/wood{
+	name = "Chayse's Room"
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
 "GN" = (
 /turf/simulated/wall/wood/hardwood,
+/area/cyran/indoors)
+"Hg" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1;
+	icon_state = "spline_fancy_corner"
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"HG" = (
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 4
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"HR" = (
+/obj/structure/bed/chair/sofa/black/left,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"II" = (
+/obj/structure/bed/chair/sofa/black/right{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
 "IK" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"IX" = (
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Je" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/item/ammo_magazine/foam/smg,
+/obj/item/ammo_magazine/foam/smg,
+/obj/item/ammo_magazine/foam/smg,
+/obj/item/ammo_magazine/foam/smg,
+/obj/item/ammo_magazine/foam/lmg,
+/obj/item/ammo_magazine/foam/lmg,
+/obj/item/ammo_magazine/foam/box,
+/obj/item/ammo_magazine/foam/box,
+/obj/item/ammo_magazine/foam/box,
+/obj/item/ammo_magazine/foam/box,
+/obj/item/ammo_magazine/foam/box,
+/obj/item/gun/ballistic/automatic/lmg/foam,
+/obj/item/gun/ballistic/automatic/lmg/foam,
+/obj/item/gun/ballistic/automatic/advanced_smg/foam,
+/obj/item/gun/ballistic/automatic/advanced_smg/foam/blue,
+/obj/structure/closet/crate{
+	name = "foam gun toybox"
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Ji" = (
+/obj/structure/table/woodentable,
+/obj/machinery/chemical_dispenser/catering/bar_coffee{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Jj" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"JH" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"JP" = (
+/obj/structure/table/bench/glass{
+	name = "coffee table"
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"JX" = (
+/obj/structure/bed/chair/sofa/black/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Kq" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"Ku" = (
+/obj/structure/mirror/long/left{
+	dir = 8;
+	pixel_x = 30;
+	pixel_y = 0
+	},
+/obj/structure/closet/wardrobe,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"KE" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"KQ" = (
+/obj/structure/undies_wardrobe,
+/obj/structure/mirror/long/right{
+	pixel_x = 0;
+	pixel_y = 31
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Lg" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"Lq" = (
+/obj/structure/table/woodentable,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"LF" = (
+/obj/structure/bookcase/manuals,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
 "Mj" = (
 /turf/simulated/open,
+/area/cyran/indoors)
+"MB" = (
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"Nb" = (
+/obj/structure/bed/chair/sofa/black/right,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"NI" = (
+/obj/machinery/shower{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"Og" = (
+/obj/structure/bookcase/legal/sop,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Ot" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Pb" = (
+/obj/structure/bed/chair/sofa/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Pc" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"PG" = (
+/obj/structure/mirror/long/right{
+	dir = 8;
+	pixel_x = 30;
+	pixel_y = 0
+	},
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"QF" = (
+/obj/structure/bed/chair/sofa/black/corner{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"QP" = (
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Ra" = (
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"RK" = (
+/obj/structure/simple_door/wood{
+	name = "Toilet"
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
+"RU" = (
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"RW" = (
+/obj/structure/fireplace{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/modular_computer/telescreen{
+	pixel_x = 2;
+	pixel_y = 22
+	},
+/turf/simulated/floor/wmarble,
 /area/cyran/indoors)
 "RY" = (
 /obj/structure/railing/grey{
@@ -44,16 +694,160 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"Si" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"SO" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"TN" = (
+/obj/structure/bed/chair/sofa/black,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"TX" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 4
+	},
+/obj/structure/bed/chair/sofa/black{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
 "UQ" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /obj/structure/railing/grey,
+/obj/structure/table/bench/padded,
 /turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Vl" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"VX" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"Wu" = (
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 10
+	},
+/obj/item/toy/plushie/penguin_emperor,
+/obj/item/toy/plushie/penguin_baby,
+/obj/item/toy/plushie/orange_fox,
+/obj/item/toy/plushie/mouse/white,
+/obj/item/toy/plushie/kitten,
+/obj/item/toy/pan,
+/obj/structure/closet/crate{
+	name = "plushie toybox"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors)
 "Wz" = (
 /obj/spawner/window/low_wall/full/nogrille,
 /turf/simulated/floor/plating,
+/area/cyran/indoors)
+"Xf" = (
+/obj/structure/table/woodentable,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Xt" = (
+/obj/machinery/light,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"XA" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Yj" = (
+/obj/structure/bookcase/manuals/engineering,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors)
+"Yn" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 5
+	},
+/obj/structure/bed/chair/sofa/black/left{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors)
+"Yp" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"Zc" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/patterened/purple,
+/area/cyran/indoors)
+"ZK" = (
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/structure/curtain/open/shower,
+/obj/machinery/shower{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors)
 
 (1,1,1) = {"
@@ -2553,20 +3347,20 @@ Ez
 Ez
 GN
 GN
-Wz
-Wz
-Wz
+eF
+eF
+eF
 GN
 GN
-Wz
-Wz
+eF
+eF
+eF
 GN
 GN
-Wz
-Wz
-Wz
-Wz
-Wz
+eF
+eF
+eF
+GN
 GN
 GN
 Ez
@@ -2694,21 +3488,21 @@ Ez
 Ez
 Ez
 GN
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Nb
+Pc
+Pc
+Pc
+os
+vw
+Pc
+Pc
+Pc
+JH
+aj
+Pc
+Pc
+Pc
+Ge
 bm
 GN
 Ez
@@ -2835,22 +3629,22 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+qc
+Dm
+Dm
+Dm
+JX
 bm
+di
+Dm
+QP
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+qc
+Dm
+Dm
+Dm
+JX
 bm
 GN
 Ez
@@ -2977,7 +3771,7 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
 bm
 bm
 bm
@@ -3121,19 +3915,19 @@ Ez
 Ez
 GN
 bm
+jJ
 bm
+EA
 bm
+Og
 bm
+Bx
 bm
+Bx
 bm
+LF
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Yj
 bm
 bm
 GN
@@ -3258,27 +4052,27 @@ Ez
 Ez
 Ez
 GN
+eF
+eF
+eF
 GN
-GN
-GN
-GN
+KE
+jJ
+bm
+EA
+bm
+Og
+bm
+Bx
+bm
+Bx
+bm
+LF
+bm
+Yj
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+SO
 GN
 Ez
 Ez
@@ -3399,28 +4193,28 @@ Ez
 Ez
 Ez
 Ez
+eF
+eo
+EU
+Si
 GN
+GN
+jJ
+bm
+EA
+bm
+Og
+Xt
+GN
+KE
+Bx
+bm
+LF
+bm
+Yj
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+SO
 GN
 Ez
 Ez
@@ -3541,28 +4335,28 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Jj
+IX
+iL
+Dg
+GN
+jJ
+bm
+EA
+bm
+Og
+bm
+Bx
+bm
+Bx
 bm
 bm
 bm
 bm
+yj
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+SO
 GN
 Ez
 Ez
@@ -3683,28 +4477,28 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Jj
+IX
+IX
+wv
+GN
+GN
+GN
+EA
+bm
+Og
+bm
+Bx
+bm
+Bx
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
 GN
 Ez
 Ez
@@ -3825,7 +4619,15 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Jj
+IX
+IX
+iL
+Je
+Wu
+GN
+KE
 bm
 bm
 bm
@@ -3834,19 +4636,11 @@ bm
 bm
 bm
 bm
+GN
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Xt
 GN
 Ez
 Ez
@@ -3967,7 +4761,14 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Jj
+IX
+IX
+IX
+IX
+wv
+GN
 bm
 bm
 bm
@@ -3977,18 +4778,11 @@ bm
 bm
 bm
 bm
+uw
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+QF
+HG
 Wz
 Ez
 Ez
@@ -4109,6 +4903,13 @@ Ez
 Ez
 Ez
 Ez
+eF
+Jj
+IX
+IX
+IX
+IX
+wv
 GN
 bm
 bm
@@ -4119,18 +4920,11 @@ bm
 bm
 bm
 bm
+uw
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+TN
+Pc
 Wz
 Ez
 Ez
@@ -4248,31 +5042,31 @@ Ez
 Ez
 Ez
 GN
+eF
+eF
+eF
 GN
+Yn
+TX
+yN
+yU
+yU
+XA
 GN
+is
+is
+Vl
+is
+is
+lJ
+Cu
+lJ
+lJ
 GN
-GN
+KE
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+TN
+Pc
 Wz
 Ez
 Ez
@@ -4389,32 +5183,32 @@ Ez
 Ez
 Ez
 Ez
+eF
+bm
+bm
+bm
+GN
+JP
+JP
+JP
+bm
+bm
+Xt
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
 GN
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+qc
+QP
 Wz
 Ez
 Ez
@@ -4531,8 +5325,18 @@ Ez
 Ez
 Ez
 Ez
+eF
+bm
+mX
+bm
 GN
 bm
+xZ
+bm
+bm
+bm
+bm
+uw
 bm
 bm
 bm
@@ -4546,17 +5350,7 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Xt
 GN
 Ez
 Ez
@@ -4673,19 +5467,19 @@ Ez
 Ez
 Ez
 Ez
-Wz
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+mv
+GN
+mv
+GN
+GN
+GN
+GN
+eL
+Ji
+bl
+GN
+KE
 bm
 bm
 bm
@@ -4815,27 +5609,27 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+bm
+py
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
 bm
 bm
 bm
 cw
+gh
+gh
 cw
-cw
-cw
-cw
-cw
+gh
+gh
 cw
 bm
 bm
@@ -4957,17 +5751,17 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
 bm
 bm
 bm
 bm
 bm
+Xt
+GN
 bm
 bm
-bm
-bm
-bm
+py
 bm
 bm
 bm
@@ -4982,9 +5776,9 @@ Mj
 RY
 bm
 bm
-bm
-bm
-bm
+QF
+Pb
+II
 GN
 Ez
 Ez
@@ -5099,21 +5893,21 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
 bm
 bm
 bm
 bm
 bm
 bm
+fG
 bm
 bm
 bm
 bm
 bm
 bm
-bm
-IK
+fl
 Mj
 Mj
 Mj
@@ -5121,12 +5915,12 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
-bm
-bm
-bm
+HR
+Pc
+Pc
 Wz
 Ez
 Ez
@@ -5241,20 +6035,20 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
 bm
 bm
 bm
 bm
 bm
 bm
-bm
+GN
 bm
 bm
 bm
 bm
 cw
-cw
+gh
 UQ
 Mj
 Mj
@@ -5263,7 +6057,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 bm
@@ -5390,7 +6184,7 @@ bm
 bm
 bm
 bm
-bm
+GN
 bm
 IK
 Mj
@@ -5405,7 +6199,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 GN
@@ -5526,13 +6320,13 @@ Ez
 Ez
 Ez
 GN
+yj
 bm
 bm
 bm
 bm
-bm
-bm
-bm
+yj
+GN
 bm
 IK
 Mj
@@ -5549,7 +6343,7 @@ Mj
 Mj
 RY
 bm
-bm
+Xt
 GN
 Ez
 Ez
@@ -5669,13 +6463,13 @@ Ez
 Ez
 GN
 GN
+Pc
 bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+bb
+GN
+GN
+KE
 IK
 Mj
 Mj
@@ -5689,7 +6483,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 Wz
@@ -5811,12 +6605,12 @@ Ez
 Ez
 Ez
 GN
+cZ
 bm
-bm
-bm
-bm
-bm
-bm
+GN
+MB
+vF
+GN
 bm
 IK
 Mj
@@ -5831,7 +6625,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 Wz
@@ -5953,12 +6747,12 @@ Ez
 Ez
 Ez
 GN
-bm
-bm
-bm
-bm
-bm
-bm
+KQ
+Xt
+GN
+sJ
+MB
+GN
 bm
 IK
 Mj
@@ -6095,12 +6889,12 @@ Ez
 Ez
 Ez
 GN
+Pc
 bm
-bm
-bm
-bm
-bm
-bm
+GN
+ZK
+Cq
+GN
 bm
 IK
 Mj
@@ -6115,7 +6909,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 Wz
@@ -6237,13 +7031,13 @@ Ez
 Ez
 GN
 GN
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
+GN
+KE
 IK
 Mj
 Mj
@@ -6257,7 +7051,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 Wz
@@ -6384,7 +7178,7 @@ bm
 bm
 bm
 bm
-bm
+GN
 bm
 IK
 Mj
@@ -6401,7 +7195,7 @@ Mj
 Mj
 RY
 bm
-bm
+Xt
 GN
 Ez
 Ez
@@ -6526,7 +7320,7 @@ bm
 bm
 bm
 bm
-bm
+GN
 bm
 IK
 Mj
@@ -6541,7 +7335,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 GN
@@ -6668,13 +7462,13 @@ bm
 bm
 bm
 bm
-bm
+GN
 bm
 bm
 bm
 bm
 cu
-cu
+uf
 aN
 Mj
 Mj
@@ -6683,7 +7477,7 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
 bm
@@ -6810,14 +7604,14 @@ bm
 bm
 bm
 bm
+GN
 bm
 bm
 bm
 bm
 bm
 bm
-bm
-IK
+fl
 Mj
 Mj
 Mj
@@ -6825,12 +7619,12 @@ Mj
 Mj
 Mj
 Mj
-RY
+Ot
 bm
 bm
-bm
-bm
-bm
+cI
+Pc
+Pc
 Wz
 Ez
 Ez
@@ -6952,10 +7746,10 @@ bm
 bm
 bm
 bm
+GN
 bm
 bm
-bm
-bm
+yj
 bm
 bm
 bm
@@ -6970,9 +7764,9 @@ Mj
 RY
 bm
 bm
-bm
-bm
-bm
+qc
+Dm
+Ch
 GN
 Ez
 Ez
@@ -7094,25 +7888,25 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
 bm
 bm
 bm
 cu
 cu
 cu
-cu
-cu
-cu
-cu
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+Wz
+Wz
+Wz
+GN
 GN
 GN
 GN
@@ -7240,21 +8034,21 @@ bm
 bm
 bm
 bm
+uw
 bm
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+RU
+Wz
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 GN
 Ez
 Ez
@@ -7382,21 +8176,21 @@ bm
 bm
 bm
 bm
+GN
+KE
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+RU
+Wz
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -7524,21 +8318,21 @@ bm
 bm
 bm
 bm
+GN
 bm
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+RU
+Wz
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -7666,21 +8460,21 @@ bm
 bm
 bm
 bm
+GN
 bm
 bm
 bm
+yj
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+RU
+Wz
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -7805,24 +8599,24 @@ GN
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
+Gj
+Gj
+GN
+GN
+GN
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 GN
 Ez
 Ez
@@ -7947,24 +8741,24 @@ Wz
 bm
 bm
 bm
+GN
+Yp
+VX
+od
+vb
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+NI
+pK
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 GN
 Ez
 Ez
@@ -8089,24 +8883,24 @@ Wz
 bm
 bm
 bm
+GN
+je
+Hg
+Ra
+oZ
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+zK
+pK
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -8231,24 +9025,24 @@ Wz
 bm
 bm
 bm
+GN
+RW
+Zc
+rw
+oZ
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Xt
+GN
+GN
+td
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -8373,24 +9167,24 @@ Wz
 bm
 bm
 bm
+GN
+cF
+Zc
+rw
+oZ
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+bb
+AM
+xi
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 Wz
 Ez
 Ez
@@ -8515,24 +9309,24 @@ GN
 bm
 bm
 bm
+GN
+cK
+gN
+DZ
+oZ
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Xt
+GN
+GN
+RK
+GN
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
 GN
 Ez
 Ez
@@ -8658,23 +9452,23 @@ GN
 GN
 GN
 GN
+Kq
+mO
+mO
+oZ
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+zG
+MB
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
 GN
 Ez
 Ez
@@ -8799,23 +9593,23 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Zc
+mO
+mO
+oZ
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+GN
+GN
+GN
+GN
+GN
+Lq
+py
+Bk
+py
+Xf
 GN
 GN
 Ez
@@ -8941,24 +9735,24 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Zc
+mO
+mO
+oZ
+bm
+bm
+bm
+bm
+py
+bm
+mv
 bm
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-GN
+eF
 Ez
 Ez
 Ez
@@ -9083,24 +9877,24 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+Zc
+mO
+mO
+oZ
 bm
 bm
 bm
 bm
 bm
 bm
+mv
 bm
 bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
-bm
-GN
+eF
 Ez
 Ez
 Ez
@@ -9225,24 +10019,24 @@ Ez
 Ez
 Ez
 Ez
-Wz
+eF
+gB
+kB
+kB
+Lg
+yj
 bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+Pc
+Pc
+Ku
+PG
 GN
+bm
+bm
+bm
+bm
+bm
+eF
 Ez
 Ez
 Ez
@@ -9368,22 +10162,22 @@ Ez
 Ez
 Ez
 GN
-Wz
-Wz
-Wz
-Wz
+eF
+eF
+eF
+eF
+GN
+GN
+eF
+eF
 GN
 GN
 GN
-GN
-Wz
-Wz
-GN
-GN
-GN
-GN
-GN
-GN
+eF
+eF
+eF
+eF
+eF
 GN
 Ez
 Ez
