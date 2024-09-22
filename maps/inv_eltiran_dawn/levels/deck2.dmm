@@ -67,6 +67,18 @@
 /obj/item/bedsheet/double/flipped,
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/Dorm_2)
+"aR" = (
+/obj/spawner/window/low_wall/reinforced/full/firelocks,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 1;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/medical/chemistry)
 "bc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -75,12 +87,14 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/resleeving)
 "bg" = (
-/obj/structure/table/standard,
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/blue/border,
 /obj/machinery/camera/network/medbay{
 	dir = 1;
 	network = list("Psychiatric")
+	},
+/obj/structure/bed/chair{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
@@ -687,6 +701,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/chem_master,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "fU" = (
@@ -1938,14 +1954,14 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "pt" = (
-/obj/structure/table/reinforced,
-/obj/machinery/chemical_dispenser/full,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/lightorange/border{
 	dir = 8
 	},
+/obj/machinery/chemical_dispenser/full,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "pA" = (
@@ -2179,6 +2195,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/recovery_room)
 "rb" = (
@@ -2192,10 +2209,6 @@
 "ri" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
-	},
-/obj/machinery/light{
-	dir = 4;
-	use_power = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2859,26 +2872,6 @@
 /obj/spawner/window/low_wall/borosillicate/reinforced/full/firelocks,
 /turf/simulated/floor/plating,
 /area/crew_quarters/sleep/Dorm_5)
-"xm" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor/glass{
-	dir = 4
-	},
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id = "medbayquar";
-	name = "Medbay Emergency Lockdown Shutters";
-	opacity = 0
-	},
-/obj/machinery/door/window/westleft{
-	name = "Chemistry Reception Desk";
-	req_one_access = list(5);
-	dir = 2
-	},
-/turf/simulated/floor/tiled/white,
-/area/medical/chemistry)
 "xo" = (
 /obj/structure/stairs/spawner/south,
 /obj/structure/window/reinforced,
@@ -3583,6 +3576,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/vending/blood,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery)
 "CT" = (
@@ -3607,10 +3602,6 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch,
-/turf/simulated/floor/tiled/white,
-/area/medical/reception)
-"CX" = (
-/obj/structure/bed/chair,
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "CY" = (
@@ -3902,8 +3893,6 @@
 /area/crew_quarters/bar)
 "EN" = (
 /obj/machinery/camera/network/medbay,
-/obj/structure/table/reinforced,
-/obj/machinery/chemical_dispenser/full,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 9
 	},
@@ -4299,16 +4288,23 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/medical_restroom)
-"Id" = (
-/obj/machinery/newscaster{
-	pixel_y = -31
+"Ic" = (
+/obj/map_helper/access_helper/airlock/station/medical/chemistry,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 4;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
 	},
-/obj/structure/table/standard,
-/obj/effect/floor_decal/borderfloorwhite,
-/obj/effect/floor_decal/corner/blue/border,
-/obj/machinery/light,
-/turf/simulated/floor/tiled/white,
-/area/medical/reception)
+/obj/machinery/door/airlock/glass/medical{
+	name = "Chemistry";
+	req_access = list();
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/medical/chemistry)
 "If" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -4392,8 +4388,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/bar)
 "IY" = (
-/obj/structure/table/reinforced,
 /obj/machinery/chem_master,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "IZ" = (
@@ -4463,6 +4459,17 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"JO" = (
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	pixel_y = -31
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/reception)
 "JV" = (
 /obj/machinery/body_scanconsole,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -4990,6 +4997,26 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/bar)
+"Ov" = (
+/obj/machinery/door/window/westleft{
+	name = "Chemistry Reception Desk";
+	req_one_access = list(5);
+	dir = 2
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id = "medbayquar";
+	name = "Medbay Emergency Lockdown Shutters";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor/glass{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/chemistry)
 "Oy" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	anchored = 1
@@ -5308,11 +5335,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/hyper/west_mount,
+/obj/machinery/chemical_dispenser/full,
+/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "RD" = (
-/obj/structure/table/reinforced,
-/obj/machinery/chem_master,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
@@ -5451,9 +5478,6 @@
 	},
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/blue/border,
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "Sz" = (
@@ -5886,14 +5910,17 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical)
 "Wo" = (
-/obj/structure/bed/chair{
-	dir = 8
-	},
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/blue/border,
+/obj/structure/table/standard,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/medical/reception)
 "Wp" = (
@@ -21605,8 +21632,8 @@ qU
 sC
 Sy
 qg
-qg
-tP
+Ic
+oJ
 tP
 tP
 qg
@@ -21796,9 +21823,9 @@ DT
 Rm
 EO
 qU
-CX
-Id
-qg
+sC
+xA
+Ov
 EN
 sE
 pt
@@ -21990,7 +22017,7 @@ DT
 Rm
 DU
 qU
-CX
+sC
 bg
 qg
 RD
@@ -21998,7 +22025,7 @@ xc
 IY
 xx
 fP
-oJ
+aR
 Tn
 bM
 QT
@@ -22379,8 +22406,8 @@ Rm
 vJ
 qU
 sC
-xA
-xm
+JO
+qg
 Lr
 pr
 my
