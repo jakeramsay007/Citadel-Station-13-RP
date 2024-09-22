@@ -3,6 +3,5 @@
 	desc = "A world shrouded in cold and snow that seems to never let up."
 	scanner_desc = @{"[i]Information[/i]: A planet with a very cold atmosphere. Possible life signs detected."}
 	icon_state = "globe"
-	color = "#3434AA"
-	known = FALSE
+	color = "#33BB33"
 	in_space = 0

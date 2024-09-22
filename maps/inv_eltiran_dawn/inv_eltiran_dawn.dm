@@ -25,7 +25,7 @@
 		/datum/map/sector/lavaland_192,
 		/datum/map/sector/miaphus_192,
 		/datum/map/sector/roguemining_192/one,
-		/datum/map/sector/cyran_140,
+		/datum/map/sector/cyran_192,
 	)
 
 	//* LEGACY BELOW *//

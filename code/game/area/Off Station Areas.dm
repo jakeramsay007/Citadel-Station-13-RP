@@ -418,7 +418,7 @@
 	name = "Gaia Station - Desert Biome"
 
 
-// Frozen planet world areas
+// Cyran world areas
 /area/cyran
 	name = "Cyran - Class O World"
 	icon_state = "away"
@@ -432,6 +432,94 @@
 
 /area/cyran/indoors
 	name = "Cyran - Inside"
+	icon_state = "red"
+
+/area/cyran/indoors/villa
+	name = "Cyran - Villa"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/entry_hall
+	name = "Cyran Villa - Entry Hall"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/dawn
+	name = "Cyran Villa - Dawn's Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/chayse
+	name = "Cyran Villa - Chayse's Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/kids
+	name = "Cyran Villa - Children's Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/guest
+	name = "Cyran Villa - Guest Rooms"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/guest/room1
+	name = "Cyran Villa - Guest Room 1"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/guest/room2
+	name = "Cyran Villa - Guest Room 2"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/guest/room3
+	name = "Cyran Villa - Guest Room 3"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/gym
+	name = "Cyran Villa - Gym"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/pool
+	name = "Cyran Villa - Pool"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/greenhouse
+	name = "Cyran Villa - Greenhouse"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/living
+	name = "Cyran Villa - Living Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/play
+	name = "Cyran Villa - Playroom"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/kitchen
+	name = "Cyran Villa - Kitchen"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/dining
+	name = "Cyran Villa - Dining Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/library
+	name = "Cyran Villa - Library"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/spare
+	name = "Cyran Villa - Spare Room"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/ball
+	name = "Cyran Villa - Ballroom"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/spare2
+	name = "Cyran Villa - Spare Room 2"
+	icon_state = "red"
+
+/area/cyran/indoors/villa/garage
+	name = "Cyran Villa - Garage"
+	icon_state = "red"
+
+/area/cyran/indoors/staff
+	name = "Cyran - Staff Quarters"
 	icon_state = "red"
 
 //Class P
