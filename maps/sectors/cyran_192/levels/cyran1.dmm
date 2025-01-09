@@ -265,6 +265,14 @@
 	},
 /turf/simulated/floor/concrete/tile/classm/outdoors,
 /area/cyran/outdoors)
+"bU" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
 "bV" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/outdoors/dirt/classm/outdoors,
@@ -331,6 +339,10 @@
 	},
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"cs" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "cw" = (
 /obj/structure/table/marble,
 /obj/item/reagent_containers/food/condiment/small/saltshaker{
@@ -453,6 +465,15 @@
 /obj/machinery/vending/hydroseeds,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"da" = (
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "db" = (
 /turf/simulated/wall/wood/hardwood,
 /area/cyran/indoors/villa/ball)
@@ -460,6 +481,10 @@
 /obj/structure/bed/chair,
 /turf/simulated/mineral/floor/classm,
 /area/cyran/indoors)
+"dh" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "dm" = (
 /obj/machinery/light,
 /turf/simulated/floor/outdoors/dirt/classm,
@@ -492,7 +517,8 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/tiled,
+/obj/structure/table/bench/standard,
+/turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/gym)
 "dK" = (
 /obj/effect/floor_decal/spline/plain{
@@ -513,6 +539,10 @@
 /obj/effect/map_effect/interval/effect_emitter/steam,
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
+"dP" = (
+/obj/machinery/light,
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/spare)
 "dW" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled,
@@ -559,6 +589,13 @@
 /obj/machinery/tele_pad,
 /turf/simulated/floor/tiled/steel_dirty,
 /area/cyran/indoors)
+"eG" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/kids)
 "eH" = (
 /turf/simulated/floor/concrete/tile/classm/outdoors{
 	icon_state = "concrete16"
@@ -751,6 +788,13 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors)
+"gi" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors)
 "gj" = (
 /obj/structure/catwalk,
 /obj/structure/railing,
@@ -799,6 +843,13 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"gE" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "gH" = (
 /obj/structure/bed/chair/sofa/black{
 	dir = 4
@@ -823,6 +874,13 @@
 /obj/effect/map_effect/interval/effect_emitter/steam,
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
+"gU" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/bench/standard,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "gW" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/machinery/light/flamp/noshade{
@@ -1309,6 +1367,7 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/carpet/patterened/blue,
 /area/cyran/indoors/villa/spare)
 "kl" = (
@@ -1382,6 +1441,11 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"kK" = (
+/obj/structure/flora/pottedplant/flower,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "kN" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
@@ -1756,6 +1820,12 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors)
+"mG" = (
+/obj/structure/simple_door/wood{
+	name = "Showers"
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "mK" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
@@ -1906,6 +1976,12 @@
 "nG" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/kids)
+"nI" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/spare)
 "nV" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
@@ -2416,6 +2492,11 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/cyran/indoors/villa/gym)
+"ra" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "rc" = (
 /obj/machinery/biogenerator,
 /turf/simulated/floor/tiled/hydro,
@@ -2525,6 +2606,9 @@
 	dir = 4;
 	pixel_x = -32;
 	pixel_y = 0
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/spare)
@@ -2937,6 +3021,12 @@
 /obj/item/reagent_containers/blood/OMinus,
 /turf/simulated/floor/tiled/white,
 /area/cyran/indoors)
+"tZ" = (
+/obj/structure/simple_door/wood{
+	name = "Changing Room"
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "ua" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/hopdouble,
@@ -3026,6 +3116,12 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/pool)
+"uM" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/spare)
 "uN" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/outdoors/beach/sand/desert/classm{
@@ -3098,6 +3194,12 @@
 	pixel_y = 0;
 	id = "CyranVillaPool"
 	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = 8
+	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/pool)
 "vp" = (
@@ -3205,6 +3307,11 @@
 	},
 /turf/simulated/floor/carpet/patterened,
 /area/cyran/indoors/villa/entry_hall)
+"we" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "wg" = (
 /obj/spawner/window/low_wall/full,
 /obj/structure/curtain/open/black,
@@ -3409,6 +3516,21 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/dawn)
+"xL" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 1
+	},
+/obj/structure/grille,
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 5
+	},
+/obj/structure/wall_frame,
+/obj/structure/window/reinforced/tinted/frosted,
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/cyran/indoors/villa/gym)
 "xM" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
@@ -3527,12 +3649,6 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/staff)
-"yE" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "yF" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
@@ -3566,6 +3682,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cyran/indoors)
+"yQ" = (
+/obj/structure/table/marble,
+/obj/structure/flora/pottedplant/flower,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "yR" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 8
@@ -3601,6 +3722,13 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"zd" = (
+/obj/machinery/light_switch{
+	pixel_x = -4;
+	pixel_y = 30
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/kids)
 "ze" = (
 /obj/structure/closet/wardrobe,
 /turf/simulated/floor/wood/classm,
@@ -3766,7 +3894,7 @@
 	name = "Authorized Medical Personnel Only";
 	pixel_x = 32
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/dirt/classm/outdoors,
 /area/cyran/outdoors)
 "Az" = (
 /obj/machinery/vending/fishing,
@@ -4026,13 +4154,25 @@
 	},
 /turf/simulated/floor/carpet/patterened,
 /area/cyran/indoors/villa/entry_hall)
-"CG" = (
-/obj/machinery/light/flamp/noshade{
-	nightshift_allowed = 0
+"CD" = (
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
 	},
-/obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/snow/classp,
-/area/cyran/outdoors)
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/machinery/shower{
+	dir = 8;
+	pixel_x = 3;
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "CL" = (
 /obj/machinery/light/spot{
 	dir = 8;
@@ -4080,6 +4220,14 @@
 /obj/effect/mist,
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
+"Dj" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/machinery/light/flamp/noshade{
+	nightshift_allowed = 0
+	},
+/turf/simulated/floor/outdoors/snow/classp,
+/area/cyran/outdoors)
 "Dm" = (
 /obj/machinery/vending/boozeomat{
 	req_access = null
@@ -4122,6 +4270,12 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/outdoors/dirt/classm,
 /area/cyran/outdoors)
+"DB" = (
+/obj/structure/table/rack,
+/obj/item/inflatable_duck,
+/obj/item/inflatable_duck,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "DE" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/tiled/freezer,
@@ -4163,6 +4317,9 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/spare)
+"DQ" = (
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "DT" = (
 /obj/structure/flora/ausbushes,
 /turf/simulated/floor/outdoors/snow/classp,
@@ -4224,6 +4381,13 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/steel_dirty,
 /area/cyran/indoors)
+"Ep" = (
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled,
+/area/cyran/indoors/villa/gym)
 "Et" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/light,
@@ -4247,6 +4411,11 @@
 	dir = 9
 	},
 /turf/simulated/floor/water/river/south/outdoors,
+/area/cyran/outdoors)
+"ED" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
 "EJ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -4322,6 +4491,12 @@
 /obj/machinery/light/flamp/noshade,
 /turf/simulated/floor/outdoors/dirt/classm,
 /area/cyran/outdoors)
+"Fp" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/kids)
 "Fq" = (
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/entry_hall)
@@ -4393,6 +4568,9 @@
 /obj/effect/floor_decal/carpet/blue,
 /obj/effect/floor_decal/carpet/blue{
 	dir = 6
+	},
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/kids)
@@ -4559,6 +4737,14 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"Hh" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/machinery/light/flamp/noshade{
+	nightshift_allowed = 0
+	},
+/turf/simulated/floor/outdoors/snow/classp,
+/area/cyran/outdoors)
 "Hj" = (
 /obj/structure/flora/pottedplant/largebush,
 /turf/simulated/floor/wood/classm,
@@ -4583,6 +4769,10 @@
 	outdoors = 1
 	},
 /area/cyran/outdoors)
+"Ho" = (
+/obj/structure/table/bench/standard,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "Hs" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -4697,6 +4887,13 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/carpet/patterened/purple,
 /area/cyran/indoors/villa/dawn)
+"Ix" = (
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/spare)
 "IB" = (
 /obj/machinery/seed_extractor,
 /obj/machinery/light,
@@ -4731,6 +4928,16 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/staff)
+"IK" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "IN" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/tiled/freezer,
@@ -5014,6 +5221,9 @@
 /obj/effect/floor_decal/carpet/blue{
 	dir = 10
 	},
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/kids)
 "KF" = (
@@ -5051,6 +5261,9 @@
 /area/cyran/indoors/staff)
 "KV" = (
 /obj/structure/toilet,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/kids)
 "KW" = (
@@ -5280,6 +5493,10 @@
 /mob/living/simple_mob/animal/passive/bird/black_bird,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"Ms" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "Mt" = (
 /turf/simulated/mineral/ignore_mapgen,
 /area/cyran/indoors)
@@ -5384,6 +5601,10 @@
 /area/cyran/indoors/villa/greenhouse)
 "Ny" = (
 /obj/machinery/appliance/cooker/fryer,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled,
 /area/cyran/indoors/villa/kitchen)
 "Nz" = (
@@ -5397,10 +5618,25 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/dining)
+"NC" = (
+/obj/effect/floor_decal/spline/fancy,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	pixel_x = 7;
+	pixel_y = 26
+	},
+/turf/simulated/floor/carpet/bcarpet,
+/area/cyran/indoors/villa/ball)
 "NF" = (
 /obj/structure/displaycase,
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/entry_hall)
+"NG" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/kitchen)
 "NJ" = (
 /turf/simulated/floor/concrete/classm/outdoors,
 /area/cyran/outdoors)
@@ -5430,6 +5666,21 @@
 	dir = 8
 	},
 /area/cyran/outdoors)
+"NW" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 1
+	},
+/obj/structure/grille,
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 5
+	},
+/obj/structure/wall_frame,
+/obj/structure/window/reinforced/tinted/frosted,
+/turf/simulated/floor/plating,
+/area/cyran/indoors/villa/gym)
 "NY" = (
 /obj/item/stack/ore/coal,
 /obj/structure/flora/ausbushes/stalkybush,
@@ -5936,6 +6187,19 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/ball)
+"PF" = (
+/obj/machinery/light{
+	dir = 4;
+	use_power = 0
+	},
+/obj/structure/table/rack,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "PG" = (
 /obj/structure/bed/chair/bay/comfy/black{
 	dir = 4
@@ -6063,6 +6327,12 @@
 	name = "beach"
 	},
 /area/cyran/outdoors)
+"Qx" = (
+/obj/item/inflatable_duck,
+/obj/item/inflatable_duck,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "Qy" = (
 /obj/structure/fence{
 	dir = 4
@@ -6070,6 +6340,13 @@
 /mob/living/simple_mob/animal/passive/bird/ringneck_dove,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"QA" = (
+/obj/structure/closet/wardrobe,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood/classm,
+/area/cyran/indoors/villa/kids)
 "QC" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
@@ -6328,6 +6605,10 @@
 /obj/machinery/appliance/mixer/candy,
 /turf/simulated/floor/tiled,
 /area/cyran/indoors/villa/kitchen)
+"SB" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "SD" = (
 /obj/effect/floor_decal/river_beach_edge{
 	dir = 8
@@ -6446,6 +6727,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cyran/indoors)
+"TH" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "TK" = (
 /turf/simulated/floor/wmarble,
 /area/cyran/indoors/villa/ball)
@@ -6604,7 +6892,7 @@
 /obj/structure/simple_door/wood{
 	name = "Pool"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/gym)
 "VQ" = (
 /obj/structure/table/hardwoodtable,
@@ -6634,6 +6922,25 @@
 	},
 /turf/simulated/floor/wood/classm/outdoors,
 /area/cyran/outdoors)
+"VX" = (
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals9,
+/obj/machinery/shower{
+	dir = 4;
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/gym)
 "VY" = (
 /obj/structure/simple_door/wood{
 	name = "Greenhouse"
@@ -6740,6 +7047,10 @@
 /obj/structure/table/bench/marble,
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
+"WD" = (
+/obj/structure/flora/ausbushes/fernybush,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "WE" = (
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
@@ -6760,6 +7071,18 @@
 	},
 /turf/simulated/floor/tiled/classm,
 /area/cyran/indoors/staff)
+"WS" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 1
+	},
+/obj/structure/grille,
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 5
+	},
+/obj/structure/wall_frame,
+/obj/structure/window/reinforced/tinted/frosted,
+/turf/simulated/floor/plating,
+/area/cyran/indoors/villa/gym)
 "WT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -6792,11 +7115,17 @@
 	icon_state = "concrete17"
 	},
 /area/cyran/outdoors)
+"Xl" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
 "Xm" = (
 /obj/machinery/light{
 	dir = 8;
 	light_range = 12
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/pool)
 "Xn" = (
@@ -6883,6 +7212,13 @@
 /obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors)
+"XT" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/obj/structure/fitness/punchingbag,
+/turf/simulated/floor/carpet/oracarpet,
+/area/cyran/indoors/villa/gym)
 "XY" = (
 /obj/structure/window/reinforced/full,
 /turf/simulated/floor/wood/classm,
@@ -6902,10 +7238,6 @@
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/dawn)
-"Yd" = (
-/obj/structure/fitness/punchingbag,
-/turf/simulated/floor/tiled,
-/area/cyran/indoors/villa/gym)
 "Yh" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
 	anchored = 1
@@ -6947,6 +7279,10 @@
 	name = "NO WEAPONS BEYOND THIS POINT";
 	pixel_x = 32
 	},
+/turf/simulated/floor/tiled/classm/outdoors,
+/area/cyran/outdoors)
+"Yy" = (
+/obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
 "YE" = (
@@ -7069,6 +7405,15 @@
 	},
 /turf/simulated/floor/carpet/patterened/purple,
 /area/cyran/indoors/villa/dawn)
+"ZF" = (
+/obj/effect/floor_decal/spline/plain/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/pool)
 "ZI" = (
 /turf/simulated/floor/outdoors/beach/sand/desert/classm{
 	name = "beach"
@@ -20411,7 +20756,7 @@ ji
 ji
 ji
 gw
-QS
+uM
 FI
 yR
 kj
@@ -20612,7 +20957,7 @@ FK
 gw
 mL
 mL
-HQ
+bU
 HQ
 pD
 Yb
@@ -21187,7 +21532,7 @@ lH
 lH
 lH
 gw
-QS
+nI
 QS
 QS
 QS
@@ -21385,7 +21730,7 @@ sE
 gH
 HY
 QS
-QS
+Ix
 ix
 xc
 xc
@@ -21572,14 +21917,14 @@ ji
 ji
 Jj
 wM
-wF
+Fp
 wF
 gw
 Gt
 Gt
 ff
 QS
-QS
+dP
 gw
 He
 sj
@@ -21959,7 +22304,7 @@ ji
 ji
 ji
 lH
-oC
+QA
 lH
 wF
 qN
@@ -22155,7 +22500,7 @@ ji
 Jj
 yF
 OC
-wF
+eG
 wF
 wF
 wF
@@ -22740,7 +23085,7 @@ wc
 IN
 nG
 lH
-wF
+zd
 lH
 lH
 lH
@@ -23128,7 +23473,7 @@ wc
 jJ
 Jt
 lH
-wF
+eG
 lH
 He
 xc
@@ -24509,7 +24854,7 @@ ji
 ji
 ji
 ji
-BE
+Dj
 ZI
 eH
 oF
@@ -26814,7 +27159,7 @@ bH
 yi
 yi
 yi
-yi
+NG
 Kd
 xc
 xc
@@ -27017,7 +27362,7 @@ xc
 xc
 xc
 db
-PE
+NC
 TK
 TK
 TK
@@ -27394,13 +27739,13 @@ wJ
 Cp
 Cp
 Cp
+qZ
+XT
+YQ
+XT
+Nd
 Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
+Ep
 ii
 xc
 xc
@@ -27588,11 +27933,11 @@ wJ
 Cp
 Al
 Cp
-Cp
-Yd
-Cp
-Yd
-Cp
+Zj
+dn
+dn
+dn
+hm
 Cp
 Cp
 ii
@@ -27782,11 +28127,11 @@ wJ
 Cp
 Cp
 Cp
-Cp
-Cp
-Cp
-Cp
-Cp
+Zj
+dn
+dn
+dn
+hm
 Cp
 xH
 cS
@@ -27976,11 +28321,11 @@ cS
 od
 Al
 Cp
-Cp
-Yd
-Cp
-Yd
-Cp
+Zj
+dn
+dn
+dn
+hm
 Cp
 Cp
 cS
@@ -28170,11 +28515,11 @@ cS
 Cp
 Cp
 Cp
-Cp
-Cp
-Cp
-Cp
-Cp
+tT
+Ks
+Ks
+Ks
+Rh
 Cp
 Cp
 cS
@@ -28366,10 +28711,10 @@ Cp
 Cp
 Cp
 Cp
-qZ
-YQ
-YQ
-Nd
+Cp
+Cp
+Cp
+Cp
 Cp
 cS
 xc
@@ -28559,12 +28904,12 @@ wJ
 wJ
 cS
 cS
-od
-Zj
-dn
-dn
-hm
-xH
+cS
+cS
+cS
+tZ
+cS
+cS
 cS
 xc
 xc
@@ -28752,19 +29097,19 @@ ji
 ji
 ji
 ji
-wJ
-Cp
-Zj
-dn
-dn
-hm
-Cp
+NW
+VX
+VX
+cS
+DQ
+gU
+gE
 cS
 xc
 xc
 xc
 xc
-mL
+Xb
 HQ
 HQ
 uE
@@ -28946,20 +29291,20 @@ ji
 ji
 ji
 ji
-wJ
-Cp
-Zj
-dn
-dn
-hm
-Cp
+WS
+DQ
+DQ
+mG
+DQ
+Ho
+IK
 cS
 xc
 xc
 xc
 xc
-Bc
-HQ
+mL
+gi
 HQ
 gd
 HQ
@@ -29140,13 +29485,13 @@ ji
 ji
 ji
 ji
-wJ
-Cp
-tT
-Ks
-Ks
-Rh
-Cp
+WS
+DQ
+Ms
+cS
+DQ
+Ho
+IK
 cS
 xc
 xc
@@ -29334,13 +29679,13 @@ ji
 ji
 ji
 ji
-wJ
-Cp
+xL
+CD
+CD
+cS
+DQ
 dG
-Cp
-Cp
-dG
-Cp
+TH
 cS
 xc
 xc
@@ -29529,9 +29874,9 @@ vg
 vg
 vg
 cS
-vP
 cS
-VJ
+cS
+cS
 VJ
 cS
 vP
@@ -29718,9 +30063,9 @@ ji
 ji
 ji
 vg
-hI
+yQ
 Xm
-hI
+cs
 hI
 hI
 hI
@@ -29729,7 +30074,7 @@ hI
 hI
 vi
 Xm
-hI
+yQ
 vg
 ji
 ji
@@ -31271,7 +31616,7 @@ ji
 ji
 vg
 Fz
-RP
+ZF
 RP
 RP
 RP
@@ -31295,7 +31640,7 @@ ji
 ji
 ji
 ji
-CV
+ji
 OD
 HX
 OD
@@ -31464,18 +31809,18 @@ ji
 ji
 ji
 vg
-hI
-GM
-hI
-hI
-hI
-hI
-GM
+kK
+da
+Qx
 hI
 hI
 hI
 GM
 hI
+hI
+DB
+PF
+yQ
 vg
 ji
 ji
@@ -31652,7 +31997,7 @@ ji
 yG
 DT
 ji
-ji
+CV
 iP
 ji
 ji
@@ -31671,19 +32016,19 @@ vg
 vg
 vg
 vg
+CV
 ji
 ji
 ji
 ji
 ji
 ji
-ji
-ji
+CV
 iP
 ji
 ao
 ji
-ao
+gW
 OD
 HX
 OD
@@ -31840,44 +32185,44 @@ af
 OD
 OD
 OD
-ji
-ao
-ji
-ji
-ji
-ji
-ao
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-iz
-ji
-ji
-ji
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
 OD
 HX
 OD
@@ -32034,44 +32379,44 @@ Ts
 OD
 OD
 OD
-iP
-ji
-ji
-ji
-ao
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-GA
-iD
-ji
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
 OD
 HX
 OD
@@ -32225,47 +32570,47 @@ ji
 ji
 ji
 ji
-yE
 OD
 OD
-ji
-DT
-Pm
-ji
-ji
-QF
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-VR
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
 OD
 HX
 OD
@@ -32419,47 +32764,47 @@ ji
 ji
 ji
 CV
-yE
 OD
 OD
-CV
-VR
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-tS
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
 OD
 HX
 OD
@@ -32613,47 +32958,47 @@ ji
 ji
 ji
 iD
-yE
 OD
 OD
-ji
-ji
+OD
+OD
+CV
 ji
 ao
 Pm
 ji
+CV
+TM
+TM
+TM
+CV
+ji
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+CV
 ji
 ji
 ji
 ji
-ji
-ji
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-pI
-ji
-ji
-ji
-ji
-ji
-ji
+CV
 OD
 HX
 OD
@@ -34168,7 +34513,7 @@ ji
 OD
 OD
 OD
-ao
+OD
 ji
 iz
 un
@@ -34361,8 +34706,8 @@ ji
 ao
 OD
 OD
-Uy
-ji
+OD
+OD
 ji
 ji
 un
@@ -34396,10 +34741,10 @@ IS
 pI
 CV
 ji
-ji
-ji
-ji
-UA
+Un
+ef
+Pk
+DX
 OD
 HX
 OD
@@ -34554,10 +34899,10 @@ ji
 iz
 ji
 OD
-ao
-ji
-iz
-yG
+OD
+OD
+OD
+OD
 ji
 un
 un
@@ -34590,10 +34935,10 @@ XI
 pI
 ji
 ji
-ji
-ji
-ao
-ji
+gB
+xe
+ty
+ap
 OD
 HX
 OD
@@ -34748,13 +35093,13 @@ ji
 ao
 TM
 ji
-yG
-lJ
-ji
-ji
-iz
-ao
-ji
+OD
+OD
+OD
+OD
+OD
+OD
+CV
 ji
 ji
 ji
@@ -34784,10 +35129,10 @@ Gs
 pI
 ji
 ji
-ji
-ji
-ji
-Uy
+Ii
+he
+TQ
+kT
 OD
 HX
 OD
@@ -34942,13 +35287,13 @@ Mc
 ji
 ji
 iz
-BE
 ji
-ji
-ao
-ji
-ji
-yG
+OD
+OD
+OD
+OD
+OD
+OD
 lJ
 ji
 ji
@@ -35137,13 +35482,13 @@ TM
 iz
 TM
 ji
-VR
 ji
-ji
-ji
-iz
-ji
-ji
+OD
+OD
+OD
+OD
+OD
+OD
 ao
 iP
 ji
@@ -35175,7 +35520,7 @@ iP
 ji
 zI
 ji
-CG
+yG
 OD
 HX
 OD
@@ -35333,15 +35678,15 @@ GA
 ao
 ji
 ji
-Pm
-ji
-ji
-ji
-GA
-ji
+OD
+OD
+OD
+OD
+OD
+OD
 ji
 ao
-ji
+CV
 ji
 ji
 pI
@@ -35369,7 +35714,7 @@ ji
 ji
 iz
 ji
-ji
+CV
 OD
 HX
 OD
@@ -35527,43 +35872,43 @@ ji
 ao
 ji
 ao
-ji
-ao
-ji
-Uy
-ji
-ao
-ji
-iz
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-GA
-ji
-ji
-lJ
+CV
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+SB
+OD
+OD
+ED
 OD
 HX
 OD
@@ -35723,41 +36068,41 @@ ji
 ji
 BE
 ji
-ji
-ji
-ji
-ji
-iz
-ji
-ji
-iz
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-BE
-yG
-ji
-ji
-ji
-ao
-ji
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+ra
+WD
+OD
+OD
+OD
+dh
+OD
 OD
 HX
 OD
@@ -35917,41 +36262,41 @@ iz
 yG
 ji
 ji
-ao
 ji
-ji
-yG
-VR
-ji
-GA
-ji
-iP
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-iP
-ao
-ji
-ji
-ji
-BE
-ji
-ji
-iP
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+Yy
+dh
+OD
+OD
+OD
+ra
+OD
+OD
+Yy
 OD
 HX
 OD
@@ -36113,39 +36458,39 @@ GA
 lJ
 ji
 ji
-iz
-ji
-ji
-iz
-ji
-ao
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-ji
-VR
-ji
-ji
-af
-ji
-ji
-ji
-ao
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+OD
+Xl
+OD
+OD
+we
+OD
+OD
+OD
+dh
 OD
 HX
 OD
@@ -36307,17 +36652,17 @@ ji
 ji
 ji
 ji
-ji
+CV
 ao
 ji
 ji
-af
-ji
-ji
-ji
-ji
-ji
+xw
+TM
+TM
+TM
+TM
 CV
+ji
 yG
 lJ
 ao
@@ -36339,7 +36684,7 @@ ji
 ji
 iz
 yG
-VR
+Hh
 OD
 HX
 OD
@@ -36507,8 +36852,8 @@ iz
 ji
 Cx
 Ar
-ji
-ji
+TM
+TM
 Ar
 Cx
 GA
