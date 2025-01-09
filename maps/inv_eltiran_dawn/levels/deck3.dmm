@@ -912,6 +912,12 @@
 "bWt" = (
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
+"bXv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 8
+	},
+/turf/simulated/wall/rpshull,
+/area/engineering/starboardnacelle)
 "bYR" = (
 /turf/simulated/wall/prepainted/engineering,
 /area/tcommsat/computer)
@@ -1208,7 +1214,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 10
 	},
-/turf/simulated/wall/r_wall/prepainted/engineering,
+/turf/simulated/wall/rpshull,
 /area/engineering/portnacelle)
 "cLH" = (
 /obj/structure/table/reinforced,
@@ -5334,7 +5340,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 9
 	},
-/turf/simulated/wall/r_wall/prepainted/engineering,
+/turf/simulated/wall/rpshull,
 /area/engineering/starboardnacelle)
 "nfD" = (
 /obj/machinery/air_alarm{
@@ -6791,6 +6797,9 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos/workshop)
+"rjz" = (
+/turf/simulated/wall/rpshull,
+/area/engineering/portnacelle)
 "rkg" = (
 /obj/machinery/atmospherics/component/trinary/mixer{
 	dir = 4
@@ -6906,6 +6915,9 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/tcommsat/chamber)
+"rzX" = (
+/turf/simulated/wall/rpshull,
+/area/engineering/starboardnacelle)
 "rAp" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -7112,6 +7124,12 @@
 	initial_gas_mix = "n2=100;TEMP=80"
 	},
 /area/tcommsat/chamber)
+"rRL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 4
+	},
+/turf/simulated/wall/rpshull,
+/area/engineering/portnacelle)
 "rRZ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/vehicle_old/train/engine{
@@ -26152,11 +26170,11 @@ pRW
 pRW
 pRW
 pRW
-rEd
+rRL
 rIN
 mxS
 tam
-nUG
+rjz
 oeK
 ryW
 xLZ
@@ -26187,11 +26205,11 @@ jhF
 qEp
 qEp
 qEp
-rKV
+rzX
 xGc
 szC
 kgh
-skH
+bXv
 pRW
 pRW
 pRW
@@ -26350,7 +26368,7 @@ cIp
 dwM
 ddf
 ctd
-nUG
+rjz
 qjI
 uuA
 qjI
@@ -26381,7 +26399,7 @@ oND
 qEp
 ezI
 rbM
-rKV
+rzX
 rEu
 lSq
 tAT
@@ -26540,11 +26558,11 @@ pRW
 pRW
 pRW
 pRW
-nUG
+rjz
 cau
 dHN
 xQV
-nUG
+rjz
 cQn
 wbQ
 jET
@@ -26575,11 +26593,11 @@ jsT
 qEk
 fRq
 ujV
-rKV
+rzX
 cfl
 pgh
 nwm
-rKV
+rzX
 pRW
 pRW
 pRW
@@ -26734,11 +26752,11 @@ pRW
 pRW
 pRW
 pRW
-nUG
+rjz
 ijZ
 dHN
 hwR
-nUG
+rjz
 dJr
 vxd
 cqG
@@ -26769,11 +26787,11 @@ gzO
 rRZ
 wWO
 mvB
-rKV
+rzX
 hQR
 pgh
 lHT
-rKV
+rzX
 pRW
 pRW
 pRW
@@ -26928,11 +26946,11 @@ pRW
 pRW
 pRW
 pRW
-nUG
-nUG
+rjz
+rjz
 rwO
 rwO
-nUG
+rjz
 wbF
 lkr
 vxd
@@ -26963,11 +26981,11 @@ lyk
 dQN
 kuF
 nXl
-rKV
+rzX
 wkf
 wkf
-rKV
-rKV
+rzX
+rzX
 pRW
 pRW
 pRW
@@ -27123,10 +27141,10 @@ pRW
 pRW
 pRW
 pRW
-nUG
+rjz
 mlj
 xQV
-nUG
+rjz
 lkr
 bpk
 vxd
@@ -27157,10 +27175,10 @@ xMz
 dQN
 kuF
 nXl
-rKV
+rzX
 cfl
 kfr
-rKV
+rzX
 pRW
 pRW
 pRW
@@ -27317,10 +27335,10 @@ pRW
 pRW
 pRW
 pRW
-nUG
-nUG
-nUG
-nUG
+rjz
+rjz
+rjz
+rjz
 qjI
 qjI
 khn
@@ -27351,10 +27369,10 @@ ijm
 bmd
 qEp
 qEp
-rKV
-rKV
-rKV
-rKV
+rzX
+rzX
+rzX
+rzX
 pRW
 pRW
 pRW

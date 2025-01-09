@@ -175,10 +175,10 @@
 /turf/simulated/open,
 /area/cyran/indoors/villa/ball)
 "ky" = (
-/obj/structure/bed/chair/comfy,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/bed/chair/comfy/black,
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/library)
 "kB" = (
@@ -438,11 +438,11 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/play)
 "sT" = (
-/obj/structure/bed/chair/comfy{
-	dir = 1
-	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
 	},
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/library)
@@ -735,11 +735,11 @@
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/library)
 "DK" = (
-/obj/structure/bed/chair/comfy{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/cyran/indoors/villa/guest)
@@ -1014,11 +1014,11 @@
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/guest/room2)
 "Pd" = (
-/obj/structure/bed/chair/comfy{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/cyran/indoors/villa/guest)
@@ -1162,11 +1162,11 @@
 /turf/simulated/floor/wood/classm,
 /area/cyran/indoors/villa/guest/room1)
 "Un" = (
-/obj/structure/bed/chair/comfy{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/cyran/indoors/villa/guest)
@@ -1178,14 +1178,11 @@
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/chayse)
 "UB" = (
-/obj/structure/bed/chair/comfy{
-	dir = 4
-	},
-/obj/structure/bed/chair/comfy{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/cyran/indoors/villa/guest)
@@ -26488,26 +26485,26 @@ ww
 ww
 ww
 ww
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
 ww
 ww
 ww
@@ -26673,35 +26670,35 @@ ww
 ww
 ww
 ww
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
-ef
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
 ww
 ww
 ww
@@ -26867,16 +26864,16 @@ ww
 ww
 ww
 ww
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
-Hh
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ww
+ef
 ef
 ef
 ef
@@ -28613,16 +28610,16 @@ ww
 ww
 ww
 ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ef
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
 ef
 ef
 ef
@@ -28807,16 +28804,16 @@ ww
 ww
 ww
 ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ef
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
+Hh
 ef
 ef
 ef
@@ -29398,26 +29395,26 @@ ww
 ww
 ww
 ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
 ww
 ww
 ww
@@ -29592,26 +29589,26 @@ ww
 ww
 ww
 ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
-ww
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
+ef
 ww
 ww
 ww

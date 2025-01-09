@@ -273,10 +273,6 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors)
-"bV" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
-/area/cyran/outdoors)
 "bW" = (
 /obj/item/stack/material/log{
 	amount = 50
@@ -481,10 +477,6 @@
 /obj/structure/bed/chair,
 /turf/simulated/mineral/floor/classm,
 /area/cyran/indoors)
-"dh" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "dm" = (
 /obj/machinery/light,
 /turf/simulated/floor/outdoors/dirt/classm,
@@ -1791,6 +1783,12 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors)
+"mr" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/outdoors/snow/classp,
+/area/cyran/outdoors)
 "mt" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet/bcarpet,
@@ -2193,11 +2191,6 @@
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
-"oY" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
-/area/cyran/outdoors)
 "pa" = (
 /obj/effect/floor_decal/river_beach_corner_edge{
 	dir = 4
@@ -2492,11 +2485,6 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/cyran/indoors/villa/gym)
-"ra" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "rc" = (
 /obj/machinery/biogenerator,
 /turf/simulated/floor/tiled/hydro,
@@ -3307,11 +3295,6 @@
 	},
 /turf/simulated/floor/carpet/patterened,
 /area/cyran/indoors/villa/entry_hall)
-"we" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "wg" = (
 /obj/spawner/window/low_wall/full,
 /obj/structure/curtain/open/black,
@@ -3461,6 +3444,11 @@
 	nightshift_allowed = 0
 	},
 /turf/simulated/floor/wood/classm/outdoors,
+/area/cyran/outdoors)
+"xm" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
 "xn" = (
 /turf/simulated/floor/tiled/classm/outdoors,
@@ -3877,7 +3865,7 @@
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
 "An" = (
-/obj/structure/bed/chair/comfy{
+/obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood/classm,
@@ -4011,10 +3999,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
-"Bu" = (
-/obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
 /area/cyran/outdoors)
 "BC" = (
 /obj/effect/floor_decal/spline/plain{
@@ -4348,6 +4332,10 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
+"Eb" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/freezer,
+/area/cyran/indoors/villa/kids)
 "Ee" = (
 /obj/structure/window/basic/full,
 /turf/simulated/floor/outdoors/beach/sand/desert/classm{
@@ -4411,16 +4399,6 @@
 	dir = 9
 	},
 /turf/simulated/floor/water/river/south/outdoors,
-/area/cyran/outdoors)
-"ED" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
-"EJ" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
 /area/cyran/outdoors)
 "EK" = (
 /obj/effect/floor_decal/carpet,
@@ -4773,11 +4751,6 @@
 /obj/structure/table/bench/standard,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/gym)
-"Hs" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
-/area/cyran/outdoors)
 "Hw" = (
 /obj/structure/stairs/spawner/east,
 /obj/structure/railing/grey,
@@ -6359,6 +6332,11 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/ball)
+"QD" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/outdoors/snow/classp,
+/area/cyran/outdoors)
 "QF" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
@@ -6605,10 +6583,6 @@
 /obj/machinery/appliance/mixer/candy,
 /turf/simulated/floor/tiled,
 /area/cyran/indoors/villa/kitchen)
-"SB" = (
-/obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "SD" = (
 /obj/effect/floor_decal/river_beach_edge{
 	dir = 8
@@ -7047,10 +7021,6 @@
 /obj/structure/table/bench/marble,
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
-"WD" = (
-/obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "WE" = (
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
@@ -7114,11 +7084,6 @@
 /turf/simulated/floor/concrete/tile/classm/outdoors{
 	icon_state = "concrete17"
 	},
-/area/cyran/outdoors)
-"Xl" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
 "Xm" = (
 /obj/machinery/light{
@@ -7281,10 +7246,6 @@
 	},
 /turf/simulated/floor/tiled/classm/outdoors,
 /area/cyran/outdoors)
-"Yy" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/tiled/classm/outdoors,
-/area/cyran/outdoors)
 "YE" = (
 /obj/machinery/door/airlock/glass{
 	name = "Weapon storage"
@@ -7380,7 +7341,7 @@
 /turf/simulated/floor/outdoors/snow/classp,
 /area/cyran/outdoors)
 "Zp" = (
-/obj/structure/bed/chair/comfy{
+/obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
 /turf/simulated/floor/wood/classm,
@@ -23083,7 +23044,7 @@ WH
 cg
 wc
 IN
-nG
+Eb
 lH
 zd
 lH
@@ -24659,7 +24620,7 @@ ji
 ji
 ji
 ji
-lJ
+mr
 ji
 ZI
 ZI
@@ -24851,7 +24812,7 @@ Fg
 PB
 PB
 ji
-ji
+QD
 ji
 ji
 Dj
@@ -25046,9 +25007,9 @@ PB
 PB
 PB
 TM
-oY
 TM
-BT
+TM
+TM
 NJ
 rf
 wX
@@ -25239,9 +25200,9 @@ Nt
 PB
 PB
 PB
-EJ
 TM
-bV
+TM
+TM
 TM
 ZI
 gM
@@ -25627,7 +25588,7 @@ Fg
 PB
 PB
 ji
-ji
+Zm
 ji
 TM
 TM
@@ -25822,7 +25783,7 @@ ji
 ji
 ji
 ji
-ji
+ao
 TM
 TM
 ZI
@@ -26015,7 +25976,7 @@ Dz
 Dz
 mL
 ji
-ji
+yG
 CV
 TM
 TM
@@ -26406,7 +26367,7 @@ ji
 ji
 ji
 TM
-Bu
+TM
 ZI
 Ee
 iQ
@@ -26598,9 +26559,9 @@ Dz
 Dz
 ji
 ji
-ji
+xm
 TM
-Hs
+TM
 ZI
 Ee
 xX
@@ -35322,7 +35283,7 @@ sZ
 sZ
 pI
 ji
-ji
+GA
 ao
 ji
 ao
@@ -35517,7 +35478,7 @@ eW
 pI
 ji
 iP
-ji
+fx
 zI
 ji
 yG
@@ -35905,10 +35866,10 @@ OD
 OD
 OD
 OD
-SB
 OD
 OD
-ED
+OD
+OD
 OD
 HX
 OD
@@ -36096,12 +36057,12 @@ OD
 OD
 OD
 OD
-ra
-WD
 OD
 OD
 OD
-dh
+OD
+OD
+OD
 OD
 OD
 HX
@@ -36288,15 +36249,15 @@ OD
 OD
 OD
 OD
-Yy
-dh
 OD
 OD
 OD
-ra
 OD
 OD
-Yy
+OD
+OD
+OD
+OD
 OD
 HX
 OD
@@ -36483,14 +36444,14 @@ OD
 OD
 OD
 OD
-Xl
-OD
-OD
-we
 OD
 OD
 OD
-dh
+OD
+OD
+OD
+OD
+OD
 OD
 HX
 OD

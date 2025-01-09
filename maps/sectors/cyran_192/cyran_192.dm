@@ -1,15 +1,15 @@
 /datum/map/sector/cyran_192
 	id = "cyran_192"
 	name = "Sector - Cyran"
-	width = 140
-	height = 140
+	width = 192
+	height = 192
 	levels = list(
 		/datum/map_level/sector/cyran_192/main,
 		/datum/map_level/sector/cyran_192/upper
 	)
 
 
-/datum/map_level/sector/cyran_140
+/datum/map_level/sector/cyran_192
 	base_turf = /turf/simulated/floor/outdoors/snow/classp
 	traits = list(
 		ZTRAIT_GRAVITY,
