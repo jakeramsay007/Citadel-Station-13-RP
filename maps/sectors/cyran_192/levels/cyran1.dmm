@@ -2,13 +2,13 @@
 "aa" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ab" = (
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ac" = (
 /obj/effect/floor_decal/carpet/corners{
@@ -30,18 +30,18 @@
 "af" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ao" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ap" = (
 /obj/structure/railing/grey,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "aq" = (
 /obj/structure/table/marble,
@@ -50,13 +50,13 @@
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "au" = (
 /obj/structure/window/reinforced/polarized/full{
 	id = "sauna3"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "av" = (
 /obj/effect/floor_decal/spline/plain/corner{
@@ -97,11 +97,11 @@
 	nightshift_allowed = 0
 	},
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "aP" = (
 /obj/structure/fence/post,
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "aQ" = (
 /obj/structure/window/reinforced/full,
@@ -109,7 +109,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "aR" = (
 /obj/spawner/window/full,
@@ -130,7 +130,7 @@
 "aV" = (
 /obj/structure/fence,
 /obj/structure/fence/corner,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "aW" = (
 /obj/effect/floor_decal/corner/blue/border,
@@ -142,7 +142,7 @@
 /area/cyran/indoors)
 "aZ" = (
 /obj/structure/table/hardwoodtable,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ba" = (
 /obj/structure/sink/kitchen,
@@ -150,11 +150,11 @@
 /area/cyran/indoors/villa/kitchen)
 "bb" = (
 /obj/structure/fence,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "be" = (
 /mob/living/simple_mob/animal/passive/fox,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "bf" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -189,19 +189,19 @@
 /obj/item/oar,
 /obj/item/oar,
 /obj/structure/table/rack/shelf,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "bu" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "bA" = (
 /obj/structure/railing,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "bC" = (
 /obj/spawner/window/low_wall/full,
@@ -213,7 +213,7 @@
 /area/cyran/indoors/villa/pool)
 "bE" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "bH" = (
 /obj/structure/simple_door/wood,
@@ -223,7 +223,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -231,7 +231,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "bT" = (
 /obj/structure/table/rack,
@@ -263,7 +263,7 @@
 /obj/item/material/twohanded/folded_metal_chair{
 	pixel_y = 8
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "bU" = (
 /obj/structure/closet/secure_closet/personal,
@@ -292,13 +292,13 @@
 /obj/item/stack/material/log{
 	amount = 50
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "cd" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "ce" = (
 /obj/structure/railing{
@@ -307,7 +307,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "cg" = (
 /obj/structure/table/woodentable,
@@ -315,11 +315,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "cj" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "cm" = (
 /obj/effect/floor_decal/spline/plain{
@@ -333,7 +333,7 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "cs" = (
 /obj/structure/table/rack,
@@ -368,27 +368,27 @@
 /area/cyran/indoors/villa/kitchen)
 "cx" = (
 /obj/structure/bookcase,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "cz" = (
 /obj/machinery/door/airlock{
 	id_tag = "room11";
 	name = "Room 11"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "cB" = (
 /obj/machinery/door/airlock{
 	id_tag = "room7";
 	name = "Room 7"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "cE" = (
 /obj/structure/flora/rock,
 /obj/effect/mist,
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "cJ" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5{
@@ -397,13 +397,13 @@
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "cK" = (
 /obj/machinery/newscaster{
 	pixel_x = 30
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "cL" = (
 /obj/structure/simple_door/wood,
@@ -412,11 +412,11 @@
 "cM" = (
 /obj/item/melee/umbrella/random,
 /obj/structure/closet/lasertag/red,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "cN" = (
 /obj/effect/overlay/coconut,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -446,7 +446,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "cU" = (
 /obj/machinery/vending/fishing,
@@ -459,7 +459,7 @@
 /area/cyran/outdoors)
 "cV" = (
 /obj/machinery/vending/hydroseeds,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "da" = (
 /obj/item/towel/random,
@@ -475,11 +475,11 @@
 /area/cyran/indoors/villa/ball)
 "dg" = (
 /obj/structure/bed/chair,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "dm" = (
 /obj/machinery/light,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/indoors)
 "dn" = (
 /turf/simulated/floor/carpet/oracarpet,
@@ -496,13 +496,13 @@
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "dD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "dG" = (
 /obj/machinery/light{
@@ -523,7 +523,7 @@
 /area/cyran/outdoors)
 "dL" = (
 /mob/living/simple_mob/animal/passive/fish/solarfish,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "dN" = (
 /obj/structure/catwalk,
@@ -533,7 +533,7 @@
 /area/cyran/indoors)
 "dP" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "dW" = (
 /obj/structure/table/marble,
@@ -548,7 +548,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "ef" = (
 /obj/structure/railing/grey{
@@ -556,22 +556,22 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "eg" = (
 /mob/living/simple_mob/animal/passive/bird/azure_tit/tweeter,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "en" = (
 /obj/machinery/seed_extractor,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "eq" = (
 /obj/structure/railing,
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "es" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -586,10 +586,10 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "eH" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete16"
 	},
 /area/cyran/outdoors)
@@ -615,19 +615,19 @@
 	},
 /obj/structure/table/woodentable,
 /obj/item/reagent_containers/glass/bucket/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "eM" = (
 /obj/structure/fence/corner{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "eN" = (
 /obj/structure/flora/rock,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "eP" = (
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -643,7 +643,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "eS" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -664,7 +664,7 @@
 /obj/item/plant_analyzer,
 /obj/item/plant_analyzer,
 /obj/item/tool/wirecutters/clippers/trimmers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "eW" = (
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -688,13 +688,13 @@
 /area/cyran/indoors)
 "fc" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "ff" = (
 /obj/structure/bed/chair/sofa/black/right{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "fi" = (
 /obj/effect/floor_decal/carpet{
@@ -711,15 +711,15 @@
 	id_tag = "room7";
 	name = "Room 7"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "fo" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "fp" = (
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "fu" = (
 /obj/structure/closet/crate/hydroponics,
@@ -730,19 +730,19 @@
 /obj/item/plant_analyzer,
 /obj/item/plant_analyzer,
 /obj/item/tool/wirecutters/clippers/trimmers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "fx" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "fA" = (
 /obj/machinery/recharge_station,
 /obj/machinery/light/spot{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "fF" = (
 /obj/effect/floor_decal/carpet/blue,
@@ -750,28 +750,28 @@
 /area/cyran/indoors/villa/kids)
 "fG" = (
 /mob/living/simple_mob/animal/passive/fish/salmon,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "fP" = (
 /mob/living/simple_mob/animal/passive/fish/perch,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "fU" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "fZ" = (
 /obj/machinery/light/spot{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "ga" = (
 /mob/living/simple_mob/animal/passive/fish/rockfish,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "gc" = (
-/turf/simulated/mineral/classm,
+/turf/simulated/mineral,
 /area/cyran/indoors)
 "gd" = (
 /obj/machinery/light{
@@ -790,7 +790,7 @@
 "gj" = (
 /obj/structure/catwalk,
 /obj/structure/railing,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "gl" = (
 /obj/structure/sink/kitchen{
@@ -803,19 +803,19 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "gp" = (
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "gs" = (
 /mob/living/simple_mob/animal/passive/fish/javelin,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "gw" = (
 /turf/simulated/wall/wood/hardwood,
@@ -826,14 +826,14 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "gD" = (
 /obj/structure/fence/corner{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "gE" = (
 /obj/structure/closet/secure_closet/personal,
@@ -846,20 +846,20 @@
 /obj/structure/bed/chair/sofa/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "gM" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete18"
 	},
 /area/cyran/outdoors)
 "gR" = (
 /obj/machinery/smartfridge/chemistry,
-/turf/simulated/wall/classm,
+/turf/simulated/wall,
 /area/cyran/indoors)
 "gS" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "gT" = (
 /obj/effect/mist,
@@ -878,7 +878,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ha" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -892,18 +892,18 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "hh" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/halfstair,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/indoors/villa/entry_hall)
 "hi" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "hk" = (
 /turf/simulated/floor/tiled/techfloor/grid{
@@ -922,7 +922,7 @@
 /area/cyran/outdoors)
 "hp" = (
 /obj/structure/fence,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "hu" = (
 /obj/effect/floor_decal/corner/blue/border,
@@ -991,7 +991,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "hT" = (
 /obj/structure/table/bench/wooden,
@@ -1018,7 +1018,7 @@
 /area/cyran/indoors/villa/dawn)
 "id" = (
 /obj/structure/fence,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -1038,7 +1038,7 @@
 	},
 /area/cyran/outdoors)
 "ig" = (
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/indoors)
 "ii" = (
 /obj/structure/simple_door/wood{
@@ -1050,7 +1050,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "il" = (
 /turf/simulated/floor/tiled/white,
@@ -1059,7 +1059,7 @@
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "io" = (
 /obj/effect/floor_decal/corner/blue/bordercorner,
@@ -1086,11 +1086,11 @@
 /area/cyran/indoors/villa/ball)
 "iv" = (
 /mob/living/simple_mob/animal/passive/bird/ringneck_dove,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ix" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "iy" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -1101,7 +1101,7 @@
 /area/cyran/indoors)
 "iz" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "iC" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1112,17 +1112,17 @@
 "iD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "iH" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "iM" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "iO" = (
 /obj/effect/floor_decal/river_beach_corner_edge{
@@ -1132,19 +1132,19 @@
 /area/cyran/outdoors)
 "iP" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "iQ" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/catering/bar_soft,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "iR" = (
 /obj/structure/table/hardwoodtable,
 /obj/machinery/computer/security/telescreen{
 	pixel_y = 157
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "iT" = (
 /obj/structure/flora/ausbushes/reedbush,
@@ -1188,7 +1188,7 @@
 	pixel_x = 6;
 	pixel_y = 15
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "jh" = (
 /obj/effect/floor_decal/spline/plain,
@@ -1198,20 +1198,20 @@
 	},
 /area/cyran/outdoors)
 "ji" = (
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "jn" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "jo" = (
 /obj/structure/fence/corner{
 	dir = 1
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "jv" = (
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/indoors)
 "jw" = (
 /obj/structure/table/reinforced,
@@ -1226,7 +1226,7 @@
 /area/cyran/outdoors)
 "jA" = (
 /obj/structure/stairs/spawner/west,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "jB" = (
 /obj/machinery/appliance/cooker/grill/stand,
@@ -1304,7 +1304,7 @@
 "jQ" = (
 /obj/structure/flora/tree/dead,
 /mob/living/simple_mob/animal/passive/bird/ringneck_dove,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "jV" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -1319,7 +1319,7 @@
 	dir = 1;
 	pixel_y = 10
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "jZ" = (
 /obj/structure/table/woodentable,
@@ -1328,10 +1328,10 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "kc" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete19"
 	},
 /area/cyran/outdoors)
@@ -1341,7 +1341,7 @@
 /area/cyran/indoors)
 "kf" = (
 /obj/machinery/vending/hydronutrients,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "kg" = (
 /obj/structure/toilet{
@@ -1404,11 +1404,11 @@
 /area/cyran/indoors)
 "ky" = (
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "kC" = (
 /obj/item/stack/ore/coal,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "kD" = (
 /obj/structure/bed/chair/bay/comfy/black{
@@ -1419,7 +1419,7 @@
 /area/cyran/indoors)
 "kF" = (
 /obj/structure/flora/ausbushes,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "kH" = (
 /obj/structure/bed/chair/sofa/black{
@@ -1431,7 +1431,7 @@
 /obj/structure/fireplace{
 	pixel_y = 24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "kK" = (
 /obj/structure/flora/pottedplant/flower,
@@ -1514,14 +1514,14 @@
 /area/cyran/indoors)
 "kO" = (
 /obj/structure/flora/pottedplant/thinbush,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "kP" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "kS" = (
 /obj/structure/fence,
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "kT" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1531,24 +1531,24 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "kU" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "kW" = (
 /obj/machinery/door/airlock{
 	id_tag = "room4";
 	name = "Room 4"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "kY" = (
 /obj/structure/flora/pottedplant/minitree,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "lc" = (
 /obj/structure/railing{
@@ -1557,14 +1557,14 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "lg" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1;
 	icon_state = "spline_fancy_corner"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "lh" = (
 /obj/effect/map_effect/interval/effect_emitter/steam,
@@ -1613,13 +1613,13 @@
 	dir = 1;
 	pixel_y = 36
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "lp" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lq" = (
 /obj/structure/flora/ausbushes/stalkybush,
@@ -1634,13 +1634,13 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "lw" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lz" = (
 /obj/structure/bed/flipped/padded,
@@ -1655,16 +1655,16 @@
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
 /obj/structure/curtain/black,
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors)
 "lC" = (
 /obj/machinery/light/flamp,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "lD" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lG" = (
 /obj/structure/bed/chair/wood/wings,
@@ -1675,12 +1675,12 @@
 /area/cyran/indoors/villa/kids)
 "lI" = (
 /obj/overmap/entity/visitable/sector/gaia_planet,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "lJ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lL" = (
 /obj/machinery/chem_master/condimaster,
@@ -1688,11 +1688,11 @@
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lO" = (
 /obj/structure/flora/pottedplant/flower,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "lQ" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1724,7 +1724,7 @@
 "lU" = (
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/warning/full,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "lV" = (
 /obj/structure/bed/chair/bay/comfy/black{
@@ -1738,7 +1738,7 @@
 "lX" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/item/stack/ore/coal,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "lY" = (
 /obj/structure/flora/pottedplant/aquatic,
@@ -1752,7 +1752,7 @@
 /obj/item/material/knife/butch{
 	pixel_y = 3
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "mf" = (
 /obj/structure/closet/largecardboard,
@@ -1760,11 +1760,11 @@
 /obj/structure/closet/largecardboard,
 /obj/structure/closet/largecardboard,
 /obj/structure/closet/largecardboard,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "mk" = (
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "ml" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1787,7 +1787,7 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "mt" = (
 /obj/structure/table/woodentable,
@@ -1796,7 +1796,7 @@
 "mv" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "mx" = (
 /turf/simulated/wall,
@@ -1804,13 +1804,13 @@
 "mz" = (
 /obj/structure/curtain/open/ashlander,
 /obj/effect/mist,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "mA" = (
 /obj/structure/fence/post{
 	dir = 8
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "mF" = (
 /obj/structure/bed/chair/wood/wings{
@@ -1829,7 +1829,7 @@
 	nightshift_allowed = 0
 	},
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "mL" = (
 /turf/simulated/wall/wood/hardwood,
@@ -1860,7 +1860,7 @@
 	pixel_x = 8;
 	pixel_y = 16
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "mO" = (
 /obj/structure/table/reinforced,
@@ -1876,25 +1876,25 @@
 "mU" = (
 /obj/structure/table/marble,
 /obj/machinery/light/small,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "na" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "nc" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "nf" = (
 /obj/machinery/door/airlock{
 	id_tag = "room13";
 	name = "Room 13"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "ng" = (
 /obj/structure/railing/grey,
@@ -1916,7 +1916,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "nk" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1928,7 +1928,7 @@
 /area/cyran/outdoors)
 "nm" = (
 /obj/item/stack/ore,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "no" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -1940,7 +1940,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "nz" = (
 /obj/machinery/light/flamp/noshade{
@@ -1951,7 +1951,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "nA" = (
 /turf/simulated/floor/water/beach{
@@ -1960,7 +1960,7 @@
 /area/cyran/outdoors)
 "nD" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "nF" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5{
@@ -1969,7 +1969,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "nG" = (
 /turf/simulated/floor/tiled/freezer,
@@ -1978,13 +1978,13 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "nV" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "nX" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -2000,7 +2000,7 @@
 	name = "Garage Door Control";
 	id = "CyranVillaGarage"
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "od" = (
 /obj/machinery/light{
@@ -2011,14 +2011,14 @@
 "og" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "oj" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/flora/pottedplant/tropical,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "om" = (
 /obj/structure/window/reinforced{
@@ -2056,13 +2056,13 @@
 /obj/item/towel/random,
 /obj/item/towel/random,
 /obj/structure/table/rack,
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "os" = (
 /obj/structure/fence/post{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -2085,7 +2085,7 @@
 /obj/structure/bed/chair/sofa/black/right{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "oA" = (
 /obj/machinery/light/flamp/noshade{
@@ -2096,20 +2096,20 @@
 /area/cyran/indoors)
 "oB" = (
 /obj/structure/flora/pottedplant/thinbush,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "oC" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "oE" = (
 /obj/structure/bed/chair,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "oF" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete22"
 	},
 /area/cyran/outdoors)
@@ -2121,7 +2121,7 @@
 	dir = 8
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "oI" = (
 /obj/item/stack/material/log{
@@ -2134,7 +2134,7 @@
 	dir = 1;
 	pixel_y = 21
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "oJ" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
@@ -2189,7 +2189,7 @@
 "oS" = (
 /obj/structure/flora/rock,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "pa" = (
 /obj/effect/floor_decal/river_beach_corner_edge{
@@ -2212,7 +2212,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "pg" = (
 /mob/living/simple_mob/animal/passive/fish/trout,
@@ -2221,7 +2221,7 @@
 "pk" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "pl" = (
 /obj/machinery/button/remote/airlock{
@@ -2231,7 +2231,7 @@
 	pixel_y = 26;
 	specialfunctions = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "pm" = (
 /obj/structure/table/rack,
@@ -2239,13 +2239,13 @@
 /obj/item/melee/umbrella,
 /obj/item/melee/umbrella,
 /obj/item/melee/umbrella,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "po" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "pr" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -2255,7 +2255,7 @@
 /area/cyran/indoors/villa/dawn)
 "ps" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "px" = (
 /obj/structure/table/rack,
@@ -2268,7 +2268,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "pB" = (
 /obj/effect/floor_decal/river_beach_edge{
@@ -2297,15 +2297,15 @@
 /obj/structure/bed/chair/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "pK" = (
 /obj/structure/railing,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "pL" = (
 /obj/item/beach_ball,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -2315,7 +2315,7 @@
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "pP" = (
 /obj/structure/table/bench/marble,
@@ -2333,26 +2333,26 @@
 	dir = 1;
 	pixel_y = 36
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "pQ" = (
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "pR" = (
 /obj/structure/bonfire,
 /obj/machinery/computer/security/telescreen{
 	pixel_y = 118
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "pV" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "pX" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -2368,7 +2368,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "qd" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -2378,7 +2378,7 @@
 /area/cyran/indoors)
 "qi" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "qj" = (
 /obj/structure/simple_door/wood{
@@ -2388,14 +2388,14 @@
 /area/cyran/indoors)
 "qk" = (
 /obj/structure/bed/chair/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "qm" = (
 /obj/structure/fence{
 	name = "vollyball net";
 	pass_flags_self = 481
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -2410,7 +2410,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "qs" = (
 /obj/machinery/light/flamp/noshade{
@@ -2418,7 +2418,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "qv" = (
 /obj/machinery/light{
@@ -2433,7 +2433,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "qB" = (
 /turf/simulated/floor/water/beach{
@@ -2443,18 +2443,18 @@
 "qD" = (
 /obj/effect/mist,
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "qG" = (
 /obj/structure/table/rack,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "qH" = (
 /obj/machinery/light/spot{
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -2468,7 +2468,7 @@
 /obj/structure/bed/chair/sofa/black/left{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "qU" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -2490,14 +2490,14 @@
 /turf/simulated/floor/tiled/hydro,
 /area/cyran/indoors/villa/greenhouse)
 "rf" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete21"
 	},
 /area/cyran/outdoors)
 "rh" = (
 /obj/structure/window/reinforced/full,
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors)
 "rj" = (
 /obj/structure/railing/grey,
@@ -2566,7 +2566,7 @@
 /obj/structure/bed/chair/sofa/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "rv" = (
 /obj/spawner/window/low_wall/full,
@@ -2598,7 +2598,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "rA" = (
 /obj/item/radio/intercom/entertainment{
@@ -2613,7 +2613,7 @@
 	dir = 1;
 	pixel_y = -7
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete20"
 	},
 /area/cyran/outdoors)
@@ -2625,7 +2625,7 @@
 	nightshift_allowed = 0
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "rH" = (
 /obj/structure/closet/crate/bin{
@@ -2634,30 +2634,30 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "rJ" = (
 /obj/structure/window/reinforced/full,
 /obj/structure/curtain/black,
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors)
 "rK" = (
 /obj/structure/bed/chair/wood/wings,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "rO" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "rR" = (
 /obj/machinery/light{
 	dir = 8;
 	light_range = 12
 	},
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "rV" = (
 /obj/machinery/light_switch{
@@ -2665,24 +2665,24 @@
 	pixel_x = -24;
 	pixel_y = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "sc" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "sd" = (
 /obj/structure/flora/ausbushes,
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "se" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "sg" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -2700,12 +2700,12 @@
 /area/cyran/indoors)
 "sj" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "sk" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/overlay/coconut,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "sl" = (
 /obj/machinery/button/remote/airlock{
@@ -2718,22 +2718,22 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "sm" = (
 /obj/structure/railing,
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "so" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "sp" = (
 /obj/structure/railing,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "st" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -2748,13 +2748,13 @@
 	dir = 4
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "sE" = (
 /obj/structure/bed/chair/sofa/black/left{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "sI" = (
 /obj/structure/railing/grey{
@@ -2770,7 +2770,7 @@
 	dir = 4
 	},
 /obj/structure/railing,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "sM" = (
 /obj/structure/railing{
@@ -2779,7 +2779,7 @@
 /obj/structure/closet/crate/bin{
 	anchored = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "sO" = (
 /obj/effect/floor_decal/spline/plain{
@@ -2800,11 +2800,11 @@
 "sV" = (
 /obj/structure/sink/puddle,
 /obj/effect/map_effect/interval/effect_emitter/steam,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "sX" = (
 /mob/living/simple_mob/animal/passive/fish/bass,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "sZ" = (
 /turf/simulated/floor/tiled/hydro,
@@ -2813,16 +2813,16 @@
 /obj/structure/sink/puddle,
 /obj/effect/map_effect/interval/effect_emitter/steam,
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "tc" = (
 /obj/structure/fence,
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "tl" = (
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "tn" = (
 /obj/structure/table/rack,
@@ -2851,27 +2851,24 @@
 /obj/item/material/twohanded/folded_metal_chair{
 	pixel_y = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "to" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ts" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "tu" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
-"tv" = (
-/turf/simulated/wall/classm,
-/area/cyran/indoors)
 "tx" = (
 /obj/machinery/light/spot{
 	dir = 1;
@@ -2888,7 +2885,7 @@
 	pixel_y = 18
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "tz" = (
 /obj/structure/table/reinforced,
@@ -2903,7 +2900,7 @@
 /area/cyran/indoors)
 "tE" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "tF" = (
 /obj/structure/curtain/open/black,
@@ -2920,12 +2917,12 @@
 /obj/structure/railing/grey{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "tI" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/browndouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "tJ" = (
 /obj/structure/undies_wardrobe,
@@ -2934,11 +2931,11 @@
 	pixel_x = 0;
 	pixel_y = -29
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "tN" = (
 /mob/living/simple_mob/animal/passive/bird/european_robin,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "tO" = (
 /obj/machinery/light_switch{
@@ -2964,19 +2961,19 @@
 /obj/machinery/door/airlock/glass{
 	name = "Automated Resort"
 	},
-/turf/simulated/floor/tiled/monotile/classm,
+/turf/simulated/floor/tiled/monotile,
 /area/cyran/indoors/staff)
 "tR" = (
 /obj/structure/flora/tree/dead,
 /mob/living/simple_mob/animal/passive/bird/european_robin,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "tS" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "tT" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -3028,7 +3025,7 @@
 /obj/machinery/microwave{
 	pixel_y = 6
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ue" = (
 /obj/structure/railing/grey{
@@ -3078,14 +3075,14 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "ux" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "uE" = (
 /obj/structure/sink{
@@ -3108,11 +3105,11 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "uN" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -3129,7 +3126,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "uS" = (
 /obj/effect/floor_decal/carpet{
@@ -3146,14 +3143,14 @@
 "uU" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "vb" = (
 /obj/machinery/door/blast/shutters{
 	name = "Garage";
 	id = "CyranVillaGarage"
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "vd" = (
 /turf/simulated/floor/carpet/purcarpet,
@@ -3174,7 +3171,7 @@
 	pixel_x = -4;
 	pixel_y = 8
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "vi" = (
 /obj/machinery/button/windowtint{
@@ -3194,7 +3191,7 @@
 /obj/structure/fence,
 /obj/structure/flora/tree/dead,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "vr" = (
 /obj/machinery/light,
@@ -3202,12 +3199,12 @@
 /area/cyran/indoors)
 "vt" = (
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "vu" = (
 /obj/structure/flora/rock,
 /obj/effect/mist,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "vA" = (
 /obj/structure/toilet{
@@ -3223,7 +3220,7 @@
 	dir = 4
 	},
 /obj/structure/flora/pottedplant/shoot,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "vF" = (
 /obj/structure/catwalk,
@@ -3232,7 +3229,7 @@
 "vI" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "vJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -3250,7 +3247,7 @@
 	},
 /area/cyran/outdoors)
 "vM" = (
-/turf/simulated/wall/classm,
+/turf/simulated/wall,
 /area/cyran/indoors/staff)
 "vP" = (
 /obj/spawner/window/low_wall/reinforced/electrochromic/full{
@@ -3262,23 +3259,23 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "vY" = (
 /obj/structure/fence,
 /obj/structure/fence/corner,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "wa" = (
 /obj/structure/fence/post{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "wb" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/purpledouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "wc" = (
 /turf/simulated/wall/wood/hardwood,
@@ -3322,7 +3319,7 @@
 	name = "Garage Door Control";
 	id = "CyranVillaGarage"
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "wl" = (
 /obj/effect/floor_decal/industrial/warning/cee{
@@ -3332,13 +3329,13 @@
 	dir = 4
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "wo" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "wq" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -3352,7 +3349,7 @@
 /area/cyran/indoors)
 "ww" = (
 /obj/effect/mist,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "wA" = (
 /obj/machinery/button/remote/airlock{
@@ -3365,10 +3362,10 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "wF" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "wJ" = (
 /obj/spawner/window/low_wall/full,
@@ -3380,7 +3377,7 @@
 /obj/structure/railing/grey{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "wM" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -3405,7 +3402,7 @@
 /obj/machinery/shower{
 	pixel_y = 29
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete15"
 	},
 /area/cyran/outdoors)
@@ -3413,11 +3410,8 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/steel_dirty,
 /area/cyran/indoors)
-"xb" = (
-/turf/simulated/wall/classm,
-/area/cyran/outdoors)
 "xc" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "xe" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -3425,40 +3419,40 @@
 	pixel_y = -24
 	},
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "xi" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "xj" = (
 /obj/effect/shuttle_landmark/automatic{
 	docking_controller = "gaia_1"
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "xl" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "xm" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "xn" = (
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "xr" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/syndicate/powertools,
 /obj/item/clothing/head/helmet/bike_helmet,
 /obj/item/clothing/head/helmet/bike_helmet,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "xu" = (
 /obj/structure/railing/grey{
@@ -3478,17 +3472,17 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "xB" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "xF" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "xH" = (
 /obj/machinery/light,
@@ -3544,12 +3538,12 @@
 	name = "NO WEAPONS BEYOND THIS POINT";
 	pixel_y = 32
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "xX" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/catering/bar_coffee,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "yc" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -3572,13 +3566,13 @@
 	name = "vollyball net";
 	pass_flags_self = 481
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "yf" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "yi" = (
 /turf/simulated/floor/tiled/freezer,
@@ -3617,13 +3611,13 @@
 	pixel_x = -96;
 	pixel_y = -33
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "yB" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "yD" = (
 /obj/machinery/button/remote/airlock{
@@ -3635,7 +3629,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "yF" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
@@ -3645,13 +3639,13 @@
 /area/cyran/indoors/villa/kids)
 "yG" = (
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "yH" = (
 /obj/structure/fence/corner{
 	dir = 4
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "yM" = (
 /obj/structure/table/marble,
@@ -3684,14 +3678,14 @@
 "yU" = (
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "yV" = (
 /obj/structure/fence/post{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "yW" = (
 /obj/structure/kitchenspike,
@@ -3702,29 +3696,29 @@
 	id_tag = "room5";
 	name = "Room 5"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "zc" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "zd" = (
 /obj/machinery/light_switch{
 	pixel_x = -4;
 	pixel_y = 30
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "ze" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "zf" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/greendouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "zg" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -3743,10 +3737,10 @@
 /area/cyran/indoors)
 "zs" = (
 /obj/structure/flora/rock,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "zu" = (
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/outdoors)
 "zy" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -3786,19 +3780,19 @@
 	dir = 4;
 	pixel_x = 22
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "zI" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "zJ" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/table/bench/marble,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "zK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -3815,7 +3809,7 @@
 	pixel_x = 10;
 	pixel_y = 6
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "zO" = (
 /obj/effect/floor_decal/carpet,
@@ -3852,7 +3846,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Al" = (
 /obj/structure/fitness/weightlifter,
@@ -3862,27 +3856,27 @@
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "An" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Ap" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals5,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Ar" = (
 /obj/structure/sign/greencross{
 	name = "Authorized Medical Personnel Only";
 	pixel_x = 32
 	},
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "Az" = (
 /obj/machinery/vending/fishing,
@@ -3900,11 +3894,11 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "AD" = (
 /obj/structure/fence/post,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "AI" = (
 /obj/structure/table/marble,
@@ -3937,13 +3931,13 @@
 	dir = 8
 	},
 /obj/structure/table/bench/marble,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "AP" = (
 /obj/effect/mist,
 /obj/structure/sink/puddle,
 /obj/effect/map_effect/interval/effect_emitter/steam,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "AW" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -3968,7 +3962,7 @@
 /area/cyran/indoors)
 "Bc" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Bf" = (
 /obj/effect/mist,
@@ -3989,7 +3983,7 @@
 /turf/simulated/floor/water/river/deep/south/outdoors,
 /area/cyran/outdoors)
 "Bp" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Br" = (
 /obj/structure/railing{
@@ -3998,7 +3992,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "BC" = (
 /obj/effect/floor_decal/spline/plain{
@@ -4022,14 +4016,14 @@
 "BE" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "BF" = (
 /turf/simulated/floor/water/river/deep/south/outdoors,
 /area/cyran/outdoors)
 "BG" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -4044,14 +4038,14 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "BK" = (
 /mob/living/simple_mob/animal/passive/fish/salmon,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "BM" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/indoors)
 "BO" = (
 /obj/effect/map_effect/interval/effect_emitter/steam,
@@ -4064,7 +4058,7 @@
 /area/cyran/indoors)
 "BQ" = (
 /obj/structure/flora/ausbushes/pointybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "BR" = (
 /obj/effect/floor_decal/carpet,
@@ -4081,17 +4075,17 @@
 	dir = 1
 	},
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "BT" = (
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "BW" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "BY" = (
 /obj/structure/catwalk,
@@ -4104,7 +4098,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "Cb" = (
 /obj/structure/closet/wardrobe,
@@ -4112,11 +4106,11 @@
 	pixel_x = 0;
 	pixel_y = -29
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "Ci" = (
 /obj/structure/sink/puddle,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "Cp" = (
 /turf/simulated/floor/tiled,
@@ -4126,7 +4120,7 @@
 	dir = 4;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "CC" = (
 /obj/effect/floor_decal/carpet{
@@ -4163,7 +4157,7 @@
 	nightshift_allowed = 0
 	},
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "CU" = (
 /obj/effect/floor_decal/spline/plain{
@@ -4178,7 +4172,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "CW" = (
 /obj/machinery/light/flamp/noshade{
@@ -4186,15 +4180,15 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "CY" = (
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "CZ" = (
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "Dg" = (
 /obj/structure/catwalk,
@@ -4210,7 +4204,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Dm" = (
 /obj/machinery/vending/boozeomat{
@@ -4223,7 +4217,7 @@
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Dp" = (
 /obj/structure/fence{
@@ -4231,7 +4225,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Dq" = (
 /obj/effect/mist,
@@ -4242,17 +4236,17 @@
 	dir = 8
 	},
 /obj/structure/table/glass,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Dz" = (
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/indoors)
 "DA" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "DB" = (
 /obj/structure/table/rack,
@@ -4266,7 +4260,7 @@
 /area/cyran/indoors/villa/pool)
 "DF" = (
 /obj/machinery/gear_painter,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "DI" = (
 /obj/machinery/tele_projector{
@@ -4275,7 +4269,7 @@
 /turf/simulated/floor/tiled/steel_dirty,
 /area/cyran/indoors)
 "DK" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "DL" = (
 /obj/structure/bed/chair/bay/comfy/black,
@@ -4299,14 +4293,14 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "DQ" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/gym)
 "DT" = (
 /obj/structure/flora/ausbushes,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "DU" = (
 /turf/simulated/floor/carpet/patterened,
@@ -4330,7 +4324,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Eb" = (
 /obj/machinery/light,
@@ -4338,7 +4332,7 @@
 /area/cyran/indoors/villa/kids)
 "Ee" = (
 /obj/structure/window/basic/full,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -4382,7 +4376,7 @@
 /turf/simulated/floor/tiled/hydro,
 /area/cyran/indoors/villa/greenhouse)
 "Ey" = (
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "Ez" = (
 /obj/structure/flora/ausbushes/reedbush,
@@ -4413,7 +4407,7 @@
 "EL" = (
 /obj/structure/fence,
 /obj/structure/fence/corner,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -4431,7 +4425,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "ES" = (
 /obj/item/radio/beacon/anchored,
@@ -4463,20 +4457,20 @@
 /area/cyran/indoors/villa/living)
 "Fd" = (
 /mob/living/simple_mob/animal/passive/fish/koi,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Fg" = (
 /obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "Fp" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "Fq" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Fs" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9{
@@ -4489,7 +4483,7 @@
 /area/cyran/indoors)
 "Fx" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete19"
 	},
 /area/cyran/outdoors)
@@ -4503,7 +4497,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "FE" = (
 /obj/machinery/light_switch{
@@ -4513,7 +4507,7 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "FI" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -4523,7 +4517,7 @@
 /area/cyran/indoors/villa/spare)
 "FJ" = (
 /obj/structure/statue/gold/hos,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "FK" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -4558,7 +4552,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Gb" = (
 /turf/simulated/floor/carpet/turcarpet,
@@ -4574,7 +4568,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Gj" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -4587,18 +4581,18 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Go" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /obj/structure/sign/warning/high_voltage,
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Gq" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "Gs" = (
 /obj/structure/closet/crate/hydroponics,
@@ -4614,11 +4608,11 @@
 /area/cyran/indoors/villa/greenhouse)
 "Gt" = (
 /obj/structure/table/gamblingtable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "GA" = (
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "GB" = (
 /obj/effect/overlay/coconut,
@@ -4631,7 +4625,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "GE" = (
 /obj/structure/railing{
@@ -4639,7 +4633,7 @@
 	},
 /obj/structure/railing,
 /obj/structure/table/bench/marble,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "GG" = (
 /obj/machinery/light/spot{
@@ -4657,7 +4651,7 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "GJ" = (
 /turf/simulated/floor/carpet/patterened/purple,
@@ -4693,13 +4687,13 @@
 /obj/structure/window/reinforced/polarized/full{
 	id = "sauna2"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "GZ" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Hb" = (
 /obj/item/melee/umbrella/random,
@@ -4707,13 +4701,13 @@
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "He" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Hh" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -4721,11 +4715,11 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Hj" = (
 /obj/structure/flora/pottedplant/largebush,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Hm" = (
 /obj/effect/floor_decal/spline/plain{
@@ -4754,17 +4748,17 @@
 "Hw" = (
 /obj/structure/stairs/spawner/east,
 /obj/structure/railing/grey,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "HB" = (
 /obj/structure/simple_door/wood{
 	name = "Greenhouse"
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "HC" = (
 /obj/structure/flora/pottedplant/crystal,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "HG" = (
 /obj/machinery/button/remote/airlock{
@@ -4777,7 +4771,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "HI" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -4796,7 +4790,7 @@
 /area/cyran/indoors)
 "HN" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "HQ" = (
 /turf/simulated/floor/tiled/freezer,
@@ -4806,13 +4800,13 @@
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "HY" = (
 /obj/structure/bed/chair/sofa/black/corner{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "HZ" = (
 /obj/effect/floor_decal/carpet{
@@ -4822,13 +4816,13 @@
 /area/cyran/indoors/villa/entry_hall)
 "Ic" = (
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "If" = (
 /obj/structure/fence/corner{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Ii" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -4840,21 +4834,21 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Ij" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/orangedouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Il" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Io" = (
 /obj/machinery/appliance/cooker/grill/stand,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "Iq" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -4865,7 +4859,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "IB" = (
 /obj/machinery/seed_extractor,
@@ -4883,7 +4877,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "IF" = (
 /obj/structure/fence{
@@ -4899,7 +4893,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "IK" = (
 /obj/structure/closet/secure_closet/personal,
@@ -4925,7 +4919,7 @@
 /obj/structure/closet/crate/bin{
 	anchored = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "IR" = (
 /obj/machinery/light/small{
@@ -4948,11 +4942,11 @@
 /obj/item/reagent_containers/glass/bucket/wood,
 /obj/item/reagent_containers/glass/bucket/wood,
 /obj/item/reagent_containers/glass/bucket/wood,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "IU" = (
 /mob/living/simple_mob/animal/passive/fish/trout,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Je" = (
 /obj/machinery/appliance/cooker/oven,
@@ -4967,7 +4961,7 @@
 "Ji" = (
 /obj/structure/table/bench/marble,
 /obj/effect/mist,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Jj" = (
 /obj/spawner/window/low_wall/full,
@@ -4979,7 +4973,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Jq" = (
 /obj/structure/mirror/long/left{
@@ -4994,7 +4988,7 @@
 /area/cyran/indoors/villa/kitchen)
 "Js" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Jt" = (
 /obj/structure/mirror/long/right{
@@ -5020,7 +5014,7 @@
 /obj/structure/flora/pottedplant/bamboo{
 	pixel_x = 2
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "JN" = (
 /obj/effect/floor_decal/corner_steel_grid{
@@ -5029,7 +5023,7 @@
 /obj/machinery/door/airlock/glass{
 	name = "Automated Resort"
 	},
-/turf/simulated/floor/tiled/monotile/classm,
+/turf/simulated/floor/tiled/monotile,
 /area/cyran/indoors/staff)
 "JQ" = (
 /turf/simulated/floor/water/beach{
@@ -5041,7 +5035,7 @@
 	name = "vollyball net";
 	pass_flags_self = 481
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -5062,14 +5056,14 @@
 	id_tag = "room10";
 	name = "Room 10"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "JY" = (
 /obj/machinery/door/airlock{
 	id_tag = "room12";
 	name = "Room 12"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "JZ" = (
 /obj/structure/closet/crate/hydroponics,
@@ -5118,7 +5112,7 @@
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Ks" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -5138,7 +5132,7 @@
 /area/cyran/outdoors)
 "Kw" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete17"
 	},
 /area/cyran/outdoors)
@@ -5183,7 +5177,7 @@
 	dir = 8
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "KC" = (
 /obj/structure/closet/wardrobe,
@@ -5204,7 +5198,7 @@
 	id_tag = "room8";
 	name = "Room 8"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "KH" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -5223,14 +5217,14 @@
 /area/cyran/indoors/villa/kitchen)
 "KQ" = (
 /obj/structure/bed/chair/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "KU" = (
 /obj/machinery/door/airlock{
 	id_tag = "room15";
 	name = "Room 15"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "KV" = (
 /obj/structure/toilet,
@@ -5242,7 +5236,7 @@
 "KW" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_mob/animal/passive/bird/black_bird,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "KX" = (
 /obj/effect/floor_decal/spline/plain{
@@ -5264,7 +5258,7 @@
 "KZ" = (
 /obj/structure/flora/rock,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "La" = (
 /obj/machinery/light/small/emergency{
@@ -5287,11 +5281,11 @@
 /obj/machinery/computer/security/telescreen{
 	pixel_y = -45
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "Li" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Lj" = (
 /obj/effect/floor_decal/spline/plain{
@@ -5344,7 +5338,7 @@
 	dir = 1;
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Lq" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
@@ -5353,7 +5347,7 @@
 	name = "Gaia Dock Controller";
 	pixel_y = 30
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Lr" = (
 /obj/structure/railing/grey{
@@ -5377,10 +5371,10 @@
 /area/cyran/indoors/villa/kids)
 "LE" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "LF" = (
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "LG" = (
 /obj/structure/railing/grey{
@@ -5391,18 +5385,18 @@
 /area/cyran/indoors)
 "LH" = (
 /obj/structure/flora/pottedplant/subterranean,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "LJ" = (
 /turf/simulated/wall,
 /area/cyran/outdoors)
 "LO" = (
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "LQ" = (
 /obj/structure/stairs/spawner/east,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "LT" = (
 /turf/simulated/floor/water/river/south/outdoors,
@@ -5422,12 +5416,12 @@
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "LY" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/bluedouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "LZ" = (
 /obj/structure/bed/padded,
@@ -5445,26 +5439,26 @@
 /area/cyran/outdoors)
 "Mc" = (
 /obj/structure/flora/rock,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "Mg" = (
 /obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Mj" = (
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "Mk" = (
 /obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Mm" = (
 /obj/effect/floor_decal/industrial/halfstair,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/indoors/villa/entry_hall)
 "Mn" = (
 /mob/living/simple_mob/animal/passive/bird/black_bird,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Ms" = (
 /obj/machinery/light,
@@ -5478,13 +5472,13 @@
 /obj/machinery/computer/security/telescreen{
 	pixel_y = 57
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "MF" = (
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "MI" = (
 /obj/structure/flora/ausbushes/stalkybush,
@@ -5492,32 +5486,32 @@
 /area/cyran/outdoors)
 "MQ" = (
 /mob/living/simple_mob/animal/passive/fish/solarfish,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "MR" = (
 /obj/machinery/light/flamp,
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "MV" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "MW" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4;
 	icon_state = "spline_fancy_corner"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Na" = (
 /obj/structure/flora/tree/pine,
 /mob/living/simple_mob/animal/passive/bird/black_bird,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Nb" = (
 /obj/machinery/light/spot{
@@ -5534,7 +5528,7 @@
 /area/cyran/indoors/villa/gym)
 "Ne" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Nh" = (
 /obj/structure/railing{
@@ -5543,7 +5537,7 @@
 /obj/structure/flora/pottedplant/tall{
 	pixel_x = 2
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Nk" = (
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -5564,7 +5558,7 @@
 /area/cyran/outdoors)
 "Nt" = (
 /obj/effect/floor_decal/industrial/halfstair,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "Nx" = (
 /obj/machinery/light{
@@ -5589,7 +5583,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "NC" = (
 /obj/effect/floor_decal/spline/fancy,
@@ -5604,14 +5598,14 @@
 /area/cyran/indoors/villa/ball)
 "NF" = (
 /obj/structure/displaycase,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "NG" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/kitchen)
 "NJ" = (
-/turf/simulated/floor/concrete/classm/outdoors,
+/turf/simulated/floor/concrete/outdoors,
 /area/cyran/outdoors)
 "NL" = (
 /obj/structure/flora/ausbushes/fernybush,
@@ -5657,23 +5651,23 @@
 "NY" = (
 /obj/item/stack/ore/coal,
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "Oc" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Od" = (
 /turf/simulated/floor/water/beach/corner,
 /area/cyran/outdoors)
 "Of" = (
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "Oh" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "Oj" = (
 /turf/simulated/wall/wood/hardwood,
@@ -5693,12 +5687,12 @@
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Or" = (
 /obj/effect/mist,
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Ot" = (
 /obj/structure/salvageable/console_os{
@@ -5999,7 +5993,7 @@
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Ow" = (
 /obj/structure/bed/chair{
@@ -6007,7 +6001,7 @@
 	pixel_x = -2;
 	pixel_y = -6
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "Ox" = (
 /obj/structure/table/woodentable,
@@ -6020,20 +6014,20 @@
 	dir = 4
 	},
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "OC" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "OD" = (
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "OF" = (
 /obj/structure/fence/corner{
 	dir = 8
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "OI" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -6058,7 +6052,7 @@
 /area/cyran/outdoors)
 "OP" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "OQ" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -6074,22 +6068,22 @@
 /area/cyran/indoors/villa/dawn)
 "OR" = (
 /obj/structure/railing/grey,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "OU" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_mob/animal/passive/bird/european_robin,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "OV" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "OX" = (
 /obj/structure/bed/double/padded,
 /obj/item/bedsheet/yellowdouble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Pi" = (
 /turf/simulated/floor/water/beach{
@@ -6101,7 +6095,7 @@
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Pl" = (
 /obj/structure/table/marble,
@@ -6117,11 +6111,11 @@
 	pixel_x = 8;
 	pixel_y = 2
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Pm" = (
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Pv" = (
 /obj/structure/fence{
@@ -6129,7 +6123,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Pw" = (
 /obj/machinery/button/remote/airlock{
@@ -6142,10 +6136,10 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "PB" = (
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "PC" = (
 /obj/machinery/light{
@@ -6186,7 +6180,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "PM" = (
 /obj/effect/floor_decal/river_beach_corner_edge{
@@ -6195,7 +6189,7 @@
 /turf/simulated/floor/water/river/south/outdoors,
 /area/cyran/outdoors)
 "PN" = (
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "PQ" = (
 /obj/structure/bed/chair{
@@ -6203,11 +6197,11 @@
 	pixel_x = 7;
 	pixel_y = -6
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "PS" = (
 /obj/machinery/media/jukebox,
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete15"
 	},
 /area/cyran/outdoors)
@@ -6217,18 +6211,18 @@
 /area/cyran/indoors)
 "PU" = (
 /obj/structure/railing,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "PV" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Qa" = (
 /mob/living/simple_mob/animal/passive/bird/goldcrest,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Qb" = (
 /turf/simulated/floor/water/beach{
@@ -6240,14 +6234,14 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "Qi" = (
 /obj/item/radio/intercom/entertainment{
 	dir = 1;
 	pixel_y = 23
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Qj" = (
 /obj/spawner/window/low_wall/full,
@@ -6265,7 +6259,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/ball)
 "Qp" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete20"
 	},
 /area/cyran/outdoors)
@@ -6273,13 +6267,13 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/indoors)
 "Qt" = (
 /obj/structure/simple_door/wood{
 	name = "Dawn's Room"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "Qu" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -6296,7 +6290,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -6311,14 +6305,14 @@
 	dir = 4
 	},
 /mob/living/simple_mob/animal/passive/bird/ringneck_dove,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "QA" = (
 /obj/structure/closet/wardrobe,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/kids)
 "QC" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -6335,28 +6329,28 @@
 "QD" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "QF" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "QL" = (
 /obj/effect/overlay/coconut,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "QS" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare)
 "QU" = (
 /obj/structure/displaycase,
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "QX" = (
 /obj/structure/table/woodentable,
@@ -6375,7 +6369,7 @@
 /obj/structure/simple_door/wood{
 	name = "Garage"
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/indoors/villa/garage)
 "Re" = (
 /obj/structure/railing{
@@ -6384,13 +6378,13 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Rf" = (
 /obj/vehicle/ridden/boat{
 	dir = 8
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Rg" = (
 /obj/machinery/light/small/emergency{
@@ -6412,7 +6406,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Rp" = (
 /obj/machinery/shower{
@@ -6437,18 +6431,18 @@
 /area/cyran/indoors)
 "Rq" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "Rr" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Rv" = (
 /obj/structure/stairs/spawner/west,
 /obj/structure/railing/grey,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Rw" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -6474,7 +6468,7 @@
 /obj/machinery/light/spot{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "RJ" = (
 /obj/effect/floor_decal/corner/blue/border,
@@ -6496,7 +6490,7 @@
 "RR" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "RS" = (
 /obj/machinery/light/small,
@@ -6517,19 +6511,19 @@
 /area/cyran/indoors/villa/dawn)
 "RY" = (
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "RZ" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "Sa" = (
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "Sg" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete23"
 	},
 /area/cyran/outdoors)
@@ -6537,7 +6531,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Si" = (
 /obj/structure/catwalk,
@@ -6562,22 +6556,22 @@
 /area/cyran/indoors/villa/living)
 "Sp" = (
 /obj/structure/bed/chair/sofa/black/left,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "St" = (
 /obj/structure/railing,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Su" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/halfstair,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/indoors/villa/entry_hall)
 "Sx" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Sz" = (
 /obj/machinery/appliance/mixer/candy,
@@ -6591,7 +6585,7 @@
 /area/cyran/outdoors)
 "SE" = (
 /obj/structure/flora/rock,
-/turf/simulated/floor/outdoors/dirt/classm,
+/turf/simulated/floor/outdoors/dirt,
 /area/cyran/outdoors)
 "SG" = (
 /obj/effect/floor_decal/spline/plain{
@@ -6620,17 +6614,17 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Te" = (
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Tf" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -6638,7 +6632,7 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Tm" = (
 /obj/machinery/light/small{
@@ -6652,12 +6646,12 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "Ts" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Ty" = (
 /obj/machinery/button/remote/airlock{
@@ -6670,7 +6664,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Tz" = (
 /turf/simulated/floor/water/beach/corner{
@@ -6679,7 +6673,7 @@
 /area/cyran/outdoors)
 "TE" = (
 /obj/machinery/light/spot,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -6712,14 +6706,14 @@
 /turf/simulated/floor/wmarble,
 /area/cyran/indoors/villa/ball)
 "TM" = (
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "TQ" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "TT" = (
 /obj/structure/railing{
@@ -6727,19 +6721,19 @@
 	},
 /obj/structure/railing,
 /obj/structure/table/bench/marble,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "TX" = (
 /obj/machinery/door/airlock{
 	id_tag = "room9";
 	name = "Room 9"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Ud" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Uk" = (
 /obj/machinery/light_switch{
@@ -6762,12 +6756,12 @@
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Us" = (
 /obj/structure/flora/tree/pine,
 /mob/living/simple_mob/animal/passive/bird/ringneck_dove,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Uv" = (
 /obj/structure/table/marble,
@@ -6782,12 +6776,12 @@
 /area/cyran/indoors)
 "Ux" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/ball)
 "Uy" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "UA" = (
 /obj/machinery/light/flamp/noshade{
@@ -6795,23 +6789,23 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "UB" = (
 /obj/structure/table/woodentable,
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "UC" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil,
 /obj/machinery/portable_atmospherics/hydroponics/soil,
-/turf/simulated/floor/outdoors/dirt/classm/outdoors,
+/turf/simulated/floor/outdoors/dirt/outdoors,
 /area/cyran/outdoors)
 "UF" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/table/glass,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "UJ" = (
 /obj/machinery/seed_extractor,
@@ -6820,17 +6814,17 @@
 "Va" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Vd" = (
 /obj/vehicle/ridden/boat{
 	dir = 4
 	},
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 "Ve" = (
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/water/classm,
+/turf/simulated/floor/water,
 /area/cyran/outdoors)
 "Vn" = (
 /turf/simulated/floor/wmarble,
@@ -6870,31 +6864,31 @@
 /area/cyran/indoors/villa/gym)
 "VQ" = (
 /obj/structure/table/hardwoodtable,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "VR" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "VS" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "VT" = (
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "VV" = (
 /obj/structure/table/hardwoodtable,
 /obj/machinery/computer/security/telescreen{
 	pixel_y = 35
 	},
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "VX" = (
 /obj/structure/curtain/open/shower,
@@ -6926,21 +6920,21 @@
 	id_tag = "room14";
 	name = "Room 14"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Wb" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Wd" = (
 /obj/machinery/media/jukebox,
-/turf/simulated/floor/wood/classm/outdoors,
+/turf/simulated/floor/wood/outdoors,
 /area/cyran/outdoors)
 "We" = (
 /obj/machinery/door/airlock{
 	id_tag = "room6";
 	name = "Room 6"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Wf" = (
 /obj/structure/sign/warning/secure_area/armory{
@@ -6948,7 +6942,7 @@
 	name = "NO WEAPONS BEYOND THIS POINT";
 	pixel_y = -32
 	},
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Wi" = (
 /obj/machinery/button/remote/airlock{
@@ -6961,7 +6955,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Wj" = (
 /obj/machinery/button/remote/airlock{
@@ -6974,7 +6968,7 @@
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/staff)
 "Wl" = (
 /obj/structure/flora/rock,
@@ -6983,14 +6977,14 @@
 /area/cyran/indoors)
 "Wp" = (
 /obj/structure/bed/chair/sofa/black/right,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Ws" = (
 /obj/machinery/light_switch{
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "Ww" = (
 /obj/structure/catwalk,
@@ -7000,18 +6994,18 @@
 "Wx" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/overlay/coconut,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
 "Wy" = (
 /obj/structure/closet/athletic_mixed,
 /obj/item/melee/umbrella/random,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "Wz" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "WA" = (
 /obj/structure/railing,
@@ -7019,13 +7013,13 @@
 	dir = 8
 	},
 /obj/structure/table/bench/marble,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "WE" = (
 /turf/simulated/floor/concrete/indoors,
 /area/cyran/indoors)
 "WH" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dining)
 "WJ" = (
 /obj/effect/floor_decal/spline/plain{
@@ -7039,7 +7033,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "WS" = (
 /obj/structure/window/reinforced/tinted/frosted{
@@ -7066,7 +7060,7 @@
 /obj/structure/fence/corner{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Xb" = (
 /obj/structure/simple_door/wood,
@@ -7078,10 +7072,10 @@
 /area/cyran/outdoors)
 "Xd" = (
 /obj/structure/fence/door,
-/turf/simulated/floor/concrete/tile/classm/outdoors,
+/turf/simulated/floor/concrete/tile/outdoors,
 /area/cyran/outdoors)
 "Xf" = (
-/turf/simulated/floor/concrete/tile/classm/outdoors{
+/turf/simulated/floor/concrete/tile/outdoors{
 	icon_state = "concrete17"
 	},
 /area/cyran/outdoors)
@@ -7096,7 +7090,7 @@
 "Xn" = (
 /obj/structure/fence,
 /obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Xo" = (
 /obj/effect/floor_decal/carpet{
@@ -7129,7 +7123,7 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Xx" = (
 /obj/machinery/telecomms/allinone,
@@ -7141,13 +7135,13 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "XA" = (
 /obj/machinery/vending/wallmed1{
 	pixel_x = 32
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "XE" = (
 /obj/machinery/light/small{
@@ -7159,7 +7153,7 @@
 /area/cyran/indoors)
 "XG" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "XI" = (
 /obj/structure/closet/crate/hydroponics,
@@ -7175,7 +7169,7 @@
 /area/cyran/indoors/villa/greenhouse)
 "XN" = (
 /obj/structure/closet/secure_closet/personal,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "XT" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -7186,7 +7180,7 @@
 /area/cyran/indoors/villa/gym)
 "XY" = (
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "XZ" = (
 /obj/effect/floor_decal/spline/plain{
@@ -7201,7 +7195,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/dawn)
 "Yh" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
@@ -7213,7 +7207,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "Ym" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -7226,7 +7220,7 @@
 /area/cyran/indoors/villa/ball)
 "Yn" = (
 /obj/machinery/biogenerator,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Yp" = (
 /obj/structure/bed/chair/bay/comfy/black{
@@ -7236,7 +7230,7 @@
 /area/cyran/indoors)
 "Yr" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Yw" = (
 /obj/structure/sign/warning/secure_area/armory{
@@ -7244,13 +7238,13 @@
 	name = "NO WEAPONS BEYOND THIS POINT";
 	pixel_x = 32
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "YE" = (
 /obj/machinery/door/airlock/glass{
 	name = "Weapon storage"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "YI" = (
 /obj/structure/flora/rock,
@@ -7281,14 +7275,14 @@
 /obj/item/hand_labeler,
 /obj/item/hand_labeler,
 /obj/item/hand_labeler,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "YP" = (
 /obj/effect/mist,
 /obj/machinery/light/flamp/noshade{
 	nightshift_allowed = 0
 	},
-/turf/simulated/mineral/floor/classm,
+/turf/simulated/mineral/floor,
 /area/cyran/indoors)
 "YQ" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -7298,7 +7292,7 @@
 /area/cyran/indoors/villa/gym)
 "YT" = (
 /obj/structure/table/marble,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors)
 "YX" = (
 /obj/machinery/light{
@@ -7321,13 +7315,13 @@
 /area/cyran/indoors/villa/entry_hall)
 "Ze" = (
 /obj/item/stack/ore,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Zg" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Zj" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -7338,17 +7332,17 @@
 "Zm" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Zp" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/living)
 "Zq" = (
 /obj/structure/railing,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "Zs" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -7376,7 +7370,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/pool)
 "ZI" = (
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -7384,11 +7378,11 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/classm,
+/turf/simulated/floor/tiled/asteroid_steel,
 /area/cyran/indoors/staff)
 "ZL" = (
 /obj/item/clothing/head/cone,
-/turf/simulated/floor/outdoors/beach/sand/desert/classm{
+/turf/simulated/floor/outdoors/beach/sand/desert{
 	name = "beach"
 	},
 /area/cyran/outdoors)
@@ -7399,24 +7393,24 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/classm/outdoors,
+/turf/simulated/floor/tiled/outdoors,
 /area/cyran/outdoors)
 "ZQ" = (
 /obj/structure/flora/tree/pine,
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ZU" = (
 /obj/machinery/computer/security/telescreen{
 	pixel_y = 157
 	},
 /obj/structure/table/hardwoodtable,
-/turf/simulated/floor/outdoors/snow/classp,
+/turf/simulated/floor/outdoors/snow/class_p,
 /area/cyran/outdoors)
 "ZW" = (
 /obj/structure/railing,
 /mob/living/simple_mob/animal/passive/fish/koi,
-/turf/simulated/floor/water/deep/classm,
+/turf/simulated/floor/water/deep,
 /area/cyran/outdoors)
 
 (1,1,1) = {"
@@ -30249,9 +30243,9 @@ Ap
 Am
 CV
 ji
-tv
-tv
-tv
+mx
+mx
+mx
 dC
 ZI
 uN
@@ -30443,7 +30437,7 @@ Ap
 Am
 ji
 lJ
-tv
+mx
 Wy
 xc
 ZI
@@ -30637,7 +30631,7 @@ Ap
 OD
 ao
 ji
-tv
+mx
 Wy
 xc
 ZI
@@ -30831,7 +30825,7 @@ HX
 OD
 ji
 ji
-tv
+mx
 Ou
 xc
 ZI
@@ -31025,7 +31019,7 @@ HX
 OD
 BE
 ji
-tv
+mx
 mf
 xc
 ZI
@@ -31219,8 +31213,8 @@ HX
 OD
 ji
 ji
-tv
-tv
+mx
+mx
 Lo
 ZI
 ZI
@@ -31413,7 +31407,7 @@ HX
 OD
 ji
 ji
-tv
+mx
 tn
 xc
 ZI
@@ -31607,7 +31601,7 @@ HX
 OD
 CV
 VR
-tv
+mx
 Hb
 xc
 ZI
@@ -31801,7 +31795,7 @@ HX
 OD
 ao
 ji
-tv
+mx
 cM
 xc
 ZI
@@ -31995,7 +31989,7 @@ HX
 OD
 GA
 ji
-tv
+mx
 tn
 xc
 ZI
@@ -32189,9 +32183,9 @@ HX
 OD
 ji
 ji
-tv
-tv
-tv
+mx
+mx
+mx
 dC
 ZI
 ZI
@@ -36847,7 +36841,7 @@ iP
 ji
 ZI
 gp
-xb
+LJ
 Lq
 ji
 ji
@@ -37005,12 +36999,12 @@ aR
 aR
 aR
 aR
-tv
-tv
+mx
+mx
 io
 cO
-tv
-tv
+mx
+mx
 ji
 ab
 QF
@@ -37204,7 +37198,7 @@ ae
 iy
 yP
 Qu
-tv
+mx
 BS
 ab
 ji
@@ -37786,7 +37780,7 @@ eS
 PT
 aN
 RJ
-tv
+mx
 ji
 Dp
 ji
@@ -37975,12 +37969,12 @@ aR
 aR
 aR
 aR
-tv
+mx
 kN
 PT
 aN
 AJ
-tv
+mx
 ji
 wa
 ao
@@ -38169,7 +38163,7 @@ ji
 ao
 ji
 lJ
-tv
+mx
 zy
 PT
 aN
@@ -38363,7 +38357,7 @@ GA
 Uy
 ji
 Pm
-tv
+mx
 bf
 PT
 aN
@@ -38557,7 +38551,7 @@ TM
 ji
 ao
 RF
-tv
+mx
 zg
 PT
 aN
@@ -38751,12 +38745,12 @@ TM
 CV
 ji
 ji
-tv
+mx
 Ky
 Bb
 OI
 tU
-tv
+mx
 MF
 tu
 ji
@@ -38945,12 +38939,12 @@ TM
 TM
 iz
 ji
-tv
-tv
-tv
-tv
-tv
-tv
+mx
+mx
+mx
+mx
+mx
+mx
 ji
 ab
 ao
@@ -41104,17 +41098,17 @@ ji
 ji
 Wb
 Wb
-tv
-tv
+mx
+mx
 XY
 XY
-tv
+mx
 YE
-tv
+mx
 XY
 XY
-tv
-tv
+mx
+mx
 Wb
 Wb
 ji
@@ -41298,7 +41292,7 @@ ji
 ji
 Wb
 CV
-tv
+mx
 pM
 xc
 xc
@@ -41308,7 +41302,7 @@ xc
 xc
 xc
 fA
-tv
+mx
 bJ
 Wb
 ji
@@ -41492,7 +41486,7 @@ ji
 ji
 Wb
 ao
-tv
+mx
 XN
 xc
 xc
@@ -41502,7 +41496,7 @@ xc
 xc
 xc
 XN
-tv
+mx
 ZI
 Wb
 ji
@@ -41686,7 +41680,7 @@ ji
 ji
 Wb
 ji
-tv
+mx
 XN
 xc
 xc
@@ -41696,7 +41690,7 @@ DF
 xc
 xc
 XN
-tv
+mx
 ZI
 Wb
 ji
@@ -41880,7 +41874,7 @@ ji
 ji
 Wb
 Il
-tv
+mx
 XN
 xc
 xc
@@ -41890,7 +41884,7 @@ XN
 xc
 xc
 XN
-tv
+mx
 ZI
 Wb
 ji
@@ -42074,7 +42068,7 @@ ji
 ji
 Wb
 ji
-tv
+mx
 XN
 xc
 xc
@@ -42084,7 +42078,7 @@ XN
 xc
 xc
 XN
-tv
+mx
 ZI
 Wb
 ji
@@ -42268,7 +42262,7 @@ ji
 ji
 Wb
 GA
-tv
+mx
 pM
 xc
 zC
@@ -42278,7 +42272,7 @@ XN
 cK
 xc
 fA
-tv
+mx
 ZI
 Wb
 ji
@@ -42462,17 +42456,17 @@ ji
 ji
 Wb
 ji
-tv
-tv
-tv
-tv
-tv
-tv
-tv
-tv
-tv
-tv
-tv
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
 ZI
 Wb
 ji

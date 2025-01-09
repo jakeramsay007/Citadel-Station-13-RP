@@ -1579,7 +1579,7 @@
 /obj/structure/bed,
 /obj/structure/curtain/open/bed,
 /obj/item/bedsheet/orange,
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "dFl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1678,7 +1678,7 @@
 	icon_state = "2-8";
 	dir = 4
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "dNE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3178,7 +3178,7 @@
 "hNU" = (
 /obj/item/bedsheet/cedouble,
 /obj/structure/bed/double,
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "hQy" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -3845,7 +3845,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "jrX" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -5362,7 +5362,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "nhX" = (
 /obj/spawner/window/reinforced/firelocks,
@@ -5689,7 +5689,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/air_alarm/east_mount,
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "ogK" = (
 /turf/simulated/floor/holofloor/tiled/dark,
@@ -6787,7 +6787,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "riS" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -6904,7 +6904,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "rzv" = (
 /obj/machinery/telecomms/bus/preset_one,
@@ -7315,7 +7315,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "skH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
@@ -7774,7 +7774,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "tEk" = (
 /obj/machinery/light/small{
@@ -7975,7 +7975,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "uuE" = (
 /obj/machinery/door/blast/regular{
@@ -8880,7 +8880,7 @@
 	dir = 1
 	},
 /obj/machinery/light,
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/crew_quarters/heads/chief)
 "wZf" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -9080,7 +9080,7 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classh,
+/turf/simulated/floor/wood,
 /area/engineering/break_room)
 "xMz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{

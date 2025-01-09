@@ -30,7 +30,7 @@
 /obj/structure/simple_door/wood{
 	name = "Room 1"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "bE" = (
 /obj/spawner/window/low_wall/full/nogrille,
@@ -39,11 +39,11 @@
 /area/cyran/indoors/villa/chayse)
 "bO" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "cD" = (
 /obj/structure/bookcase/manuals,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "ef" = (
 /turf/simulated/floor/glass/reinforced/outdoors,
@@ -58,10 +58,10 @@
 /obj/structure/bed/chair/sofa/black/right{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "eL" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "eW" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -70,20 +70,20 @@
 /turf/simulated/floor/carpet/patterened/purple,
 /area/cyran/indoors/villa/chayse)
 "fi" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "fq" = (
 /obj/structure/table/bench/glass{
 	name = "coffee table"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "fu" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "hd" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -98,7 +98,7 @@
 	pixel_y = 0
 	},
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "hm" = (
 /obj/spawner/window/low_wall/full/nogrille,
@@ -120,7 +120,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "jd" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9,
@@ -146,7 +146,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "jP" = (
 /obj/structure/table/glass,
@@ -157,7 +157,7 @@
 /area/cyran/indoors/villa/chayse)
 "kc" = (
 /obj/structure/bed/chair/sofa/black/corner,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "ke" = (
 /obj/effect/floor_decal/carpet/blue,
@@ -169,7 +169,7 @@
 	pixel_x = -24;
 	pixel_y = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "kj" = (
 /turf/simulated/open,
@@ -179,7 +179,7 @@
 	dir = 8
 	},
 /obj/structure/bed/chair/comfy/black,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "kB" = (
 /obj/structure/simple_door/wood{
@@ -189,11 +189,11 @@
 /area/cyran/indoors/villa/spare2)
 "kC" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "kI" = (
 /obj/structure/bed/chair/sofa/black/right,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "le" = (
 /obj/structure/bed/chair/sofa/black/right{
@@ -211,21 +211,21 @@
 /obj/structure/bed/chair/sofa/black/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "lz" = (
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "lN" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "lY" = (
 /turf/simulated/floor/carpet/patterened/blue,
@@ -234,21 +234,21 @@
 /obj/structure/bed/chair/sofa/black/left{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "mk" = (
 /obj/structure/bookcase/legal,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "mG" = (
 /obj/structure/simple_door/wood{
 	name = "Guest Rooms"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest)
 "mK" = (
 /obj/structure/bookcase/manuals/research_and_development,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "mS" = (
 /obj/structure/undies_wardrobe,
@@ -256,7 +256,7 @@
 	pixel_x = 0;
 	pixel_y = 31
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "nH" = (
 /obj/structure/simple_door/wood{
@@ -270,7 +270,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "om" = (
 /turf/simulated/wall/wood/hardwood,
@@ -279,10 +279,10 @@
 /obj/structure/simple_door/wood{
 	name = "Chayse's Room"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "oy" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest)
 "oP" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -317,7 +317,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "pk" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9{
@@ -379,7 +379,7 @@
 	pixel_x = 0;
 	pixel_y = 31
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "qz" = (
 /obj/structure/sink{
@@ -394,18 +394,18 @@
 /area/cyran/indoors/villa/chayse)
 "rk" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "rK" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "rO" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "rU" = (
 /obj/machinery/shower{
@@ -444,23 +444,23 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "sW" = (
 /obj/item/modular_computer/telescreen{
 	pixel_x = 31;
 	pixel_y = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "tg" = (
 /obj/structure/bed/double/flipped/padded,
 /obj/item/bedsheet/double/flipped,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "tP" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "ub" = (
 /obj/structure/railing/grey{
@@ -468,7 +468,7 @@
 	},
 /obj/structure/railing/grey,
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "uo" = (
 /obj/structure/bed/chair/sofa/black/right{
@@ -477,10 +477,10 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "ur" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "uC" = (
 /obj/structure/bed/double/flipped/padded,
@@ -495,7 +495,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "uH" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -522,7 +522,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "vC" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9,
@@ -533,12 +533,12 @@
 /area/cyran/indoors/villa/spare2)
 "vP" = (
 /obj/structure/bookcase/lore,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "vW" = (
 /obj/structure/railing/grey,
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "wl" = (
 /obj/machinery/light_switch{
@@ -554,7 +554,7 @@
 /obj/structure/bed/chair/sofa/black/right{
 	dir = 2
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "ww" = (
 /turf/simulated/open,
@@ -566,11 +566,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "wD" = (
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "xf" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -585,7 +585,7 @@
 	pixel_y = 0
 	},
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "xx" = (
 /turf/simulated/wall/wood/hardwood,
@@ -594,29 +594,29 @@
 /obj/structure/simple_door/wood{
 	name = "Spare Room"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "ya" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "yb" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/spare2)
 "yh" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "yn" = (
 /obj/structure/table/woodentable,
 /obj/machinery/chemical_dispenser/catering/bar_coffee{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "yo" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest)
 "yP" = (
 /obj/structure/table/glass,
@@ -635,20 +635,20 @@
 "za" = (
 /obj/structure/table/woodentable,
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "zi" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "zH" = (
 /obj/structure/bed/chair/sofa/black{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "zI" = (
 /obj/structure/closet/secure_closet/personal,
@@ -671,14 +671,14 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "AW" = (
 /turf/simulated/wall/wood/hardwood,
 /area/cyran/indoors/villa/guest/room2)
 "Ba" = (
 /obj/structure/bookcase/manuals/engineering,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "Br" = (
 /obj/effect/floor_decal/carpet/blue,
@@ -702,7 +702,7 @@
 	pixel_x = 24;
 	pixel_y = -6
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "Cn" = (
 /obj/structure/table/woodentable,
@@ -711,7 +711,7 @@
 /area/cyran/indoors/villa/guest)
 "Cq" = (
 /obj/structure/bookcase/legal/sop,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "CI" = (
 /turf/simulated/wall/wood/hardwood,
@@ -727,12 +727,12 @@
 /area/cyran/indoors/villa/chayse)
 "Dq" = (
 /obj/structure/closet/wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "DI" = (
 /obj/machinery/librarypubliccomp,
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "DK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -751,7 +751,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "Ev" = (
 /obj/effect/floor_decal/spline/fancy,
@@ -761,7 +761,7 @@
 /obj/structure/bed/chair/sofa/black/corner{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "EC" = (
 /obj/structure/fireplace{
@@ -776,7 +776,7 @@
 /area/cyran/indoors/villa/chayse)
 "EE" = (
 /obj/structure/bookcase/manuals/medical,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "ER" = (
 /obj/structure/railing/grey,
@@ -795,7 +795,7 @@
 /area/cyran/indoors/villa/chayse)
 "Fa" = (
 /obj/structure/bed/chair/sofa/black/left,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "FS" = (
 /turf/simulated/wall/wood/hardwood,
@@ -805,14 +805,14 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "GO" = (
-/turf/simulated/mineral/classm,
+/turf/simulated/mineral,
 /area/cyran/outdoors)
 "GQ" = (
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "Hh" = (
 /turf/simulated/floor/hull,
@@ -821,7 +821,7 @@
 /obj/structure/simple_door/wood{
 	name = "Room 3"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "Hz" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -843,13 +843,13 @@
 /area/cyran/indoors/villa/guest/room2)
 "HR" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "Ie" = (
 /obj/structure/simple_door/wood{
 	name = "Room 2"
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "II" = (
 /turf/simulated/mineral/ignore_mapgen,
@@ -867,14 +867,14 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Jh" = (
 /obj/structure/railing/grey{
 	dir = 4
 	},
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "JB" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -891,7 +891,7 @@
 /obj/structure/bed/chair/sofa/black/left{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Li" = (
 /obj/machinery/light{
@@ -901,10 +901,10 @@
 /area/cyran/indoors/villa/guest)
 "Ln" = (
 /obj/structure/railing/grey,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Lw" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "LF" = (
 /obj/structure/bed/chair/sofa/black/left{
@@ -914,13 +914,13 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "LO" = (
 /obj/structure/bed/chair/sofa/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Mb" = (
 /obj/spawner/window/low_wall/full,
@@ -930,7 +930,7 @@
 "Mn" = (
 /obj/structure/bed/double/flipped/padded,
 /obj/item/bedsheet/double/flipped,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "Mv" = (
 /obj/structure/toilet{
@@ -956,24 +956,24 @@
 /obj/structure/bed/chair/sofa/black/right{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "MW" = (
 /obj/structure/bed/chair/sofa/black/left{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "Ng" = (
 /obj/machinery/light_switch{
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "Nw" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "Ny" = (
 /obj/structure/table/woodentable,
@@ -996,7 +996,7 @@
 /turf/simulated/floor/carpet/patterened/blue,
 /area/cyran/indoors/villa/chayse)
 "Od" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "Ol" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -1005,13 +1005,13 @@
 /turf/simulated/floor/carpet/patterened/blue,
 /area/cyran/indoors/villa/chayse)
 "Or" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/play)
 "Ou" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cyran/indoors/villa/chayse)
 "ON" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "Pd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1060,24 +1060,24 @@
 /area/cyran/indoors/villa/chayse)
 "QA" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "Rc" = (
 /obj/structure/bed/chair/sofa/black{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Rs" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Rx" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "RN" = (
 /obj/structure/bed/double/padded,
@@ -1086,7 +1086,7 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "Sd" = (
 /obj/effect/floor_decal/carpet/blue,
@@ -1112,11 +1112,11 @@
 /area/cyran/indoors/villa/play)
 "Sj" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "Sz" = (
 /obj/structure/bookcase,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "SD" = (
 /turf/simulated/wall/wood/hardwood,
@@ -1142,24 +1142,24 @@
 /obj/structure/railing/grey{
 	dir = 4
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "To" = (
 /obj/structure/railing/grey{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Tu" = (
 /turf/simulated/open,
 /area/cyran/indoors/villa/entry_hall)
 "TN" = (
 /obj/structure/curtain/open/bed,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/spare2)
 "TY" = (
 /obj/structure/undies_wardrobe,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room1)
 "Un" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1212,11 +1212,11 @@
 /area/cyran/indoors/villa/library)
 "Vs" = (
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "VD" = (
 /obj/structure/simple_door/wood,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "VG" = (
 /obj/structure/railing/grey{
@@ -1224,7 +1224,7 @@
 	},
 /obj/structure/railing/grey,
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "VP" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -1236,7 +1236,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/play)
 "VS" = (
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/chayse)
 "VZ" = (
 /obj/spawner/window/low_wall/full,
@@ -1247,7 +1247,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Wg" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
@@ -1255,18 +1255,18 @@
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "Wn" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Wx" = (
 /obj/structure/bed/double/flipped/padded,
 /obj/item/bedsheet/double/flipped,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room2)
 "WM" = (
 /obj/effect/floor_decal/carpet/blue{
@@ -1306,14 +1306,14 @@
 	dir = 1
 	},
 /obj/structure/table/bench/padded,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "YC" = (
 /obj/machinery/light{
 	dir = 4;
 	use_power = 0
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest)
 "YL" = (
 /obj/spawner/window/low_wall/full/nogrille,
@@ -1325,24 +1325,24 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "Zh" = (
 /obj/structure/bed/chair/sofa/black,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/entry_hall)
 "Zt" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "ZD" = (
 /obj/structure/undies_wardrobe,
 /obj/machinery/light,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/guest/room3)
 "ZI" = (
 /obj/structure/bed/chair/sofa/black/corner,
-/turf/simulated/floor/wood/classm,
+/turf/simulated/floor/wood,
 /area/cyran/indoors/villa/library)
 "ZL" = (
 /obj/effect/floor_decal/spline/fancy{
