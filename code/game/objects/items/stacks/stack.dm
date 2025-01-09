@@ -1,15 +1,15 @@
 /**
  * automatically splitting stack spawns
  *
- * supports /datum/material as well
+ * supports /datum/prototype/material as well
  *
  * @return **amount of objects created** (not total stack/sheet amount made!)
  */
 /proc/spawn_stacks_at(atom/location, stack_path, amount)
 	. = 0
 	var/safety = 50
-	if(ispath(stack_path, /datum/material))
-		var/datum/material/resolved = SSmaterials.resolve_material(stack_path)
+	if(ispath(stack_path, /datum/prototype/material))
+		var/datum/prototype/material/resolved = RSmaterials.fetch(stack_path)
 		// todo: ugh
 		resolved.place_sheet(location, amount)
 		return 1
@@ -52,6 +52,9 @@
 	/// Determines whether the item should update it's sprites based on amount.
 	var/no_variants = TRUE
 
+	/// skip default / old update_icon() handling
+	var/skip_legacy_icon_update = FALSE
+
 	/// Will the item pass its own color var to the created item? Dyed cloth, wood, etc.
 	var/pass_color = FALSE
 	/// Will the stack merge with other stacks that are different colors? (Dyed cloth, wood, etc).
@@ -77,6 +80,8 @@
 	update_icon()
 
 /obj/item/stack/update_icon()
+	if(skip_legacy_icon_update)
+		return
 	if(no_variants)
 		icon_state = initial(icon_state)
 	else
@@ -304,7 +309,7 @@
 		if(!amount)
 			break
 
-/obj/item/stack/attack_hand(mob/user, list/params)
+/obj/item/stack/attack_hand(mob/user, datum/event_args/actor/clickchain/e_args)
 	if(user.get_inactive_held_item() == src)
 		change_stack(user, 1)
 	else

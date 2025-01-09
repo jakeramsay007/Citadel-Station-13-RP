@@ -25,6 +25,8 @@
 	//* AI Holders
 	/// AI holder bound to us
 	var/datum/ai_holder/ai_holder
+	/// AI tracking datum. Handled by procs in [code/modules/ai/ai_tracking.dm].
+	var/datum/ai_tracking/ai_tracking
 
 	//? Intrinsics
 	/// movable flags - see [code/__DEFINES/_flags/atoms.dm]
@@ -36,28 +38,39 @@
 	/// Set this to TRUE if we are not a [TILE_MOVER]!
 	var/pixel_movement = FALSE
 	/// Whatever we're pulling.
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/atom/movable/pulling
 	/// Who's currently pulling us
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/atom/movable/pulledby
 	/// If false makes [CanPass][/atom/proc/CanPass] call [CanPassThrough][/atom/movable/proc/CanPassThrough] on this type instead of using default behaviour
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/generic_canpass = TRUE
 	/// Pass flags.
 	var/pass_flags = NONE
 	/// movement calls we're in
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/in_move = 0
 	/// a direction, or null
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/moving_diagonally = NOT_IN_DIAG_STEP
 	/// attempt to resume grab after moving instead of before. This is what atom/movable is pulling us during move-from-pulling.
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/atom/movable/moving_from_pull
 	/// Direction of our last move.
+	///
 	/// * this variable is not visible and should not be edited in the map editor.
 	var/tmp/last_move_dir = NONE
+	/// world.time of our last move
+	///
+	/// * this variable is not visible and should not be edited in the map editor.
+	var/tmp/last_move
 	/// Our default glide_size. Null to use global default.
 	var/default_glide_size
 	/// Movement types, see [code/__DEFINES/flags/movement.dm]
@@ -140,16 +153,6 @@
 	 */
 	var/throw_speed_scaling_exponential = THROW_SPEED_SCALING_CONSTANT_DEFAULT
 
-	//? Colors
-	/**
-	 * used to store the different colors on an atom
-	 *
-	 * its inherent color, the colored paint applied on it, special color effect etc...
-	 */
-	var/list/atom_colours
-	/// use expensive color priority system
-	var/atom_colouration_system = FALSE
-
 	//? Emissives
 	/// Either FALSE, [EMISSIVE_BLOCK_GENERIC], or [EMISSIVE_BLOCK_UNIQUE]
 	var/blocks_emissive = FALSE
@@ -162,10 +165,13 @@
 
 	//? Icon Scale
 	/// Used to scale icons up or down horizonally in update_transform().
+	//  todo: should this be here?
 	var/icon_scale_x = 1
 	/// Used to scale icons up or down vertically in update_transform().
+	//  todo: should this be here?
 	var/icon_scale_y = 1
 	/// Used to rotate icons in update_transform()
+	//  todo: should this be here?
 	var/icon_rotation = 0
 
 	//? Pixel Offsets
@@ -176,9 +182,6 @@
 
 /atom/movable/Initialize(mapload)
 	. = ..()
-	//atom color stuff
-	if(!isnull(color) && atom_colouration_system)
-		add_atom_colour(color, FIXED_COLOUR_PRIORITY)
 	// WARNING WARNING SHITCODE THIS MEANS THAT ONLY TURFS RECEIVE MAPLOAD ENTERED
 	// DO NOT RELY ON ENTERED
 	// TODO: what would tg do (but maybe not that much component signal abuse?)
@@ -242,13 +245,6 @@
 
 /atom/movable/proc/get_icon_scale_y()
 	return icon_scale_y
-
-// todo: refactor this shit
-/atom/movable/proc/update_transform()
-	var/matrix/M = matrix()
-	M.Scale(icon_scale_x, icon_scale_y)
-	M.Turn(icon_rotation)
-	src.transform = M
 
 // Use this to set the object's scale.
 /atom/movable/proc/adjust_scale(new_scale_x, new_scale_y)
@@ -539,84 +535,22 @@
 
 //? atom colors
 
-/**
- * getter for current color
- */
-/atom/movable/get_atom_colour()
+/atom/movable/get_atom_color()
 	return color
 
-/**
- * copies from other
- */
-/atom/movable/copy_atom_colour(atom/other, colour_priority)
-	if(!atom_colouration_system)
-		var/others = other.get_atom_colour()
-		if(isnull(others))
-			return
-		color = others
-		return
-	add_atom_colour(other.get_atom_colour(), colour_priority || FIXED_COLOUR_PRIORITY)
+/atom/movable/copy_atom_color(atom/other)
+	color = other.get_atom_color()
 
-/**
- * copies all from another movable
- */
-/atom/movable/proc/copy_atom_colours(atom/movable/other)
-	if(!atom_colouration_system)
-		return copy_atom_colour(other)
-	if(isnull(other.atom_colours))
-		return
-	atom_colours = other.atom_colours.Copy()
-	update_atom_colour()
+/atom/movable/add_atom_color(new_color)
+	color = new_color
 
-/// Adds an instance of colour_type to the atom's atom_colours list
-/atom/movable/add_atom_colour(coloration, colour_priority)
-	if(!coloration)
-		return
-	if(!atom_colouration_system)
-		color = coloration
-		return
-	if(colour_priority > COLOUR_PRIORITY_AMOUNT)
-		return
-	if(!atom_colours || !atom_colours.len)
-		atom_colours = list()
-		atom_colours.len = COLOUR_PRIORITY_AMOUNT //four priority levels currently.
-	atom_colours[colour_priority] = coloration
-	update_atom_colour()
-
-/// Removes an instance of colour_type from the atom's atom_colours list
-/atom/movable/remove_atom_colour(colour_priority, coloration)
-	if(!atom_colouration_system)
-		if(coloration && color != coloration)
-			return
-		if(isnull(color))
-			return
-		color = null
-		return
-	if(!islist(atom_colours))
-		return
-	if(colour_priority > COLOUR_PRIORITY_AMOUNT)
-		return
-	if(coloration && atom_colours[colour_priority] != coloration)
-		return //if we don't have the expected color (for a specific priority) to remove, do nothing
-	atom_colours[colour_priority] = null
-	update_atom_colour()
-
-/// Resets the atom's color to null, and then sets it to the highest priority colour available
-/atom/movable/update_atom_colour()
-	if(!atom_colouration_system)
-		return
-	if(!islist(atom_colours))
+/atom/movable/remove_atom_color(require_color)
+	if(require_color && color != require_color)
 		return
 	color = null
-	for(var/C in atom_colours)
-		if(islist(C))
-			var/list/L = C
-			if(L.len)
-				color = L
-				return
-		else if(C)
-			color = C
-			return
+
+/atom/movable/update_atom_color()
+	return
 
 //* Rendering *//
 

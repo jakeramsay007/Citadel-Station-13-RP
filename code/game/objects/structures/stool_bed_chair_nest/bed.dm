@@ -19,15 +19,15 @@
 	pass_flags_self = ATOM_PASS_TABLE | ATOM_PASS_OVERHEAD_THROW
 	buckle_dir = SOUTH
 	buckle_lying = 90
-	var/datum/material/material
-	var/datum/material/padding_material
+	var/datum/prototype/material/material
+	var/datum/prototype/material/padding_material
 	var/base_icon = "bed"
 	var/material_color = 1
 	var/can_buckle = TRUE
 
 /obj/structure/bed/Initialize(mapload, new_material, new_padding_material)
 	. = ..(mapload)
-	remove_atom_colour(FIXED_COLOUR_PRIORITY)
+	remove_atom_color()
 	if(!new_material)
 		new_material = MAT_STEEL
 	material = get_material_by_name(new_material)
@@ -262,7 +262,7 @@
 	drop_sound = 'sound/items/drop/axe.ogg'
 	pickup_sound = 'sound/items/pickup/axe.ogg'
 
-/obj/item/roller/attack_self(mob/user)
+/obj/item/roller/attack_self(mob/user, datum/event_args/actor/actor)
 	. = ..()
 	if(.)
 		return
@@ -301,7 +301,7 @@
 	. = ..()
 	held = new /obj/item/roller(src)
 
-/obj/item/roller_holder/attack_self(mob/user)
+/obj/item/roller_holder/attack_self(mob/user, datum/event_args/actor/actor)
 	. = ..()
 	if(.)
 		return

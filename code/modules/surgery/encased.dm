@@ -21,6 +21,7 @@
 /datum/surgery_step/open_encased/saw
 	allowed_tools = list(
 		/obj/item/surgical/circular_saw = 100, \
+		/obj/item/surgical/saw_bronze = 75, \
 		/obj/item/material/knife/machete/hatchet = 75,	\
 		/obj/item/surgical/saw_primitive = 60
 	)
@@ -61,7 +62,7 @@
 	user.visible_message("<font color='red'>[user]'s hand slips, cracking [target]'s [affected.encased] with \the [tool]!</font>" , \
 	"<font color='red'>Your hand slips, cracking [target]'s [affected.encased] with \the [tool]!</font>" )
 
-	affected.create_wound(CUT, 20)
+	affected.create_wound(WOUND_TYPE_CUT, 20)
 	affected.fracture()
 
 ///////////////////////////////////////////////////////////////
@@ -115,7 +116,7 @@
 	var/self_msg = "<font color='red'>Your hand slips, cracking [target]'s  [affected.encased]!</font>"
 	user.visible_message(msg, self_msg)
 
-	affected.create_wound(BRUISE, 20)
+	affected.create_wound(WOUND_TYPE_BRUISE, 20)
 	affected.fracture()
 
 ///////////////////////////////////////////////////////////////
@@ -170,7 +171,7 @@
 	var/self_msg = "<font color='red'>Your hand slips, bending [target]'s [affected.encased] the wrong way!</font>"
 	user.visible_message(msg, self_msg)
 
-	affected.create_wound(BRUISE, 20)
+	affected.create_wound(WOUND_TYPE_BRUISE, 20)
 	affected.fracture()
 
 	/*if (prob(40)) //TODO: ORGAN REMOVAL UPDATE.
@@ -265,8 +266,8 @@
 	user.visible_message("<font color='red'>[user]'s hand slips, searing [target]'s [affected.encased] with \the [tool]!</font>" , \
 	"<font color='red'>Your hand slips, searing [target]'s [affected.encased] with \the [tool]!</font>" )
 
-	affected.create_wound(CUT, 20)
-	affected.create_wound(BURN, 15)
+	affected.create_wound(WOUND_TYPE_CUT, 20)
+	affected.create_wound(WOUND_TYPE_BURN, 15)
 	if(prob(affected.damage))
 		affected.fracture()
 

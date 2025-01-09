@@ -73,6 +73,7 @@
 	priority = 2
 	allowed_tools = list(
 		/obj/item/surgical/scalpel = 100,        \
+		/obj/item/surgical/scalpel_bronze = 90,	\
 		/obj/item/surgical/scalpel_primitive = 80,	\
 		/obj/item/material/knife = 75,    \
 		/obj/item/material/shard = 50,         \
@@ -112,7 +113,7 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<font color='red'>[user]'s hand slips, slicing an artery inside [target]'s [affected.name] with \the [tool]!</font>", \
 	"<font color='red'>Your hand slips, slicing an artery inside [target]'s [affected.name] with \the [tool]!</font>")
-	affected.create_wound(CUT, 20, 1)
+	affected.create_wound(WOUND_TYPE_CUT, 20, 1)
 
 ///////////////////////////////////////////////////////////////
 // Necrosis Surgery Step 2
@@ -196,6 +197,7 @@
 	allowed_tools = list(
 		/obj/item/weldingtool = 80,
 		/obj/item/surgical/circular_saw = 60,
+		/obj/item/surgical/saw_bronze = 30,
 		/obj/item/surgical/saw_primitive = 25,
 		/obj/item/pickaxe/plasmacutter = 100
 		)
@@ -282,8 +284,8 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='danger'>[user]'s hand slips, and the mesh falls, with \the [tool] scraping [target]'s body.</span>", \
 	"<span class='danger'>Your hand slips, and the mesh falls, with \the [tool] scraping [target]'s body.</span>")
-	affected.create_wound(CUT, 15)
-	affected.create_wound(BRUISE, 10)
+	affected.create_wound(WOUND_TYPE_CUT, 15)
+	affected.create_wound(WOUND_TYPE_BRUISE, 10)
 	..()
 
 /datum/surgery_step/dehusk/relocateflesh
@@ -314,8 +316,8 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='danger'>[user] accidentally rips a massive chunk out of [target]'s flesh with \the [tool], causing massive damage.</span>", \
 	"<span class='danger'>You accidentally rip a massive chunk out of [target]'s flesh with \the [tool], causing massive damage.</span>")
-	affected.create_wound(CUT, 25)
-	affected.create_wound(BRUISE, 10)
+	affected.create_wound(WOUND_TYPE_CUT, 25)
+	affected.create_wound(WOUND_TYPE_BRUISE, 10)
 	..()
 
 /datum/surgery_step/dehusk/structfinish
@@ -354,8 +356,8 @@
 	else if(istype(tool,/obj/item/surgical/FixOVein))
 		user.visible_message("<span class='danger'>[user] fails to finish the structure over the gaps in [target]'s flesh, doing more damage than good.</span>", \
 	"<span class='danger'>You fail to finish the structure over the gaps in [target]'s flesh, doing more damage than good.</span>")
-	affected.create_wound(CUT, 15)
-	affected.create_wound(BRUISE, 10)
+	affected.create_wound(WOUND_TYPE_CUT, 15)
+	affected.create_wound(WOUND_TYPE_BRUISE, 10)
 	..()
 
 ///////////////////////////////////////////////////////////////
@@ -389,6 +391,6 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='danger'>[user]'s hand slips, failing to finish the surgery, and damaging [target] with \the [tool].</span>", \
 	"<span class='danger'>Your hand slips, failing to finish the surgery, and damaging [target] with \the [tool].</span>")
-	affected.create_wound(CUT, 15)
-	affected.create_wound(BRUISE, 10)
+	affected.create_wound(WOUND_TYPE_CUT, 15)
+	affected.create_wound(WOUND_TYPE_BRUISE, 10)
 	..()

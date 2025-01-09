@@ -48,7 +48,7 @@
 		return
 	ui_interact(user)
 
-/obj/machinery/computer/operating/attack_hand(mob/user, list/params)
+/obj/machinery/computer/operating/attack_hand(mob/user, datum/event_args/actor/clickchain/e_args)
 	if(machine_stat & (BROKEN|NOPOWER))
 		return
 	ui_interact(user)
@@ -73,7 +73,7 @@
 		occupantData["stat"] = occupant.stat
 		occupantData["health"] = occupant.health
 		occupantData["maxHealth"] = occupant.maxHealth
-		occupantData["minHealth"] = config_legacy.health_threshold_dead
+		occupantData["minHealth"] = occupant.getMinHealth()
 		occupantData["bruteLoss"] = occupant.getBruteLoss()
 		occupantData["oxyLoss"] = occupant.getOxyLoss()
 		occupantData["toxLoss"] = occupant.getToxLoss()

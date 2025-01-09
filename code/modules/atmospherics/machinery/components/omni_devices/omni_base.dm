@@ -62,6 +62,7 @@
 	return
 
 /obj/machinery/atmospherics/component/quaternary/process(delta_time)
+	..()
 	last_power_draw_legacy = 0
 	last_flow_rate_legacy = 0
 
@@ -103,7 +104,7 @@
 		return TRUE
 	return FALSE
 
-/obj/machinery/atmospherics/component/quaternary/attack_hand(mob/user, list/params)
+/obj/machinery/atmospherics/component/quaternary/attack_hand(mob/user, datum/event_args/actor/clickchain/e_args)
 	if(..())
 		return
 
@@ -192,7 +193,7 @@
 		var/turf/T = get_turf(src)
 		if(!istype(T))
 			return
-		if(T.hides_underfloor_objects() && istype(P.node, /obj/machinery/atmospherics/pipe) && P.node.hides_underfloor == OBJ_UNDERFLOOR_ALWAYS)
+		if(T.hides_underfloor_objects() && istype(P.node, /obj/machinery/atmospherics/pipe) && P.node.will_hide_underfloor())
 			//pipe_state = icon_manager.get_atmos_icon("underlay_down", P.dir, color_cache_name(P.node))
 			pipe_state = icon_manager.get_atmos_icon("underlay", P.dir, color_cache_name(P.node), "down")
 		else

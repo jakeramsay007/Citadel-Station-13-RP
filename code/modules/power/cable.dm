@@ -48,13 +48,12 @@ GLOBAL_LIST_INIT(possible_cable_coil_colours, list(
 	desc = "A flexible superconducting cable for heavy-duty power transfer."
 	icon = 'icons/obj/power_cond_white.dmi'
 	icon_state = "0-1"
-	atom_colouration_system = FALSE
 
 	plane = TURF_PLANE
 	layer = EXPOSED_WIRE_LAYER
 	color = COLOR_RED
 
-	hides_underfloor = OBJ_UNDERFLOOR_ALWAYS
+	hides_underfloor = OBJ_UNDERFLOOR_ACTIVE
 	anchored =1
 	rad_flags = RAD_BLOCK_CONTENTS | RAD_NO_CONTAMINATE
 
@@ -76,7 +75,7 @@ GLOBAL_LIST_INIT(possible_cable_coil_colours, list(
 	. = ..()
 
 	if(_color)
-		add_atom_colour(GLOB.possible_cable_coil_colours[_color] || COLOR_RED, FIXED_COLOUR_PRIORITY)
+		add_atom_color(GLOB.possible_cable_coil_colours[_color] || COLOR_RED)
 
 	if(_d1 || _d2)
 		d1 = _d1
@@ -566,7 +565,7 @@ GLOBAL_LIST_INIT(possible_cable_coil_colours, list(
 /obj/item/stack/cable_coil/Initialize(mapload, new_amount = MAXCOIL, merge, param_color)
 	. = ..()
 	if (param_color) // It should be red by default, so only recolor it if parameter was specified.
-		add_atom_colour(param_color, FIXED_COLOUR_PRIORITY)
+		add_atom_color(param_color)
 	pixel_x = rand(-2,2)
 	pixel_y = rand(-2,2)
 	update_icon()
@@ -588,7 +587,7 @@ GLOBAL_LIST_INIT(possible_cable_coil_colours, list(
 
 		var/use_amt = min(src.amount, CEILING(S.burn_dam / 20, 1), 5)
 		if(can_use(use_amt))
-			if(S.robo_repair(5*use_amt, BURN, "some damaged wiring", src, user))
+			if(S.robo_repair(5*use_amt, DAMAGE_TYPE_BURN, "some damaged wiring", src, user))
 				use(use_amt)
 		return
 	return ..()
@@ -979,11 +978,6 @@ GLOBAL_LIST_INIT(possible_cable_coil_colours, list(
 
 /obj/item/stack/cable_coil/alien/Initialize(mapload, new_amount, merge, param_color)
 	. = ..()
-	if(embed_chance == -1)		//From /obj/item, don't want to do what the normal cable_coil does
-		if(sharp)
-			embed_chance = damage_force/w_class
-		else
-			embed_chance = damage_force/(w_class*3)
 	update_icon()
 	remove_obj_verb(src, /obj/item/stack/cable_coil/verb/make_restraint)
 

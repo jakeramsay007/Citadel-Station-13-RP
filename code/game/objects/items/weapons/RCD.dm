@@ -103,7 +103,7 @@
 	return TRUE
 
 // Changes which mode it is on.
-/obj/item/rcd/attack_self(mob/user)
+/obj/item/rcd/attack_self(mob/user, datum/event_args/actor/actor)
 	. = ..()
 	if(.)
 		return
@@ -134,7 +134,7 @@
 			"Change Window Type" = image(icon = 'icons/mob/radial.dmi', icon_state = "windowtype")
 		)
 	*/
-	var/choice = show_radial_menu(user, src, choices, custom_check = CALLBACK(src, PROC_REF(check_menu), user), require_near = TRUE, tooltips = TRUE)
+	var/choice = show_radial_menu(user, user.is_holding(src) ? user : src, choices, custom_check = CALLBACK(src, PROC_REF(check_menu), user), require_near = TRUE, tooltips = TRUE)
 	if(!check_menu(user))
 		return
 	switch(choice)
@@ -363,7 +363,7 @@
 /obj/item/rcd/electric/mounted/hardsuit
 
 // Old method for swapping modes as there is no way to bring up the radial.
-/obj/item/rcd/electric/mounted/hardsuit/attack_self(mob/user)
+/obj/item/rcd/electric/mounted/hardsuit/attack_self(mob/user, datum/event_args/actor/actor)
 	. = ..()
 	if(.)
 		return

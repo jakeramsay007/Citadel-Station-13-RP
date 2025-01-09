@@ -1258,6 +1258,11 @@
 	desc = "A colorable leotard with a piece of semi-transparent cloth near the bust. Perfect for showing off cleavage. Bunny ears not included."
 	icon_state = "leotard_color"
 
+/obj/item/clothing/under/leotardwindow
+	name = "side-window leotard"
+	desc = "A revealing leotard with a window that exposes your sides."
+	icon_state = "leotard_window"
+
 /obj/item/clothing/under/bunnysuit_f
 	name = "bunny leotard (f)"
 	desc = "A black leotard, commonly used by casino workers to drive up tips. Bunny ears and tail sold separately."
@@ -2259,6 +2264,16 @@
 	name = "gray leotard skinsuit"
 	icon_state = "skinsuitfemleo_g"
 
+/obj/item/clothing/under/skinsuit_striped
+	name = "skinsuit striped"
+	desc = "A dark skinsuit with white stripe embellishments, covering the contours. The latest in the line of skintight outfits that this crew in particular greatly prefers, to the point they now take up 30% of the sector's demands among NT's facilities."
+	body_cover_flags = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	icon = 'icons/clothing/uniform/misc/skin_taped.dmi'
+	icon_state = "skinsuit_taped"
+	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
+	worn_has_rolldown = UNIFORM_HAS_NO_ROLL
+	worn_has_rollsleeve = UNIFORM_HAS_NO_ROLL
+
 //Alt Bodysuits
 /obj/item/clothing/under/bodysuit/alt
 	name = "alternate bodysuit"
@@ -2400,6 +2415,16 @@
 	description_fluff = "These purpose-made interfacing bodysuits are designed and produced by the Singheim Bureau of Biosynthetic Development for their long-running second generation of Biosynthetics, commonly known by the term Replikant. Although anyone could wear these, their overall cut and metallic ports along the spine make it rather uncomfortable to most."
 	icon = 'icons/clothing/uniform/misc/replika.dmi'
 	icon_state = "lstr"
+	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
+	worn_has_rolldown = UNIFORM_HAS_NO_ROLL
+	worn_has_rollsleeve = UNIFORM_HAS_NO_ROLL
+
+/obj/item/clothing/under/replika/sakr
+	name = "medical replikant bodysuit"
+	desc = "A skin-tight bodysuit designed for 2nd generation biosynthetics of the medical variety. Comes with default interfacing ports and a conspicuous lack of leg coverage."
+	description_fluff = "These purpose-made interfacing bodysuits are designed and produced by the Singheim Bureau of Biosynthetic Development for their long-running second generation of Biosynthetics, commonly known by the term Replikant. Although anyone could wear these, their overall cut and metallic ports along the spine make it rather uncomfortable to most."
+	icon = 'icons/clothing/uniform/misc/replika.dmi'
+	icon_state = "sakr"
 	worn_render_flags = WORN_RENDER_SLOT_ONE_FOR_ALL
 	worn_has_rolldown = UNIFORM_HAS_NO_ROLL
 	worn_has_rollsleeve = UNIFORM_HAS_NO_ROLL

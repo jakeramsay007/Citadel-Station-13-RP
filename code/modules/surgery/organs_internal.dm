@@ -134,7 +134,7 @@
 	else if (istype(tool, /obj/item/stack/medical/bruise_pack))
 		dam_amt = 5
 		target.adjustToxLoss(10)
-		affected.create_wound(CUT, 5)
+		affected.create_wound(WOUND_TYPE_CUT, 5)
 
 	for(var/obj/item/organ/I in affected.internal_organs)
 		if(I && I.damage > 0)
@@ -148,6 +148,7 @@
 
 	allowed_tools = list(
 	/obj/item/surgical/scalpel = 100,		\
+	/obj/item/surgical/scalpel_bronze = 90,	\
 	/obj/item/surgical/scalpel_primitive = 80,	\
 	/obj/item/material/knife = 75,	\
 	/obj/item/material/shard = 50, 		\
@@ -201,7 +202,7 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='warning'>[user]'s hand slips, slicing an artery inside [target]'s [affected.name] with \the [tool]!</span>", \
 	"<span class='warning'>Your hand slips, slicing an artery inside [target]'s [affected.name] with \the [tool]!</span>")
-	affected.create_wound(CUT, rand(30,50), 1)
+	affected.create_wound(WOUND_TYPE_CUT, rand(30,50), 1)
 
 ///////////////////////////////////////////////////////////////
 // Organ Removal Surgery
@@ -260,7 +261,7 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='warning'>[user]'s hand slips, damaging [target]'s [affected.name] with \the [tool]!</span>", \
 	"<span class='warning'>Your hand slips, damaging [target]'s [affected.name] with \the [tool]!</span>")
-	affected.create_wound(BRUISE, 20)
+	affected.create_wound(WOUND_TYPE_BRUISE, 20)
 
 ///////////////////////////////////////////////////////////////
 // Organ Replacement Surgery
@@ -391,7 +392,7 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='warning'>[user]'s hand slips, damaging the flesh in [target]'s [affected.name] with \the [tool]!</span>", \
 	"<span class='warning'>Your hand slips, damaging the flesh in [target]'s [affected.name] with \the [tool]!</span>")
-	affected.create_wound(BRUISE, 20)
+	affected.create_wound(WOUND_TYPE_BRUISE, 20)
 
 ///////////////////////////////////////////////////////////////
 // Organ Ripping Surgery
@@ -450,7 +451,7 @@
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
 	user.visible_message("<span class='warning'>[user]'s hand slips, damaging [target]'s [affected.name] with \the [tool]!</span>", \
 	"<span class='warning'>Your hand slips, damaging [target]'s [affected.name] with \the [tool]!</span>")
-	affected.create_wound(BRUISE, 20)
+	affected.create_wound(WOUND_TYPE_BRUISE, 20)
 
 //////////////////////////////////////////////////////////////////
 //						HEART SURGERY							//
