@@ -1,4 +1,4 @@
-/datum/language/highimperial
+/datum/prototype/language/highimperial
 	id = LANGUAGE_ID_IMPERIAL
 	name = LANGUAGE_IMPERIAL
 	translation_class = TRANSLATION_CLASS_DEFAULT_CORE_RACE

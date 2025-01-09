@@ -10,7 +10,7 @@
 
 
 /datum/map_level/sector/cyran_192
-	base_turf = /turf/simulated/floor/outdoors/snow/classp
+	base_turf = /turf/simulated/floor/outdoors/snow/class_p
 	traits = list(
 		ZTRAIT_GRAVITY,
 	)
@@ -21,14 +21,14 @@
 	id = "CyranMain192"
 	name = "Sector - Cyran: Surface"
 	display_name = "Cyran - Surface"
-	absolute_path = "maps/sectors/cyran_192/levels/cyran1.dmm"
+	path = "maps/sectors/cyran_192/levels/cyran1.dmm"
 	link_above = /datum/map_level/sector/cyran_192/upper
-	base_turf = /turf/simulated/floor/outdoors/snow/classp
+	base_turf = /turf/simulated/floor/outdoors/snow/class_p
 
 /datum/map_level/sector/cyran_192/upper
 	id = "CyranUpper192"
 	name = "Sector - Cyran: Upper"
 	display_name = "Cyran - Upper"
-	absolute_path = "maps/sectors/cyran_192/levels/cyran2.dmm"
+	path = "maps/sectors/cyran_192/levels/cyran2.dmm"
 	link_below = /datum/map_level/sector/cyran_192/main
 	base_turf = /turf/simulated/open

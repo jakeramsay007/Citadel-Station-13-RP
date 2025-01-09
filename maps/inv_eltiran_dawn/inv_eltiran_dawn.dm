@@ -21,9 +21,9 @@
 		/datum/map/sector/gaia_192,
 		/datum/map/sector/frozen_192,
 		/datum/map/sector/wasteland_192,
-		/datum/map/sector/tradeport_192,
-		/datum/map/sector/lavaland_192,
-		/datum/map/sector/miaphus_192,
+		/datum/map/sector/nebula_tradeport,
+		/datum/map/sector/surt,
+		/datum/map/sector/miaphus,
 		/datum/map/sector/roguemining_192/one,
 		/datum/map/sector/cyran_192,
 	)
@@ -137,7 +137,7 @@
 	name = "INV Eltiran Dawn - Deck 1"
 	display_id = "inv_eltiran_dawn-deck-1"
 	display_name = "INV Eltiran Dawn - Operations Deck"
-	absolute_path = "maps/inv_eltiran_dawn/levels/deck1.dmm"
+	path = "maps/inv_eltiran_dawn/levels/deck1.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
@@ -151,7 +151,7 @@
 	name = "INV Eltiran Dawn - Deck 2"
 	display_id = "inv_eltiran_dawn-deck-2"
 	display_name = "INV Eltiran Dawn - Habitation Deck"
-	absolute_path = "maps/inv_eltiran_dawn/levels/deck2.dmm"
+	path = "maps/inv_eltiran_dawn/levels/deck2.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
@@ -167,7 +167,7 @@
 	name = "INV Eltiran Dawn - Deck 3"
 	display_id = "eltirandawn-deck-3"
 	display_name = "INV Eltiran Dawn - Engineering Deck"
-	absolute_path = "maps/inv_eltiran_dawn/levels/deck3.dmm"
+	path = "maps/inv_eltiran_dawn/levels/deck3.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
@@ -182,7 +182,7 @@
 	name = "INV Eltiran Dawn - Deck 4"
 	display_id = "eltirandawn-deck-4"
 	display_name = "INV Eltiran Dawn - Command Deck"
-	absolute_path = "maps/inv_eltiran_dawn/levels/deck4.dmm"
+	path = "maps/inv_eltiran_dawn/levels/deck4.dmm"
 	traits = list(
 		ZTRAIT_STATION,
 		ZTRAIT_FACILITY_SAFETY,
@@ -196,13 +196,13 @@
 	name = "Eltiran Dawn - IMPCOMM / Flagship"
 	display_id = "eltirandawn-flagship"
 	display_name = "INV Eltiran Dawn - Flagship Offboarding"
-	absolute_path = "maps/inv_eltiran_dawn/levels/flagship.dmm"
+	path = "maps/inv_eltiran_dawn/levels/flagship.dmm"
 	flags = LEGACY_LEVEL_ADMIN|LEGACY_LEVEL_CONTACT
 
 /datum/map_level/inv_eltiran_dawn/transit
 	id = "EltiranDawnTransit"
 	name = "Eltiran Dawn - Ships / Static Transit"
-	absolute_path = "maps/inv_eltiran_dawn/levels/transit.dmm"
+	path = "maps/inv_eltiran_dawn/levels/transit.dmm"
 	traits = list(
 		ZTRAIT_LEGACY_BELTER_TRANSIT,
 	)
@@ -211,7 +211,7 @@
 /datum/map_level/inv_eltiran_dawn/misc
 	id = "EltiranDawnMisc"
 	name = "EltiranDawn - Misc"
-	absolute_path = "maps/inv_eltiran_dawn/levels/misc.dmm"
+	path = "maps/inv_eltiran_dawn/levels/misc.dmm"
 	flags = LEGACY_LEVEL_ADMIN
 
 /obj/machinery/cryopod/robot/door/shuttle/eltiran_dawn
