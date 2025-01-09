@@ -6256,6 +6256,7 @@
 /obj/effect/floor_decal/spline/fancy{
 	dir = 5
 	},
+/obj/machinery/media/jukebox,
 /turf/simulated/floor/carpet/bcarpet,
 /area/cyran/indoors/villa/ball)
 "Qp" = (
