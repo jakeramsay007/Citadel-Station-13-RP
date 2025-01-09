@@ -44,9 +44,9 @@ right now its not a big priority - Bloop 2022
 	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck2/mining
+/obj/effect/shuttle_landmark/inv_eltiran_dawn/deck1/mining
 	name = "INV Eltiran Dawn Mining Dock"
-	landmark_tag = "inv_eltiran_dawn_mining_port"
+	landmark_tag = "inv_eltiran_dawn_mining_dock"
 	base_turf = /turf/space
 	base_area = /area/space
 

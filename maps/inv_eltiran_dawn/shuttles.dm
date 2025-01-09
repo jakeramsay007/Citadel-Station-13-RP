@@ -101,7 +101,7 @@
 	name = "Mining Shuttle"
 	warmup_time = 10
 	shuttle_area = list(/area/shuttle/mining_ship/general)
-	current_location = "inv_eltiran_dawn_mining_port"
+	current_location = "inv_eltiran_dawn_mining_dock"
 	docking_controller_tag = "mining_docker"
 	landmark_transition = "nav_transit_mining"
 	move_time = 30
