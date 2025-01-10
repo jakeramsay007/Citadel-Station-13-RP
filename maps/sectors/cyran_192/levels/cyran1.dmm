@@ -3177,7 +3177,8 @@
 /obj/machinery/button/windowtint{
 	pixel_x = -28;
 	pixel_y = 0;
-	id = "CyranVillaPool"
+	id = "CyranVillaPool";
+	range = 32
 	},
 /obj/machinery/light_switch{
 	dir = 4;
