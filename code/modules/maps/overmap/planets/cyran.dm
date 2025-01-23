@@ -4,5 +4,5 @@
 	scanner_desc = @{"[i]Information[/i]: A planet with a range of atmospheric conditions. Possible life signs detected."}
 	icon_state = "globe"
 	color = "#33BB33"
-	known = FALSE
+	known = TRUE
 	in_space = 0
